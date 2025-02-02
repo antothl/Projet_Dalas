@@ -76,4 +76,5 @@ for league in leagues:
         df.to_csv(filename, index=False, encoding="utf-8")
         print(f"Fichier enregistré : {filename}")
     else:
+        +
         print(f"Aucune donnée disponible pour {league}.")

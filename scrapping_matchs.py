@@ -163,7 +163,7 @@ LEAGUES = {
 SEASONS = [2023, 2022, 2021]  # Modifier si besoin
 
 # Nom du fichier CSV où les données seront enregistrées
-FILENAME = "matches.csv"
+FILENAME = "datasets/matches.csv"
 
 def scrape_matches(pays, championnat, saison):
     """Scrape les matchs pour un championnat et une saison donnée"""

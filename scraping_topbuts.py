@@ -51,5 +51,5 @@ for url,league in zip(urls,leagues) :
         print(f"Erreur lors de la requête (code : {response.status_code})")
 
 df = pd.DataFrame(all_data)
-filename = f"top_buts.csv"
+filename = f"datasets/top_buts.csv"
 df.to_csv(filename, index=False, encoding="utf-8")

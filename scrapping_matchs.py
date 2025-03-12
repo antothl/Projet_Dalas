@@ -217,7 +217,7 @@ def scrape_matches(pays, championnat, saison):
             writer = csv.writer(file)
             
             if file.tell() == 0:
-                writer.writerow(["Journée", "Date", "Heure", "Équipe 1", "Score 1", "Score 2", "Équipe 2", "Championnat", "Saison", "Ville", "Temp Max", "Temp Min", "Précipitations"])
+                writer.writerow(["Journee", "Date", "Equipe 1", "Score 1", "Score 2", "Equipe 2", "Championnat", "Saison", "Ville", "Temp Max", "Temp Min", "Precipitations"])
             
             for match in matches:
                 try:
@@ -229,7 +229,7 @@ def scrape_matches(pays, championnat, saison):
                     score1 = team_and_score[1].text.strip()
                     team2 = team_and_score[2].text.strip()
                     score2 = team_and_score[3].text.strip()
-                    journee = journees[0].text.strip()
+                    journee = journees[0].text.strip().replace("Journée ", "")
                     
                     city = clubs_to_city[team1]
                     lat, lon = get_lat_lon(city)

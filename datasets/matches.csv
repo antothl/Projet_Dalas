@@ -5414,3 +5414,668 @@ Date,Équipe 1,Score 1,Score 2,Équipe 2,Championnat,Saison,Ville,Temp Max,Temp 
 2022-05-22,Sassuolo,0,3,AC Milan,serie-a,2021,Sassuolo,30.4,18.8,0.0
 2022-05-22,Salernitana,0,4,Udinese,serie-a,2021,Salerne,23.2,15.8,0.0
 2022-05-22,Venezia,0,0,Cagliari,serie-a,2021,Venise,26.8,17.1,0.0
+2023-08-11,Almeria,0,2,Rayo Vallecano,la-liga,2023,Almería,35.9,26.5,0.0
+2023-08-11,Sevilla,1,2,Valencia,la-liga,2023,Séville,44.6,24.9,0.0
+2023-08-12,Real Sociedad,1,1,Girona,la-liga,2023,Saint-Sébastien,24.4,17.3,0.5
+2023-08-12,Las Palmas,1,1,Mallorca,la-liga,2023,Las Palmas,41.7,26.4,0.0
+2023-08-12,Athletic Club,0,2,Real Madrid,la-liga,2023,Bilbao,24.5,18.0,2.2
+2023-08-13,Celta Vigo,0,2,Osasuna,la-liga,2023,Vigo,25.9,14.7,0.0
+2023-08-13,Villarreal,1,2,Real Betis,la-liga,2023,Villarreal,30.9,22.3,0.0
+2023-08-13,Getafe,0,0,FC Barcelone,la-liga,2023,Getafe,37.6,23.2,0.0
+2023-08-14,Cadiz,1,0,Alaves,la-liga,2023,Cadix,28.8,20.0,0.0
+2023-08-14,Atletico Madrid,3,1,Granada CF,la-liga,2023,Madrid,34.6,21.4,0.0
+2023-08-18,Mallorca,0,1,Villarreal,la-liga,2023,Palma,34.0,22.2,0.0
+2023-08-18,Valencia,1,0,Las Palmas,la-liga,2023,Valence,30.4,23.3,0.0
+2023-08-19,Real Sociedad,1,1,Celta Vigo,la-liga,2023,Saint-Sébastien,26.5,20.5,0.0
+2023-08-19,Almeria,1,3,Real Madrid,la-liga,2023,Almería,33.5,25.0,0.0
+2023-08-19,Osasuna,0,2,Athletic Club,la-liga,2023,Pampelune,35.0,19.7,0.0
+2023-08-20,Girona,3,0,Getafe,la-liga,2023,Gérone,37.3,23.2,0.0
+2023-08-20,FC Barcelone,2,0,Cadiz,la-liga,2023,Barcelone,35.3,22.9,0.0
+2023-08-20,Real Betis,0,0,Atletico Madrid,la-liga,2023,Séville,42.3,25.2,0.0
+2023-08-21,Alaves,4,3,Sevilla,la-liga,2023,Vitoria-Gasteiz,36.2,17.3,0.0
+2023-08-21,Granada CF,0,2,Rayo Vallecano,la-liga,2023,Grenade,37.0,22.4,0.0
+2023-08-25,Las Palmas,0,0,Real Sociedad,la-liga,2023,Las Palmas,32.0,19.8,0.2
+2023-08-25,Celta Vigo,0,1,Real Madrid,la-liga,2023,Vigo,25.8,17.3,0.0
+2023-08-26,Cadiz,1,1,Almeria,la-liga,2023,Cadix,21.3,16.6,36.4
+2023-08-26,Granada CF,3,2,Mallorca,la-liga,2023,Grenade,24.3,17.4,12.0
+2023-08-26,Sevilla,1,2,Girona,la-liga,2023,Séville,40.1,27.0,0.0
+2023-08-27,Villarreal,3,4,FC Barcelone,la-liga,2023,Villarreal,29.1,21.0,18.9
+2023-08-27,Valencia,1,2,Osasuna,la-liga,2023,Valence,28.5,20.4,47.6
+2023-08-27,Athletic Club,4,2,Real Betis,la-liga,2023,Bilbao,19.6,14.6,10.0
+2023-08-28,Getafe,1,0,Alaves,la-liga,2023,Getafe,28.2,14.1,0.0
+2023-08-28,Rayo Vallecano,0,7,Atletico Madrid,la-liga,2023,Madrid,28.2,13.3,0.0
+2023-09-01,Cadiz,3,1,Villarreal,la-liga,2023,Cadix,27.9,12.7,0.0
+2023-09-01,Almeria,2,3,Celta Vigo,la-liga,2023,Almería,32.1,22.0,0.0
+2023-09-02,Real Sociedad,5,3,Granada CF,la-liga,2023,Saint-Sébastien,20.6,18.1,10.4
+2023-09-02,Real Madrid,2,1,Getafe,la-liga,2023,Madrid,22.5,17.0,8.4
+2023-09-02,Alaves,1,0,Valencia,la-liga,2023,Vitoria-Gasteiz,20.0,16.4,3.0
+2023-09-02,Real Betis,1,0,Rayo Vallecano,la-liga,2023,Séville,27.7,19.8,0.3
+2023-09-03,Girona,1,0,Las Palmas,la-liga,2023,Gérone,26.7,18.6,0.0
+2023-09-03,Mallorca,0,0,Athletic Club,la-liga,2023,Palma,28.6,22.6,0.8
+2023-09-03,Osasuna,1,2,FC Barcelone,la-liga,2023,Pampelune,27.9,13.2,2.0
+2023-12-23,Atletico Madrid,1,0,Sevilla,la-liga,2023,Madrid,12.4,-0.0,0.0
+2023-09-15,Rayo Vallecano,2,0,Alaves,la-liga,2023,Madrid,24.3,16.2,18.5
+2023-09-16,Athletic Club,3,0,Cadiz,la-liga,2023,Bilbao,28.0,17.7,0.2
+2023-09-16,Valencia,3,0,Atletico Madrid,la-liga,2023,Valence,26.2,19.3,0.2
+2023-09-16,Celta Vigo,0,1,Mallorca,la-liga,2023,Vigo,22.3,17.8,3.7
+2023-09-16,FC Barcelone,5,0,Real Betis,la-liga,2023,Barcelone,27.4,18.4,0.7
+2023-09-17,Getafe,3,2,Osasuna,la-liga,2023,Getafe,20.1,15.3,14.5
+2023-09-17,Villarreal,2,1,Almeria,la-liga,2023,Villarreal,27.5,18.1,1.0
+2023-09-17,Sevilla,1,0,Las Palmas,la-liga,2023,Séville,25.4,18.6,8.7
+2023-09-17,Real Madrid,2,1,Real Sociedad,la-liga,2023,Madrid,19.7,14.8,16.0
+2023-09-18,Granada CF,2,4,Girona,la-liga,2023,Grenade,26.7,16.9,1.7
+2023-09-22,Alaves,0,2,Athletic Club,la-liga,2023,Vitoria-Gasteiz,17.8,9.9,0.3
+2023-09-23,Girona,5,3,Mallorca,la-liga,2023,Gérone,22.1,12.9,2.3
+2023-09-23,Osasuna,0,0,Sevilla,la-liga,2023,Pampelune,19.2,9.7,0.3
+2023-09-23,FC Barcelone,3,2,Celta Vigo,la-liga,2023,Barcelone,25.0,14.5,0.0
+2023-09-23,Almeria,2,2,Valencia,la-liga,2023,Almería,28.5,19.6,0.0
+2023-09-24,Real Sociedad,4,3,Getafe,la-liga,2023,Saint-Sébastien,27.4,12.6,0.0
+2023-09-24,Rayo Vallecano,1,1,Villarreal,la-liga,2023,Madrid,24.9,10.0,0.0
+2023-09-24,Real Betis,1,1,Cadiz,la-liga,2023,Séville,32.3,17.6,0.0
+2023-09-24,Las Palmas,1,0,Granada CF,la-liga,2023,Las Palmas,21.4,9.5,0.0
+2023-09-24,Atletico Madrid,3,1,Real Madrid,la-liga,2023,Madrid,24.9,10.0,0.0
+2023-09-26,Sevilla,5,1,Almeria,la-liga,2023,Séville,31.6,18.2,0.0
+2023-09-26,Mallorca,2,2,FC Barcelone,la-liga,2023,Palma,27.2,15.5,0.0
+2023-09-27,Athletic Club,2,2,Getafe,la-liga,2023,Bilbao,30.3,14.9,0.0
+2023-09-27,Villarreal,1,2,Girona,la-liga,2023,Villarreal,26.7,14.6,0.0
+2023-09-27,Real Madrid,2,0,Las Palmas,la-liga,2023,Madrid,27.6,13.0,0.0
+2023-09-27,Cadiz,0,0,Rayo Vallecano,la-liga,2023,Cadix,27.1,11.3,0.0
+2023-09-27,Valencia,0,1,Real Sociedad,la-liga,2023,Valence,26.3,18.8,0.0
+2023-09-28,Granada CF,1,1,Real Betis,la-liga,2023,Grenade,30.5,15.5,0.0
+2023-09-28,Celta Vigo,1,1,Alaves,la-liga,2023,Vigo,24.7,16.1,0.0
+2023-09-28,Osasuna,0,2,Atletico Madrid,la-liga,2023,Pampelune,27.8,12.8,0.0
+2023-09-29,FC Barcelone,1,0,Sevilla,la-liga,2023,Barcelone,27.9,17.4,0.0
+2023-09-30,Getafe,0,0,Villarreal,la-liga,2023,Getafe,29.8,14.4,0.0
+2023-09-30,Rayo Vallecano,2,2,Mallorca,la-liga,2023,Madrid,29.8,14.4,0.0
+2023-09-30,Girona,0,3,Real Madrid,la-liga,2023,Gérone,31.7,18.0,0.0
+2023-09-30,Real Sociedad,3,0,Athletic Club,la-liga,2023,Saint-Sébastien,27.8,17.4,0.0
+2023-10-01,Almeria,3,3,Granada CF,la-liga,2023,Almería,31.8,20.6,0.0
+2023-10-01,Alaves,0,2,Osasuna,la-liga,2023,Vitoria-Gasteiz,32.5,15.0,0.0
+2023-10-01,Atletico Madrid,3,2,Cadiz,la-liga,2023,Madrid,30.9,13.8,0.0
+2023-10-01,Real Betis,3,0,Valencia,la-liga,2023,Séville,36.9,21.0,0.0
+2023-10-02,Las Palmas,2,1,Celta Vigo,la-liga,2023,Las Palmas,33.1,19.3,0.0
+2023-10-06,Athletic Club,3,0,Almeria,la-liga,2023,Bilbao,26.6,16.1,0.0
+2023-10-07,Cadiz,0,1,Girona,la-liga,2023,Cadix,26.3,9.6,0.0
+2023-10-07,Real Madrid,4,0,Osasuna,la-liga,2023,Madrid,29.6,13.6,0.0
+2023-10-07,Mallorca,1,1,Valencia,la-liga,2023,Palma,29.4,16.8,0.0
+2023-10-07,Sevilla,2,2,Rayo Vallecano,la-liga,2023,Séville,36.6,21.4,0.0
+2023-10-08,Villarreal,1,2,Las Palmas,la-liga,2023,Villarreal,26.9,16.6,0.0
+2023-10-08,Atletico Madrid,2,1,Real Sociedad,la-liga,2023,Madrid,30.1,13.0,0.0
+2023-10-08,Celta Vigo,2,2,Getafe,la-liga,2023,Vigo,28.9,14.8,0.0
+2023-10-08,Alaves,1,1,Real Betis,la-liga,2023,Vitoria-Gasteiz,29.9,14.6,0.0
+2023-10-08,Granada CF,2,2,FC Barcelone,la-liga,2023,Grenade,29.7,10.5,0.0
+2023-10-20,Osasuna,2,0,Granada CF,la-liga,2023,Pampelune,15.2,9.7,3.6
+2023-10-21,Real Sociedad,1,0,Mallorca,la-liga,2023,Saint-Sébastien,18.8,12.1,0.0
+2023-10-21,Getafe,1,1,Real Betis,la-liga,2023,Getafe,15.7,7.0,0.0
+2023-10-21,Sevilla,1,1,Real Madrid,la-liga,2023,Séville,21.5,11.7,0.0
+2023-10-21,Celta Vigo,0,3,Atletico Madrid,la-liga,2023,Vigo,16.5,9.6,2.2
+2023-10-22,Las Palmas,0,1,Rayo Vallecano,la-liga,2023,Las Palmas,18.7,11.2,9.2
+2023-10-22,Girona,5,2,Almeria,la-liga,2023,Gérone,20.6,10.9,0.0
+2023-10-22,Villarreal,1,1,Alaves,la-liga,2023,Villarreal,21.0,12.5,1.8
+2023-10-22,FC Barcelone,1,0,Athletic Club,la-liga,2023,Barcelone,20.7,9.2,1.5
+2023-10-23,Valencia,2,0,Cadiz,la-liga,2023,Valence,26.1,16.6,0.0
+2023-10-27,Girona,1,0,Celta Vigo,la-liga,2023,Gérone,22.7,14.3,0.0
+2023-10-28,Almeria,1,2,Las Palmas,la-liga,2023,Almería,21.1,13.0,0.0
+2023-10-28,FC Barcelone,1,2,Real Madrid,la-liga,2023,Barcelone,23.5,13.8,0.0
+2023-10-28,Mallorca,0,0,Getafe,la-liga,2023,Palma,22.6,16.6,0.0
+2023-10-28,Cadiz,2,2,Sevilla,la-liga,2023,Cadix,19.0,6.8,0.0
+2023-10-29,Real Betis,2,1,Osasuna,la-liga,2023,Séville,21.9,15.7,4.6
+2023-10-29,Rayo Vallecano,2,2,Real Sociedad,la-liga,2023,Madrid,16.2,12.1,9.4
+2023-10-29,Athletic Club,2,2,Valencia,la-liga,2023,Bilbao,20.5,15.6,15.0
+2023-10-29,Atletico Madrid,2,1,Alaves,la-liga,2023,Madrid,16.2,12.1,9.4
+2023-10-30,Granada CF,2,3,Villarreal,la-liga,2023,Grenade,15.7,10.4,5.1
+2023-11-03,Las Palmas,2,1,Atletico Madrid,la-liga,2023,Las Palmas,19.8,10.3,0.0
+2023-11-04,Osasuna,2,4,Girona,la-liga,2023,Pampelune,15.9,7.4,11.9
+2023-11-04,Real Betis,2,0,Mallorca,la-liga,2023,Séville,21.4,13.9,1.2
+2023-11-04,Celta Vigo,1,1,Sevilla,la-liga,2023,Vigo,17.8,12.7,48.8
+2023-11-04,Real Sociedad,0,1,FC Barcelone,la-liga,2023,Saint-Sébastien,17.4,12.8,26.7
+2023-11-05,Alaves,1,0,Almeria,la-liga,2023,Vitoria-Gasteiz,14.5,9.4,0.0
+2023-11-05,Valencia,1,0,Granada CF,la-liga,2023,Valence,23.0,15.0,0.0
+2023-11-05,Villarreal,2,3,Athletic Club,la-liga,2023,Villarreal,23.0,11.2,0.0
+2023-11-05,Real Madrid,0,0,Rayo Vallecano,la-liga,2023,Madrid,13.6,8.1,0.2
+2023-11-06,Getafe,1,0,Cadiz,la-liga,2023,Getafe,12.4,5.0,0.0
+2023-11-10,Athletic Club,4,3,Celta Vigo,la-liga,2023,Bilbao,15.2,11.6,8.3
+2023-11-11,Rayo Vallecano,1,2,Girona,la-liga,2023,Madrid,17.6,11.1,0.0
+2023-11-11,Almeria,1,3,Real Sociedad,la-liga,2023,Almería,21.7,15.1,0.0
+2023-11-11,Granada CF,1,1,Getafe,la-liga,2023,Grenade,13.6,9.7,6.0
+2023-11-11,Osasuna,1,1,Las Palmas,la-liga,2023,Pampelune,15.2,9.9,6.4
+2023-11-11,Real Madrid,5,1,Valencia,la-liga,2023,Madrid,17.6,11.1,0.0
+2023-11-12,FC Barcelone,2,1,Alaves,la-liga,2023,Barcelone,24.8,12.5,0.0
+2023-11-12,Sevilla,1,1,Real Betis,la-liga,2023,Séville,22.6,12.0,0.0
+2023-11-12,Atletico Madrid,3,1,Villarreal,la-liga,2023,Madrid,18.8,12.3,0.2
+2023-11-29,Mallorca,1,1,Cadiz,la-liga,2023,Palma,20.0,10.5,0.1
+2023-11-24,Alaves,3,1,Granada CF,la-liga,2023,Vitoria-Gasteiz,10.7,7.4,0.1
+2023-11-25,Rayo Vallecano,1,1,FC Barcelone,la-liga,2023,Madrid,15.6,1.7,0.0
+2023-11-25,Valencia,0,0,Celta Vigo,la-liga,2023,Valence,18.4,9.2,0.0
+2023-11-25,Getafe,2,1,Almeria,la-liga,2023,Getafe,15.6,2.2,0.0
+2023-11-25,Atletico Madrid,1,0,Mallorca,la-liga,2023,Madrid,15.6,1.7,0.0
+2023-11-26,Villarreal,3,1,Osasuna,la-liga,2023,Villarreal,17.6,6.4,0.0
+2023-11-26,Real Sociedad,2,1,Sevilla,la-liga,2023,Saint-Sébastien,12.5,4.9,0.0
+2023-11-26,Cadiz,0,3,Real Madrid,la-liga,2023,Cadix,6.7,-3.3,0.0
+2023-11-26,Real Betis,1,0,Las Palmas,la-liga,2023,Séville,17.7,7.3,0.0
+2023-11-27,Girona,1,1,Athletic Club,la-liga,2023,Gérone,14.9,5.2,0.0
+2023-12-01,Las Palmas,2,0,Getafe,la-liga,2023,Las Palmas,16.4,9.7,11.5
+2023-12-02,Girona,2,1,Valencia,la-liga,2023,Gérone,11.7,5.6,1.4
+2023-12-02,Athletic Club,4,0,Rayo Vallecano,la-liga,2023,Bilbao,9.7,5.6,10.1
+2023-12-02,Real Madrid,2,0,Granada CF,la-liga,2023,Madrid,10.4,3.3,0.0
+2023-12-02,Osasuna,1,1,Real Sociedad,la-liga,2023,Pampelune,8.1,2.8,2.2
+2023-12-03,Mallorca,0,0,Alaves,la-liga,2023,Palma,15.2,7.6,0.0
+2023-12-03,Almeria,0,0,Real Betis,la-liga,2023,Almería,16.4,7.8,0.0
+2023-12-03,Sevilla,1,1,Villarreal,la-liga,2023,Séville,15.1,5.9,0.0
+2023-12-03,FC Barcelone,1,0,Atletico Madrid,la-liga,2023,Barcelone,13.8,5.4,0.1
+2023-12-04,Celta Vigo,1,1,Cadiz,la-liga,2023,Vigo,13.0,6.3,13.9
+2023-12-08,Getafe,1,0,Valencia,la-liga,2023,Getafe,11.8,5.8,0.5
+2023-12-09,Alaves,0,1,Las Palmas,la-liga,2023,Vitoria-Gasteiz,15.7,6.2,2.9
+2023-12-09,Real Betis,1,1,Real Madrid,la-liga,2023,Séville,17.9,9.0,0.0
+2023-12-09,Villarreal,0,3,Real Sociedad,la-liga,2023,Villarreal,22.1,9.7,0.0
+2023-12-09,Mallorca,1,0,Sevilla,la-liga,2023,Palma,17.4,7.6,0.0
+2023-12-10,Atletico Madrid,2,1,Almeria,la-liga,2023,Madrid,12.3,9.5,0.1
+2023-12-10,Cadiz,1,1,Osasuna,la-liga,2023,Cadix,12.3,6.5,2.5
+2023-12-10,FC Barcelone,2,4,Girona,la-liga,2023,Barcelone,19.4,7.6,0.0
+2023-12-11,Granada CF,1,1,Athletic Club,la-liga,2023,Grenade,16.9,9.3,0.0
+2023-12-11,Rayo Vallecano,0,0,Celta Vigo,la-liga,2023,Madrid,13.4,7.6,0.0
+2023-08-11,Almeria,0,2,Rayo Vallecano,la-liga,2023,Almería,35.9,26.5,0.0
+2023-08-11,Sevilla,1,2,Valencia,la-liga,2023,Séville,44.6,24.9,0.0
+2023-08-11,Almeria,0,2,Rayo Vallecano,la-liga,2023,Almería,35.9,26.5,0.0
+2023-08-11,Sevilla,1,2,Valencia,la-liga,2023,Séville,44.6,24.9,0.0
+2023-08-12,Real Sociedad,1,1,Girona,la-liga,2023,Saint-Sébastien,24.4,17.3,0.5
+2023-08-12,Las Palmas,1,1,Mallorca,la-liga,2023,Las Palmas,41.7,26.4,0.0
+2023-08-12,Athletic Club,0,2,Real Madrid,la-liga,2023,Bilbao,24.5,18.0,2.2
+Journée 1,2023-08-11,Almeria,0,2,Rayo Vallecano,la-liga,2023,Almería,35.9,26.5,0.0
+Journée 1,2023-08-11,Sevilla,1,2,Valencia,la-liga,2023,Séville,44.6,24.9,0.0
+Journée 1,2023-08-12,Real Sociedad,1,1,Girona,la-liga,2023,Saint-Sébastien,24.4,17.3,0.5
+Journée 1,2023-08-12,Las Palmas,1,1,Mallorca,la-liga,2023,Las Palmas,41.7,26.4,0.0
+Journée 1,2023-08-12,Athletic Club,0,2,Real Madrid,la-liga,2023,Bilbao,24.5,18.0,2.2
+Journée 1,2023-08-13,Celta Vigo,0,2,Osasuna,la-liga,2023,Vigo,25.9,14.7,0.0
+Journée 1,2023-08-13,Villarreal,1,2,Real Betis,la-liga,2023,Villarreal,30.9,22.3,0.0
+Journée 1,2023-08-13,Getafe,0,0,FC Barcelone,la-liga,2023,Getafe,37.6,23.2,0.0
+Journée 1,2023-08-14,Cadiz,1,0,Alaves,la-liga,2023,Cadix,28.8,20.0,0.0
+Journée 1,2023-08-14,Atletico Madrid,3,1,Granada CF,la-liga,2023,Madrid,34.6,21.4,0.0
+Journée 1,2023-08-18,Mallorca,0,1,Villarreal,la-liga,2023,Palma,34.0,22.2,0.0
+Journée 1,2023-08-18,Valencia,1,0,Las Palmas,la-liga,2023,Valence,30.4,23.3,0.0
+Journée 1,2023-08-19,Real Sociedad,1,1,Celta Vigo,la-liga,2023,Saint-Sébastien,26.5,20.5,0.0
+Journée 1,2023-08-19,Almeria,1,3,Real Madrid,la-liga,2023,Almería,33.5,25.0,0.0
+Journée 1,2023-08-19,Osasuna,0,2,Athletic Club,la-liga,2023,Pampelune,35.0,19.7,0.0
+Journée 1,2023-08-20,Girona,3,0,Getafe,la-liga,2023,Gérone,37.3,23.2,0.0
+Journée 1,2023-08-20,FC Barcelone,2,0,Cadiz,la-liga,2023,Barcelone,35.3,22.9,0.0
+Journée 1,2023-08-20,Real Betis,0,0,Atletico Madrid,la-liga,2023,Séville,42.3,25.2,0.0
+Journée 1,2023-08-21,Alaves,4,3,Sevilla,la-liga,2023,Vitoria-Gasteiz,36.2,17.3,0.0
+Journée 1,2023-08-21,Granada CF,0,2,Rayo Vallecano,la-liga,2023,Grenade,37.0,22.4,0.0
+Journée 1,2023-08-25,Las Palmas,0,0,Real Sociedad,la-liga,2023,Las Palmas,32.0,19.8,0.2
+Journée 1,2023-08-25,Celta Vigo,0,1,Real Madrid,la-liga,2023,Vigo,25.8,17.3,0.0
+Journée 1,2023-08-26,Cadiz,1,1,Almeria,la-liga,2023,Cadix,21.3,16.6,36.4
+Journée 1,2023-08-26,Granada CF,3,2,Mallorca,la-liga,2023,Grenade,24.3,17.4,12.0
+Journée 1,2023-08-26,Sevilla,1,2,Girona,la-liga,2023,Séville,40.1,27.0,0.0
+Journée 1,2023-08-27,Villarreal,3,4,FC Barcelone,la-liga,2023,Villarreal,29.1,21.0,18.9
+Journée 1,2023-08-27,Valencia,1,2,Osasuna,la-liga,2023,Valence,28.5,20.4,47.6
+Journée 1,2023-08-27,Athletic Club,4,2,Real Betis,la-liga,2023,Bilbao,19.6,14.6,10.0
+Journée 1,2023-08-28,Getafe,1,0,Alaves,la-liga,2023,Getafe,28.2,14.1,0.0
+Journée 1,2023-08-28,Rayo Vallecano,0,7,Atletico Madrid,la-liga,2023,Madrid,28.2,13.3,0.0
+Journée 1,2023-09-01,Cadiz,3,1,Villarreal,la-liga,2023,Cadix,27.9,12.7,0.0
+Journée 1,2023-09-01,Almeria,2,3,Celta Vigo,la-liga,2023,Almería,32.1,22.0,0.0
+Journée 1,2023-09-02,Real Sociedad,5,3,Granada CF,la-liga,2023,Saint-Sébastien,20.6,18.1,10.4
+Journée 1,2023-09-02,Real Madrid,2,1,Getafe,la-liga,2023,Madrid,22.5,17.0,8.4
+Journée 1,2023-09-02,Alaves,1,0,Valencia,la-liga,2023,Vitoria-Gasteiz,20.0,16.4,3.0
+Journée 1,2023-09-02,Real Betis,1,0,Rayo Vallecano,la-liga,2023,Séville,27.7,19.8,0.3
+Journée 1,2023-09-03,Girona,1,0,Las Palmas,la-liga,2023,Gérone,26.7,18.6,0.0
+Journée 1,2023-09-03,Mallorca,0,0,Athletic Club,la-liga,2023,Palma,28.6,22.6,0.8
+Journée 1,2023-09-03,Osasuna,1,2,FC Barcelone,la-liga,2023,Pampelune,27.9,13.2,2.0
+Journée 1,2023-12-23,Atletico Madrid,1,0,Sevilla,la-liga,2023,Madrid,12.4,-0.0,0.0
+Journée 1,2023-09-15,Rayo Vallecano,2,0,Alaves,la-liga,2023,Madrid,24.3,16.2,18.5
+Journée 1,2023-09-16,Athletic Club,3,0,Cadiz,la-liga,2023,Bilbao,28.0,17.7,0.2
+Journée 1,2023-09-16,Valencia,3,0,Atletico Madrid,la-liga,2023,Valence,26.2,19.3,0.2
+Journée 1,2023-09-16,Celta Vigo,0,1,Mallorca,la-liga,2023,Vigo,22.3,17.8,3.7
+Journée 1,2023-09-16,FC Barcelone,5,0,Real Betis,la-liga,2023,Barcelone,27.4,18.4,0.7
+Journée 1,2023-09-17,Getafe,3,2,Osasuna,la-liga,2023,Getafe,20.1,15.3,14.5
+Journée 1,2023-09-17,Villarreal,2,1,Almeria,la-liga,2023,Villarreal,27.5,18.1,1.0
+Journée 1,2023-09-17,Sevilla,1,0,Las Palmas,la-liga,2023,Séville,25.4,18.6,8.7
+Journée 1,2023-09-17,Real Madrid,2,1,Real Sociedad,la-liga,2023,Madrid,19.7,14.8,16.0
+Journée 1,2023-09-18,Granada CF,2,4,Girona,la-liga,2023,Grenade,26.7,16.9,1.7
+Journée 1,2023-09-22,Alaves,0,2,Athletic Club,la-liga,2023,Vitoria-Gasteiz,17.8,9.9,0.3
+Journée 1,2023-09-23,Girona,5,3,Mallorca,la-liga,2023,Gérone,22.1,12.9,2.3
+Journée 1,2023-09-23,Osasuna,0,0,Sevilla,la-liga,2023,Pampelune,19.2,9.7,0.3
+Journée 1,2023-09-23,FC Barcelone,3,2,Celta Vigo,la-liga,2023,Barcelone,25.0,14.5,0.0
+Journée 1,2023-09-23,Almeria,2,2,Valencia,la-liga,2023,Almería,28.5,19.6,0.0
+Journée 1,2023-09-24,Real Sociedad,4,3,Getafe,la-liga,2023,Saint-Sébastien,27.4,12.6,0.0
+Journée 1,2023-09-24,Rayo Vallecano,1,1,Villarreal,la-liga,2023,Madrid,24.9,10.0,0.0
+Journée 1,2023-09-24,Real Betis,1,1,Cadiz,la-liga,2023,Séville,32.3,17.6,0.0
+Journée 1,2023-09-24,Las Palmas,1,0,Granada CF,la-liga,2023,Las Palmas,21.4,9.5,0.0
+Journée 1,2023-09-24,Atletico Madrid,3,1,Real Madrid,la-liga,2023,Madrid,24.9,10.0,0.0
+Journée 1,2023-09-26,Sevilla,5,1,Almeria,la-liga,2023,Séville,31.6,18.2,0.0
+Journée 1,2023-09-26,Mallorca,2,2,FC Barcelone,la-liga,2023,Palma,27.2,15.5,0.0
+Journée 1,2023-09-27,Athletic Club,2,2,Getafe,la-liga,2023,Bilbao,30.3,14.9,0.0
+Journée 1,2023-09-27,Villarreal,1,2,Girona,la-liga,2023,Villarreal,26.7,14.6,0.0
+Journée 1,2023-09-27,Real Madrid,2,0,Las Palmas,la-liga,2023,Madrid,27.6,13.0,0.0
+Journée 1,2023-09-27,Cadiz,0,0,Rayo Vallecano,la-liga,2023,Cadix,27.1,11.3,0.0
+Journée 1,2023-09-27,Valencia,0,1,Real Sociedad,la-liga,2023,Valence,26.3,18.8,0.0
+Journée 1,2023-09-28,Granada CF,1,1,Real Betis,la-liga,2023,Grenade,30.5,15.5,0.0
+Journée 1,2023-09-28,Celta Vigo,1,1,Alaves,la-liga,2023,Vigo,24.7,16.1,0.0
+Journée 1,2023-09-28,Osasuna,0,2,Atletico Madrid,la-liga,2023,Pampelune,27.8,12.8,0.0
+Journée 1,2023-09-29,FC Barcelone,1,0,Sevilla,la-liga,2023,Barcelone,27.9,17.4,0.0
+Journée 1,2023-09-30,Getafe,0,0,Villarreal,la-liga,2023,Getafe,29.8,14.4,0.0
+Journée 1,2023-09-30,Rayo Vallecano,2,2,Mallorca,la-liga,2023,Madrid,29.8,14.4,0.0
+Journée 1,2023-09-30,Girona,0,3,Real Madrid,la-liga,2023,Gérone,31.7,18.0,0.0
+Journée 1,2023-09-30,Real Sociedad,3,0,Athletic Club,la-liga,2023,Saint-Sébastien,27.8,17.4,0.0
+Journée 1,2023-10-01,Almeria,3,3,Granada CF,la-liga,2023,Almería,31.8,20.6,0.0
+Journée 1,2023-10-01,Alaves,0,2,Osasuna,la-liga,2023,Vitoria-Gasteiz,32.5,15.0,0.0
+Journée 1,2023-10-01,Atletico Madrid,3,2,Cadiz,la-liga,2023,Madrid,30.9,13.8,0.0
+Journée 1,2023-10-01,Real Betis,3,0,Valencia,la-liga,2023,Séville,36.9,21.0,0.0
+Journée 1,2023-10-02,Las Palmas,2,1,Celta Vigo,la-liga,2023,Las Palmas,33.1,19.3,0.0
+Journée 1,2023-10-06,Athletic Club,3,0,Almeria,la-liga,2023,Bilbao,26.6,16.1,0.0
+Journée 1,2023-10-07,Cadiz,0,1,Girona,la-liga,2023,Cadix,26.3,9.6,0.0
+Journée 1,2023-10-07,Real Madrid,4,0,Osasuna,la-liga,2023,Madrid,29.6,13.6,0.0
+Journée 1,2023-10-07,Mallorca,1,1,Valencia,la-liga,2023,Palma,29.4,16.8,0.0
+Journée 1,2023-10-07,Sevilla,2,2,Rayo Vallecano,la-liga,2023,Séville,36.6,21.4,0.0
+Journée 1,2023-10-08,Villarreal,1,2,Las Palmas,la-liga,2023,Villarreal,26.9,16.6,0.0
+Journée 1,2023-10-08,Atletico Madrid,2,1,Real Sociedad,la-liga,2023,Madrid,30.1,13.0,0.0
+Journée 1,2023-10-08,Celta Vigo,2,2,Getafe,la-liga,2023,Vigo,28.9,14.8,0.0
+Journée 1,2023-10-08,Alaves,1,1,Real Betis,la-liga,2023,Vitoria-Gasteiz,29.9,14.6,0.0
+Journée 1,2023-10-08,Granada CF,2,2,FC Barcelone,la-liga,2023,Grenade,29.7,10.5,0.0
+Journée 1,2023-10-20,Osasuna,2,0,Granada CF,la-liga,2023,Pampelune,15.2,9.7,3.6
+Journée 1,2023-10-21,Real Sociedad,1,0,Mallorca,la-liga,2023,Saint-Sébastien,18.8,12.1,0.0
+Journée 1,2023-10-21,Getafe,1,1,Real Betis,la-liga,2023,Getafe,15.7,7.0,0.0
+Journée 1,2023-10-21,Sevilla,1,1,Real Madrid,la-liga,2023,Séville,21.5,11.7,0.0
+Journée 1,2023-10-21,Celta Vigo,0,3,Atletico Madrid,la-liga,2023,Vigo,16.5,9.6,2.2
+Journée 1,2023-10-22,Las Palmas,0,1,Rayo Vallecano,la-liga,2023,Las Palmas,18.7,11.2,9.2
+Journée 1,2023-10-22,Girona,5,2,Almeria,la-liga,2023,Gérone,20.6,10.9,0.0
+Journée 1,2023-10-22,Villarreal,1,1,Alaves,la-liga,2023,Villarreal,21.0,12.5,1.8
+Journée 1,2023-10-22,FC Barcelone,1,0,Athletic Club,la-liga,2023,Barcelone,20.7,9.2,1.5
+Journée 1,2023-10-23,Valencia,2,0,Cadiz,la-liga,2023,Valence,26.1,16.6,0.0
+Journée 1,2023-10-27,Girona,1,0,Celta Vigo,la-liga,2023,Gérone,22.7,14.3,0.0
+Journée 1,2023-10-28,Almeria,1,2,Las Palmas,la-liga,2023,Almería,21.1,13.0,0.0
+Journée 1,2023-10-28,FC Barcelone,1,2,Real Madrid,la-liga,2023,Barcelone,23.5,13.8,0.0
+Journée 1,2023-10-28,Mallorca,0,0,Getafe,la-liga,2023,Palma,22.6,16.6,0.0
+Journée 1,2023-10-28,Cadiz,2,2,Sevilla,la-liga,2023,Cadix,19.0,6.8,0.0
+Journée 1,2023-10-29,Real Betis,2,1,Osasuna,la-liga,2023,Séville,21.9,15.7,4.6
+Journée 1,2023-10-29,Rayo Vallecano,2,2,Real Sociedad,la-liga,2023,Madrid,16.2,12.1,9.4
+Journée 1,2023-10-29,Athletic Club,2,2,Valencia,la-liga,2023,Bilbao,20.5,15.6,15.0
+Journée 1,2023-10-29,Atletico Madrid,2,1,Alaves,la-liga,2023,Madrid,16.2,12.1,9.4
+Journée 1,2023-10-30,Granada CF,2,3,Villarreal,la-liga,2023,Grenade,15.7,10.4,5.1
+Journée 1,2023-11-03,Las Palmas,2,1,Atletico Madrid,la-liga,2023,Las Palmas,19.8,10.3,0.0
+Journée 1,2023-11-04,Osasuna,2,4,Girona,la-liga,2023,Pampelune,15.9,7.4,11.9
+Journée 1,2023-11-04,Real Betis,2,0,Mallorca,la-liga,2023,Séville,21.4,13.9,1.2
+Journée 1,2023-11-04,Celta Vigo,1,1,Sevilla,la-liga,2023,Vigo,17.8,12.7,48.8
+Journée 1,2023-11-04,Real Sociedad,0,1,FC Barcelone,la-liga,2023,Saint-Sébastien,17.4,12.8,26.7
+Journée 1,2023-11-05,Alaves,1,0,Almeria,la-liga,2023,Vitoria-Gasteiz,14.5,9.4,0.0
+Journée 1,2023-11-05,Valencia,1,0,Granada CF,la-liga,2023,Valence,23.0,15.0,0.0
+Journée 1,2023-11-05,Villarreal,2,3,Athletic Club,la-liga,2023,Villarreal,23.0,11.2,0.0
+Journée 1,2023-11-05,Real Madrid,0,0,Rayo Vallecano,la-liga,2023,Madrid,13.6,8.1,0.2
+Journée 1,2023-11-06,Getafe,1,0,Cadiz,la-liga,2023,Getafe,12.4,5.0,0.0
+Journée 1,2023-11-10,Athletic Club,4,3,Celta Vigo,la-liga,2023,Bilbao,15.2,11.6,8.3
+Journée 1,2023-11-11,Rayo Vallecano,1,2,Girona,la-liga,2023,Madrid,17.6,11.1,0.0
+Journée 1,2023-11-11,Almeria,1,3,Real Sociedad,la-liga,2023,Almería,21.7,15.1,0.0
+Journée 1,2023-11-11,Granada CF,1,1,Getafe,la-liga,2023,Grenade,13.6,9.7,6.0
+Journée 1,2023-11-11,Osasuna,1,1,Las Palmas,la-liga,2023,Pampelune,15.2,9.9,6.4
+Journée 1,2023-11-11,Real Madrid,5,1,Valencia,la-liga,2023,Madrid,17.6,11.1,0.0
+Journée 1,2023-11-12,FC Barcelone,2,1,Alaves,la-liga,2023,Barcelone,24.8,12.5,0.0
+Journée 1,2023-11-12,Sevilla,1,1,Real Betis,la-liga,2023,Séville,22.6,12.0,0.0
+Journée 1,2023-11-12,Atletico Madrid,3,1,Villarreal,la-liga,2023,Madrid,18.8,12.3,0.2
+Journée 1,2023-11-29,Mallorca,1,1,Cadiz,la-liga,2023,Palma,20.0,10.5,0.1
+Journée 1,2023-11-24,Alaves,3,1,Granada CF,la-liga,2023,Vitoria-Gasteiz,10.7,7.4,0.1
+Journée 1,2023-11-25,Rayo Vallecano,1,1,FC Barcelone,la-liga,2023,Madrid,15.6,1.7,0.0
+Journée 1,2023-11-25,Valencia,0,0,Celta Vigo,la-liga,2023,Valence,18.4,9.2,0.0
+Journée 1,2023-11-25,Getafe,2,1,Almeria,la-liga,2023,Getafe,15.6,2.2,0.0
+Journée 1,2023-11-25,Atletico Madrid,1,0,Mallorca,la-liga,2023,Madrid,15.6,1.7,0.0
+Journée 1,2023-11-26,Villarreal,3,1,Osasuna,la-liga,2023,Villarreal,17.6,6.4,0.0
+Journée 1,2023-11-26,Real Sociedad,2,1,Sevilla,la-liga,2023,Saint-Sébastien,12.5,4.9,0.0
+Journée 1,2023-11-26,Cadiz,0,3,Real Madrid,la-liga,2023,Cadix,6.7,-3.3,0.0
+Journée 1,2023-11-26,Real Betis,1,0,Las Palmas,la-liga,2023,Séville,17.7,7.3,0.0
+Journée 1,2023-11-27,Girona,1,1,Athletic Club,la-liga,2023,Gérone,14.9,5.2,0.0
+Journée 1,2023-12-01,Las Palmas,2,0,Getafe,la-liga,2023,Las Palmas,16.4,9.7,11.5
+Journée 1,2023-12-02,Girona,2,1,Valencia,la-liga,2023,Gérone,11.7,5.6,1.4
+Journée 1,2023-12-02,Athletic Club,4,0,Rayo Vallecano,la-liga,2023,Bilbao,9.7,5.6,10.1
+Journée 1,2023-12-02,Real Madrid,2,0,Granada CF,la-liga,2023,Madrid,10.4,3.3,0.0
+Journée 1,2023-12-02,Osasuna,1,1,Real Sociedad,la-liga,2023,Pampelune,8.1,2.8,2.2
+Journée 1,2023-12-03,Mallorca,0,0,Alaves,la-liga,2023,Palma,15.2,7.6,0.0
+Journée 1,2023-12-03,Almeria,0,0,Real Betis,la-liga,2023,Almería,16.4,7.8,0.0
+Journée 1,2023-12-03,Sevilla,1,1,Villarreal,la-liga,2023,Séville,15.1,5.9,0.0
+Journée 1,2023-12-03,FC Barcelone,1,0,Atletico Madrid,la-liga,2023,Barcelone,13.8,5.4,0.1
+Journée 1,2023-12-04,Celta Vigo,1,1,Cadiz,la-liga,2023,Vigo,13.0,6.3,13.9
+Journée 1,2023-12-08,Getafe,1,0,Valencia,la-liga,2023,Getafe,11.8,5.8,0.5
+Journée 1,2023-12-09,Alaves,0,1,Las Palmas,la-liga,2023,Vitoria-Gasteiz,15.7,6.2,2.9
+Journée 1,2023-12-09,Real Betis,1,1,Real Madrid,la-liga,2023,Séville,17.9,9.0,0.0
+Journée 1,2023-12-09,Villarreal,0,3,Real Sociedad,la-liga,2023,Villarreal,22.1,9.7,0.0
+Journée 1,2023-12-09,Mallorca,1,0,Sevilla,la-liga,2023,Palma,17.4,7.6,0.0
+Journée 1,2023-12-10,Atletico Madrid,2,1,Almeria,la-liga,2023,Madrid,12.3,9.5,0.1
+Journée 1,2023-12-10,Cadiz,1,1,Osasuna,la-liga,2023,Cadix,12.3,6.5,2.5
+Journée 1,2023-12-10,FC Barcelone,2,4,Girona,la-liga,2023,Barcelone,19.4,7.6,0.0
+Journée 1,2023-12-11,Granada CF,1,1,Athletic Club,la-liga,2023,Grenade,16.9,9.3,0.0
+Journée 1,2023-12-11,Rayo Vallecano,0,0,Celta Vigo,la-liga,2023,Madrid,13.4,7.6,0.0
+Journée 1,2023-12-15,Osasuna,1,0,Rayo Vallecano,la-liga,2023,Pampelune,11.0,7.5,2.8
+Journée 1,2023-12-16,Celta Vigo,1,0,Granada CF,la-liga,2023,Vigo,14.8,2.1,0.0
+Journée 1,2023-12-16,Athletic Club,2,0,Atletico Madrid,la-liga,2023,Bilbao,12.0,3.8,0.0
+Journée 1,2023-12-16,Sevilla,0,3,Getafe,la-liga,2023,Séville,17.3,7.2,0.0
+Journée 1,2023-12-16,Valencia,1,1,FC Barcelone,la-liga,2023,Valence,15.5,4.8,0.0
+Journée 1,2023-12-17,Almeria,0,0,Mallorca,la-liga,2023,Almería,17.9,5.7,0.0
+Journée 1,2023-12-17,Real Sociedad,0,0,Real Betis,la-liga,2023,Saint-Sébastien,14.1,4.3,0.0
+Journée 1,2023-12-17,Las Palmas,1,1,Cadiz,la-liga,2023,Las Palmas,12.9,5.6,0.0
+Journée 1,2023-12-17,Real Madrid,4,1,Villarreal,la-liga,2023,Madrid,10.4,-1.4,0.0
+Journée 1,2023-12-18,Girona,3,0,Alaves,la-liga,2023,Gérone,15.8,1.9,0.0
+Journée 1,2023-12-19,Rayo Vallecano,0,1,Valencia,la-liga,2023,Madrid,10.7,-1.8,0.0
+Journée 1,2023-12-19,Atletico Madrid,3,3,Getafe,la-liga,2023,Madrid,10.7,-1.8,0.0
+Journée 1,2023-12-19,Granada CF,0,3,Sevilla,la-liga,2023,Grenade,7.5,1.5,0.1
+Journée 1,2023-12-20,FC Barcelone,3,2,Almeria,la-liga,2023,Barcelone,15.9,3.6,0.0
+Journée 1,2023-12-20,Athletic Club,1,0,Las Palmas,la-liga,2023,Bilbao,12.3,8.0,17.9
+Journée 1,2023-12-20,Villarreal,3,2,Celta Vigo,la-liga,2023,Villarreal,18.1,4.6,0.0
+Journée 1,2023-12-21,Real Betis,1,1,Girona,la-liga,2023,Séville,15.2,5.4,0.0
+Journée 1,2023-12-21,Cadiz,0,0,Real Sociedad,la-liga,2023,Cadix,8.7,3.4,9.9
+Journée 1,2023-12-21,Mallorca,3,2,Osasuna,la-liga,2023,Palma,16.8,5.0,0.0
+Journée 1,2023-12-21,Alaves,0,1,Real Madrid,la-liga,2023,Vitoria-Gasteiz,9.9,7.0,1.9
+Journée 1,2024-01-02,Getafe,0,2,Rayo Vallecano,la-liga,2023,Getafe,9.1,1.5,0.0
+Journée 1,2024-01-02,Real Sociedad,1,1,Alaves,la-liga,2023,Saint-Sébastien,16.2,12.5,1.2
+Journée 1,2024-01-02,Valencia,3,1,Villarreal,la-liga,2023,Valence,18.6,6.6,0.0
+Journée 1,2024-01-03,Granada CF,2,0,Cadiz,la-liga,2023,Grenade,13.1,7.3,2.1
+Journée 1,2024-01-03,Celta Vigo,2,1,Real Betis,la-liga,2023,Vigo,14.8,10.6,2.5
+Journée 1,2024-01-03,Real Madrid,1,0,Mallorca,la-liga,2023,Madrid,12.3,8.9,2.0
+Journée 1,2024-01-03,Girona,4,3,Atletico Madrid,la-liga,2023,Gérone,15.5,7.0,0.0
+Journée 1,2024-01-04,Osasuna,1,0,Almeria,la-liga,2023,Pampelune,11.0,3.6,0.4
+Journée 1,2024-01-04,Sevilla,0,2,Athletic Club,la-liga,2023,Séville,17.1,11.5,9.6
+Journée 1,2024-01-04,Las Palmas,1,2,FC Barcelone,la-liga,2023,Las Palmas,19.3,8.2,0.0
+Journée 1,2024-01-12,Sevilla,2,3,Alaves,la-liga,2023,Séville,18.3,6.2,0.0
+Journée 1,2024-01-13,Las Palmas,3,0,Villarreal,la-liga,2023,Las Palmas,21.2,9.7,0.0
+Journée 1,2024-01-13,Mallorca,1,1,Celta Vigo,la-liga,2023,Palma,14.7,3.0,0.0
+Journée 1,2024-01-13,Athletic Club,2,1,Real Sociedad,la-liga,2023,Bilbao,16.2,2.3,0.0
+Journée 1,2024-01-13,Real Betis,1,0,Granada CF,la-liga,2023,Séville,16.0,8.1,0.0
+Journée 1,2024-01-14,Almeria,0,0,Girona,la-liga,2023,Almería,17.5,8.8,0.0
+Journée 1,2024-01-14,Cadiz,1,4,Valencia,la-liga,2023,Cadix,8.2,-1.0,0.1
+Journée 1,2024-01-31,FC Barcelone,1,0,Osasuna,la-liga,2023,Barcelone,15.8,5.3,0.0
+Journée 1,2024-01-31,Atletico Madrid,2,1,Rayo Vallecano,la-liga,2023,Madrid,11.8,2.7,0.0
+Journée 1,2024-02-01,Getafe,0,2,Real Madrid,la-liga,2023,Getafe,16.9,3.9,0.0
+Journée 1,2024-01-19,Alaves,1,0,Cadiz,la-liga,2023,Vitoria-Gasteiz,4.9,-2.2,0.3
+Journée 1,2024-01-20,Rayo Vallecano,0,2,Las Palmas,la-liga,2023,Madrid,9.6,1.2,0.0
+Journée 1,2024-01-20,Villarreal,1,1,Mallorca,la-liga,2023,Villarreal,13.5,6.4,0.1
+Journée 1,2024-01-20,Valencia,1,0,Athletic Club,la-liga,2023,Valence,13.5,9.1,0.2
+Journée 1,2024-01-20,Celta Vigo,0,1,Real Sociedad,la-liga,2023,Vigo,12.5,-0.1,0.0
+Journée 1,2024-01-21,Osasuna,3,2,Getafe,la-liga,2023,Pampelune,9.4,-2.7,0.0
+Journée 1,2024-01-21,Real Madrid,3,2,Almeria,la-liga,2023,Madrid,11.2,1.8,0.0
+Journée 1,2024-01-21,Real Betis,2,4,FC Barcelone,la-liga,2023,Séville,17.4,7.7,0.0
+Journée 1,2024-01-21,Girona,5,1,Sevilla,la-liga,2023,Gérone,14.4,3.1,0.0
+Journée 1,2024-01-22,Granada CF,0,1,Atletico Madrid,la-liga,2023,Grenade,13.6,3.5,0.3
+Journée 1,2024-01-26,Almeria,0,3,Alaves,la-liga,2023,Almería,25.0,14.3,0.0
+Journée 1,2024-01-27,Real Sociedad,0,0,Rayo Vallecano,la-liga,2023,Saint-Sébastien,19.0,7.9,0.0
+Journée 1,2024-01-27,Las Palmas,1,2,Real Madrid,la-liga,2023,Las Palmas,20.2,7.9,0.0
+Journée 1,2024-01-27,FC Barcelone,3,5,Villarreal,la-liga,2023,Barcelone,18.0,4.4,0.0
+Journée 1,2024-01-27,Mallorca,0,1,Real Betis,la-liga,2023,Palma,20.5,10.1,0.0
+Journée 1,2024-01-28,Celta Vigo,0,1,Girona,la-liga,2023,Vigo,18.8,7.1,0.0
+Journée 1,2024-01-28,Cadiz,0,0,Athletic Club,la-liga,2023,Cadix,9.5,8.2,0.0
+Journée 1,2024-01-28,Sevilla,1,1,Osasuna,la-liga,2023,Séville,19.3,8.2,0.0
+Journée 1,2024-01-28,Atletico Madrid,2,0,Valencia,la-liga,2023,Madrid,15.9,3.5,0.0
+Journée 1,2024-01-29,Getafe,2,0,Granada CF,la-liga,2023,Getafe,14.5,4.7,0.0
+Journée 1,2024-02-02,Athletic Club,4,0,Mallorca,la-liga,2023,Bilbao,13.1,9.6,1.3
+Journée 1,2024-02-03,Valencia,2,1,Almeria,la-liga,2023,Valence,18.1,4.9,0.0
+Journée 1,2024-02-03,Granada CF,1,1,Las Palmas,la-liga,2023,Grenade,9.9,3.6,0.0
+Journée 1,2024-02-03,Alaves,1,3,FC Barcelone,la-liga,2023,Vitoria-Gasteiz,14.6,6.5,0.0
+Journée 1,2024-02-03,Girona,0,0,Real Sociedad,la-liga,2023,Gérone,21.8,5.7,0.0
+Journée 1,2024-02-04,Villarreal,0,0,Cadiz,la-liga,2023,Villarreal,19.1,5.1,0.0
+Journée 1,2024-02-04,Osasuna,0,3,Celta Vigo,la-liga,2023,Pampelune,14.6,3.3,0.0
+Journée 1,2024-02-04,Real Betis,1,1,Getafe,la-liga,2023,Séville,18.9,8.6,0.0
+Journée 1,2024-02-04,Real Madrid,1,1,Atletico Madrid,la-liga,2023,Madrid,16.1,1.6,0.0
+Journée 1,2024-02-05,Rayo Vallecano,1,2,Sevilla,la-liga,2023,Madrid,14.8,1.2,0.0
+Journée 1,2024-02-09,Cadiz,0,2,Real Betis,la-liga,2023,Cadix,11.6,6.9,0.9
+Journée 1,2024-02-10,Alaves,1,1,Villarreal,la-liga,2023,Vitoria-Gasteiz,10.1,3.7,7.7
+Journée 1,2024-02-10,Real Sociedad,0,1,Osasuna,la-liga,2023,Saint-Sébastien,11.7,8.7,25.3
+Journée 1,2024-02-10,Real Madrid,4,0,Girona,la-liga,2023,Madrid,10.4,4.2,1.1
+Journée 1,2024-02-10,Las Palmas,2,0,Valencia,la-liga,2023,Las Palmas,17.4,10.5,0.1
+Journée 1,2024-02-11,Getafe,3,2,Celta Vigo,la-liga,2023,Getafe,8.7,1.3,1.4
+Journée 1,2024-02-11,Mallorca,2,1,Rayo Vallecano,la-liga,2023,Palma,15.0,8.1,0.0
+Journée 1,2024-02-11,Sevilla,1,0,Atletico Madrid,la-liga,2023,Séville,16.5,9.5,8.3
+Journée 1,2024-02-11,FC Barcelone,3,3,Granada CF,la-liga,2023,Barcelone,15.9,7.2,0.0
+Journée 1,2024-02-12,Almeria,0,0,Athletic Club,la-liga,2023,Almería,22.6,10.0,0.0
+Journée 1,2024-02-16,Villarreal,1,1,Getafe,la-liga,2023,Villarreal,16.2,9.5,2.2
+Journée 1,2024-02-17,Atletico Madrid,5,0,Las Palmas,la-liga,2023,Madrid,16.5,2.0,0.0
+Journée 1,2024-02-17,Osasuna,2,0,Cadiz,la-liga,2023,Pampelune,12.9,4.0,0.0
+Journée 1,2024-02-17,Celta Vigo,1,2,FC Barcelone,la-liga,2023,Vigo,17.9,6.5,0.0
+Journée 1,2024-02-17,Valencia,0,0,Sevilla,la-liga,2023,Valence,19.5,8.1,0.0
+Journée 1,2024-02-18,Rayo Vallecano,1,1,Real Madrid,la-liga,2023,Madrid,16.2,2.5,0.0
+Journée 1,2024-02-18,Granada CF,1,1,Almeria,la-liga,2023,Grenade,13.4,2.8,0.7
+Journée 1,2024-02-18,Mallorca,1,2,Real Sociedad,la-liga,2023,Palma,19.9,10.5,0.0
+Journée 1,2024-02-18,Real Betis,0,0,Alaves,la-liga,2023,Séville,20.4,8.7,0.0
+Journée 1,2024-02-19,Athletic Club,3,2,Girona,la-liga,2023,Bilbao,14.4,9.6,3.5
+Journée 1,2024-02-23,Real Sociedad,1,3,Villarreal,la-liga,2023,Saint-Sébastien,11.5,7.0,4.3
+Journée 1,2024-02-24,FC Barcelone,4,0,Getafe,la-liga,2023,Barcelone,15.1,5.0,1.1
+Journée 1,2024-02-24,Alaves,1,1,Mallorca,la-liga,2023,Vitoria-Gasteiz,9.2,2.1,2.7
+Journée 1,2024-02-24,Almeria,2,2,Atletico Madrid,la-liga,2023,Almería,18.5,7.8,0.0
+Journée 1,2024-02-25,Cadiz,2,2,Celta Vigo,la-liga,2023,Cadix,7.4,2.0,16.6
+Journée 1,2024-02-25,Real Betis,3,1,Athletic Club,la-liga,2023,Séville,18.9,9.6,0.7
+Journée 1,2024-02-25,Las Palmas,1,1,Osasuna,la-liga,2023,Las Palmas,17.9,6.3,0.0
+Journée 1,2024-02-25,Real Madrid,1,0,Sevilla,la-liga,2023,Madrid,13.4,5.4,0.7
+Journée 1,2024-02-26,Girona,3,0,Rayo Vallecano,la-liga,2023,Gérone,14.9,7.0,9.3
+Journée 1,2024-04-04,Granada CF,0,1,Valencia,la-liga,2023,Grenade,22.4,9.8,0.0
+Journée 1,2024-03-01,Celta Vigo,1,0,Almeria,la-liga,2023,Vigo,12.7,8.4,20.6
+Journée 1,2024-03-02,Sevilla,3,2,Real Sociedad,la-liga,2023,Séville,17.2,7.0,1.1
+Journée 1,2024-03-02,Rayo Vallecano,1,1,Cadiz,la-liga,2023,Madrid,9.1,3.7,6.8
+Journée 1,2024-03-02,Getafe,3,3,Las Palmas,la-liga,2023,Getafe,9.5,4.0,6.1
+Journée 1,2024-03-02,Valencia,2,2,Real Madrid,la-liga,2023,Valence,19.5,9.8,1.2
+Journée 1,2024-03-03,Villarreal,5,1,Granada CF,la-liga,2023,Villarreal,17.0,8.8,0.1
+Journée 1,2024-03-03,Atletico Madrid,2,1,Real Betis,la-liga,2023,Madrid,9.7,1.7,1.5
+Journée 1,2024-03-03,Mallorca,1,0,Girona,la-liga,2023,Palma,13.9,8.7,5.2
+Journée 1,2024-03-03,Athletic Club,0,0,FC Barcelone,la-liga,2023,Bilbao,9.9,4.7,4.0
+Journée 1,2024-03-04,Osasuna,1,0,Alaves,la-liga,2023,Pampelune,11.2,-0.3,3.7
+Journée 1,2024-03-08,FC Barcelone,1,0,Mallorca,la-liga,2023,Barcelone,15.7,9.2,6.4
+Journée 1,2024-03-09,Valencia,1,0,Getafe,la-liga,2023,Valence,14.4,9.8,5.0
+Journée 1,2024-03-09,Cadiz,2,0,Atletico Madrid,la-liga,2023,Cadix,10.7,5.9,3.1
+Journée 1,2024-03-09,Granada CF,2,3,Real Sociedad,la-liga,2023,Grenade,13.3,7.1,6.1
+Journée 1,2024-03-09,Girona,2,0,Osasuna,la-liga,2023,Gérone,12.5,8.3,28.5
+Journée 1,2024-03-10,Alaves,1,0,Rayo Vallecano,la-liga,2023,Vitoria-Gasteiz,10.8,4.6,3.3
+Journée 1,2024-03-10,Las Palmas,0,2,Athletic Club,la-liga,2023,Las Palmas,16.6,5.9,2.3
+Journée 1,2024-03-10,Real Madrid,4,0,Celta Vigo,la-liga,2023,Madrid,11.8,4.3,2.6
+Journée 1,2024-03-10,Real Betis,2,3,Villarreal,la-liga,2023,Séville,17.7,9.8,0.3
+Journée 1,2024-03-11,Almeria,2,2,Sevilla,la-liga,2023,Almería,17.5,9.6,0.0
+Journée 1,2024-03-15,Real Sociedad,2,0,Cadiz,la-liga,2023,Saint-Sébastien,18.5,9.9,0.1
+Journée 1,2024-03-16,Mallorca,1,0,Granada CF,la-liga,2023,Palma,22.2,9.2,0.1
+Journée 1,2024-03-16,Osasuna,2,4,Real Madrid,la-liga,2023,Pampelune,19.0,4.3,0.0
+Journée 1,2024-03-16,Getafe,1,0,Girona,la-liga,2023,Getafe,18.6,7.1,0.0
+Journée 1,2024-03-16,Athletic Club,2,0,Alaves,la-liga,2023,Bilbao,23.2,7.8,0.0
+Journée 1,2024-03-17,Sevilla,1,2,Celta Vigo,la-liga,2023,Séville,26.5,12.7,0.0
+Journée 1,2024-03-17,Las Palmas,0,1,Almeria,la-liga,2023,Las Palmas,26.7,16.5,0.0
+Journée 1,2024-03-17,Villarreal,1,0,Valencia,la-liga,2023,Villarreal,24.1,10.8,0.0
+Journée 1,2024-03-17,Rayo Vallecano,2,0,Real Betis,la-liga,2023,Madrid,21.0,7.5,0.0
+Journée 1,2024-03-17,Atletico Madrid,0,3,FC Barcelone,la-liga,2023,Madrid,21.0,7.5,0.0
+Journée 1,2024-03-29,Cadiz,1,0,Granada CF,la-liga,2023,Cadix,16.3,9.9,0.0
+Journée 1,2024-03-30,Getafe,0,1,Sevilla,la-liga,2023,Getafe,11.4,3.0,8.4
+Journée 1,2024-03-30,Almeria,0,3,Osasuna,la-liga,2023,Almería,14.2,11.5,11.3
+Journée 1,2024-03-30,Valencia,0,0,Mallorca,la-liga,2023,Valence,17.4,9.2,0.8
+Journée 1,2024-03-30,FC Barcelone,1,0,Las Palmas,la-liga,2023,Barcelone,16.7,10.3,4.0
+Journée 1,2024-03-31,Celta Vigo,0,0,Rayo Vallecano,la-liga,2023,Vigo,12.9,4.2,14.1
+Journée 1,2024-03-31,Girona,3,2,Real Betis,la-liga,2023,Gérone,17.3,11.1,9.1
+Journée 1,2024-03-31,Alaves,0,1,Real Sociedad,la-liga,2023,Vitoria-Gasteiz,10.1,3.9,7.6
+Journée 1,2024-03-31,Real Madrid,2,0,Athletic Club,la-liga,2023,Madrid,10.7,4.6,9.6
+Journée 1,2024-04-01,Villarreal,1,2,Atletico Madrid,la-liga,2023,Villarreal,21.5,7.2,0.0
+Journée 1,2024-04-12,Real Betis,2,1,Celta Vigo,la-liga,2023,Séville,26.0,12.6,0.0
+Journée 1,2024-04-13,Atletico Madrid,3,1,Girona,la-liga,2023,Madrid,26.7,8.8,0.0
+Journée 1,2024-04-13,Rayo Vallecano,0,0,Getafe,la-liga,2023,Madrid,26.7,8.8,0.0
+Journée 1,2024-04-13,Mallorca,0,1,Real Madrid,la-liga,2023,Palma,26.9,11.9,0.0
+Journée 1,2024-04-13,Cadiz,0,1,FC Barcelone,la-liga,2023,Cadix,25.0,8.7,0.0
+Journée 1,2024-04-14,Las Palmas,0,2,Sevilla,la-liga,2023,Las Palmas,28.4,16.0,0.0
+Journée 1,2024-04-14,Granada CF,2,0,Alaves,la-liga,2023,Grenade,26.6,10.8,0.0
+Journée 1,2024-04-14,Athletic Club,1,1,Villarreal,la-liga,2023,Bilbao,25.9,10.2,0.0
+Journée 1,2024-04-14,Real Sociedad,2,2,Almeria,la-liga,2023,Saint-Sébastien,20.1,12.1,0.0
+Journée 1,2024-04-15,Osasuna,0,1,Valencia,la-liga,2023,Pampelune,13.7,9.5,0.2
+Journée 1,2024-04-19,Athletic Club,1,1,Granada CF,la-liga,2023,Bilbao,20.7,3.5,0.0
+Journée 1,2024-04-20,Celta Vigo,4,1,Las Palmas,la-liga,2023,Vigo,24.9,10.0,0.0
+Journée 1,2024-04-20,Rayo Vallecano,2,1,Osasuna,la-liga,2023,Madrid,24.2,8.9,0.0
+Journée 1,2024-04-20,Valencia,1,2,Real Betis,la-liga,2023,Valence,20.2,8.7,0.0
+Journée 1,2024-04-20,Girona,4,1,Cadiz,la-liga,2023,Gérone,22.6,8.2,0.0
+Journée 1,2024-04-21,Getafe,1,1,Real Sociedad,la-liga,2023,Getafe,23.8,8.6,0.1
+Journée 1,2024-04-21,Almeria,1,2,Villarreal,la-liga,2023,Almería,22.2,13.3,0.0
+Journée 1,2024-04-21,Alaves,2,0,Atletico Madrid,la-liga,2023,Vitoria-Gasteiz,12.5,3.6,0.0
+Journée 1,2024-04-21,Real Madrid,3,2,FC Barcelone,la-liga,2023,Madrid,23.6,8.3,0.0
+Journée 1,2024-04-22,Sevilla,2,1,Mallorca,la-liga,2023,Séville,27.0,13.6,0.0
+Journée 1,2024-04-26,Real Sociedad,0,1,Real Madrid,la-liga,2023,Saint-Sébastien,15.3,8.1,8.9
+Journée 1,2024-04-27,Las Palmas,0,2,Girona,la-liga,2023,Las Palmas,15.6,5.1,0.2
+Journée 1,2024-04-27,Almeria,1,3,Getafe,la-liga,2023,Almería,20.3,15.0,0.0
+Journée 1,2024-04-27,Alaves,3,0,Celta Vigo,la-liga,2023,Vitoria-Gasteiz,14.3,5.7,3.3
+Journée 1,2024-04-27,Atletico Madrid,3,1,Athletic Club,la-liga,2023,Madrid,14.2,8.5,14.8
+Journée 1,2024-04-28,Cadiz,1,1,Mallorca,la-liga,2023,Cadix,13.8,7.9,10.3
+Journée 1,2024-04-28,Granada CF,3,0,Osasuna,la-liga,2023,Grenade,16.7,9.1,1.0
+Journée 1,2024-04-28,Villarreal,3,0,Rayo Vallecano,la-liga,2023,Villarreal,21.4,10.2,0.1
+Journée 1,2024-04-28,Real Betis,1,1,Sevilla,la-liga,2023,Séville,20.7,10.3,0.0
+Journée 1,2024-04-29,FC Barcelone,4,2,Valencia,la-liga,2023,Barcelone,15.2,12.7,85.8
+Journée 1,2024-05-03,Getafe,0,2,Athletic Club,la-liga,2023,Getafe,18.5,5.2,0.0
+Journée 1,2024-05-04,Real Sociedad,2,0,Las Palmas,la-liga,2023,Saint-Sébastien,24.3,14.4,1.1
+Journée 1,2024-05-04,Real Madrid,3,0,Cadiz,la-liga,2023,Madrid,22.8,8.2,0.0
+Journée 1,2024-05-04,Girona,4,2,FC Barcelone,la-liga,2023,Gérone,22.3,11.1,0.0
+Journée 1,2024-05-04,Mallorca,0,1,Atletico Madrid,la-liga,2023,Palma,21.9,12.9,0.0
+Journée 1,2024-05-05,Osasuna,0,2,Real Betis,la-liga,2023,Pampelune,21.3,9.7,4.9
+Journée 1,2024-05-05,Celta Vigo,3,2,Villarreal,la-liga,2023,Vigo,16.2,10.1,42.0
+Journée 1,2024-05-05,Valencia,0,1,Alaves,la-liga,2023,Valence,30.6,15.7,0.0
+Journée 1,2024-05-05,Rayo Vallecano,0,1,Almeria,la-liga,2023,Madrid,20.4,11.6,0.3
+Journée 1,2024-05-05,Sevilla,3,0,Granada CF,la-liga,2023,Séville,25.5,12.4,0.0
+Journée 1,2024-05-10,Alaves,2,2,Girona,la-liga,2023,Vitoria-Gasteiz,25.7,11.6,0.0
+Journée 1,2024-05-11,Mallorca,1,0,Las Palmas,la-liga,2023,Palma,26.5,13.4,0.0
+Journée 1,2024-05-11,Villarreal,3,2,Sevilla,la-liga,2023,Villarreal,24.2,11.5,0.3
+Journée 1,2024-05-11,Granada CF,0,4,Real Madrid,la-liga,2023,Grenade,26.2,10.5,0.1
+Journée 1,2024-05-11,Athletic Club,2,2,Osasuna,la-liga,2023,Bilbao,24.9,11.7,0.3
+Journée 1,2024-05-12,Cadiz,1,0,Getafe,la-liga,2023,Cadix,19.4,9.9,6.9
+Journée 1,2024-05-12,Atletico Madrid,1,0,Celta Vigo,la-liga,2023,Madrid,27.9,13.8,0.3
+Journée 1,2024-05-12,Valencia,0,0,Rayo Vallecano,la-liga,2023,Valence,22.5,15.0,0.3
+Journée 1,2024-05-12,Real Betis,3,2,Almeria,la-liga,2023,Séville,31.4,16.1,0.0
+Journée 1,2024-05-13,FC Barcelone,2,0,Real Sociedad,la-liga,2023,Barcelone,22.3,12.9,0.0
+Journée 1,2024-05-14,Osasuna,1,1,Mallorca,la-liga,2023,Pampelune,15.6,9.2,25.9
+Journée 1,2024-05-14,Real Madrid,5,0,Alaves,la-liga,2023,Madrid,20.2,11.0,0.8
+Journée 1,2024-05-14,Girona,0,1,Villarreal,la-liga,2023,Gérone,17.7,13.2,22.6
+Journée 1,2024-05-15,Sevilla,0,1,Cadiz,la-liga,2023,Séville,25.5,12.8,0.0
+Journée 1,2024-05-15,Rayo Vallecano,2,1,Granada CF,la-liga,2023,Madrid,18.8,8.6,0.0
+Journée 1,2024-05-15,Celta Vigo,2,1,Athletic Club,la-liga,2023,Vigo,14.5,9.4,6.6
+Journée 1,2024-05-15,Getafe,0,3,Atletico Madrid,la-liga,2023,Getafe,19.1,9.2,0.0
+Journée 1,2024-05-16,Las Palmas,2,2,Real Betis,la-liga,2023,Las Palmas,18.3,7.4,0.7
+Journée 1,2024-05-16,Almeria,0,2,FC Barcelone,la-liga,2023,Almería,23.3,15.3,0.0
+Journée 1,2024-05-16,Real Sociedad,1,0,Valencia,la-liga,2023,Saint-Sébastien,17.5,10.6,12.6
+Journée 1,2024-05-18,Alaves,1,0,Getafe,la-liga,2023,Vitoria-Gasteiz,15.9,8.1,2.1
+Journée 1,2024-05-19,Athletic Club,2,0,Sevilla,la-liga,2023,Bilbao,15.5,12.4,5.7
+Journée 1,2024-05-19,Atletico Madrid,1,4,Osasuna,la-liga,2023,Madrid,20.6,8.8,2.1
+Journée 1,2024-05-19,FC Barcelone,3,0,Rayo Vallecano,la-liga,2023,Barcelone,20.3,12.4,0.2
+Journée 1,2024-05-19,Real Betis,0,2,Real Sociedad,la-liga,2023,Séville,25.3,13.8,0.0
+Journée 1,2024-05-19,Cadiz,0,0,Las Palmas,la-liga,2023,Cadix,19.2,8.9,5.3
+Journée 1,2024-05-19,Mallorca,2,2,Almeria,la-liga,2023,Palma,23.4,14.7,5.0
+Journée 1,2024-05-19,Granada CF,1,2,Celta Vigo,la-liga,2023,Grenade,19.8,10.8,7.6
+Journée 1,2024-05-19,Valencia,1,3,Girona,la-liga,2023,Valence,22.5,16.8,1.1
+Journée 1,2024-05-19,Villarreal,4,4,Real Madrid,la-liga,2023,Villarreal,24.2,14.0,2.3
+Journée 1,2024-05-24,Girona,7,0,Granada CF,la-liga,2023,Gérone,20.9,12.7,3.1
+Journée 1,2024-05-25,Osasuna,1,1,Villarreal,la-liga,2023,Pampelune,24.4,8.7,0.0
+Journée 1,2024-05-25,Real Sociedad,0,2,Atletico Madrid,la-liga,2023,Saint-Sébastien,25.2,12.3,0.7
+Journée 1,2024-05-25,Almeria,6,1,Cadiz,la-liga,2023,Almería,22.9,17.3,0.0
+Journée 1,2024-05-25,Rayo Vallecano,0,1,Athletic Club,la-liga,2023,Madrid,29.0,11.9,0.0
+Journée 1,2024-05-25,Real Madrid,0,0,Real Betis,la-liga,2023,Madrid,29.0,11.9,0.0
+Journée 1,2024-05-26,Getafe,1,2,Mallorca,la-liga,2023,Getafe,29.2,13.3,0.0
+Journée 1,2024-05-26,Celta Vigo,2,2,Valencia,la-liga,2023,Vigo,18.3,12.2,0.2
+Journée 1,2024-05-26,Las Palmas,1,1,Alaves,la-liga,2023,Las Palmas,24.8,9.1,0.0
+Journée 1,2024-05-26,Sevilla,1,2,FC Barcelone,la-liga,2023,Séville,34.1,17.9,0.0
+Journée 1,2022-08-12,Osasuna,2,1,Sevilla,la-liga,2022,Pampelune,37.7,20.7,0.0
+Journée 1,2022-08-13,Celta Vigo,2,2,Espanyol,la-liga,2022,Vigo,21.5,16.2,0.0
+Journée 1,2022-08-13,Valladolid,0,3,Villarreal,la-liga,2022,Valladolid,32.1,20.1,0.1
+Journée 1,2022-08-13,FC Barcelone,0,0,Rayo Vallecano,la-liga,2022,Barcelone,33.2,22.9,0.0
+Journée 1,2022-08-14,Cadiz,0,1,Real Sociedad,la-liga,2022,Cadix,24.2,18.1,13.4
+Journée 1,2022-08-14,Valencia,1,0,Girona,la-liga,2022,Valence,39.1,26.4,0.0
+Journée 1,2022-08-14,Almeria,1,2,Real Madrid,la-liga,2022,Almería,33.5,28.6,0.0
+Journée 1,2022-08-15,Athletic Club,0,0,Mallorca,la-liga,2022,Bilbao,25.6,15.4,0.0
+Journée 1,2022-08-15,Getafe,0,3,Atletico Madrid,la-liga,2022,Getafe,31.2,16.6,0.0
+Journée 1,2022-08-15,Real Betis,3,0,Elche,la-liga,2022,Séville,32.5,20.3,0.0
+Journée 1,2022-08-19,Espanyol,0,2,Rayo Vallecano,la-liga,2022,Barcelone,28.8,18.1,0.0
+Journée 1,2022-08-19,Sevilla,1,1,Valladolid,la-liga,2022,Séville,38.8,20.5,0.0
+Journée 1,2022-08-20,Osasuna,2,0,Cadiz,la-liga,2022,Pampelune,30.9,15.2,0.0
+Journée 1,2022-08-20,Mallorca,1,2,Real Betis,la-liga,2022,Palma,31.7,19.6,0.0
+Journée 1,2022-08-20,Celta Vigo,1,4,Real Madrid,la-liga,2022,Vigo,28.8,19.4,0.0
+Journée 1,2022-08-21,Athletic Club,1,0,Valencia,la-liga,2022,Bilbao,25.7,18.3,0.3
+Journée 1,2022-08-21,Atletico Madrid,0,2,Villarreal,la-liga,2022,Madrid,36.5,18.4,0.0
+Journée 1,2022-08-21,Real Sociedad,1,4,FC Barcelone,la-liga,2022,Saint-Sébastien,22.8,20.1,1.9
+Journée 1,2022-08-22,Elche,1,1,Almeria,la-liga,2022,Elche,32.1,22.7,0.0
+Journée 1,2022-08-22,Girona,3,1,Getafe,la-liga,2022,Gérone,34.0,22.6,0.4
+Journée 1,2022-08-26,Girona,0,1,Celta Vigo,la-liga,2022,Gérone,33.7,22.7,0.3
+Journée 1,2022-08-26,Real Betis,1,0,Osasuna,la-liga,2022,Séville,36.3,20.9,0.0
+Journée 1,2022-08-27,Elche,0,1,Real Sociedad,la-liga,2022,Elche,32.0,21.6,0.3
+Journée 1,2022-08-27,Rayo Vallecano,0,2,Mallorca,la-liga,2022,Madrid,30.4,18.4,0.1
+Journée 1,2022-08-27,Almeria,2,1,Sevilla,la-liga,2022,Almería,33.3,23.7,0.0
+Journée 1,2022-08-28,Getafe,0,0,Villarreal,la-liga,2022,Getafe,34.1,20.0,0.0
+Journée 1,2022-08-28,FC Barcelone,4,0,Valladolid,la-liga,2022,Barcelone,30.7,20.4,0.0
+Journée 1,2022-08-28,Espanyol,1,3,Real Madrid,la-liga,2022,Barcelone,30.7,20.4,0.0
+Journée 1,2022-08-29,Cadiz,0,4,Athletic Club,la-liga,2022,Cadix,31.9,17.4,0.2
+Journée 1,2022-08-29,Valencia,0,1,Atletico Madrid,la-liga,2022,Valence,30.1,23.0,0.0
+Journée 1,2022-09-02,Celta Vigo,3,0,Cadiz,la-liga,2022,Vigo,22.9,16.9,1.3
+Journée 1,2022-09-03,Mallorca,1,1,Girona,la-liga,2022,Palma,34.2,22.3,0.0
+Journée 1,2022-09-03,Real Madrid,2,1,Real Betis,la-liga,2022,Madrid,28.0,16.8,0.0
+Journée 1,2022-09-03,Real Sociedad,1,1,Atletico Madrid,la-liga,2022,Saint-Sébastien,21.6,18.1,1.4
+Journée 1,2022-09-03,Sevilla,0,3,FC Barcelone,la-liga,2022,Séville,32.1,20.3,0.0
+Journée 1,2022-09-04,Osasuna,2,1,Rayo Vallecano,la-liga,2022,Pampelune,30.7,16.1,1.5
+Journée 1,2022-09-04,Athletic Club,0,1,Espanyol,la-liga,2022,Bilbao,32.6,14.7,0.0
+Journée 1,2022-09-04,Villarreal,4,0,Elche,la-liga,2022,Villarreal,30.5,20.5,0.0
+Journée 1,2022-09-04,Valencia,5,1,Getafe,la-liga,2022,Valence,29.5,21.8,0.0
+Journée 1,2022-09-05,Valladolid,1,0,Almeria,la-liga,2022,Valladolid,28.4,11.2,0.0
+Journée 1,2022-09-09,Girona,2,1,Valladolid,la-liga,2022,Gérone,27.7,19.9,0.0
+Journée 1,2022-09-10,Rayo Vallecano,2,1,Valencia,la-liga,2022,Madrid,33.2,18.4,0.0
+Journée 1,2022-09-10,Espanyol,2,3,Sevilla,la-liga,2022,Barcelone,27.4,20.2,0.2
+Journée 1,2022-09-10,Cadiz,0,4,FC Barcelone,la-liga,2022,Cadix,22.8,10.4,0.0
+Journée 1,2022-09-10,Atletico Madrid,4,1,Celta Vigo,la-liga,2022,Madrid,33.2,18.4,0.0
+Journée 1,2022-09-11,Real Madrid,4,1,Mallorca,la-liga,2022,Madrid,34.6,19.3,0.0
+Journée 1,2022-09-11,Elche,1,4,Athletic Club,la-liga,2022,Elche,32.2,20.6,0.0
+Journée 1,2022-09-11,Getafe,2,1,Real Sociedad,la-liga,2022,Getafe,35.0,19.8,0.0
+Journée 1,2022-09-11,Real Betis,1,0,Villarreal,la-liga,2022,Séville,38.1,20.2,0.0
+Journée 1,2022-09-12,Almeria,0,1,Osasuna,la-liga,2022,Almería,35.7,24.3,0.0
+Journée 1,2022-09-16,Valladolid,0,1,Cadiz,la-liga,2022,Valladolid,24.7,14.4,0.0
+Journée 1,2022-09-17,Mallorca,1,0,Almeria,la-liga,2022,Palma,25.8,20.4,0.0
+Journée 1,2022-09-17,FC Barcelone,3,0,Elche,la-liga,2022,Barcelone,25.5,18.6,1.7
+Journée 1,2022-09-17,Valencia,3,0,Celta Vigo,la-liga,2022,Valence,27.6,20.0,0.0
+Journée 1,2022-09-17,Athletic Club,3,2,Rayo Vallecano,la-liga,2022,Bilbao,21.5,14.9,0.0
+Journée 1,2022-09-18,Osasuna,0,2,Getafe,la-liga,2022,Pampelune,26.1,9.0,0.0
+Journée 1,2022-09-18,Villarreal,1,1,Sevilla,la-liga,2022,Villarreal,25.8,19.3,14.0
+Journée 1,2022-09-18,Real Betis,2,1,Girona,la-liga,2022,Séville,35.5,20.9,0.0
+Journée 1,2022-09-18,Real Sociedad,2,1,Espanyol,la-liga,2022,Saint-Sébastien,22.4,13.7,0.0
+Journée 1,2022-09-18,Atletico Madrid,1,2,Real Madrid,la-liga,2022,Madrid,28.6,16.4,0.1
+Journée 1,2022-09-30,Athletic Club,4,0,Almeria,la-liga,2022,Bilbao,17.6,12.6,10.7
+Journée 1,2022-10-01,Cadiz,0,0,Villarreal,la-liga,2022,Cadix,16.5,7.3,0.4
+Journée 1,2022-10-01,Getafe,2,3,Valladolid,la-liga,2022,Getafe,23.4,8.6,0.0
+Journée 1,2022-10-01,Sevilla,0,2,Atletico Madrid,la-liga,2022,Séville,28.8,14.2,0.0
+Journée 1,2022-10-01,Mallorca,0,1,FC Barcelone,la-liga,2022,Palma,25.1,13.0,0.0
+Journée 1,2022-10-02,Espanyol,2,2,Valencia,la-liga,2022,Barcelone,25.7,13.8,0.0
+Journée 1,2022-10-02,Celta Vigo,1,0,Real Betis,la-liga,2022,Vigo,25.5,13.1,0.0
+Journée 1,2022-10-02,Girona,3,5,Real Sociedad,la-liga,2022,Gérone,25.9,13.6,0.0
+Journée 1,2022-10-02,Real Madrid,1,1,Osasuna,la-liga,2022,Madrid,28.0,9.5,0.0
+Journée 1,2022-10-03,Rayo Vallecano,2,1,Elche,la-liga,2022,Madrid,28.5,11.9,0.0
+Journée 1,2022-10-07,Osasuna,1,2,Valencia,la-liga,2022,Pampelune,24.7,12.1,0.0
+Journée 1,2022-10-08,Almeria,3,1,Rayo Vallecano,la-liga,2022,Almería,28.8,19.6,0.0
+Journée 1,2022-10-08,Atletico Madrid,2,1,Girona,la-liga,2022,Madrid,25.2,12.5,0.0
+Journée 1,2022-10-08,Sevilla,1,1,Athletic Club,la-liga,2022,Séville,30.9,17.1,0.0
+Journée 1,2022-10-08,Getafe,0,1,Real Madrid,la-liga,2022,Getafe,25.6,13.0,0.0
+Journée 1,2022-10-09,Valladolid,0,0,Real Betis,la-liga,2022,Valladolid,24.9,10.7,0.0
+Journée 1,2022-10-09,Cadiz,2,2,Espanyol,la-liga,2022,Cadix,21.6,9.9,0.0
+Journée 1,2022-10-09,Real Sociedad,1,0,Villarreal,la-liga,2022,Saint-Sébastien,26.2,13.5,0.0
+Journée 1,2022-10-09,FC Barcelone,1,0,Celta Vigo,la-liga,2022,Barcelone,22.4,15.5,11.7
+Journée 1,2022-10-10,Elche,1,1,Mallorca,la-liga,2022,Elche,24.8,15.7,8.5
+Journée 1,2022-10-14,Rayo Vallecano,0,0,Getafe,la-liga,2022,Madrid,26.0,11.0,0.0
+Journée 1,2022-10-15,Girona,1,1,Cadiz,la-liga,2022,Gérone,25.6,16.0,0.0
+Journée 1,2022-10-15,Valencia,2,2,Elche,la-liga,2022,Valence,25.1,15.4,0.0
+Journée 1,2022-10-15,Mallorca,0,1,Sevilla,la-liga,2022,Palma,25.7,17.1,0.0
+Journée 1,2022-10-15,Athletic Club,0,1,Atletico Madrid,la-liga,2022,Bilbao,27.1,12.7,0.0
+Journée 1,2022-10-16,Celta Vigo,1,2,Real Sociedad,la-liga,2022,Vigo,18.5,17.0,33.4
+Journée 1,2022-10-16,Real Madrid,3,1,FC Barcelone,la-liga,2022,Madrid,25.7,12.2,0.0
+Journée 1,2022-10-16,Espanyol,1,0,Valladolid,la-liga,2022,Barcelone,24.9,18.5,0.0
+Journée 1,2022-10-16,Real Betis,3,1,Almeria,la-liga,2022,Séville,32.3,17.6,0.2
+Journée 1,2022-10-17,Villarreal,2,0,Osasuna,la-liga,2022,Villarreal,25.4,15.9,0.0
+Journée 1,2022-10-18,Sevilla,1,1,Valencia,la-liga,2022,Séville,30.7,17.7,0.0
+Journée 1,2022-10-18,Getafe,2,2,Athletic Club,la-liga,2022,Getafe,28.7,14.4,0.0
+Journée 1,2022-10-18,Atletico Madrid,1,1,Rayo Vallecano,la-liga,2022,Madrid,28.2,13.8,0.0
+Journée 1,2022-10-19,Cadiz,0,0,Real Betis,la-liga,2022,Cadix,22.8,15.6,0.1
+Journée 1,2022-10-19,Valladolid,4,1,Celta Vigo,la-liga,2022,Valladolid,22.3,13.4,5.2
+Journée 1,2022-10-19,Real Sociedad,1,0,Mallorca,la-liga,2022,Saint-Sébastien,28.9,17.7,0.1
+Journée 1,2022-10-19,Elche,0,3,Real Madrid,la-liga,2022,Elche,27.5,17.9,0.0
+Journée 1,2022-10-20,Almeria,3,2,Girona,la-liga,2022,Almería,24.7,19.5,0.0
+Journée 1,2022-10-20,Osasuna,1,0,Espanyol,la-liga,2022,Pampelune,22.7,16.0,1.7
+Journée 1,2022-10-20,FC Barcelone,3,0,Villarreal,la-liga,2022,Barcelone,25.2,18.2,0.8
+Journée 1,2022-10-22,Rayo Vallecano,5,1,Cadiz,la-liga,2022,Madrid,21.4,11.5,8.9
+Journée 1,2022-10-22,Valladolid,1,0,Real Sociedad,la-liga,2022,Valladolid,19.4,10.3,1.4
+Journée 1,2022-10-22,Valencia,1,2,Mallorca,la-liga,2022,Valence,25.1,18.0,0.0
+Journée 1,2022-10-22,Real Madrid,3,1,Sevilla,la-liga,2022,Madrid,21.4,11.5,8.9
+Journée 1,2022-10-23,Espanyol,2,2,Elche,la-liga,2022,Barcelone,24.9,16.8,0.0
+Journée 1,2022-10-23,Real Betis,1,2,Atletico Madrid,la-liga,2022,Séville,22.1,17.8,8.0
+Journée 1,2022-10-23,Girona,1,1,Osasuna,la-liga,2022,Gérone,26.7,17.5,0.0
+Journée 1,2022-10-23,Villarreal,2,1,Almeria,la-liga,2022,Villarreal,27.8,15.2,0.0
+Journée 1,2022-10-23,FC Barcelone,4,0,Athletic Club,la-liga,2022,Barcelone,24.9,16.8,0.0
+Journée 1,2022-10-24,Celta Vigo,1,1,Getafe,la-liga,2022,Vigo,18.8,14.2,3.8
+Journée 1,2022-10-28,Mallorca,1,1,Espanyol,la-liga,2022,Palma,27.5,17.9,0.0
+Journée 1,2022-10-29,Almeria,3,1,Celta Vigo,la-liga,2022,Almería,25.8,15.9,0.0
+Journée 1,2022-10-29,Cadiz,3,2,Atletico Madrid,la-liga,2022,Cadix,22.1,14.8,0.0
+Journée 1,2022-10-29,Sevilla,0,1,Rayo Vallecano,la-liga,2022,Séville,29.9,14.2,0.0
+Journée 1,2022-10-29,Valencia,0,1,FC Barcelone,la-liga,2022,Valence,22.7,15.3,0.0
+Journée 1,2022-10-30,Osasuna,2,0,Valladolid,la-liga,2022,Pampelune,20.3,13.4,8.0
+Journée 1,2022-10-30,Real Madrid,1,1,Girona,la-liga,2022,Madrid,19.5,11.4,0.0
+Journée 1,2022-10-30,Athletic Club,1,0,Villarreal,la-liga,2022,Bilbao,18.7,14.6,4.1

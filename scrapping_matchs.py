@@ -210,13 +210,14 @@ def scrape_matches(pays, championnat, saison):
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
+        journees=soup.find_all("h2", class_="mt-5")
         matches = soup.find_all("div", class_="filterable-fixture")
 
         with open(FILENAME, mode='a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             
             if file.tell() == 0:
-                writer.writerow(["Date", "Heure", "Équipe 1", "Score 1", "Score 2", "Équipe 2", "Championnat", "Saison", "Ville", "Temp Max", "Temp Min", "Précipitations"])
+                writer.writerow(["Journée", "Date", "Heure", "Équipe 1", "Score 1", "Score 2", "Équipe 2", "Championnat", "Saison", "Ville", "Temp Max", "Temp Min", "Précipitations"])
             
             for match in matches:
                 try:
@@ -228,6 +229,7 @@ def scrape_matches(pays, championnat, saison):
                     score1 = team_and_score[1].text.strip()
                     team2 = team_and_score[2].text.strip()
                     score2 = team_and_score[3].text.strip()
+                    journee = journees[0].text.strip()
                     
                     city = clubs_to_city[team1]
                     lat, lon = get_lat_lon(city)
@@ -236,7 +238,7 @@ def scrape_matches(pays, championnat, saison):
                     if lat and lon:
                         temp_max, temp_min, precipitation = get_weather(lat, lon, date_time)
                     
-                    writer.writerow([date_time, team1, score1, score2, team2, championnat, saison, city, temp_max, temp_min, precipitation])
+                    writer.writerow([journee, date_time, team1, score1, score2, team2, championnat, saison, city, temp_max, temp_min, precipitation])
                     
                     print(f"{date_time}: {team1} {score1} - {score2} {team2} | Temp Max: {temp_max}°C, Temp Min: {temp_min}°C, Précipitations: {precipitation} mm")
                 except Exception as e:

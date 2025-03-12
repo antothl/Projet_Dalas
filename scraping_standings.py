@@ -9,10 +9,14 @@ HEADERS = {
 
 LEAGUES = {
     "Ligue 1": "FR1",
+    "Premier League": "GB1",
+    "LaLiga": "ES1",
+    "Bundesliga": "L1",
+    "Serie A": "IT1"
 }
 
 JOURNEES_PAR_LIGUE = {
-    "Ligue 1": 2,
+    "Ligue 1": 34,
     "Premier League": 38,
     "LaLiga": 38,
     "Bundesliga": 34,

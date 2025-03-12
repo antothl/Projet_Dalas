@@ -1,7 +1,10 @@
 import requests
 import re
 import csv
+import time
 from bs4 import BeautifulSoup
+from datetime import datetime
+
 
 # Dictionnaire des clubs et de leurs villes
 clubs_to_city = {
@@ -47,7 +50,7 @@ clubs_to_city = {
     "Levante": "Valence",
     "Celta Vigo": "Vigo",
     "Eibar": "Eibar",
-    "Osasuna": "Pamplune",
+    "Osasuna": "Pampelune",
     "Alaves": "Vitoria-Gasteiz",
     "Elche": "Elche",
     "Mallorca": "Palma",
@@ -152,18 +155,50 @@ HEADERS = {
 
 # Dictionnaire des championnats avec leur chemin dans l'URL
 LEAGUES = {
-    "Ligue 1": ("france", "ligue-1"),
     "La Liga": ("espagne", "la-liga"),
+    "Ligue 1": ("france", "ligue-1"),
     "Bundesliga": ("allemagne", "bundesliga-1"),
     "Premier League": ("l-angleterre", "premier-league"),
     "Serie A": ("italie", "serie-a"),
 }
 
 # Liste des saisons à scraper
-SEASONS = [2023, 2022, 2021]  # Modifier si besoin
+SEASONS = [2023, 2022, 2021]
 
 # Nom du fichier CSV où les données seront enregistrées
 FILENAME = "datasets/matches.csv"
+
+# Fonction pour récupérer les coordonnées d'une ville avec l'API Nominatim
+def get_lat_lon(city):
+    """Récupère la latitude et la longitude d'une ville en utilisant l'API Nominatim."""
+    url = f"https://nominatim.openstreetmap.org/search?q={city}&format=json"
+    headers = {"User-Agent": "Mozilla/5.0"}
+    
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        data = response.json()
+        if data:
+            return float(data[0]["lat"]), float(data[0]["lon"])
+    
+    return None, None
+
+# Fonction pour récupérer la météo le jour du match
+def get_weather(lat, lon, date):
+    """Récupère la météo historique d'un lieu et d'une date donnés."""
+    url = f"https://archive-api.open-meteo.com/v1/archive?latitude={lat}&longitude={lon}&start_date={date}&end_date={date}&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=Europe/Paris"
+    
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        data = response.json()
+        if "daily" in data:
+            temp_max = data["daily"]["temperature_2m_max"][0]
+            temp_min = data["daily"]["temperature_2m_min"][0]
+            precipitation = data["daily"]["precipitation_sum"][0]
+            return temp_max, temp_min, precipitation
+    print("❌ Erreur lors de la récupération des données météo.")
+    return None, None, None
 
 def scrape_matches(pays, championnat, saison):
     """Scrape les matchs pour un championnat et une saison donnée"""
@@ -171,50 +206,50 @@ def scrape_matches(pays, championnat, saison):
     url = f"https://foot.be/ligues/{pays}/{championnat}/{saison}/matchs/"
     print(f"🔍 Scraping : {url}")
 
-    # Récupérer la page
     response = requests.get(url, headers=HEADERS)
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
-
-        # Trouver tous les blocs contenant les matchs
         matches = soup.find_all("div", class_="filterable-fixture")
 
-        # Ouvrir le fichier CSV en mode ajout (append)
         with open(FILENAME, mode='a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             
-            # Si le fichier est vide, ajouter l'en-tête
             if file.tell() == 0:
-                writer.writerow(["Date", "Heure", "Équipe 1", "Score 1", "Score 2", "Équipe 2", "Championnat", "Saison", "Ville"])
+                writer.writerow(["Date", "Heure", "Équipe 1", "Score 1", "Score 2", "Équipe 2", "Championnat", "Saison", "Ville", "Temp Max", "Temp Min", "Précipitations"])
             
             for match in matches:
                 try:
-                    # Extraction de la date et de l'heure
                     date_time = match.find("strong").text.strip()
-
-                    # Extraction des équipes et des scores
+                    date_time = date_time.split()[0]  # Extraction de la date uniquement
+                    date_time = datetime.strptime(date_time, "%Y-%m-%d").strftime("%Y-%m-%d")
                     team_and_score = match.find_all("span", class_=re.compile(r"text-green-700 font-bold inline-block pt-1|inline-block pt-1"))
-
                     team1 = team_and_score[0].text.strip()
                     score1 = team_and_score[1].text.strip()
                     team2 = team_and_score[2].text.strip()
                     score2 = team_and_score[3].text.strip()
-
-                    # Écrire les données dans le fichier CSV
-                    writer.writerow([date_time, team1, score1, score2, team2, championnat, saison, clubs_to_city[team1]])
-
-                    # Afficher pour vérifier
-                    print(f"{date_time}: {team1} {score1} - {score2} {team2}")
+                    
+                    city = clubs_to_city[team1]
+                    lat, lon = get_lat_lon(city)
+                    print(lat, lon)
+                    temp_max, temp_min, precipitation = (None, None, None)
+                    if lat and lon:
+                        temp_max, temp_min, precipitation = get_weather(lat, lon, date_time)
+                    
+                    writer.writerow([date_time, team1, score1, score2, team2, championnat, saison, city, temp_max, temp_min, precipitation])
+                    
+                    print(f"{date_time}: {team1} {score1} - {score2} {team2} | Temp Max: {temp_max}°C, Temp Min: {temp_min}°C, Précipitations: {precipitation} mm")
                 except Exception as e:
                     print("❌ Erreur lors du parsing d'un match :", e)
                     exit(1)
     else:
         print("⚠️ Échec de la récupération des données, statut :", response.status_code)
 
-# Lancer le scraping pour tous les championnats et saisons
 for league, (pays, championnat) in LEAGUES.items():
     print(f"\n🏆 {league} 🏆")
-    
     for season in SEASONS:
         scrape_matches(pays, championnat, season)
+# for clubs, city in clubs_to_city.items():
+#     print(f"\n🏆 {get_lat_lon(city)} 🏆")
+#     lat, lon=get_lat_lon(city)
+#     print(f"\n🏆 {get_weather(lat,lon, '2023-08-01')} 🏆")

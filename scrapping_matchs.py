@@ -220,6 +220,7 @@ def scrape_matches(pays, championnat, saison):
                 writer.writerow(["Journee", "Date", "Equipe 1", "Score 1", "Score 2", "Equipe 2", "Championnat", "Saison", "Ville", "Temp Max", "Temp Min", "Precipitations"])
             
             for match in matches:
+            
                 try:
                     date_time = match.find("strong").text.strip()
                     date_time = date_time.split()[0]  # Extraction de la date uniquement
@@ -251,7 +252,3 @@ for league, (pays, championnat) in LEAGUES.items():
     print(f"\n🏆 {league} 🏆")
     for season in SEASONS:
         scrape_matches(pays, championnat, season)
-# for clubs, city in clubs_to_city.items():
-#     print(f"\n🏆 {get_lat_lon(city)} 🏆")
-#     lat, lon=get_lat_lon(city)
-#     print(f"\n🏆 {get_weather(lat,lon, '2023-08-01')} 🏆")

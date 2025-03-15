@@ -207,44 +207,49 @@ def scrape_matches(pays, championnat, saison):
     print(f"🔍 Scraping : {url}")
 
     response = requests.get(url, headers=HEADERS)
+    compteurjournee = 0
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
         journees=soup.find_all("h2", class_="mt-5")
-        matches = soup.find_all("div", class_="filterable-fixture")
+        grille_matches = soup.find_all("div", class_="macro-fixtures")
+        
 
         with open(FILENAME, mode='a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             
             if file.tell() == 0:
                 writer.writerow(["Journee", "Date", "Equipe 1", "Score 1", "Score 2", "Equipe 2", "Championnat", "Saison", "Ville", "Temp Max", "Temp Min", "Precipitations"])
+            for grille_match in grille_matches :
+                matches = grille_match.find_all("div", class_="filterable-fixture")
+                for match in matches:
+                
+                    try:
+                        date_time = match.find("strong").text.strip()
+                        date_time = date_time.split()[0]  # Extraction de la date uniquement
+                        date_time = datetime.strptime(date_time, "%Y-%m-%d").strftime("%Y-%m-%d")
+                        team_and_score = match.find_all("span", class_=re.compile(r"text-green-700 font-bold inline-block pt-1|inline-block pt-1"))
+                        team1 = team_and_score[0].text.strip()
+                        score1 = team_and_score[1].text.strip()
+                        team2 = team_and_score[2].text.strip()
+                        score2 = team_and_score[3].text.strip()
+                        journee = journees[compteurjournee].text.strip().replace("Journée ", "")
+                        
+                        city = clubs_to_city[team1]
+                        lat, lon = get_lat_lon(city)
+                        print(lat, lon)
+                        temp_max, temp_min, precipitation = (None, None, None)
+                        if lat and lon:
+                            temp_max, temp_min, precipitation = get_weather(lat, lon, date_time)
+                        
+                        writer.writerow([journee, date_time, team1, score1, score2, team2, championnat, saison, city, temp_max, temp_min, precipitation])
+                        
+                        print(f"{date_time}: {team1} {score1} - {score2} {team2} | Temp Max: {temp_max}°C, Temp Min: {temp_min}°C, Précipitations: {precipitation} mm")
+                    except Exception as e:
+                        print("❌ Erreur lors du parsing d'un match :", e)
+                        exit(1)
+                compteurjournee+=1
             
-            for match in matches:
-            
-                try:
-                    date_time = match.find("strong").text.strip()
-                    date_time = date_time.split()[0]  # Extraction de la date uniquement
-                    date_time = datetime.strptime(date_time, "%Y-%m-%d").strftime("%Y-%m-%d")
-                    team_and_score = match.find_all("span", class_=re.compile(r"text-green-700 font-bold inline-block pt-1|inline-block pt-1"))
-                    team1 = team_and_score[0].text.strip()
-                    score1 = team_and_score[1].text.strip()
-                    team2 = team_and_score[2].text.strip()
-                    score2 = team_and_score[3].text.strip()
-                    journee = journees[0].text.strip().replace("Journée ", "")
-                    
-                    city = clubs_to_city[team1]
-                    lat, lon = get_lat_lon(city)
-                    print(lat, lon)
-                    temp_max, temp_min, precipitation = (None, None, None)
-                    if lat and lon:
-                        temp_max, temp_min, precipitation = get_weather(lat, lon, date_time)
-                    
-                    writer.writerow([journee, date_time, team1, score1, score2, team2, championnat, saison, city, temp_max, temp_min, precipitation])
-                    
-                    print(f"{date_time}: {team1} {score1} - {score2} {team2} | Temp Max: {temp_max}°C, Temp Min: {temp_min}°C, Précipitations: {precipitation} mm")
-                except Exception as e:
-                    print("❌ Erreur lors du parsing d'un match :", e)
-                    exit(1)
     else:
         print("⚠️ Échec de la récupération des données, statut :", response.status_code)
 

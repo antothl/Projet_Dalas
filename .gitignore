@@ -1,2 +1,3 @@
 .venv/
 datasets/kaggle_data/
+__pycache__/

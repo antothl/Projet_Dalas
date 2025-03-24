@@ -3,14 +3,14 @@ import os
 import pandas as pd 
 import re
 from datetime import datetime
-
+import pickle
 
 def create_id_tables(data_folder):
     # Read the CSV file into a DataFrame
     df = pd.read_csv(os.path.join(data_folder,"classements_5_grands_championnats.csv"))
 
     # Create a new DataFrame with a unique team_id
-    unique_teams = df['Équipe'].drop_duplicates().reset_index(drop=True)
+    unique_teams = df['Equipe'].drop_duplicates().reset_index(drop=True)
     teams_df = pd.DataFrame({'team': unique_teams})
     teams_df['team_id'] = teams_df.index + 1
     teams_df.to_csv(os.path.join(data_folder,"team_ids.csv"), index=False)
@@ -68,7 +68,8 @@ def create_summary_stats_teams(data_folder):
 
     # features for each team
     df_stats = df.groupby(["Championnat", "Saison", "Club"]).agg(
-        sum_value=("Valeur Marchande", "sum"),
+        mean_value=("Valeur Marchande", "sum"),
+        sum_value=("Valeur Marchande", "mean"),
         max_value=("Valeur Marchande", "max"),
         avg_age=("age", "mean")
     ).reset_index()
@@ -80,7 +81,52 @@ def create_summary_stats_teams(data_folder):
     df_stats.to_csv(os.path.join(data_folder,"stats_teams.csv"), index=False)
 
 
-data_folder = r"datasets"
+def clean_matching_names(data_folder, create_map=False):
+    
+    if create_map:
+        df_classement = pd.read_csv(os.path.join(data_folder,"classements_5_grands_championnats.csv"))
 
-create_summary_stats_teams(data_folder)
+        # Extraire les noms uniques des équipes dans df_matchs
+        equipes_matchs = set(df_classement["Equipe"])
 
+        # Créer un dictionnaire avec les noms à corriger (partie de gauche remplie)
+        correspondance = {equipe: "" for equipe in sorted(equipes_matchs)}
+
+        # Sauvegarder en fichier CSV ou JSON pour compléter manuellement
+        pd.DataFrame.from_dict(correspondance, orient="index").to_csv(os.path.join(data_folder,"orrespondance_equipes.csv"),
+                                                                    header=["Nom correct"])
+
+    # Charger les fichiers
+    df_matchs = pd.read_csv(os.path.join(data_folder, "matches.csv"))
+    df_classement = pd.read_csv(os.path.join(data_folder, "classements_5_grands_championnats.csv"))
+
+    # Load
+    with open(os.path.join(data_folder, "team_maps_names.pkl"), "rb") as f:
+        correspondance = pickle.load(f)
+
+    # Remplacer les noms d'équipes dans df_matchs
+    df_matchs["Equipe 1"] = df_matchs["Equipe 1"].replace(correspondance)
+    df_matchs["Equipe 2"] = df_matchs["Equipe 2"].replace(correspondance)
+
+    # Sauvegarder le fichier mis à jour
+    df_matchs.to_csv("datasets/matches.csv", index=False)
+
+
+def process_matches_table(data_folder):
+    stats_teams = pd.read_csv(os.path.join(data_folder, "stats_teams.csv"))
+    games_leagues = pd.read_csv(os.path.join(data_folder, "matches.csv"))
+
+    stats_teams = stats_teams.drop(columns=["Championnat"])
+
+    # Fusionner les valeurs moyennes avec les matchs (Équipe 1 et Équipe 2)
+    df_matchs = games_leagues.merge(stats_teams, left_on=["Saison", "Equipe 1"], right_on=["Saison", "Club"], how="left")
+    df_matchs.drop(columns=["Club"], inplace=True)
+
+    df_matchs = df_matchs.merge(stats_teams, left_on=["Saison", "Equipe 2"], right_on=["Saison", "Club"], how="left", suffixes=("_t1","_t2"))
+    df_matchs.drop(columns=["Club"], inplace=True)
+
+    # Créer une colonne "Win" : 1 si Équipe 1 gagne, 0 sinon
+    df_matchs["win_t1"] = np.where(df_matchs["Score 1"] > df_matchs["Score 2"], 1, 0)
+
+    # Sauvegarde du fichier mis à jour
+    df_matchs.to_csv(os.path.join(data_folder, "matches_updated.csv"), index=False)

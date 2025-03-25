@@ -130,3 +130,63 @@ def process_matches_table(data_folder):
 
     # Sauvegarde du fichier mis à jour
     df_matchs.to_csv(os.path.join(data_folder, "matches_updated.csv"), index=False)
+
+def clean_matches_league_names(df_matchs, data_folder):
+    league_mapping = {
+        "ligue-1": "Ligue 1",
+        "premier-league": "Premier League",
+        "la-liga": "LaLiga",
+        "bundesliga-1": "Bundesliga",
+        "serie-a": "Serie A"
+    }
+    df_matchs["Championnat"] = df_matchs["Championnat"].map(league_mapping)
+    df_matchs.to_csv(os.path.join(data_folder, "matches_updated.csv"), index=False)
+
+# Assume df is your DataFrame
+def determine_result(score1, score2):
+    if score1 > score2:
+        return 1, 0  # Team 1 wins, Team 2 loses
+    elif score1 < score2:
+        return 0, 1  # Team 2 wins, Team 1 loses
+    else:
+        return 0.5, 0.5  # Draw
+    
+
+def merge_table_matches(df_matchs, df_classements):
+    # plot_mv_age_leagues(df_teams, result_folder)
+    df_matchs_cl = df_matchs.drop(columns=['Ville', 'Temp Max', 'Temp Min',
+        'Precipitations', 'mean_value_t1', 'sum_value_t1', 'max_value_t1',
+        'avg_age_t1', 'mean_value_t2', 'sum_value_t2', 'max_value_t2',
+        'avg_age_t2', 'win_t1'])
+
+    df_classements["Journee"] = df_classements["Journee"].astype(str)
+    df_matchs_cl["Journee"] = df_matchs_cl["Journee"].astype(str)
+
+    df_merged = pd.merge(
+        df_matchs_cl,
+        df_classements,
+        how="left",
+        left_on=["Saison", "Championnat", "Journee", "Equipe 1"],
+        right_on=["Saison", "Championnat", "Journee", "Equipe"],
+        suffixes=('', '_t1')
+    )
+
+    df_merged = pd.merge(
+        df_merged,
+        df_classements,
+        how="left",
+        left_on=["Saison", "Championnat", "Journee", "Equipe 2"],
+        right_on=["Saison", "Championnat", "Journee", "Equipe"],
+        suffixes=('_t1', '_t2')  # Final merged columns: _t1 for team 1, _t2 for team 2
+    )
+
+    df_merged = df_merged.drop(columns=["Equipe_t1", "Equipe_t2"])
+
+    # Season 2021 not present in both datasets
+    df_merged = df_merged.dropna()
+
+    # Compute results without overwriting df_matchs
+    results = df_merged.apply(lambda row: determine_result(row['Score 1'], row['Score 2']), axis=1)
+    df_merged[['result_t1', 'result_t2']] = pd.DataFrame(results.tolist(), index=df_merged.index)
+
+    return df_merged 

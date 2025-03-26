@@ -68,8 +68,8 @@ def create_summary_stats_teams(data_folder):
 
     # features for each team
     df_stats = df.groupby(["Championnat", "Saison", "Club"]).agg(
-        mean_value=("Valeur Marchande", "sum"),
-        sum_value=("Valeur Marchande", "mean"),
+        mean_value=("Valeur Marchande", "mean"),
+        sum_value=("Valeur Marchande", "sum"),
         max_value=("Valeur Marchande", "max"),
         avg_age=("age", "mean")
     ).reset_index()
@@ -110,18 +110,17 @@ def create_summary_stats_teams(data_folder):
                              "Club":"club"})
     
     # Save dataframe
-    df_stats.to_csv(os.path.join(data_folder,"stats_teams2.csv"), index=False)
+    df_stats.to_csv(os.path.join(data_folder,"stats_teams.csv"), index=False)
 
     return df_stats
 
 
-def clean_matching_names(data_folder, create_map=False):
+def clean_matching_names(df_classements, df_matchs, data_folder, create_map=False):
     
     if create_map:
-        df_classement = pd.read_csv(os.path.join(data_folder,"classements_5_grands_championnats.csv"))
 
         # Extraire les noms uniques des équipes dans df_matchs
-        equipes_matchs = set(df_classement["Equipe"])
+        equipes_matchs = set(df_classements["Equipe"])
 
         # Créer un dictionnaire avec les noms à corriger (partie de gauche remplie)
         correspondance = {equipe: "" for equipe in sorted(equipes_matchs)}
@@ -129,10 +128,6 @@ def clean_matching_names(data_folder, create_map=False):
         # Sauvegarder en fichier CSV ou JSON pour compléter manuellement
         pd.DataFrame.from_dict(correspondance, orient="index").to_csv(os.path.join(data_folder,"orrespondance_equipes.csv"),
                                                                     header=["Nom correct"])
-
-    # Charger les fichiers
-    df_matchs = pd.read_csv(os.path.join(data_folder, "matches.csv"))
-    df_classement = pd.read_csv(os.path.join(data_folder, "classements_5_grands_championnats.csv"))
 
     # Load
     with open(os.path.join(data_folder, "team_maps_names.pkl"), "rb") as f:
@@ -142,28 +137,25 @@ def clean_matching_names(data_folder, create_map=False):
     df_matchs["Equipe 1"] = df_matchs["Equipe 1"].replace(correspondance)
     df_matchs["Equipe 2"] = df_matchs["Equipe 2"].replace(correspondance)
 
-    # Sauvegarder le fichier mis à jour
-    df_matchs.to_csv("datasets/matches.csv", index=False)
+    # Compute results without overwriting df_matchs
+    results = df_matchs.apply(lambda row: determine_result(row['Score 1'], row['Score 2']), axis=1)
+    df_matchs[['result_t1', 'result_t2']] = pd.DataFrame(results.tolist(), index=df_matchs.index)
+
+    return df_matchs
 
 
-def process_matches_table(data_folder):
-    stats_teams = pd.read_csv(os.path.join(data_folder, "stats_teams.csv"))
-    games_leagues = pd.read_csv(os.path.join(data_folder, "matches.csv"))
+def process_matches_table(stats_teams, df_matches, data_folder):
 
-    stats_teams = stats_teams.drop(columns=["Championnat"])
+    stats_teams = stats_teams.drop(columns=["league"])
 
     # Fusionner les valeurs moyennes avec les matchs (Équipe 1 et Équipe 2)
-    df_matchs = games_leagues.merge(stats_teams, left_on=["Saison", "Equipe 1"], right_on=["Saison", "Club"], how="left")
-    df_matchs.drop(columns=["Club"], inplace=True)
+    df_matchs = df_matches.merge(stats_teams, left_on=["Saison", "Equipe 1"], right_on=["season", "club"], how="left")
+    df_matchs.drop(columns=["club"], inplace=True)
 
-    df_matchs = df_matchs.merge(stats_teams, left_on=["Saison", "Equipe 2"], right_on=["Saison", "Club"], how="left", suffixes=("_t1","_t2"))
-    df_matchs.drop(columns=["Club"], inplace=True)
+    df_matchs = df_matchs.merge(stats_teams, left_on=["Saison", "Equipe 2"], right_on=["season", "club"], how="left", suffixes=("_t1","_t2"))
+    df_matchs.drop(columns=["club"], inplace=True)
 
-    # Créer une colonne "Win" : 1 si Équipe 1 gagne, 0 sinon
-    df_matchs["win_t1"] = np.where(df_matchs["Score 1"] > df_matchs["Score 2"], 1, 0)
-
-    # Sauvegarde du fichier mis à jour
-    df_matchs.to_csv(os.path.join(data_folder, "matches_updated.csv"), index=False)
+    return df_matchs
 
 def clean_matches_league_names(df_matchs, data_folder):
     league_mapping = {
@@ -174,7 +166,7 @@ def clean_matches_league_names(df_matchs, data_folder):
         "serie-a": "Serie A"
     }
     df_matchs["Championnat"] = df_matchs["Championnat"].map(league_mapping)
-    df_matchs.to_csv(os.path.join(data_folder, "matches_updated.csv"), index=False)
+    return df_matchs
 
 # Assume df is your DataFrame
 def determine_result(score1, score2):

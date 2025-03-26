@@ -20,22 +20,19 @@ plt.rcParams.update({
 
 def leagues_performances(df_matches, result_folder):
 
-    # Filtrer les 5 grands championnats
-    championnats = ["la-liga", "ligue-1", "premier-league", "bundesliga-1", "serie-a"]
-    df_matches = df_matches[df_matches["Championnat"].isin(championnats)]
-
     # Déterminer le résultat du match
     conditions = [
         df_matches["Score 1"] > df_matches["Score 2"],
         df_matches["Score 1"] == df_matches["Score 2"],
         df_matches["Score 1"] < df_matches["Score 2"]
     ]
+
     choix = ["Victoire Domicile", "Nul", "Victoire Extérieur"]
 
-    df_matches["Résultat"] = np.select(conditions, choix)
+    df_matches["win_t1"] = np.select(conditions, choix)
 
     # Calculer les pourcentages par championnat
-    resultats = df_matches.groupby(["Championnat", "Résultat"]).size().unstack().apply(lambda x: x / x.sum(), axis=1) * 100
+    resultats = df_matches.groupby(["Championnat", "win_t1"]).size().unstack().apply(lambda x: x / x.sum(), axis=1) * 100
 
     # Affichage des résultats
     resultats.plot(kind="bar", stacked=True, figsize=(10, 6), colormap="coolwarm")
@@ -43,7 +40,7 @@ def leagues_performances(df_matches, result_folder):
     plt.title("Répartition des résultats des matchs à domicile par championnat")
     plt.ylabel("Pourcentage (%)")
     plt.xticks(rotation=45)
-    plt.legend(title="Résultat")
+    plt.legend(title="Result (T1)")
     plt.tight_layout()
     plt.savefig(os.path.join(result_folder, "performances_top5_leagues.png"))
     plt.close()
@@ -92,7 +89,7 @@ def plot_win_value_corr(df_matchs, result_folder):
     # Préparer les données de corrélation pour chaque championnat
     for champ in championnats:
         df_temp = df_matchs[df_matchs["Championnat"] == champ]
-        corr = df_temp[["win_t1", "mean_value_t1", "mean_value_t2"]].corr()
+        corr = df_temp[["result_t1", "mean_value_t1", "mean_value_t2"]].corr()
         correlations[champ] = corr
 
     # Créer une figure avec 2 colonnes et 3 lignes (1 sous-graphe vide)
@@ -114,19 +111,6 @@ def plot_win_value_corr(df_matchs, result_folder):
     plt.close()
 
 def match_mv_pearson(df_matchs, result_folder):
-    # Assume df is your DataFrame
-    def determine_result(score1, score2):
-        if score1 > score2:
-            return 1, 0  # Team 1 wins, Team 2 loses
-        elif score1 < score2:
-            return 0, 1  # Team 2 wins, Team 1 loses
-        else:
-            return 0.5, 0.5  # Draw
-
-    # Compute results without overwriting df_matchs
-    results = df_matchs.apply(lambda row: determine_result(row['Score 1'], row['Score 2']), axis=1)
-    df_matchs[['result_t1', 'result_t2']] = pd.DataFrame(results.tolist(), index=df_matchs.index)
-
 
     # Step 2: Create long-format DataFrame
     df_long = pd.concat([

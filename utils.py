@@ -74,11 +74,45 @@ def create_summary_stats_teams(data_folder):
         avg_age=("age", "mean")
     ).reset_index()
 
-    df_stats.rename(columns={"Championnat": "league",
+    # Also include value per position area
+    players_df = pd.read_csv(os.path.join(data_folder, "kaggle_data", "players.csv"))
+    # Merge dataframes
+    players_extended = df.merge(players_df[['name', 'sub_position', 'position']],
+                                left_on="Joueur", right_on="name", how="left")
+    players_extended["position"] = players_extended["position"].fillna('Missing')
+    players_extended["sub_position"] = players_extended["sub_position"].fillna('Missing')
+    
+
+    # Step 1: Normalize position groups
+    players_extended["position_group"] = players_extended["position"].replace({
+        "Goalkeeper": "Defense",
+        "Defender": "Defense",
+        "Midfield": "Midfield",
+        "Attack": "Attack"
+    })
+
+    # Step 2: Group by league/season/club/position_group and sum market value
+    position_value = players_extended.groupby(["Championnat", "Saison", "Club", "position_group"])["Valeur Marchande"].sum().unstack(fill_value=0).reset_index()
+
+    # Step 3: Rename columns
+    position_value = position_value.rename(columns={
+        "Defense": "total_defense_value",
+        "Midfield": "total_midfield_value",
+        "Attack": "total_attack_value"
+    })
+
+    # Step 4: Merge with df_stats
+    df_stats = df_stats.merge(position_value, on=["Championnat", "Saison", "Club"], how="left")
+
+    # Rename columns to english
+    df_stats = df_stats.rename(columns={"Championnat": "league",
                              "Saison": "season",
                              "Club":"club"})
+    
+    # Save dataframe
+    df_stats.to_csv(os.path.join(data_folder,"stats_teams2.csv"), index=False)
 
-    df_stats.to_csv(os.path.join(data_folder,"stats_teams.csv"), index=False)
+    return df_stats
 
 
 def clean_matching_names(data_folder, create_map=False):

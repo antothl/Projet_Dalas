@@ -4,14 +4,11 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
-# Charger les données (remplace les chemins des fichiers par les tiens)
-df_matches = pd.read_csv("datasets/matches_updated.csv")  # Fichier des matchs
-df_teams = pd.read_csv("datasets/stats_teams2.csv")  # Fichier des stats des équipes
+df_matches = pd.read_csv("datasets/matches_updated.csv")
+df_teams = pd.read_csv("datasets/stats_teams.csv")  
 
-# Ajouter une colonne qui indique si l'équipe 1 est à domicile (1) ou à l'extérieur (0)
-df_matches['domicile_t1'] = 1  # Par défaut, on considère que l'équipe 1 est à domicile
-df_matches['domicile_t2'] = 0  # Par défaut, l'équipe 2 est à l'extérieur
-# Ajuster en fonction des scores : si l'équipe 1 perd, elle est à l'extérieur
+df_matches['domicile_t1'] = 1  
+df_matches['domicile_t2'] = 0  
 df_matches.loc[df_matches['Score 1'] < df_matches['Score 2'], 'domicile_t1'] = 0
 df_matches.loc[df_matches['Score 1'] < df_matches['Score 2'], 'domicile_t2'] = 1
 

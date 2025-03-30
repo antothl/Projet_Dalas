@@ -126,7 +126,7 @@ def clean_matching_names(df_classements, df_matchs, data_folder, create_map=Fals
         correspondance = {equipe: "" for equipe in sorted(equipes_matchs)}
 
         # Sauvegarder en fichier CSV ou JSON pour compléter manuellement
-        pd.DataFrame.from_dict(correspondance, orient="index").to_csv(os.path.join(data_folder,"orrespondance_equipes.csv"),
+        pd.DataFrame.from_dict(correspondance, orient="index").to_csv(os.path.join(data_folder,"correspondance_equipes.csv"),
                                                                     header=["Nom correct"])
 
     # Load

@@ -35,14 +35,12 @@ df = df.drop_duplicates(subset=["Journee", "Equipe 1", "Equipe 2"])
 
 print(df[["Journee", "Equipe 1", "Forme_t1", "Equipe 2", "Forme_t2", "win_t1"]].head(10))
 
-# Vérifier si une colonne de championnat existe
 championship_col = None
 for col in df.columns:
     if "champ" in col.lower() or "league" in col.lower():
         championship_col = col
         break
 
-# Si une colonne de championnat est trouvée, tracer les bar plots
 if championship_col:
     plt.figure(figsize=(12, 6))
     sns.barplot(data=df, x=championship_col, y="Forme_t1", hue="win_t1", ci=None)

@@ -1,120 +1,120 @@
-team,team_id
-Olympique de Marseille,1
-Paris Saint-Germain,2
-Stade Rennais FC,3
-LOSC Lille,4
-AJ Auxerre,5
-AS Monaco,6
-RC Lens,7
-Montpellier Hérault SC,8
-RC Strasbourg Alsace,9
-Toulouse FC,10
-FC Nantes,11
-OGC Nice,12
-Angers SCO,13
-AS Saint-Étienne,14
-Stade de Reims,15
-Le Havre AC,16
-Olympique Lyonnais,17
-Stade Brestois 29,18
-Brighton & Hove Albion,19
-Arsenal FC,20
-FC Liverpool,21
-Manchester City,22
-Aston Villa,23
-FC Brentford,24
-Manchester United,25
-Newcastle United,26
-AFC Bournemouth,27
-Leicester City,28
-Nottingham Forest,29
-Tottenham Hotspur,30
-Crystal Palace,31
-West Ham United,32
-FC Fulham,33
-FC Southampton,34
-Chelsea FC,35
-Ipswich Town,36
-Wolverhampton Wanderers,37
-FC Everton,38
-FC Barcelone,39
-Celta Vigo,40
-Rayo Vallecano,41
-Real Valladolid,42
-Atlético de Madrid,43
-Séville FC,44
-Villarreal CF,45
-UD Las Palmas,46
-Real Madrid,47
-Real Betis Balompié,48
-CA Osasuna,49
-Athletic Bilbao,50
-FC Getafe,51
-RCD Mallorca,52
-Girona FC,53
-CD Leganés,54
-Real Sociedad,55
-Deportivo Alavés,56
-FC Valencia,57
-Espanyol Barcelona,58
-SC Fribourg,59
-Borussia Dortmund,60
-1.FC Heidenheim 1846,61
-Bayer 04 Leverkusen,62
-Bayern Munich,63
-TSG 1899 Hoffenheim,64
-RB Leipzig,65
-SV Werder Bremen,66
-FC Augsburg,67
-1.FSV Mainz 05,68
-1.FC Union Berlin,69
-VfL Wolfsburg,70
-Borussia Mönchengladbach,71
-Holstein Kiel,72
-VfL Bochum,73
-VfB Stuttgart,74
-Eintracht Francfort,75
-FC St. Pauli,76
-Atalanta BC,77
-Juventus Turin,78
-Hellas Verona,79
-Lazio Rome,80
-Inter Milan,81
-AC Milan,82
-Torino FC,83
-Genoa CFC,84
-FC Bologna,85
-ACF Fiorentina,86
-Udinese Calcio,87
-Parma Calcio 1913,88
-AS Roma,89
-AC Monza,90
-Cagliari Calcio,91
-FC Empoli,92
-Venezia FC,93
-SSC Napoli,94
-Como 1907,95
-US Lecce,96
-FC Lorient,97
-Clermont Foot 63,98
-FC Metz,99
-Sheffield United,100
+team,team_id,id_kaggle
+Olympique de Marseille,1,244
+Paris Saint-Germain,2,583
+Stade Rennais FC,3,273
+LOSC Lille,4,1082
+AJ Auxerre,5,290
+AS Monaco,6,162
+RC Lens,7,826
+Montpellier Hérault SC,8,969
+RC Strasbourg Alsace,9,667
+Toulouse FC,10,415
+FC Nantes,11,995
+OGC Nice,12,417
+Angers SCO,13,1420
+AS Saint-Étienne,14,618
+Stade de Reims,15,1421
+Le Havre AC,16,738
+Olympique Lyonnais,17,1041
+Stade Brestois 29,18,3911
+Brighton & Hove Albion,19,1237
+Arsenal FC,20,11
+FC Liverpool,21,31
+Manchester City,22,281
+Aston Villa,23,405
+FC Brentford,24,1148
+Manchester United,25,985
+Newcastle United,26,762
+AFC Bournemouth,27,989
+Leicester City,28,1003
+Nottingham Forest,29,703
+Tottenham Hotspur,30,148
+Crystal Palace,31,873
+West Ham United,32,379
+FC Fulham,33,931
+FC Southampton,34,180
+Chelsea FC,35,631
+Ipswich Town,36,677
+Wolverhampton Wanderers,37,543
+FC Everton,38,29
+FC Barcelone,39,131
+Celta Vigo,40,940
+Rayo Vallecano,41,367
+Real Valladolid,42,366
+Atlético de Madrid,43,13
+Séville FC,44,368
+Villarreal CF,45,1050
+UD Las Palmas,46,472
+Real Madrid,47,418
+Real Betis Balompié,48,150
+CA Osasuna,49,331
+Athletic Bilbao,50,621
+FC Getafe,51,3709
+RCD Mallorca,52,237
+Girona FC,53,12321
+CD Leganés,54,1244
+Real Sociedad,55,681
+Deportivo Alavés,56,1108
+FC Valencia,57,1049
+Espanyol Barcelona,58,714
+SC Fribourg,59,60
+Borussia Dortmund,60,16
+1.FC Heidenheim 1846,61,2036
+Bayer 04 Leverkusen,62,15
+Bayern Munich,63,27
+TSG 1899 Hoffenheim,64,533
+RB Leipzig,65,23826
+SV Werder Bremen,66,86
+FC Augsburg,67,167
+1.FSV Mainz 05,68,39
+1.FC Union Berlin,69,89
+VfL Wolfsburg,70,82
+Borussia Mönchengladbach,71,18
+Holstein Kiel,72,269
+VfL Bochum,73,1031
+VfB Stuttgart,74,79
+Eintracht Francfort,75,24
+FC St. Pauli,76,35
+Atalanta BC,77,800
+Juventus Turin,78,506
+Hellas Verona,79,276
+Lazio Rome,80,398
+Inter Milan,81,46
+AC Milan,82,5
+Torino FC,83,416
+Genoa CFC,84,252
+FC Bologna,85,1025
+ACF Fiorentina,86,430
+Udinese Calcio,87,410
+Parma Calcio 1913,88,130
+AS Roma,89,12
+AC Monza,90,2919
+Cagliari Calcio,91,1390
+FC Empoli,92,749
+Venezia FC,93,607
+SSC Napoli,94,6195
+Como 1907,95,1047
+US Lecce,96,1005
+FC Lorient,97,1158
+Clermont Foot 63,98,3524
+FC Metz,99,347
+Sheffield United,100,350
 Luton Town,101
-Burnley FC,102
-Cádiz CF,103
-FC Granada,104
-UD Almería,105
-1.FC Köln,106
-SV Darmstadt 98,107
-US Salernitana 1919,108
-Frosinone Calcio,109
-US Sassuolo,110
-ESTAC Troyes,111
-AC Ajaccio,112
-Leeds United,113
-Elche CF,114
-Hertha BSC,115
-FC Schalke 04,116
-Spezia Calcio,117
-US Cremonese,118
-UC Sampdoria,119
+Burnley FC,102,1132
+Cádiz CF,103,2687
+FC Granada,104,16795
+UD Almería,105,3302
+1.FC Köln,106,3
+SV Darmstadt 98,107,105
+US Salernitana 1919,108,380
+Frosinone Calcio,109,8970
+US Sassuolo,110,6574
+ESTAC Troyes,111,1095
+AC Ajaccio,112,1147
+Leeds United,113,399
+Elche CF,114,1531
+Hertha BSC,115,44
+FC Schalke 04,116,33
+Spezia Calcio,117,3522
+US Cremonese,118,2239
+UC Sampdoria,119,1038

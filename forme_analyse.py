@@ -1,10 +1,11 @@
 import pandas as pd
-
+import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 file_path = "datasets/matches_updated.csv"  
 df = pd.read_csv(file_path)
+os.makedirs("results", exist_ok=True)
 
 def calculer_points(score1, score2):
     if score1 > score2:
@@ -41,16 +42,41 @@ for col in df.columns:
         championship_col = col
         break
 
-if championship_col:
-    plt.figure(figsize=(12, 6))
-    sns.barplot(data=df, x=championship_col, y="Forme_t1", hue="win_t1", ci=None)
-    plt.title("Moyenne de la forme des équipes (3 derniers matchs) en fonction de la victoire")
-    plt.xlabel("Championnat")
-    plt.ylabel("Forme moyenne sur 3 matchs")
-    plt.ylim(0, ) 
-    plt.legend(title="Victoire de l'équipe 1")
-    plt.xticks(rotation=45)
-    plt.show()
-else:
-    print("Aucune colonne de championnat détectée dans le dataset.")
+#Boxplot
+plt.figure(figsize=(12, 6))
+sns.boxplot(data=df, x=championship_col, y="Forme_t1", hue="win_t1")
+plt.title("Distribution de la forme des équipes (3 derniers matchs) par championnat et victoire")
+plt.xlabel("Championnat")
+plt.ylabel("Forme sur 3 matchs")
+plt.ylim(0, 10)  
+plt.legend(title="Victoire de l'équipe 1")
+plt.xticks(rotation=45)
+plt.savefig("results/boxplot_forme_par_championnat.png")  # Sauvegarde
+plt.show()
 
+# Taux de victoire en fonction de la forme
+plt.figure(figsize=(10, 6))
+win_rate = df.groupby("Forme_t1")["win_t1"].mean()
+sns.barplot(x=win_rate.index, y=win_rate.values, color="royalblue")
+plt.title("Probabilité de victoire en fonction de la forme sur les 3 derniers matchs")
+plt.xlabel("Forme (points sur les 3 derniers matchs)")
+plt.ylabel("Taux de victoire (%)")
+plt.ylim(0, 1)
+plt.xticks(range(0, 10))  
+plt.savefig("results/taux_victoire_par_forme.png")  # Sauvegarde
+plt.show()
+
+# Taux de victoire par championnat
+plt.figure(figsize=(12, 6))
+win_rate_by_champ = df.groupby([championship_col, "Forme_t1"])["win_t1"].mean().reset_index()
+sns.barplot(data=win_rate_by_champ, x="Forme_t1", y="win_t1", hue=championship_col, ci=None)
+plt.title("Probabilité de victoire en fonction de la forme par championnat")
+plt.xlabel("Forme (points sur les 3 derniers matchs)")
+plt.ylabel("Taux de victoire (%)")
+plt.ylim(0, 1)  
+plt.xticks(range(0, 10))  
+plt.legend(title="Championnat", bbox_to_anchor=(1, 1))
+plt.savefig("results/taux_victoire_par_championnat.png")  # Sauvegarde
+plt.show()
+
+#Meme analyse avec le nombre de buts marqués et encaissés

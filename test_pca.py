@@ -1,59 +1,68 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-import matplotlib.pyplot as plt
 
-# Charger les données
-matches_df = pd.read_csv('datasets/matches_updated.csv')
-stats_teams_df = pd.read_csv('datasets/stats_teams.csv')  
+# Chargement des données
+file_path_matches = "datasets/matches_updated.csv"
+file_path_stats = "datasets/stats_teams.csv"
 
-stats_teams_df.rename(columns={
-    'mean_value': 'mean_value_team',
-    'sum_value': 'sum_value_team',
-    'max_value': 'max_value_team',
-    'avg_age': 'avg_age_team',
-    'total_attack_value': 'total_attack_value_team',
-    'total_defense_value': 'total_defense_value_team',
-    'total_midfield_value': 'total_midfield_value_team'
-}, inplace=True)
+df_matches = pd.read_csv(file_path_matches)
+df_stats = pd.read_csv(file_path_stats)
 
-matches_merged = pd.merge(matches_df, stats_teams_df, how='left', left_on=['Championnat', 'Saison', 'Equipe 1'], right_on=['league', 'season', 'club'], suffixes=('_t1', '_team1'))
-matches_merged = pd.merge(matches_merged, stats_teams_df, how='left', left_on=['Championnat', 'Saison', 'Equipe 2'], right_on=['league', 'season', 'club'], suffixes=('_t2', '_team2'))
+def determine_season(date):
+    year = int(date[:4])
+    month = int(date[5:7])
+    return year if month >= 7 else year - 1
 
-matches_merged['result_t1'] = matches_merged.apply(lambda row: 'win' if row['Score 1'] > row['Score 2'] 
-                                                 else ('loss' if row['Score 1'] < row['Score 2'] else 'draw'), axis=1)
+df_matches["season"] = df_matches["Date"].astype(str).apply(determine_season)
 
-matches_merged['result_t2'] = matches_merged.apply(lambda row: 'win' if row['Score 2'] > row['Score 1'] 
-                                                 else ('loss' if row['Score 2'] < row['Score 1'] else 'draw'), axis=1)
+def calculer_points(score1, score2):
+    return 3 if score1 > score2 else 1 if score1 == score2 else 0
 
-variables = ['Temp Max', 'Temp Min', 'Precipitations', 'mean_value_t1', 'sum_value_t1', 'max_value_t1', 'avg_age_t1',
-             'mean_value_t2', 'sum_value_t2', 'max_value_t2', 'avg_age_t2']
+df_matches["points_t1"] = df_matches.apply(lambda row: calculer_points(row["Score 1"], row["Score 2"]), axis=1)
+df_matches["points_t2"] = df_matches.apply(lambda row: calculer_points(row["Score 2"], row["Score 1"]), axis=1)
 
-X = matches_merged[variables]
+df_long = pd.concat([
+    df_matches[["Journee", "Equipe 1", "points_t1", "Score 1", "Score 2"]].rename(columns={"Equipe 1": "Equipe", "points_t1": "Points", "Score 1": "Buts_marques", "Score 2": "Buts_encaisses"}),
+    df_matches[["Journee", "Equipe 2", "points_t2", "Score 2", "Score 1"]].rename(columns={"Equipe 2": "Equipe", "points_t2": "Points", "Score 2": "Buts_marques", "Score 1": "Buts_encaisses"})
+])
 
-X = X.fillna(X.mean())
+df_long = df_long.sort_values(by=["Equipe", "Journee"]).reset_index(drop=True)
+
+df_long["Forme_3matchs"] = df_long.groupby("Equipe")["Points"].rolling(window=3, min_periods=1).sum().reset_index(level=0, drop=True)
+df_long["Buts_marques_3matchs"] = df_long.groupby("Equipe")["Buts_marques"].rolling(window=3, min_periods=1).sum().reset_index(level=0, drop=True)
+df_long["Buts_encaisses_3matchs"] = df_long.groupby("Equipe")["Buts_encaisses"].rolling(window=3, min_periods=1).sum().reset_index(level=0, drop=True)
+
+df_matches = df_matches.merge(df_long, left_on=["Journee", "Equipe 1"], right_on=["Journee", "Equipe"], how="left").rename(columns={"Forme_3matchs": "Forme_t1", "Buts_marques_3matchs": "Buts_marques_t1", "Buts_encaisses_3matchs": "Buts_encaisses_t1"})
+df_matches = df_matches.drop(columns=["Equipe"])
+
+df_stats = df_stats.rename(columns={"club": "Equipe", "season": "season_stats"})
+df = df_matches.merge(df_stats, left_on=["Equipe 1", "season"], right_on=["Equipe", "season_stats"], how="left")
+df = df.drop(columns=["Equipe", "season_stats"])
+
+features = ["Forme_t1", "Buts_marques_t1", "Buts_encaisses_t1", "sum_value", "max_value", "mean_value", "total_attack_value", "total_defense_value", "total_midfield_value", "Temp Max","Precipitations","Temp Min", "win_t1"]
+df_pca = df[features].dropna()
 
 scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
+df_scaled = scaler.fit_transform(df_pca)
 
-pca = PCA(n_components=2)  
-X_pca = pca.fit_transform(X_scaled)
+pca = PCA(n_components=2)
+principal_components = pca.fit_transform(df_scaled)
 
-df_pca = pd.DataFrame(X_pca, columns=['PC1', 'PC2'])
+df_pca_result = pd.DataFrame(data=principal_components, columns=["PC1", "PC2"])
+df_pca_result["win_t1"] = df_pca["win_t1"].values
 
-df_pca['result_t1'] = matches_merged['result_t1']
+explained_variance = pca.explained_variance_ratio_
+print(f"Variance expliquée par PC1: {explained_variance[0]:.2f}")
+print(f"Variance expliquée par PC2: {explained_variance[1]:.2f}")
 
-color_map = {'win': 'green', 'loss': 'red', 'draw': 'blue'}
-df_pca['color'] = df_pca['result_t1'].map(color_map)
-
-plt.figure(figsize=(8, 6))
-plt.scatter(df_pca['PC1'], df_pca['PC2'], c=df_pca['color'], label=df_pca['result_t1'])
-plt.xlabel('Composante Principale 1')
-plt.ylabel('Composante Principale 2')
-plt.title('PCA - Projection des matchs')
-plt.legend(loc='best')
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=df_pca_result, x="PC1", y="PC2", hue="win_t1", palette="coolwarm", alpha=0.7)
+plt.title("ACP des facteurs influençant la victoire")
+plt.xlabel(f"PC1 ({explained_variance[0]:.2%} variance expliquée)")
+plt.ylabel(f"PC2 ({explained_variance[1]:.2%} variance expliquée)")
+plt.legend(title="Victoire")
+plt.savefig("results/pca_scatter.png")
 plt.show()
-
-print(f"Variance expliquée par chaque composante: {pca.explained_variance_ratio_}")
-
-print(matches_merged[['Equipe 1', 'Score 1', 'Equipe 2', 'Score 2', 'result_t1', 'result_t2']].head())

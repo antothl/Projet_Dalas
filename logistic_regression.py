@@ -83,3 +83,25 @@ y_pred_rf = model_rf.predict(X_test)
 
 print("Accuracy:", accuracy_score(y_test, y_pred_rf))
 print(classification_report(y_test, y_pred_rf))
+
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neural_network import MLPClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+
+models = {
+    "SVM": SVC(),
+    "KNN": KNeighborsClassifier(),
+    "Naive Bayes": GaussianNB(),
+    "MLP (Neural Net)": MLPClassifier(max_iter=300, random_state=42),
+    "Gradient Boosting": GradientBoostingClassifier(random_state=42)
+}
+
+for name, clf in models.items():
+    clf.fit(X_train, y_train)
+    y_pred_model = clf.predict(X_test)
+    acc = accuracy_score(y_test, y_pred_model)
+    print(f"\n🔍 {name}")
+    print(f"Accuracy: {acc:.2f}")
+    print(classification_report(y_test, y_pred_model))

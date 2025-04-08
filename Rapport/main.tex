@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\usepackage[onehalfspacing]{setspace} % Increase line spacing
+\usepackage[margin=2.5cm]{geometry} % Modify margins
+% \usepackage{apacite} % APA citations
+\usepackage{natbib}  % Better APA citation handling
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{appendix}
+\usepackage{float}
+
+\title{Projet DALAS}
+\author{Antoine Théologien - 21400184}
+\newcommand{\studentnumber}{Armand Bonn - 21400077}
+\newcommand{\program}{Master Informatique}
+\newcommand{\parcours}{DAC}
+\newcommand{\course}{Machine Learning}
+
+
+\begin{document}
+
+\begin{titlepage}
+\makeatletter
+\begin{center}
+	\textsc{Sorbonne Université}
+	\par \textsc{Sciences et ingénierie }
+	\par \program
+
+        \vfill
+        \hrule height .08em \bigskip
+	\par\huge\@title\bigskip
+	\par\Large\@author\bigskip
+    \par\Large \studentnumber\bigskip
+	\hrule height .08em \normalsize
+
+	\vfill
+        \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\linewidth]{Images/Logo_of_Sorbonne_University.svg.png}
+        \label{fig:enter-label}
+        \end{figure}
+	\vfill
+
+	\begin{tabular}{ll}
+		\toprule
+            Parcours : & \parcours\\
+		Cours : & \course\\
+		Date : & \@date\\
+		\bottomrule
+	\end{tabular}
+	
+	\vfill
+\end{center}
+\makeatother
+\end{titlepage}
+
+\end{document}

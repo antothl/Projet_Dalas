@@ -1,4 +1,4 @@
-Championnat,Saison,Joueur,Équipe,Buts
+league,season,player,club,goals
 Ligue 1,1932-1933,Robert Mercier Walter Kaiser,Club françaisStade rennais UC,15
 Ligue 1,1933-1934,István Lukács,FC Sète,28
 Ligue 1,1934-1935,André Abegglen,FC Sochaux-Montbéliard,30
@@ -85,99 +85,99 @@ Ligue 1,2020-2021,Kylian Mbappé,Paris Saint-Germain,27
 Ligue 1,2021-2022,Kylian Mbappé,Paris Saint-Germain,28
 Ligue 1,2022-2023,Kylian Mbappé,Paris Saint-Germain,29
 Ligue 1,2023-2024,Kylian Mbappé,Paris Saint-Germain,27
-Liga,1929,Paco Bienzobas,Real Sociedad,17[3]
-Liga,1929-1930,Guillermo Gorostiza,Athletic Club,19
-Liga,1930-1931,Bata,Athletic Club,27
-Liga,1931-1932,Bata[4],Athletic Club,13[4]
-Liga,1932-1933,Manuel Olivares,Real Madrid,16
-Liga,1933-1934,Isidro Lángara,Real Oviedo,27
-Liga,1934-1935,Isidro Lángara,Real Oviedo,26
-Liga,1935-1936,Isidro Lángara,Real Oviedo,28[5]
-Liga,1939-1940,Víctor Unamuno,Athletic Club,20
-Liga,1940-1941,Pruden,Atlético de Madrid,33[6]
-Liga,1941-1942,Mundo,Valence CF,27
-Liga,1942-1943,Mariano Martín,FC Barcelone,30[7]
-Liga,1943-1944,Mundo,Valence CF,28[8]
-Liga,1944-1945,Telmo Zarra,Athletic Club,20[9]
-Liga,1945-1946,Telmo Zarra,Athletic Club,24
-Liga,1946-1947,Telmo Zarra,Athletic Club,33[10]
-Liga,1947-1948,Pahiño,Celta de Vigo,20[11]
-Liga,1948-1949,César,FC Barcelone,28
-Liga,1949-1950,Telmo Zarra,Athletic Club,24[12]
-Liga,1950-1951,Telmo Zarra,Athletic Club,38
-Liga,1951-1952,Pahiño,Real Madrid,28
-Liga,1952-1953,Telmo Zarra,Athletic Club,24
-Liga,1953-1954,Alfredo Di Stéfano,Real Madrid,27
-Liga,1954-1955,Juan Arza,Séville FC,29[13]
-Liga,1955-1956,Alfredo Di Stéfano,Real Madrid,24
-Liga,1956-1957,Alfredo Di Stéfano,Real Madrid,31
-Liga,1957-1958,Ricardo Alós Manuel Badenes Alfredo Di Stéfano,Valence CFReal ValladolidReal Madrid,19
-Liga,1958-1959,Alfredo Di Stéfano,Real Madrid,23
-Liga,1959-1960,Ferenc Puskás,Real Madrid,25[14]
-Liga,1960-1961,Ferenc Puskás,Real Madrid,28[15]
-Liga,1961-1962,Juan Seminario,Real Saragosse,25
-Liga,1962-1963,Ferenc Puskás,Real Madrid,26
-Liga,1963-1964,Ferenc Puskás,Real Madrid,21[16]
-Liga,1964-1965,Cayetano Ré,FC Barcelone,26[17]
-Liga,1965-1966,Vavá,Elche CF,18[18]
-Liga,1966-1967,Waldo Machado,Valence CF,24
-Liga,1967-1968,Fidel Uriarte,Athletic Club,22
-Liga,1968-1969,Amancio José Eulogio Gárate,Real MadridAtlético de Madrid,14
-Liga,1969-1970,Amancio José Eulogio Gárate Luis Aragonés,Real MadridAtlético de MadridAtlético de Madrid,16
-Liga,1970-1971,José Eulogio Gárate Carles Rexach,Atlético de MadridFC Barcelone,17
-Liga,1971-1972,Enrique Porta,Grenade CF,20
-Liga,1972-1973,Marianín,Real Oviedo,19
-Liga,1973-1974,Quini,Sporting Gijon,20
-Liga,1974-1975,Carlos Ruiz Herrero,Athletic Club,19
-Liga,1975-1976,Quini,Sporting Gijon,21[19]
-Liga,1976-1977,Mario Kempes,Valence CF,24
-Liga,1977-1978,Mario Kempes,Valence CF,28
-Liga,1978-1979,Hans Krankl,FC Barcelone,29
-Liga,1979-1980,Quini,Sporting Gijon,24
-Liga,1980-1981,Quini,FC Barcelone,20
-Liga,1981-1982,Quini,FC Barcelone,27[20]
-Liga,1982-1983,Poli Rincón,Real Betis,20
-Liga,1983-1984,Jorge da Silva Juanito,Real ValladolidReal Madrid,17
-Liga,1984-1985,Hugo Sánchez,Atlético de Madrid,19
-Liga,1985-1986,Hugo Sánchez,Real Madrid,22
-Liga,1986-1987,Hugo Sánchez,Real Madrid,34[21]
-Liga,1987-1988,Hugo Sánchez,Real Madrid,29
-Liga,1988-1989,Baltazar,Atlético de Madrid,35
-Liga,1989-1990,Hugo Sánchez,Real Madrid,38
-Liga,1990-1991,Emilio Butragueño,Real Madrid,19
-Liga,1991-1992,Manolo,Atlético de Madrid,27
-Liga,1992-1993,Bebeto,Deportivo La Corogne,29
-Liga,1993-1994,Romário,FC Barcelone,30
-Liga,1994-1995,Iván Zamorano,Real Madrid,28
-Liga,1995-1996,Juan Antonio Pizzi,CD Tenerife,31
-Liga,1996-1997,Ronaldo,FC Barcelone,34
-Liga,1997-1998,Christian Vieri,Atlético de Madrid,24
-Liga,1998-1999,Raúl,Real Madrid,25
-Liga,1999-2000,Salva Ballesta,Racing de Santander,27
-Liga,2000-2001,Raúl,Real Madrid,24
-Liga,2001-2002,Diego Tristán,Deportivo La Corogne,20[22]
-Liga,2002-2003,Roy Makaay,Deportivo La Corogne,29
-Liga,2003-2004,Ronaldo,Real Madrid,24
-Liga,2004-2005,Diego Forlán,Villarreal CF,25
-Liga,2005-2006,Samuel Eto'o,FC Barcelone,26
-Liga,2006-2007,Ruud van Nistelrooy,Real Madrid,25
-Liga,2007-2008,Daniel Güiza,RCD Majorque,27
-Liga,2008-2009,Diego Forlán,Atlético de Madrid,32
-Liga,2009-2010,Lionel Messi,FC Barcelone,34
-Liga,2010-2011,Cristiano Ronaldo,Real Madrid,40[23]
-Liga,2011-2012,Lionel Messi,FC Barcelone,50
-Liga,2012-2013,Lionel Messi,FC Barcelone,46[24]
-Liga,2013-2014,Cristiano Ronaldo,Real Madrid,31
-Liga,2014-2015,Cristiano Ronaldo,Real Madrid,48
-Liga,2015-2016,Luis Suárez,FC Barcelone,40
-Liga,2016-2017,Lionel Messi,FC Barcelone,37
-Liga,2017-2018,Lionel Messi,FC Barcelone,34
-Liga,2018-2019,Lionel Messi,FC Barcelone,36
-Liga,2019-2020,Lionel Messi,FC Barcelone,25
-Liga,2020-2021,Lionel Messi,FC Barcelone,30
-Liga,2021-2022,Karim Benzema,Real Madrid,27
-Liga,2022-2023,Robert Lewandowski,FC Barcelone,23
-Liga,2023-2024,Artem Dovbyk,Gérone FC,24
+La Liga,1929,Paco Bienzobas,Real Sociedad,17[3]
+La Liga,1929-1930,Guillermo Gorostiza,Athletic Club,19
+La Liga,1930-1931,Bata,Athletic Club,27
+La Liga,1931-1932,Bata[4],Athletic Club,13[4]
+La Liga,1932-1933,Manuel Olivares,Real Madrid,16
+La Liga,1933-1934,Isidro Lángara,Real Oviedo,27
+La Liga,1934-1935,Isidro Lángara,Real Oviedo,26
+La Liga,1935-1936,Isidro Lángara,Real Oviedo,28[5]
+La Liga,1939-1940,Víctor Unamuno,Athletic Club,20
+La Liga,1940-1941,Pruden,Atlético de Madrid,33[6]
+La Liga,1941-1942,Mundo,Valence CF,27
+La Liga,1942-1943,Mariano Martín,FC Barcelone,30[7]
+La Liga,1943-1944,Mundo,Valence CF,28[8]
+La Liga,1944-1945,Telmo Zarra,Athletic Club,20[9]
+La Liga,1945-1946,Telmo Zarra,Athletic Club,24
+La Liga,1946-1947,Telmo Zarra,Athletic Club,33[10]
+La Liga,1947-1948,Pahiño,Celta de Vigo,20[11]
+La Liga,1948-1949,César,FC Barcelone,28
+La Liga,1949-1950,Telmo Zarra,Athletic Club,24[12]
+La Liga,1950-1951,Telmo Zarra,Athletic Club,38
+La Liga,1951-1952,Pahiño,Real Madrid,28
+La Liga,1952-1953,Telmo Zarra,Athletic Club,24
+La Liga,1953-1954,Alfredo Di Stéfano,Real Madrid,27
+La Liga,1954-1955,Juan Arza,Séville FC,29[13]
+La Liga,1955-1956,Alfredo Di Stéfano,Real Madrid,24
+La Liga,1956-1957,Alfredo Di Stéfano,Real Madrid,31
+La Liga,1957-1958,Ricardo Alós Manuel Badenes Alfredo Di Stéfano,Valence CFReal ValladolidReal Madrid,19
+La Liga,1958-1959,Alfredo Di Stéfano,Real Madrid,23
+La Liga,1959-1960,Ferenc Puskás,Real Madrid,25[14]
+La Liga,1960-1961,Ferenc Puskás,Real Madrid,28[15]
+La Liga,1961-1962,Juan Seminario,Real Saragosse,25
+La Liga,1962-1963,Ferenc Puskás,Real Madrid,26
+La Liga,1963-1964,Ferenc Puskás,Real Madrid,21[16]
+La Liga,1964-1965,Cayetano Ré,FC Barcelone,26[17]
+La Liga,1965-1966,Vavá,Elche CF,18[18]
+La Liga,1966-1967,Waldo Machado,Valence CF,24
+La Liga,1967-1968,Fidel Uriarte,Athletic Club,22
+La Liga,1968-1969,Amancio José Eulogio Gárate,Real MadridAtlético de Madrid,14
+La Liga,1969-1970,Amancio José Eulogio Gárate Luis Aragonés,Real MadridAtlético de MadridAtlético de Madrid,16
+La Liga,1970-1971,José Eulogio Gárate Carles Rexach,Atlético de MadridFC Barcelone,17
+La Liga,1971-1972,Enrique Porta,Grenade CF,20
+La Liga,1972-1973,Marianín,Real Oviedo,19
+La Liga,1973-1974,Quini,Sporting Gijon,20
+La Liga,1974-1975,Carlos Ruiz Herrero,Athletic Club,19
+La Liga,1975-1976,Quini,Sporting Gijon,21[19]
+La Liga,1976-1977,Mario Kempes,Valence CF,24
+La Liga,1977-1978,Mario Kempes,Valence CF,28
+La Liga,1978-1979,Hans Krankl,FC Barcelone,29
+La Liga,1979-1980,Quini,Sporting Gijon,24
+La Liga,1980-1981,Quini,FC Barcelone,20
+La Liga,1981-1982,Quini,FC Barcelone,27[20]
+La Liga,1982-1983,Poli Rincón,Real Betis,20
+La Liga,1983-1984,Jorge da Silva Juanito,Real ValladolidReal Madrid,17
+La Liga,1984-1985,Hugo Sánchez,Atlético de Madrid,19
+La Liga,1985-1986,Hugo Sánchez,Real Madrid,22
+La Liga,1986-1987,Hugo Sánchez,Real Madrid,34[21]
+La Liga,1987-1988,Hugo Sánchez,Real Madrid,29
+La Liga,1988-1989,Baltazar,Atlético de Madrid,35
+La Liga,1989-1990,Hugo Sánchez,Real Madrid,38
+La Liga,1990-1991,Emilio Butragueño,Real Madrid,19
+La Liga,1991-1992,Manolo,Atlético de Madrid,27
+La Liga,1992-1993,Bebeto,Deportivo La Corogne,29
+La Liga,1993-1994,Romário,FC Barcelone,30
+La Liga,1994-1995,Iván Zamorano,Real Madrid,28
+La Liga,1995-1996,Juan Antonio Pizzi,CD Tenerife,31
+La Liga,1996-1997,Ronaldo,FC Barcelone,34
+La Liga,1997-1998,Christian Vieri,Atlético de Madrid,24
+La Liga,1998-1999,Raúl,Real Madrid,25
+La Liga,1999-2000,Salva Ballesta,Racing de Santander,27
+La Liga,2000-2001,Raúl,Real Madrid,24
+La Liga,2001-2002,Diego Tristán,Deportivo La Corogne,20[22]
+La Liga,2002-2003,Roy Makaay,Deportivo La Corogne,29
+La Liga,2003-2004,Ronaldo,Real Madrid,24
+La Liga,2004-2005,Diego Forlán,Villarreal CF,25
+La Liga,2005-2006,Samuel Eto'o,FC Barcelone,26
+La Liga,2006-2007,Ruud van Nistelrooy,Real Madrid,25
+La Liga,2007-2008,Daniel Güiza,RCD Majorque,27
+La Liga,2008-2009,Diego Forlán,Atlético de Madrid,32
+La Liga,2009-2010,Lionel Messi,FC Barcelone,34
+La Liga,2010-2011,Cristiano Ronaldo,Real Madrid,40[23]
+La Liga,2011-2012,Lionel Messi,FC Barcelone,50
+La Liga,2012-2013,Lionel Messi,FC Barcelone,46[24]
+La Liga,2013-2014,Cristiano Ronaldo,Real Madrid,31
+La Liga,2014-2015,Cristiano Ronaldo,Real Madrid,48
+La Liga,2015-2016,Luis Suárez,FC Barcelone,40
+La Liga,2016-2017,Lionel Messi,FC Barcelone,37
+La Liga,2017-2018,Lionel Messi,FC Barcelone,34
+La Liga,2018-2019,Lionel Messi,FC Barcelone,36
+La Liga,2019-2020,Lionel Messi,FC Barcelone,25
+La Liga,2020-2021,Lionel Messi,FC Barcelone,30
+La Liga,2021-2022,Karim Benzema,Real Madrid,27
+La Liga,2022-2023,Robert Lewandowski,FC Barcelone,23
+La Liga,2023-2024,Artem Dovbyk,Gérone FC,24
 Serie A,1929-1930,Giuseppe Meazza,Inter Milan,31
 Serie A,1930-1931,Rodolfo Volk,AS Rome,29
 Serie A,1931-1932,Pedro Petrone Angelo Schiavio,ACF FiorentinaBologne FC,25

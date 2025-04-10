@@ -1,0 +1,375 @@
+game_id,date,home_team,away_team,score,match_url,home_possession,away_possession,home_shots_on_goal,away_shots_on_goal,home_shot_attempts,away_shot_attempts,home_yellow_cards,away_yellow_cards,home_corner_kicks,away_corner_kicks,home_saves,away_saves
+671410,"Sun, May 19, May, 2024",Chelsea,AFC Bournemouth,2 - 1,https://www.espn.com/soccer/match/_/gameId/671410/afc-bournemouth-chelsea,61.4%,38.6%,6,5,16,22,2,3,6,5,5,4
+671392,"Sat, May 11, May, 2024",AFC Bournemouth,Brentford,1 - 2,https://www.espn.com/soccer/match/_/gameId/671392/brentford-afc-bournemouth,47.9%,52.1%,4,5,13,11,2,2,3,8,2,3
+671381,"Sat, May 4, May, 2024",Arsenal,AFC Bournemouth,3 - 0,https://www.espn.com/soccer/match/_/gameId/671381/afc-bournemouth-arsenal,55.3%,44.7%,9,2,25,7,2,3,6,1,2,6
+671379,"Sun, Apr 28, April, 2024",AFC Bournemouth,Brighton & Hove Albion,3 - 0,https://www.espn.com/soccer/match/_/gameId/671379/brighton-hove-albion-afc-bournemouth,30%,70%,6,1,15,13,2,2,8,2,1,3
+671319,"Wed, Apr 24, April, 2024",Wolverhampton Wanderers,AFC Bournemouth,0 - 1,https://www.espn.com/soccer/match/_/gameId/671319/afc-bournemouth-wolverhampton-wanderers,62.8%,37.2%,4,6,15,21,4,1,8,12,5,4
+671368,"Sun, Apr 21, April, 2024",Aston Villa,AFC Bournemouth,3 - 1,https://www.espn.com/soccer/match/_/gameId/671368/afc-bournemouth-aston-villa,56.4%,43.6%,5,6,15,14,1,3,8,4,4,2
+671352,"Sat, Apr 13, April, 2024",AFC Bournemouth,Manchester United,2 - 2,https://www.espn.com/soccer/match/_/gameId/671352/manchester-united-afc-bournemouth,43%,57%,5,2,20,8,4,0,7,2,0,3
+671346,"Sat, Apr 6, April, 2024",Luton Town,AFC Bournemouth,2 - 1,https://www.espn.com/soccer/match/_/gameId/671346/afc-bournemouth-luton-town,55.8%,44.2%,9,1,19,8,0,0,7,2,1,7
+671332,"Tue, Apr 2, April, 2024",AFC Bournemouth,Crystal Palace,1 - 0,https://www.espn.com/soccer/match/_/gameId/671332/crystal-palace-afc-bournemouth,50.2%,49.8%,6,2,11,3,3,2,9,2,2,5
+671330,"Sat, Mar 30, March, 2024",AFC Bournemouth,Everton,2 - 1,https://www.espn.com/soccer/match/_/gameId/671330/everton-afc-bournemouth,48.6%,51.4%,4,3,11,7,1,2,9,8,2,3
+671194,"Wed, Mar 13, March, 2024",AFC Bournemouth,Luton Town,4 - 3,https://www.espn.com/soccer/match/_/gameId/671194/luton-town-afc-bournemouth,59.1%,40.9%,10,4,24,8,1,2,11,3,1,5
+671303,"Sat, Mar 9, March, 2024",AFC Bournemouth,Sheffield United,2 - 2,https://www.espn.com/soccer/match/_/gameId/671303/sheffield-united-afc-bournemouth,69.9%,30.1%,12,9,32,13,3,5,10,3,7,9
+671294,"Sun, Mar 3, March, 2024",Burnley,AFC Bournemouth,0 - 2,https://www.espn.com/soccer/match/_/gameId/671294/afc-bournemouth-burnley,74.7%,25.3%,6,3,20,10,2,4,7,2,1,5
+671288,"Sat, Feb 24, February, 2024",AFC Bournemouth,Manchester City,0 - 1,https://www.espn.com/soccer/match/_/gameId/671288/manchester-city-afc-bournemouth,37.9%,62.1%,4,6,13,15,2,2,3,8,5,4
+671274,"Sat, Feb 17, February, 2024",Newcastle United,AFC Bournemouth,2 - 2,https://www.espn.com/soccer/match/_/gameId/671274/afc-bournemouth-newcastle-united,62.6%,37.4%,5,7,17,12,1,3,4,2,4,4
+671268,"Sat, Feb 10, February, 2024",Fulham,AFC Bournemouth,3 - 1,https://www.espn.com/soccer/match/_/gameId/671268/afc-bournemouth-fulham,49.2%,50.8%,6,4,7,25,1,2,1,14,4,4
+671258,"Sun, Feb 4, February, 2024",AFC Bournemouth,Nottingham Forest,1 - 1,https://www.espn.com/soccer/match/_/gameId/671258/nottingham-forest-afc-bournemouth,44.4%,55.6%,2,6,9,8,3,2,11,6,5,0
+671242,"Thu, Feb 1, February, 2024",West Ham United,AFC Bournemouth,1 - 1,https://www.espn.com/soccer/match/_/gameId/671242/afc-bournemouth-west-ham-united,48.8%,51.2%,3,4,9,9,1,3,1,5,3,2
+671232,"Sun, Jan 21, January, 2024",AFC Bournemouth,Liverpool,0 - 4,https://www.espn.com/soccer/match/_/gameId/671232/liverpool-afc-bournemouth,39.2%,60.8%,1,7,11,14,1,2,8,5,3,1
+671224,"Sun, Dec 31, December, 2023",Tottenham Hotspur,AFC Bournemouth,3 - 1,https://www.espn.com/soccer/match/_/gameId/671224/afc-bournemouth-tottenham-hotspur,50.8%,49.2%,6,4,12,24,3,2,4,13,3,3
+671219,"Tue, Dec 26, December, 2023",AFC Bournemouth,Fulham,3 - 0,https://www.espn.com/soccer/match/_/gameId/671219/fulham-afc-bournemouth,42.5%,57.5%,4,3,16,8,0,2,6,5,3,1
+671204,"Sat, Dec 23, December, 2023",Nottingham Forest,AFC Bournemouth,2 - 3,https://www.espn.com/soccer/match/_/gameId/671204/afc-bournemouth-nottingham-forest,33.1%,66.9%,5,7,11,18,0,3,6,6,3,2
+671184,"Sat, Dec 9, December, 2023",Manchester United,AFC Bournemouth,0 - 3,https://www.espn.com/soccer/match/_/gameId/671184/afc-bournemouth-manchester-united,69%,31%,3,4,20,10,3,1,10,4,1,3
+671179,"Wed, Dec 6, December, 2023",Crystal Palace,AFC Bournemouth,0 - 2,https://www.espn.com/soccer/match/_/gameId/671179/afc-bournemouth-crystal-palace,59.1%,40.9%,3,4,16,11,1,3,3,9,2,3
+671161,"Sun, Dec 3, December, 2023",AFC Bournemouth,Aston Villa,2 - 2,https://www.espn.com/soccer/match/_/gameId/671161/aston-villa-afc-bournemouth,37.3%,62.7%,7,3,15,11,5,3,7,7,1,5
+671159,"Sat, Nov 25, November, 2023",Sheffield United,AFC Bournemouth,1 - 3,https://www.espn.com/soccer/match/_/gameId/671159/afc-bournemouth-sheffield-united,45.5%,54.5%,2,11,10,23,4,1,4,7,8,1
+671148,"Sat, Nov 11, November, 2023",AFC Bournemouth,Newcastle United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671148/newcastle-united-afc-bournemouth,47.6%,52.4%,10,5,19,8,2,1,6,5,5,8
+671136,"Sat, Nov 4, November, 2023",Manchester City,AFC Bournemouth,6 - 1,https://www.espn.com/soccer/match/_/gameId/671136/afc-bournemouth-manchester-city,64.8%,35.2%,8,1,21,5,0,1,12,1,0,2
+671123,"Sat, Oct 28, October, 2023",AFC Bournemouth,Burnley,2 - 1,https://www.espn.com/soccer/match/_/gameId/671123/burnley-afc-bournemouth,44.3%,55.7%,6,3,13,6,2,3,10,5,3,4
+671112,"Sat, Oct 21, October, 2023",AFC Bournemouth,Wolverhampton Wanderers,1 - 2,https://www.espn.com/soccer/match/_/gameId/671112/wolverhampton-wanderers-afc-bournemouth,33.7%,66.3%,4,7,7,21,2,6,3,12,5,3
+671110,"Sat, Oct 7, October, 2023",Everton,AFC Bournemouth,3 - 0,https://www.espn.com/soccer/match/_/gameId/671110/afc-bournemouth-everton,47.4%,52.6%,8,4,25,11,1,2,8,7,3,5
+671099,"Sat, Sep 30, September, 2023",AFC Bournemouth,Arsenal,0 - 4,https://www.espn.com/soccer/match/_/gameId/671099/arsenal-afc-bournemouth,42.4%,57.6%,1,8,8,15,0,1,6,6,4,1
+671087,"Sun, Sep 24, September, 2023",Brighton & Hove Albion,AFC Bournemouth,3 - 1,https://www.espn.com/soccer/match/_/gameId/671087/afc-bournemouth-brighton-hove-albion,61.5%,38.5%,4,4,13,12,3,3,4,4,2,2
+671072,"Sun, Sep 17, September, 2023",AFC Bournemouth,Chelsea,0 - 0,https://www.espn.com/soccer/match/_/gameId/671072/chelsea-afc-bournemouth,35.3%,64.7%,4,6,13,14,1,5,1,7,6,4
+671068,"Sat, Sep 2, September, 2023",Brentford,AFC Bournemouth,2 - 2,https://www.espn.com/soccer/match/_/gameId/671068/afc-bournemouth-brentford,61.1%,38.9%,7,5,21,12,1,2,5,2,3,6
+671052,"Sat, Aug 26, August, 2023",AFC Bournemouth,Tottenham Hotspur,0 - 2,https://www.espn.com/soccer/match/_/gameId/671052/tottenham-hotspur-afc-bournemouth,43.1%,56.9%,3,6,11,17,1,3,6,2,4,3
+671044,"Sat, Aug 19, August, 2023",Liverpool,AFC Bournemouth,3 - 1,https://www.espn.com/soccer/match/_/gameId/671044/afc-bournemouth-liverpool,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671033,"Sat, Aug 12, August, 2023",AFC Bournemouth,West Ham United,1 - 1,https://www.espn.com/soccer/match/_/gameId/671033/west-ham-united-afc-bournemouth,62.9%,37.1%,5,3,14,16,1,4,10,4,1,4
+671401,"Sun, May 19, May, 2024",Arsenal,Everton,2 - 1,https://www.espn.com/soccer/match/_/gameId/671401/everton-arsenal,69.1%,30.9%,5,2,26,5,4,3,8,1,1,4
+671395,"Sun, May 12, May, 2024",Manchester United,Arsenal,0 - 1,https://www.espn.com/soccer/match/_/gameId/671395/arsenal-manchester-united,54.2%,45.8%,2,5,14,11,0,2,4,7,5,2
+671378,"Sun, Apr 28, April, 2024",Tottenham Hotspur,Arsenal,2 - 3,https://www.espn.com/soccer/match/_/gameId/671378/arsenal-tottenham-hotspur,62.2%,37.8%,2,3,15,9,2,1,8,6,1,0
+671312,"Tue, Apr 23, April, 2024",Arsenal,Chelsea,5 - 0,https://www.espn.com/soccer/match/_/gameId/671312/chelsea-arsenal,44.2%,55.8%,10,1,27,7,2,2,4,2,1,6
+671369,"Sat, Apr 20, April, 2024",Wolverhampton Wanderers,Arsenal,0 - 2,https://www.espn.com/soccer/match/_/gameId/671369/arsenal-wolverhampton-wanderers,46.3%,53.7%,3,9,5,24,3,2,1,2,7,3
+671353,"Sun, Apr 14, April, 2024",Arsenal,Aston Villa,0 - 2,https://www.espn.com/soccer/match/_/gameId/671353/aston-villa-arsenal,51.5%,48.5%,4,2,18,11,3,1,4,6,0,4
+671343,"Sat, Apr 6, April, 2024",Brighton & Hove Albion,Arsenal,0 - 3,https://www.espn.com/soccer/match/_/gameId/671343/arsenal-brighton-hove-albion,54.7%,45.3%,2,7,10,20,1,2,8,7,4,2
+671331,"Wed, Apr 3, April, 2024",Arsenal,Luton Town,2 - 0,https://www.espn.com/soccer/match/_/gameId/671331/luton-town-arsenal,58%,42%,4,1,13,5,1,1,3,1,1,4
+671326,"Sun, Mar 31, March, 2024",Manchester City,Arsenal,0 - 0,https://www.espn.com/soccer/match/_/gameId/671326/arsenal-manchester-city,72.5%,27.5%,1,2,12,6,0,2,7,4,2,1
+671305,"Sat, Mar 9, March, 2024",Arsenal,Brentford,2 - 1,https://www.espn.com/soccer/match/_/gameId/671305/brentford-arsenal,71.5%,28.5%,6,4,17,9,2,4,10,4,3,4
+671300,"Mon, Mar 4, March, 2024",Sheffield United,Arsenal,0 - 6,https://www.espn.com/soccer/match/_/gameId/671300/arsenal-sheffield-united,19.3%,80.7%,0,10,4,22,1,0,0,7,4,0
+671281,"Sat, Feb 24, February, 2024",Arsenal,Newcastle United,4 - 1,https://www.espn.com/soccer/match/_/gameId/671281/newcastle-united-arsenal,54.8%,45.2%,8,2,18,3,1,0,9,0,1,4
+671280,"Sat, Feb 17, February, 2024",Burnley,Arsenal,0 - 5,https://www.espn.com/soccer/match/_/gameId/671280/arsenal-burnley,34.9%,65.1%,0,7,8,16,2,1,4,6,2,0
+671261,"Sun, Feb 11, February, 2024",West Ham United,Arsenal,0 - 6,https://www.espn.com/soccer/match/_/gameId/671261/arsenal-west-ham-united,29.5%,70.5%,1,12,5,25,4,0,2,6,6,1
+671259,"Sun, Feb 4, February, 2024",Arsenal,Liverpool,3 - 1,https://www.espn.com/soccer/match/_/gameId/671259/liverpool-arsenal,42.6%,57.4%,7,1,15,10,6,2,2,4,1,4
+671245,"Tue, Jan 30, January, 2024",Nottingham Forest,Arsenal,1 - 2,https://www.espn.com/soccer/match/_/gameId/671245/arsenal-nottingham-forest,26.6%,73.4%,3,3,9,19,0,1,2,11,2,2
+671231,"Sat, Jan 20, January, 2024",Arsenal,Crystal Palace,5 - 0,https://www.espn.com/soccer/match/_/gameId/671231/crystal-palace-arsenal,60.6%,39.4%,7,5,21,12,0,0,6,7,5,2
+671221,"Sun, Dec 31, December, 2023",Fulham,Arsenal,2 - 1,https://www.espn.com/soccer/match/_/gameId/671221/arsenal-fulham,39.5%,60.5%,4,3,15,13,4,1,5,4,2,2
+671218,"Thu, Dec 28, December, 2023",Arsenal,West Ham United,0 - 2,https://www.espn.com/soccer/match/_/gameId/671218/west-ham-united-arsenal,74.1%,25.9%,8,3,30,6,2,0,10,3,1,8
+671201,"Sat, Dec 23, December, 2023",Liverpool,Arsenal,1 - 1,https://www.espn.com/soccer/match/_/gameId/671201/arsenal-liverpool,51%,49%,3,2,13,13,2,5,4,5,1,2
+671200,"Sun, Dec 17, December, 2023",Arsenal,Brighton & Hove Albion,2 - 0,https://www.espn.com/soccer/match/_/gameId/671200/brighton-hove-albion-arsenal,48.8%,51.2%,9,1,26,6,1,3,10,1,1,6
+671188,"Sat, Dec 9, December, 2023",Aston Villa,Arsenal,1 - 0,https://www.espn.com/soccer/match/_/gameId/671188/arsenal-aston-villa,38.5%,61.5%,3,5,10,12,4,2,3,3,3,2
+671175,"Tue, Dec 5, December, 2023",Luton Town,Arsenal,3 - 4,https://www.espn.com/soccer/match/_/gameId/671175/arsenal-luton-town,33.4%,66.6%,4,9,6,23,2,1,3,8,5,1
+671162,"Sat, Dec 2, December, 2023",Arsenal,Wolverhampton Wanderers,2 - 1,https://www.espn.com/soccer/match/_/gameId/671162/wolverhampton-wanderers-arsenal,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671160,"Sat, Nov 25, November, 2023",Brentford,Arsenal,0 - 1,https://www.espn.com/soccer/match/_/gameId/671160/arsenal-brentford,36.4%,63.6%,3,4,9,15,1,1,1,8,3,1
+671146,"Sat, Nov 11, November, 2023",Arsenal,Burnley,3 - 1,https://www.espn.com/soccer/match/_/gameId/671146/burnley-arsenal,63.5%,36.5%,6,5,16,8,0,1,13,3,4,3
+671137,"Sat, Nov 4, November, 2023",Newcastle United,Arsenal,1 - 0,https://www.espn.com/soccer/match/_/gameId/671137/arsenal-newcastle-united,40.9%,59.1%,2,1,9,14,5,1,0,11,1,0
+671122,"Sat, Oct 28, October, 2023",Arsenal,Sheffield United,5 - 0,https://www.espn.com/soccer/match/_/gameId/671122/sheffield-united-arsenal,67.1%,32.9%,8,0,13,2,0,3,6,1,0,2
+671114,"Sat, Oct 21, October, 2023",Chelsea,Arsenal,2 - 2,https://www.espn.com/soccer/match/_/gameId/671114/arsenal-chelsea,43.3%,56.7%,5,3,11,13,3,3,2,7,1,3
+671101,"Sun, Oct 8, October, 2023",Arsenal,Manchester City,1 - 0,https://www.espn.com/soccer/match/_/gameId/671101/manchester-city-arsenal,49%,51%,2,1,12,4,2,3,5,4,0,1
+671085,"Sun, Sep 24, September, 2023",Arsenal,Tottenham Hotspur,2 - 2,https://www.espn.com/soccer/match/_/gameId/671085/tottenham-hotspur-arsenal,46.5%,53.5%,6,5,13,13,3,4,11,4,3,4
+671073,"Sun, Sep 17, September, 2023",Everton,Arsenal,0 - 1,https://www.espn.com/soccer/match/_/gameId/671073/arsenal-everton,26%,74%,1,4,8,13,1,1,1,11,3,1
+671065,"Sun, Sep 3, September, 2023",Arsenal,Manchester United,3 - 1,https://www.espn.com/soccer/match/_/gameId/671065/manchester-united-arsenal,54.8%,45.2%,5,2,17,10,2,3,12,3,1,2
+671051,"Sat, Aug 26, August, 2023",Arsenal,Fulham,2 - 2,https://www.espn.com/soccer/match/_/gameId/671051/fulham-arsenal,71.1%,28.9%,11,3,19,8,0,4,8,3,1,8
+671042,"Mon, Aug 21, August, 2023",Crystal Palace,Arsenal,0 - 1,https://www.espn.com/soccer/match/_/gameId/671042/arsenal-crystal-palace,46.9%,53.1%,2,3,14,14,2,1,1,8,2,2
+671032,"Sat, Aug 12, August, 2023",Arsenal,Nottingham Forest,2 - 1,https://www.espn.com/soccer/match/_/gameId/671032/nottingham-forest-arsenal,78.3%,21.7%,7,2,15,6,2,2,8,3,1,5
+671406,"Sun, May 19, May, 2024",Crystal Palace,Aston Villa,5 - 0,https://www.espn.com/soccer/match/_/gameId/671406/aston-villa-crystal-palace,54%,46%,9,2,15,8,1,4,2,4,2,4
+671391,"Mon, May 13, May, 2024",Aston Villa,Liverpool,3 - 3,https://www.espn.com/soccer/match/_/gameId/671391/liverpool-aston-villa,41.2%,58.8%,5,7,19,14,1,1,5,4,5,2
+671383,"Sun, May 5, May, 2024",Brighton & Hove Albion,Aston Villa,1 - 0,https://www.espn.com/soccer/match/_/gameId/671383/aston-villa-brighton-hove-albion,52.5%,47.5%,8,1,15,2,2,1,7,3,1,7
+671380,"Sat, Apr 27, April, 2024",Aston Villa,Chelsea,2 - 2,https://www.espn.com/soccer/match/_/gameId/671380/chelsea-aston-villa,28.8%,71.2%,4,5,9,21,3,5,2,4,3,3
+671344,"Sat, Apr 6, April, 2024",Aston Villa,Brentford,3 - 3,https://www.espn.com/soccer/match/_/gameId/671344/brentford-aston-villa,70%,30%,3,3,11,8,2,2,11,3,0,0
+671339,"Wed, Apr 3, April, 2024",Manchester City,Aston Villa,4 - 1,https://www.espn.com/soccer/match/_/gameId/671339/aston-villa-manchester-city,67%,33%,11,3,25,8,1,2,2,3,2,7
+671325,"Sat, Mar 30, March, 2024",Aston Villa,Wolverhampton Wanderers,2 - 0,https://www.espn.com/soccer/match/_/gameId/671325/wolverhampton-wanderers-aston-villa,48.3%,51.7%,5,3,11,13,3,4,5,4,3,3
+671320,"Sun, Mar 17, March, 2024",West Ham United,Aston Villa,1 - 1,https://www.espn.com/soccer/match/_/gameId/671320/aston-villa-west-ham-united,30.6%,69.4%,5,5,13,13,3,3,7,11,4,3
+671304,"Sun, Mar 10, March, 2024",Aston Villa,Tottenham Hotspur,0 - 4,https://www.espn.com/soccer/match/_/gameId/671304/tottenham-hotspur-aston-villa,30.7%,69.3%,1,5,10,9,0,2,6,4,1,1
+671296,"Sat, Mar 2, March, 2024",Luton Town,Aston Villa,2 - 3,https://www.espn.com/soccer/match/_/gameId/671296/aston-villa-luton-town,46.5%,53.5%,5,8,14,12,1,4,8,6,5,2
+671289,"Sat, Feb 24, February, 2024",Aston Villa,Nottingham Forest,4 - 2,https://www.espn.com/soccer/match/_/gameId/671289/nottingham-forest-aston-villa,58.1%,41.9%,6,3,16,10,1,2,7,2,1,2
+671271,"Sat, Feb 17, February, 2024",Fulham,Aston Villa,1 - 2,https://www.espn.com/soccer/match/_/gameId/671271/aston-villa-fulham,52.2%,47.8%,4,3,15,12,5,2,4,4,1,3
+671266,"Sun, Feb 11, February, 2024",Aston Villa,Manchester United,1 - 2,https://www.espn.com/soccer/match/_/gameId/671266/manchester-united-aston-villa,55.9%,44.1%,10,5,23,17,3,2,10,8,3,8
+671255,"Sat, Feb 3, February, 2024",Sheffield United,Aston Villa,0 - 5,https://www.espn.com/soccer/match/_/gameId/671255/aston-villa-sheffield-united,35.9%,64.1%,5,10,10,14,1,0,3,4,4,4
+671241,"Tue, Jan 30, January, 2024",Aston Villa,Newcastle United,1 - 3,https://www.espn.com/soccer/match/_/gameId/671241/newcastle-united-aston-villa,61%,39%,6,5,12,14,4,1,8,7,3,4
+671237,"Sun, Jan 14, January, 2024",Everton,Aston Villa,0 - 0,https://www.espn.com/soccer/match/_/gameId/671237/aston-villa-everton,31.3%,68.7%,2,5,10,16,1,4,4,5,4,2
+671227,"Sat, Dec 30, December, 2023",Aston Villa,Burnley,3 - 2,https://www.espn.com/soccer/match/_/gameId/671227/burnley-aston-villa,65.7%,34.3%,7,5,19,9,4,1,6,2,3,4
+671215,"Tue, Dec 26, December, 2023",Manchester United,Aston Villa,3 - 2,https://www.espn.com/soccer/match/_/gameId/671215/aston-villa-manchester-united,45.7%,54.3%,7,4,13,10,1,3,3,6,1,4
+671209,"Fri, Dec 22, December, 2023",Aston Villa,Sheffield United,1 - 1,https://www.espn.com/soccer/match/_/gameId/671209/sheffield-united-aston-villa,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671193,"Sun, Dec 17, December, 2023",Brentford,Aston Villa,1 - 2,https://www.espn.com/soccer/match/_/gameId/671193/aston-villa-brentford,32.8%,67.2%,3,5,4,15,6,4,7,12,3,2
+671173,"Wed, Dec 6, December, 2023",Aston Villa,Manchester City,1 - 0,https://www.espn.com/soccer/match/_/gameId/671173/manchester-city-aston-villa,46.1%,53.9%,7,2,22,2,2,2,6,0,2,6
+671151,"Sun, Nov 26, November, 2023",Tottenham Hotspur,Aston Villa,1 - 2,https://www.espn.com/soccer/match/_/gameId/671151/aston-villa-tottenham-hotspur,62%,38%,8,5,18,15,0,4,9,3,3,6
+671147,"Sun, Nov 12, November, 2023",Aston Villa,Fulham,3 - 1,https://www.espn.com/soccer/match/_/gameId/671147/fulham-aston-villa,50.7%,49.3%,6,5,12,9,2,5,2,2,4,4
+671138,"Sun, Nov 5, November, 2023",Nottingham Forest,Aston Villa,2 - 0,https://www.espn.com/soccer/match/_/gameId/671138/aston-villa-nottingham-forest,26.5%,73.5%,3,3,5,13,1,1,0,10,3,1
+671121,"Sun, Oct 29, October, 2023",Aston Villa,Luton Town,3 - 1,https://www.espn.com/soccer/match/_/gameId/671121/luton-town-aston-villa,70.5%,29.5%,6,1,17,7,3,2,6,4,1,4
+671120,"Sun, Oct 22, October, 2023",Aston Villa,West Ham United,4 - 1,https://www.espn.com/soccer/match/_/gameId/671120/west-ham-united-aston-villa,58.3%,41.7%,7,4,15,14,0,1,8,7,3,3
+671105,"Sun, Oct 8, October, 2023",Wolverhampton Wanderers,Aston Villa,1 - 1,https://www.espn.com/soccer/match/_/gameId/671105/aston-villa-wolverhampton-wanderers,46.3%,53.7%,3,4,8,18,3,2,2,10,3,2
+671098,"Sat, Sep 30, September, 2023",Aston Villa,Brighton & Hove Albion,6 - 1,https://www.espn.com/soccer/match/_/gameId/671098/brighton-hove-albion-aston-villa,38%,62%,9,3,19,11,4,4,1,3,2,4
+671083,"Sun, Sep 24, September, 2023",Chelsea,Aston Villa,0 - 1,https://www.espn.com/soccer/match/_/gameId/671083/aston-villa-chelsea,52.7%,47.3%,4,7,10,15,2,3,5,11,6,4
+671071,"Sat, Sep 16, September, 2023",Aston Villa,Crystal Palace,3 - 1,https://www.espn.com/soccer/match/_/gameId/671071/crystal-palace-aston-villa,66.7%,33.3%,5,3,16,6,5,3,4,2,2,2
+671064,"Sun, Sep 3, September, 2023",Liverpool,Aston Villa,3 - 0,https://www.espn.com/soccer/match/_/gameId/671064/aston-villa-liverpool,63.7%,36.3%,4,3,17,9,0,1,7,3,3,2
+671060,"Sun, Aug 27, August, 2023",Burnley,Aston Villa,1 - 3,https://www.espn.com/soccer/match/_/gameId/671060/aston-villa-burnley,56.9%,43.1%,2,6,9,16,2,0,4,6,3,1
+671041,"Sun, Aug 20, August, 2023",Aston Villa,Everton,4 - 0,https://www.espn.com/soccer/match/_/gameId/671041/everton-aston-villa,60.4%,39.6%,7,2,13,9,3,4,7,6,2,3
+671037,"Sat, Aug 12, August, 2023",Newcastle United,Aston Villa,5 - 1,https://www.espn.com/soccer/match/_/gameId/671037/aston-villa-newcastle-united,52.6%,47.4%,13,6,17,16,4,4,6,5,5,7
+671402,"Sun, May 19, May, 2024",Brentford,Newcastle United,2 - 4,https://www.espn.com/soccer/match/_/gameId/671402/newcastle-united-brentford,53.8%,46.2%,5,7,10,12,4,4,3,0,3,3
+671382,"Sat, May 4, May, 2024",Brentford,Fulham,0 - 0,https://www.espn.com/soccer/match/_/gameId/671382/fulham-brentford,54.1%,45.9%,3,3,7,15,1,1,7,6,3,2
+671376,"Sat, Apr 27, April, 2024",Everton,Brentford,1 - 0,https://www.espn.com/soccer/match/_/gameId/671376/brentford-everton,47.5%,52.5%,1,4,18,10,1,2,6,6,4,0
+671363,"Sat, Apr 20, April, 2024",Luton Town,Brentford,1 - 5,https://www.espn.com/soccer/match/_/gameId/671363/brentford-luton-town,52.6%,47.4%,3,9,6,21,1,2,4,9,4,2
+671351,"Sat, Apr 13, April, 2024",Brentford,Sheffield United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671351/sheffield-united-brentford,53.2%,46.8%,5,2,9,8,3,1,3,6,2,4
+671333,"Wed, Apr 3, April, 2024",Brentford,Brighton & Hove Albion,0 - 0,https://www.espn.com/soccer/match/_/gameId/671333/brighton-hove-albion-brentford,33%,67%,2,6,5,24,1,1,1,5,6,2
+671324,"Sat, Mar 30, March, 2024",Brentford,Manchester United,1 - 1,https://www.espn.com/soccer/match/_/gameId/671324/manchester-united-brentford,47.3%,52.7%,5,5,31,11,3,2,14,4,4,4
+671316,"Sat, Mar 16, March, 2024",Burnley,Brentford,2 - 1,https://www.espn.com/soccer/match/_/gameId/671316/brentford-burnley,60.5%,39.5%,6,5,17,9,2,4,5,4,5,4
+671295,"Sat, Mar 2, March, 2024",Brentford,Chelsea,2 - 2,https://www.espn.com/soccer/match/_/gameId/671295/chelsea-brentford,31.9%,68.1%,5,6,14,17,3,1,0,6,3,3
+671285,"Mon, Feb 26, February, 2024",West Ham United,Brentford,4 - 2,https://www.espn.com/soccer/match/_/gameId/671285/brentford-west-ham-united,41.3%,58.7%,6,8,17,14,1,2,1,7,5,2
+671203,"Tue, Feb 20, February, 2024",Manchester City,Brentford,1 - 0,https://www.espn.com/soccer/match/_/gameId/671203/brentford-manchester-city,69.9%,30.1%,11,2,25,6,2,4,10,1,2,9
+671279,"Sat, Feb 17, February, 2024",Brentford,Liverpool,1 - 4,https://www.espn.com/soccer/match/_/gameId/671279/liverpool-brentford,37%,63%,6,8,15,15,2,1,1,6,4,5
+671265,"Sat, Feb 10, February, 2024",Wolverhampton Wanderers,Brentford,0 - 2,https://www.espn.com/soccer/match/_/gameId/671265/brentford-wolverhampton-wanderers,71.1%,28.9%,5,6,17,9,2,3,7,4,4,5
+671257,"Mon, Feb 5, February, 2024",Brentford,Manchester City,1 - 3,https://www.espn.com/soccer/match/_/gameId/671257/manchester-city-brentford,28.1%,71.9%,3,15,9,25,1,0,8,13,12,1
+671243,"Wed, Jan 31, January, 2024",Tottenham Hotspur,Brentford,3 - 2,https://www.espn.com/soccer/match/_/gameId/671243/brentford-tottenham-hotspur,68.2%,31.8%,5,5,19,9,2,3,5,3,3,2
+671233,"Sat, Jan 20, January, 2024",Brentford,Nottingham Forest,3 - 2,https://www.espn.com/soccer/match/_/gameId/671233/nottingham-forest-brentford,48%,52%,5,3,11,12,1,3,6,4,1,2
+671226,"Sat, Dec 30, December, 2023",Crystal Palace,Brentford,3 - 1,https://www.espn.com/soccer/match/_/gameId/671226/brentford-crystal-palace,46.4%,53.6%,6,4,13,9,0,1,7,4,4,3
+671220,"Wed, Dec 27, December, 2023",Brentford,Wolverhampton Wanderers,1 - 4,https://www.espn.com/soccer/match/_/gameId/671220/wolverhampton-wanderers-brentford,60.5%,39.5%,4,5,14,11,1,1,8,2,1,3
+671183,"Sat, Dec 9, December, 2023",Sheffield United,Brentford,1 - 0,https://www.espn.com/soccer/match/_/gameId/671183/brentford-sheffield-united,40.2%,59.8%,4,4,9,10,5,1,3,4,4,3
+671171,"Wed, Dec 6, December, 2023",Brighton & Hove Albion,Brentford,2 - 1,https://www.espn.com/soccer/match/_/gameId/671171/brentford-brighton-hove-albion,61.6%,38.4%,7,2,18,8,3,1,7,3,0,5
+671170,"Sat, Dec 2, December, 2023",Brentford,Luton Town,3 - 1,https://www.espn.com/soccer/match/_/gameId/671170/luton-town-brentford,68.6%,31.4%,6,1,27,7,1,2,7,5,0,3
+671141,"Sun, Nov 12, November, 2023",Liverpool,Brentford,3 - 0,https://www.espn.com/soccer/match/_/gameId/671141/brentford-liverpool,58.3%,41.7%,10,3,17,16,1,2,6,8,3,8
+671134,"Sat, Nov 4, November, 2023",Brentford,West Ham United,3 - 2,https://www.espn.com/soccer/match/_/gameId/671134/west-ham-united-brentford,59.4%,40.6%,4,2,16,12,1,4,4,3,0,2
+671130,"Sat, Oct 28, October, 2023",Chelsea,Brentford,0 - 2,https://www.espn.com/soccer/match/_/gameId/671130/brentford-chelsea,68.8%,31.2%,2,5,17,7,1,4,10,1,3,2
+671111,"Sat, Oct 21, October, 2023",Brentford,Burnley,3 - 0,https://www.espn.com/soccer/match/_/gameId/671111/burnley-brentford,49.9%,50.1%,10,1,23,6,5,2,5,5,1,6
+671108,"Sat, Oct 7, October, 2023",Manchester United,Brentford,2 - 1,https://www.espn.com/soccer/match/_/gameId/671108/brentford-manchester-united,63.9%,36.1%,8,3,21,11,0,5,7,5,2,6
+671094,"Sun, Oct 1, October, 2023",Nottingham Forest,Brentford,1 - 1,https://www.espn.com/soccer/match/_/gameId/671094/brentford-nottingham-forest,40.9%,59.1%,1,5,6,18,1,2,1,11,3,0
+671086,"Sat, Sep 23, September, 2023",Brentford,Everton,1 - 3,https://www.espn.com/soccer/match/_/gameId/671086/everton-brentford,57.4%,42.6%,2,6,12,18,2,2,1,4,3,1
+671077,"Sat, Sep 16, September, 2023",Newcastle United,Brentford,1 - 0,https://www.espn.com/soccer/match/_/gameId/671077/brentford-newcastle-united,56.3%,43.7%,2,2,9,11,3,5,8,3,2,1
+671053,"Sat, Aug 26, August, 2023",Brentford,Crystal Palace,1 - 1,https://www.espn.com/soccer/match/_/gameId/671053/crystal-palace-brentford,59.8%,40.2%,1,5,12,15,0,0,8,6,4,0
+671043,"Sat, Aug 19, August, 2023",Fulham,Brentford,0 - 3,https://www.espn.com/soccer/match/_/gameId/671043/brentford-fulham,54.6%,45.4%,2,8,10,17,2,2,5,5,5,2
+671038,"Sun, Aug 13, August, 2023",Brentford,Tottenham Hotspur,2 - 2,https://www.espn.com/soccer/match/_/gameId/671038/tottenham-hotspur-brentford,30.4%,69.6%,6,6,11,18,1,4,3,6,4,4
+671403,"Sun, May 19, May, 2024",Brighton & Hove Albion,Manchester United,0 - 2,https://www.espn.com/soccer/match/_/gameId/671403/manchester-united-brighton-hove-albion,54.8%,45.2%,3,4,17,11,1,3,7,5,2,2
+671367,"Wed, May 15, May, 2024",Brighton & Hove Albion,Chelsea,1 - 2,https://www.espn.com/soccer/match/_/gameId/671367/chelsea-brighton-hove-albion,54.7%,45.3%,2,6,12,14,2,2,4,6,4,1
+671396,"Sat, May 11, May, 2024",Newcastle United,Brighton & Hove Albion,1 - 1,https://www.espn.com/soccer/match/_/gameId/671396/brighton-hove-albion-newcastle-united,56.2%,43.8%,7,4,18,15,3,4,8,4,3,7
+671318,"Thu, Apr 25, April, 2024",Brighton & Hove Albion,Manchester City,0 - 4,https://www.espn.com/soccer/match/_/gameId/671318/manchester-city-brighton-hove-albion,35.3%,64.7%,3,6,7,14,2,0,4,4,2,3
+671360,"Sat, Apr 13, April, 2024",Burnley,Brighton & Hove Albion,1 - 1,https://www.espn.com/soccer/match/_/gameId/671360/brighton-hove-albion-burnley,44.5%,55.5%,3,8,11,20,1,2,4,5,8,2
+671322,"Sun, Mar 31, March, 2024",Liverpool,Brighton & Hove Albion,2 - 1,https://www.espn.com/soccer/match/_/gameId/671322/brighton-hove-albion-liverpool,54.3%,45.7%,8,3,30,9,5,3,8,4,2,6
+671307,"Sun, Mar 10, March, 2024",Brighton & Hove Albion,Nottingham Forest,1 - 0,https://www.espn.com/soccer/match/_/gameId/671307/nottingham-forest-brighton-hove-albion,64%,36%,3,4,10,9,4,4,6,3,4,3
+671297,"Sat, Mar 2, March, 2024",Fulham,Brighton & Hove Albion,3 - 0,https://www.espn.com/soccer/match/_/gameId/671297/brighton-hove-albion-fulham,29.5%,70.5%,5,5,12,15,1,2,2,6,5,2
+671287,"Sat, Feb 24, February, 2024",Brighton & Hove Albion,Everton,1 - 1,https://www.espn.com/soccer/match/_/gameId/671287/everton-brighton-hove-albion,64.6%,35.4%,7,3,23,6,2,3,11,3,1,6
+671276,"Sun, Feb 18, February, 2024",Sheffield United,Brighton & Hove Albion,0 - 5,https://www.espn.com/soccer/match/_/gameId/671276/brighton-hove-albion-sheffield-united,20.6%,79.4%,1,10,6,24,1,4,5,10,7,1
+671262,"Sat, Feb 10, February, 2024",Tottenham Hotspur,Brighton & Hove Albion,2 - 1,https://www.espn.com/soccer/match/_/gameId/671262/brighton-hove-albion-tottenham-hotspur,52.5%,47.5%,6,3,16,6,2,3,9,6,2,4
+671256,"Sat, Feb 3, February, 2024",Brighton & Hove Albion,Crystal Palace,4 - 1,https://www.espn.com/soccer/match/_/gameId/671256/crystal-palace-brighton-hove-albion,68.9%,31.1%,6,5,13,7,1,3,3,2,4,2
+671247,"Tue, Jan 30, January, 2024",Luton Town,Brighton & Hove Albion,4 - 0,https://www.espn.com/soccer/match/_/gameId/671247/brighton-hove-albion-luton-town,40.9%,59.1%,8,2,18,9,2,2,7,4,2,4
+671234,"Mon, Jan 22, January, 2024",Brighton & Hove Albion,Wolverhampton Wanderers,0 - 0,https://www.espn.com/soccer/match/_/gameId/671234/wolverhampton-wanderers-brighton-hove-albion,71.8%,28.2%,4,3,11,8,1,4,8,2,3,3
+671223,"Tue, Jan 2, January, 2024",West Ham United,Brighton & Hove Albion,0 - 0,https://www.espn.com/soccer/match/_/gameId/671223/brighton-hove-albion-west-ham-united,31.4%,68.6%,2,8,6,22,1,0,2,0,8,2
+671211,"Thu, Dec 28, December, 2023",Brighton & Hove Albion,Tottenham Hotspur,4 - 2,https://www.espn.com/soccer/match/_/gameId/671211/tottenham-hotspur-brighton-hove-albion,45.2%,54.8%,9,3,15,19,3,2,7,6,1,5
+671208,"Thu, Dec 21, December, 2023",Crystal Palace,Brighton & Hove Albion,1 - 1,https://www.espn.com/soccer/match/_/gameId/671208/brighton-hove-albion-crystal-palace,34.1%,65.9%,3,6,11,18,5,2,3,1,5,2
+671181,"Sat, Dec 9, December, 2023",Brighton & Hove Albion,Burnley,1 - 1,https://www.espn.com/soccer/match/_/gameId/671181/burnley-brighton-hove-albion,72%,28%,11,3,29,6,0,4,9,1,2,10
+671163,"Sun, Dec 3, December, 2023",Chelsea,Brighton & Hove Albion,3 - 2,https://www.espn.com/soccer/match/_/gameId/671163/brighton-hove-albion-chelsea,32.4%,67.6%,5,9,8,18,3,5,5,8,7,2
+671152,"Sat, Nov 25, November, 2023",Nottingham Forest,Brighton & Hove Albion,2 - 3,https://www.espn.com/soccer/match/_/gameId/671152/brighton-hove-albion-nottingham-forest,46.7%,53.3%,5,5,18,10,2,6,6,4,2,3
+671149,"Sun, Nov 12, November, 2023",Brighton & Hove Albion,Sheffield United,1 - 1,https://www.espn.com/soccer/match/_/gameId/671149/sheffield-united-brighton-hove-albion,61.4%,38.6%,6,1,11,9,3,2,6,3,1,5
+671132,"Sat, Nov 4, November, 2023",Everton,Brighton & Hove Albion,1 - 1,https://www.espn.com/soccer/match/_/gameId/671132/brighton-hove-albion-everton,20.1%,79.9%,4,2,10,7,4,2,3,3,2,3
+671124,"Sun, Oct 29, October, 2023",Brighton & Hove Albion,Fulham,1 - 1,https://www.espn.com/soccer/match/_/gameId/671124/fulham-brighton-hove-albion,71.1%,28.9%,7,5,18,10,0,3,7,3,4,5
+671113,"Sat, Oct 21, October, 2023",Manchester City,Brighton & Hove Albion,2 - 1,https://www.espn.com/soccer/match/_/gameId/671113/brighton-hove-albion-manchester-city,54.5%,45.5%,6,3,10,5,2,2,2,2,2,3
+671102,"Sun, Oct 8, October, 2023",Brighton & Hove Albion,Liverpool,2 - 2,https://www.espn.com/soccer/match/_/gameId/671102/liverpool-brighton-hove-albion,46%,54%,3,4,14,14,1,2,8,1,2,1
+671075,"Sat, Sep 16, September, 2023",Manchester United,Brighton & Hove Albion,1 - 3,https://www.espn.com/soccer/match/_/gameId/671075/brighton-hove-albion-manchester-united,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671069,"Sat, Sep 2, September, 2023",Brighton & Hove Albion,Newcastle United,3 - 1,https://www.espn.com/soccer/match/_/gameId/671069/newcastle-united-brighton-hove-albion,55.8%,44.2%,6,2,15,9,4,4,5,3,2,4
+671054,"Sat, Aug 26, August, 2023",Brighton & Hove Albion,West Ham United,1 - 3,https://www.espn.com/soccer/match/_/gameId/671054/west-ham-united-brighton-hove-albion,78%,22%,10,7,25,12,1,3,17,4,4,9
+671050,"Sat, Aug 19, August, 2023",Wolverhampton Wanderers,Brighton & Hove Albion,1 - 4,https://www.espn.com/soccer/match/_/gameId/671050/brighton-hove-albion-wolverhampton-wanderers,46.4%,53.6%,5,8,16,16,3,6,5,3,4,4
+671034,"Sat, Aug 12, August, 2023",Brighton & Hove Albion,Luton Town,4 - 1,https://www.espn.com/soccer/match/_/gameId/671034/luton-town-brighton-hove-albion,70.7%,29.3%,12,3,27,9,2,2,6,7,2,8
+671397,"Sat, May 11, May, 2024",Nottingham Forest,Chelsea,2 - 3,https://www.espn.com/soccer/match/_/gameId/671397/chelsea-nottingham-forest,32.3%,67.7%,4,5,20,12,2,3,5,6,2,2
+671385,"Sun, May 5, May, 2024",Chelsea,West Ham United,5 - 0,https://www.espn.com/soccer/match/_/gameId/671385/west-ham-united-chelsea,69.4%,30.6%,14,2,25,13,1,3,8,6,2,9
+671282,"Thu, May 2, May, 2024",Chelsea,Tottenham Hotspur,2 - 0,https://www.espn.com/soccer/match/_/gameId/671282/tottenham-hotspur-chelsea,37.4%,62.6%,5,3,16,19,0,1,4,9,4,2
+671354,"Mon, Apr 15, April, 2024",Chelsea,Everton,6 - 0,https://www.espn.com/soccer/match/_/gameId/671354/everton-chelsea,59.3%,40.7%,10,2,14,10,1,4,4,8,2,4
+671348,"Sun, Apr 7, April, 2024",Sheffield United,Chelsea,2 - 2,https://www.espn.com/soccer/match/_/gameId/671348/chelsea-sheffield-united,32.2%,67.8%,6,3,11,6,4,2,7,6,2,3
+671337,"Thu, Apr 4, April, 2024",Chelsea,Manchester United,4 - 3,https://www.espn.com/soccer/match/_/gameId/671337/manchester-united-chelsea,56.6%,43.4%,10,5,28,19,3,1,12,3,2,6
+671323,"Sat, Mar 30, March, 2024",Chelsea,Burnley,2 - 2,https://www.espn.com/soccer/match/_/gameId/671323/burnley-chelsea,69.1%,30.9%,13,7,33,18,2,2,12,4,4,11
+671301,"Mon, Mar 11, March, 2024",Chelsea,Newcastle United,3 - 2,https://www.espn.com/soccer/match/_/gameId/671301/newcastle-united-chelsea,45%,55%,8,3,12,11,3,1,0,4,1,4
+671273,"Sat, Feb 17, February, 2024",Manchester City,Chelsea,1 - 1,https://www.espn.com/soccer/match/_/gameId/671273/chelsea-manchester-city,70.4%,29.6%,5,6,31,9,1,3,12,1,5,4
+671267,"Mon, Feb 12, February, 2024",Crystal Palace,Chelsea,1 - 3,https://www.espn.com/soccer/match/_/gameId/671267/chelsea-crystal-palace,22.7%,77.3%,4,5,13,14,2,2,1,7,2,3
+671254,"Sun, Feb 4, February, 2024",Chelsea,Wolverhampton Wanderers,2 - 4,https://www.espn.com/soccer/match/_/gameId/671254/wolverhampton-wanderers-chelsea,64.4%,35.6%,6,7,15,14,3,2,10,1,4,2
+671249,"Wed, Jan 31, January, 2024",Liverpool,Chelsea,4 - 1,https://www.espn.com/soccer/match/_/gameId/671249/chelsea-liverpool,50.5%,49.5%,13,3,28,4,2,4,8,1,2,9
+671236,"Sat, Jan 13, January, 2024",Chelsea,Fulham,1 - 0,https://www.espn.com/soccer/match/_/gameId/671236/fulham-chelsea,55.1%,44.9%,3,4,17,14,5,1,6,4,4,2
+671228,"Sat, Dec 30, December, 2023",Luton Town,Chelsea,2 - 3,https://www.espn.com/soccer/match/_/gameId/671228/chelsea-luton-town,51.4%,48.6%,6,8,15,12,2,2,7,2,5,4
+671213,"Wed, Dec 27, December, 2023",Chelsea,Crystal Palace,2 - 1,https://www.espn.com/soccer/match/_/gameId/671213/crystal-palace-chelsea,63.8%,36.2%,4,5,9,13,3,2,4,3,4,1
+671207,"Sun, Dec 24, December, 2023",Wolverhampton Wanderers,Chelsea,2 - 1,https://www.espn.com/soccer/match/_/gameId/671207/chelsea-wolverhampton-wanderers,31.6%,68.4%,6,5,14,16,3,6,10,6,3,4
+671191,"Sat, Dec 16, December, 2023",Chelsea,Sheffield United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671191/sheffield-united-chelsea,77.7%,22.3%,6,1,15,6,1,3,7,6,1,4
+671190,"Sun, Dec 10, December, 2023",Everton,Chelsea,2 - 0,https://www.espn.com/soccer/match/_/gameId/671190/chelsea-everton,27.9%,72.1%,5,4,9,16,2,2,4,8,4,3
+671180,"Wed, Dec 6, December, 2023",Manchester United,Chelsea,2 - 1,https://www.espn.com/soccer/match/_/gameId/671180/chelsea-manchester-united,44.8%,55.2%,9,3,28,13,4,0,12,4,2,7
+671153,"Sat, Nov 25, November, 2023",Newcastle United,Chelsea,4 - 1,https://www.espn.com/soccer/match/_/gameId/671153/chelsea-newcastle-united,54%,46%,5,4,14,7,4,4,4,2,3,1
+671150,"Sun, Nov 12, November, 2023",Chelsea,Manchester City,4 - 4,https://www.espn.com/soccer/match/_/gameId/671150/manchester-city-chelsea,45.2%,54.8%,9,10,17,15,5,3,3,3,6,5
+671139,"Mon, Nov 6, November, 2023",Tottenham Hotspur,Chelsea,1 - 4,https://www.espn.com/soccer/match/_/gameId/671139/chelsea-tottenham-hotspur,38.7%,61.3%,5,8,8,17,1,5,1,6,3,4
+671103,"Sat, Oct 7, October, 2023",Burnley,Chelsea,1 - 4,https://www.espn.com/soccer/match/_/gameId/671103/chelsea-burnley,37.6%,62.4%,3,5,10,9,2,4,7,3,2,2
+671093,"Mon, Oct 2, October, 2023",Fulham,Chelsea,0 - 2,https://www.espn.com/soccer/match/_/gameId/671093/chelsea-fulham,55.7%,44.3%,3,4,10,11,1,4,8,1,2,3
+671062,"Sat, Sep 2, September, 2023",Chelsea,Nottingham Forest,0 - 1,https://www.espn.com/soccer/match/_/gameId/671062/nottingham-forest-chelsea,76.1%,23.9%,2,3,21,7,3,4,8,0,2,2
+671056,"Fri, Aug 25, August, 2023",Chelsea,Luton Town,3 - 0,https://www.espn.com/soccer/match/_/gameId/671056/luton-town-chelsea,67.2%,32.8%,8,1,19,11,2,3,6,4,1,5
+671049,"Sun, Aug 20, August, 2023",West Ham United,Chelsea,3 - 1,https://www.espn.com/soccer/match/_/gameId/671049/chelsea-west-ham-united,24.3%,75.7%,6,4,12,17,2,3,3,9,3,3
+671039,"Sun, Aug 13, August, 2023",Chelsea,Liverpool,1 - 1,https://www.espn.com/soccer/match/_/gameId/671039/liverpool-chelsea,64.9%,35.1%,4,1,10,13,3,3,4,4,0,4
+671400,"Sat, May 11, May, 2024",Wolverhampton Wanderers,Crystal Palace,1 - 3,https://www.espn.com/soccer/match/_/gameId/671400/crystal-palace-wolverhampton-wanderers,61.7%,38.3%,8,3,14,13,3,2,8,3,0,7
+671386,"Mon, May 6, May, 2024",Crystal Palace,Manchester United,4 - 0,https://www.espn.com/soccer/match/_/gameId/671386/manchester-united-crystal-palace,42.6%,57.4%,10,2,18,7,1,1,6,2,2,6
+671375,"Sat, Apr 27, April, 2024",Fulham,Crystal Palace,1 - 1,https://www.espn.com/soccer/match/_/gameId/671375/crystal-palace-fulham,54%,46%,2,4,9,14,0,2,5,9,3,1
+671315,"Wed, Apr 24, April, 2024",Crystal Palace,Newcastle United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671315/newcastle-united-crystal-palace,46.7%,53.3%,7,2,20,7,3,3,7,2,2,5
+671366,"Sun, Apr 21, April, 2024",Crystal Palace,West Ham United,5 - 2,https://www.espn.com/soccer/match/_/gameId/671366/west-ham-united-crystal-palace,60.9%,39.1%,7,1,18,4,3,2,4,0,0,3
+671355,"Sun, Apr 14, April, 2024",Liverpool,Crystal Palace,0 - 1,https://www.espn.com/soccer/match/_/gameId/671355/crystal-palace-liverpool,69.8%,30.2%,6,5,21,8,1,1,11,1,3,5
+671342,"Sat, Apr 6, April, 2024",Crystal Palace,Manchester City,2 - 4,https://www.espn.com/soccer/match/_/gameId/671342/manchester-city-crystal-palace,24.5%,75.5%,4,8,7,18,1,1,2,9,4,2
+671328,"Sat, Mar 30, March, 2024",Nottingham Forest,Crystal Palace,1 - 1,https://www.espn.com/soccer/match/_/gameId/671328/crystal-palace-nottingham-forest,58.4%,41.6%,5,3,12,10,1,1,4,6,2,4
+671310,"Sat, Mar 9, March, 2024",Crystal Palace,Luton Town,1 - 1,https://www.espn.com/soccer/match/_/gameId/671310/luton-town-crystal-palace,49.5%,50.5%,4,2,21,8,2,3,8,6,1,3
+671291,"Sat, Mar 2, March, 2024",Tottenham Hotspur,Crystal Palace,3 - 1,https://www.espn.com/soccer/match/_/gameId/671291/crystal-palace-tottenham-hotspur,78.2%,21.8%,6,1,14,4,1,2,11,1,0,3
+671283,"Sat, Feb 24, February, 2024",Crystal Palace,Burnley,3 - 0,https://www.espn.com/soccer/match/_/gameId/671283/burnley-crystal-palace,55.8%,44.2%,6,0,15,2,3,1,12,3,0,3
+671272,"Mon, Feb 19, February, 2024",Everton,Crystal Palace,1 - 1,https://www.espn.com/soccer/match/_/gameId/671272/crystal-palace-everton,62.7%,37.3%,4,4,19,10,0,2,3,6,2,3
+671248,"Tue, Jan 30, January, 2024",Crystal Palace,Sheffield United,3 - 2,https://www.espn.com/soccer/match/_/gameId/671248/sheffield-united-crystal-palace,53.5%,46.5%,4,5,12,9,1,4,11,1,3,1
+671199,"Sat, Dec 16, December, 2023",Manchester City,Crystal Palace,2 - 2,https://www.espn.com/soccer/match/_/gameId/671199/crystal-palace-manchester-city,74.2%,25.8%,9,2,19,5,1,1,6,1,0,7
+671182,"Sat, Dec 9, December, 2023",Crystal Palace,Liverpool,1 - 2,https://www.espn.com/soccer/match/_/gameId/671182/liverpool-crystal-palace,24.1%,75.9%,4,2,8,14,5,2,6,5,0,3
+671168,"Sun, Dec 3, December, 2023",West Ham United,Crystal Palace,1 - 1,https://www.espn.com/soccer/match/_/gameId/671168/crystal-palace-west-ham-united,54.5%,45.5%,3,2,9,9,2,0,2,3,1,2
+671155,"Sat, Nov 25, November, 2023",Luton Town,Crystal Palace,2 - 1,https://www.espn.com/soccer/match/_/gameId/671155/crystal-palace-luton-town,39%,61%,3,8,8,16,6,1,4,5,7,1
+671145,"Sat, Nov 11, November, 2023",Crystal Palace,Everton,2 - 3,https://www.espn.com/soccer/match/_/gameId/671145/everton-crystal-palace,67.2%,32.8%,4,4,13,8,1,4,9,2,1,3
+671133,"Sat, Nov 4, November, 2023",Burnley,Crystal Palace,0 - 2,https://www.espn.com/soccer/match/_/gameId/671133/crystal-palace-burnley,67.5%,32.5%,5,3,17,4,0,5,12,1,1,5
+671126,"Fri, Oct 27, October, 2023",Crystal Palace,Tottenham Hotspur,1 - 2,https://www.espn.com/soccer/match/_/gameId/671126/tottenham-hotspur-crystal-palace,24.3%,75.7%,3,1,13,10,2,1,11,2,0,2
+671117,"Sat, Oct 21, October, 2023",Newcastle United,Crystal Palace,4 - 0,https://www.espn.com/soccer/match/_/gameId/671117/crystal-palace-newcastle-united,59.5%,40.5%,7,3,10,17,2,3,6,8,3,3
+671104,"Sat, Oct 7, October, 2023",Crystal Palace,Nottingham Forest,0 - 0,https://www.espn.com/soccer/match/_/gameId/671104/nottingham-forest-crystal-palace,52%,48%,2,5,8,16,0,1,3,7,5,2
+671092,"Sat, Sep 30, September, 2023",Manchester United,Crystal Palace,0 - 1,https://www.espn.com/soccer/match/_/gameId/671092/crystal-palace-manchester-united,77.1%,22.9%,4,2,19,8,3,2,10,4,1,3
+671089,"Sat, Sep 23, September, 2023",Crystal Palace,Fulham,0 - 0,https://www.espn.com/soccer/match/_/gameId/671089/fulham-crystal-palace,50.5%,49.5%,3,5,7,10,3,2,3,2,5,3
+671063,"Sun, Sep 3, September, 2023",Crystal Palace,Wolverhampton Wanderers,3 - 2,https://www.espn.com/soccer/match/_/gameId/671063/wolverhampton-wanderers-crystal-palace,42.9%,57.1%,11,4,16,12,1,3,4,2,2,7
+671036,"Sat, Aug 12, August, 2023",Sheffield United,Crystal Palace,0 - 1,https://www.espn.com/soccer/match/_/gameId/671036/crystal-palace-sheffield-united,32.2%,67.8%,1,8,8,24,3,0,5,5,7,1
+671393,"Sat, May 11, May, 2024",Everton,Sheffield United,1 - 0,https://www.espn.com/soccer/match/_/gameId/671393/sheffield-united-everton,57.5%,42.5%,6,1,15,13,1,2,3,6,1,6
+671388,"Fri, May 3, May, 2024",Luton Town,Everton,1 - 1,https://www.espn.com/soccer/match/_/gameId/671388/everton-luton-town,50.1%,49.9%,5,3,18,10,1,3,8,7,3,4
+671314,"Wed, Apr 24, April, 2024",Everton,Liverpool,2 - 0,https://www.espn.com/soccer/match/_/gameId/671314/liverpool-everton,23.9%,76.1%,6,7,16,23,0,3,4,13,7,4
+671370,"Sun, Apr 21, April, 2024",Everton,Nottingham Forest,2 - 0,https://www.espn.com/soccer/match/_/gameId/671370/nottingham-forest-everton,40.3%,59.7%,4,3,7,8,4,2,6,4,3,2
+671349,"Sat, Apr 6, April, 2024",Everton,Burnley,1 - 0,https://www.espn.com/soccer/match/_/gameId/671349/burnley-everton,37%,63%,3,1,12,6,2,1,3,5,1,2
+671338,"Tue, Apr 2, April, 2024",Newcastle United,Everton,1 - 1,https://www.espn.com/soccer/match/_/gameId/671338/everton-newcastle-united,58.2%,41.8%,6,3,18,10,0,3,7,3,2,4
+671308,"Sat, Mar 9, March, 2024",Manchester United,Everton,2 - 0,https://www.espn.com/soccer/match/_/gameId/671308/everton-manchester-united,51.1%,48.9%,8,6,15,23,1,2,5,8,6,6
+671293,"Sat, Mar 2, March, 2024",Everton,West Ham United,1 - 3,https://www.espn.com/soccer/match/_/gameId/671293/west-ham-united-everton,55%,45%,11,5,22,12,1,2,4,5,2,9
+671264,"Sat, Feb 10, February, 2024",Manchester City,Everton,2 - 0,https://www.espn.com/soccer/match/_/gameId/671264/everton-manchester-city,72.5%,27.5%,3,1,19,5,0,2,9,0,1,1
+671253,"Sat, Feb 3, February, 2024",Everton,Tottenham Hotspur,2 - 2,https://www.espn.com/soccer/match/_/gameId/671253/tottenham-hotspur-everton,42.6%,57.4%,5,6,14,9,3,0,9,5,4,2
+671244,"Tue, Jan 30, January, 2024",Fulham,Everton,0 - 0,https://www.espn.com/soccer/match/_/gameId/671244/everton-fulham,69.8%,30.2%,6,4,25,21,1,2,15,6,2,5
+671222,"Sat, Dec 30, December, 2023",Wolverhampton Wanderers,Everton,3 - 0,https://www.espn.com/soccer/match/_/gameId/671222/everton-wolverhampton-wanderers,52.8%,47.2%,6,0,12,10,2,3,5,2,0,4
+671214,"Wed, Dec 27, December, 2023",Everton,Manchester City,1 - 3,https://www.espn.com/soccer/match/_/gameId/671214/manchester-city-everton,27.7%,72.3%,2,9,7,23,4,2,4,8,6,1
+671205,"Sat, Dec 23, December, 2023",Tottenham Hotspur,Everton,2 - 1,https://www.espn.com/soccer/match/_/gameId/671205/everton-tottenham-hotspur,61.2%,38.8%,6,8,13,18,1,4,3,8,7,4
+671192,"Sat, Dec 16, December, 2023",Burnley,Everton,0 - 2,https://www.espn.com/soccer/match/_/gameId/671192/everton-burnley,62.1%,37.9%,2,6,14,9,0,1,8,6,4,2
+671174,"Thu, Dec 7, December, 2023",Everton,Newcastle United,3 - 0,https://www.espn.com/soccer/match/_/gameId/671174/newcastle-united-everton,38.5%,61.5%,6,3,21,13,3,0,5,2,3,3
+671164,"Sat, Dec 2, December, 2023",Nottingham Forest,Everton,0 - 1,https://www.espn.com/soccer/match/_/gameId/671164/everton-nottingham-forest,61.6%,38.4%,2,3,13,12,1,0,4,3,1,2
+671157,"Sun, Nov 26, November, 2023",Everton,Manchester United,0 - 3,https://www.espn.com/soccer/match/_/gameId/671157/manchester-united-everton,50.6%,49.4%,6,4,24,9,3,0,6,5,1,6
+671129,"Sun, Oct 29, October, 2023",West Ham United,Everton,0 - 1,https://www.espn.com/soccer/match/_/gameId/671129/everton-west-ham-united,63.7%,36.3%,2,4,12,10,4,1,4,3,3,2
+671115,"Sat, Oct 21, October, 2023",Liverpool,Everton,2 - 0,https://www.espn.com/soccer/match/_/gameId/671115/everton-liverpool,77.5%,22.5%,6,1,26,6,1,1,12,4,1,4
+671091,"Sat, Sep 30, September, 2023",Everton,Luton Town,1 - 2,https://www.espn.com/soccer/match/_/gameId/671091/luton-town-everton,67.6%,32.4%,5,2,23,9,0,1,3,6,0,3
+671067,"Sat, Sep 2, September, 2023",Sheffield United,Everton,2 - 2,https://www.espn.com/soccer/match/_/gameId/671067/everton-sheffield-united,45.4%,54.6%,8,6,13,16,1,2,4,6,4,6
+671057,"Sat, Aug 26, August, 2023",Everton,Wolverhampton Wanderers,0 - 1,https://www.espn.com/soccer/match/_/gameId/671057/wolverhampton-wanderers-everton,46.8%,53.2%,7,2,15,11,3,4,7,0,2,7
+671035,"Sat, Aug 12, August, 2023",Everton,Fulham,0 - 1,https://www.espn.com/soccer/match/_/gameId/671035/fulham-everton,40.6%,59.4%,9,2,19,9,0,2,10,4,1,9
+671408,"Sun, May 19, May, 2024",Luton Town,Fulham,2 - 4,https://www.espn.com/soccer/match/_/gameId/671408/fulham-luton-town,40.4%,59.6%,6,8,15,16,5,4,4,4,4,4
+671394,"Sat, May 11, May, 2024",Fulham,Manchester City,0 - 4,https://www.espn.com/soccer/match/_/gameId/671394/manchester-city-fulham,35.8%,64.2%,1,9,1,16,1,0,1,7,5,1
+671364,"Sun, Apr 21, April, 2024",Fulham,Liverpool,1 - 3,https://www.espn.com/soccer/match/_/gameId/671364/liverpool-fulham,39.9%,60.1%,5,7,12,14,3,0,1,4,4,4
+671359,"Sun, Apr 14, April, 2024",West Ham United,Fulham,0 - 2,https://www.espn.com/soccer/match/_/gameId/671359/fulham-west-ham-united,58.2%,41.8%,4,10,15,18,1,2,8,3,8,4
+671350,"Sat, Apr 6, April, 2024",Fulham,Newcastle United,0 - 1,https://www.espn.com/soccer/match/_/gameId/671350/newcastle-united-fulham,66.6%,33.4%,4,5,14,12,1,2,14,3,4,4
+671335,"Tue, Apr 2, April, 2024",Nottingham Forest,Fulham,3 - 1,https://www.espn.com/soccer/match/_/gameId/671335/fulham-nottingham-forest,33.3%,66.7%,4,3,16,18,1,0,3,8,2,1
+671329,"Sat, Mar 30, March, 2024",Sheffield United,Fulham,3 - 3,https://www.espn.com/soccer/match/_/gameId/671329/fulham-sheffield-united,26.4%,73.6%,4,9,8,24,4,1,2,15,6,1
+671313,"Sat, Mar 16, March, 2024",Fulham,Tottenham Hotspur,3 - 0,https://www.espn.com/soccer/match/_/gameId/671313/tottenham-hotspur-fulham,42.9%,57.1%,7,5,16,14,2,3,4,5,5,4
+671306,"Sat, Mar 9, March, 2024",Wolverhampton Wanderers,Fulham,2 - 1,https://www.espn.com/soccer/match/_/gameId/671306/fulham-wolverhampton-wanderers,47.8%,52.2%,3,7,8,23,2,2,3,4,5,2
+671290,"Sat, Feb 24, February, 2024",Manchester United,Fulham,1 - 2,https://www.espn.com/soccer/match/_/gameId/671290/fulham-manchester-united,56.8%,43.2%,9,5,21,17,2,5,10,9,3,7
+671260,"Sat, Feb 3, February, 2024",Burnley,Fulham,2 - 2,https://www.espn.com/soccer/match/_/gameId/671260/fulham-burnley,43.7%,56.3%,4,7,12,15,2,2,2,13,5,2
+671210,"Sat, Dec 23, December, 2023",Fulham,Burnley,0 - 2,https://www.espn.com/soccer/match/_/gameId/671210/burnley-fulham,65.6%,34.4%,5,2,19,7,2,1,8,6,0,5
+671198,"Sat, Dec 16, December, 2023",Newcastle United,Fulham,3 - 0,https://www.espn.com/soccer/match/_/gameId/671198/fulham-newcastle-united,70.8%,29.2%,10,4,27,6,0,2,5,1,4,7
+671187,"Sun, Dec 10, December, 2023",Fulham,West Ham United,5 - 0,https://www.espn.com/soccer/match/_/gameId/671187/west-ham-united-fulham,63.2%,36.8%,8,5,14,9,2,1,3,6,5,3
+671178,"Wed, Dec 6, December, 2023",Fulham,Nottingham Forest,5 - 0,https://www.espn.com/soccer/match/_/gameId/671178/nottingham-forest-fulham,63.7%,36.3%,6,1,14,4,0,1,6,1,1,1
+671167,"Sun, Dec 3, December, 2023",Liverpool,Fulham,4 - 3,https://www.espn.com/soccer/match/_/gameId/671167/fulham-liverpool,61.2%,38.8%,12,5,26,9,0,0,3,4,2,9
+671158,"Mon, Nov 27, November, 2023",Fulham,Wolverhampton Wanderers,3 - 2,https://www.espn.com/soccer/match/_/gameId/671158/wolverhampton-wanderers-fulham,59.8%,40.2%,6,6,12,10,2,2,6,2,4,3
+671131,"Sat, Nov 4, November, 2023",Fulham,Manchester United,0 - 1,https://www.espn.com/soccer/match/_/gameId/671131/manchester-united-fulham,45%,55%,3,5,18,12,5,2,9,4,4,2
+671116,"Mon, Oct 23, October, 2023",Tottenham Hotspur,Fulham,2 - 0,https://www.espn.com/soccer/match/_/gameId/671116/fulham-tottenham-hotspur,55.6%,44.4%,5,3,15,10,2,0,3,5,3,3
+671106,"Sat, Oct 7, October, 2023",Fulham,Sheffield United,3 - 1,https://www.espn.com/soccer/match/_/gameId/671106/sheffield-united-fulham,60.3%,39.7%,6,2,20,5,1,2,9,4,2,4
+671074,"Sat, Sep 16, September, 2023",Fulham,Luton Town,1 - 0,https://www.espn.com/soccer/match/_/gameId/671074/luton-town-fulham,77.6%,22.4%,2,2,13,7,2,2,6,2,2,1
+671066,"Sat, Sep 2, September, 2023",Manchester City,Fulham,5 - 1,https://www.espn.com/soccer/match/_/gameId/671066/fulham-manchester-city,67.9%,32.1%,5,4,7,6,2,4,4,5,3,0
+671407,"Sun, May 19, May, 2024",Liverpool,Wolverhampton Wanderers,2 - 0,https://www.espn.com/soccer/match/_/gameId/671407/wolverhampton-wanderers-liverpool,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671387,"Sun, May 5, May, 2024",Liverpool,Tottenham Hotspur,4 - 2,https://www.espn.com/soccer/match/_/gameId/671387/tottenham-hotspur-liverpool,44%,56%,13,6,25,11,1,4,8,3,4,8
+671377,"Sat, Apr 27, April, 2024",West Ham United,Liverpool,2 - 2,https://www.espn.com/soccer/match/_/gameId/671377/liverpool-west-ham-united,28.6%,71.4%,8,8,11,28,0,2,5,8,7,6
+671347,"Sun, Apr 7, April, 2024",Manchester United,Liverpool,2 - 2,https://www.espn.com/soccer/match/_/gameId/671347/liverpool-manchester-united,38%,62%,5,7,9,28,5,2,6,11,6,3
+671340,"Thu, Apr 4, April, 2024",Liverpool,Sheffield United,3 - 1,https://www.espn.com/soccer/match/_/gameId/671340/sheffield-united-liverpool,82.9%,17.1%,9,3,29,5,0,1,13,1,3,6
+671309,"Sun, Mar 10, March, 2024",Liverpool,Manchester City,1 - 1,https://www.espn.com/soccer/match/_/gameId/671309/manchester-city-liverpool,52.8%,47.2%,6,6,19,10,0,3,7,4,5,5
+671299,"Sat, Mar 2, March, 2024",Nottingham Forest,Liverpool,0 - 1,https://www.espn.com/soccer/match/_/gameId/671299/liverpool-nottingham-forest,29.4%,70.6%,2,2,8,22,3,2,3,12,1,2
+671284,"Wed, Feb 21, February, 2024",Liverpool,Luton Town,4 - 1,https://www.espn.com/soccer/match/_/gameId/671284/luton-town-liverpool,60.8%,39.2%,13,3,29,12,1,4,13,4,2,9
+671269,"Sat, Feb 10, February, 2024",Liverpool,Burnley,3 - 1,https://www.espn.com/soccer/match/_/gameId/671269/burnley-liverpool,70.8%,29.2%,10,4,25,9,3,2,9,3,3,7
+671229,"Mon, Jan 1, January, 2024",Liverpool,Newcastle United,4 - 2,https://www.espn.com/soccer/match/_/gameId/671229/newcastle-united-liverpool,61.9%,38.1%,15,3,34,5,3,5,7,3,1,10
+671212,"Tue, Dec 26, December, 2023",Burnley,Liverpool,0 - 2,https://www.espn.com/soccer/match/_/gameId/671212/liverpool-burnley,31.4%,68.6%,0,10,9,19,2,1,4,4,8,0
+671195,"Sun, Dec 17, December, 2023",Liverpool,Manchester United,0 - 0,https://www.espn.com/soccer/match/_/gameId/671195/manchester-united-liverpool,68.3%,31.7%,8,1,34,6,2,4,12,0,2,8
+671172,"Wed, Dec 6, December, 2023",Sheffield United,Liverpool,0 - 2,https://www.espn.com/soccer/match/_/gameId/671172/liverpool-sheffield-united,24.3%,75.7%,1,8,6,15,2,3,2,12,6,1
+671154,"Sat, Nov 25, November, 2023",Manchester City,Liverpool,1 - 1,https://www.espn.com/soccer/match/_/gameId/671154/liverpool-manchester-city,60%,40%,5,3,16,8,1,3,9,6,2,4
+671135,"Sun, Nov 5, November, 2023",Luton Town,Liverpool,1 - 1,https://www.espn.com/soccer/match/_/gameId/671135/liverpool-luton-town,26.2%,73.8%,5,6,8,24,1,1,4,7,5,4
+671127,"Sun, Oct 29, October, 2023",Liverpool,Nottingham Forest,3 - 0,https://www.espn.com/soccer/match/_/gameId/671127/nottingham-forest-liverpool,72.6%,27.4%,8,1,21,9,2,3,8,3,1,5
+671100,"Sat, Sep 30, September, 2023",Tottenham Hotspur,Liverpool,2 - 1,https://www.espn.com/soccer/match/_/gameId/671100/liverpool-tottenham-hotspur,64.5%,35.5%,8,4,24,12,5,4,12,5,3,8
+671090,"Sun, Sep 24, September, 2023",Liverpool,West Ham United,3 - 1,https://www.espn.com/soccer/match/_/gameId/671090/west-ham-united-liverpool,64%,36%,7,4,22,11,0,2,7,4,3,4
+671080,"Sat, Sep 16, September, 2023",Wolverhampton Wanderers,Liverpool,1 - 3,https://www.espn.com/soccer/match/_/gameId/671080/liverpool-wolverhampton-wanderers,34.2%,65.8%,2,6,11,16,1,3,4,4,3,1
+671055,"Sun, Aug 27, August, 2023",Newcastle United,Liverpool,1 - 2,https://www.espn.com/soccer/match/_/gameId/671055/liverpool-newcastle-united,60%,40%,8,4,23,9,1,2,5,9,2,7
+671405,"Sun, May 19, May, 2024",Manchester City,West Ham United,3 - 1,https://www.espn.com/soccer/match/_/gameId/671405/west-ham-united-manchester-city,71.4%,28.6%,12,2,28,3,0,1,11,2,1,9
+671365,"Tue, May 14, May, 2024",Tottenham Hotspur,Manchester City,0 - 2,https://www.espn.com/soccer/match/_/gameId/671365/manchester-city-tottenham-hotspur,53.4%,46.6%,5,5,10,8,3,3,7,4,3,6
+671389,"Sat, May 4, May, 2024",Manchester City,Wolverhampton Wanderers,5 - 1,https://www.espn.com/soccer/match/_/gameId/671389/wolverhampton-wanderers-manchester-city,57.9%,42.1%,12,1,20,2,0,4,6,0,0,7
+671373,"Sun, Apr 28, April, 2024",Nottingham Forest,Manchester City,0 - 2,https://www.espn.com/soccer/match/_/gameId/671373/manchester-city-nottingham-forest,33.3%,66.7%,2,5,14,11,0,0,4,5,3,2
+671356,"Sat, Apr 13, April, 2024",Manchester City,Luton Town,5 - 1,https://www.espn.com/soccer/match/_/gameId/671356/luton-town-manchester-city,73.6%,26.4%,13,2,37,4,1,0,12,1,1,9
+671292,"Sun, Mar 3, March, 2024",Manchester City,Manchester United,3 - 1,https://www.espn.com/soccer/match/_/gameId/671292/manchester-united-manchester-city,72.9%,27.1%,8,1,27,3,0,1,15,2,0,5
+671250,"Wed, Jan 31, January, 2024",Manchester City,Burnley,3 - 1,https://www.espn.com/soccer/match/_/gameId/671250/burnley-manchester-city,74.1%,25.9%,4,3,14,8,2,2,7,3,2,1
+671239,"Sat, Jan 13, January, 2024",Newcastle United,Manchester City,2 - 3,https://www.espn.com/soccer/match/_/gameId/671239/manchester-city-newcastle-united,27.4%,72.6%,5,11,12,27,1,2,3,13,8,3
+671225,"Sat, Dec 30, December, 2023",Manchester City,Sheffield United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671225/sheffield-united-manchester-city,80.6%,19.4%,4,2,18,4,1,1,12,2,2,2
+671185,"Sun, Dec 10, December, 2023",Luton Town,Manchester City,1 - 2,https://www.espn.com/soccer/match/_/gameId/671185/manchester-city-luton-town,34.7%,65.3%,2,6,4,18,2,1,6,3,4,1
+671166,"Sun, Dec 3, December, 2023",Manchester City,Tottenham Hotspur,3 - 3,https://www.espn.com/soccer/match/_/gameId/671166/tottenham-hotspur-manchester-city,55%,45%,4,4,17,8,4,4,10,8,1,2
+671128,"Sun, Oct 29, October, 2023",Manchester United,Manchester City,0 - 3,https://www.espn.com/soccer/match/_/gameId/671128/manchester-city-manchester-united,39.5%,60.5%,3,10,7,21,4,1,7,12,7,3
+671097,"Sat, Sep 30, September, 2023",Wolverhampton Wanderers,Manchester City,2 - 1,https://www.espn.com/soccer/match/_/gameId/671097/manchester-city-wolverhampton-wanderers,31.9%,68.1%,1,8,3,23,6,5,0,6,7,0
+671081,"Sat, Sep 23, September, 2023",Manchester City,Nottingham Forest,2 - 0,https://www.espn.com/soccer/match/_/gameId/671081/nottingham-forest-manchester-city,57.4%,42.6%,4,3,7,10,3,7,6,6,3,2
+671078,"Sat, Sep 16, September, 2023",West Ham United,Manchester City,1 - 3,https://www.espn.com/soccer/match/_/gameId/671078/manchester-city-west-ham-united,31.6%,68.4%,3,15,6,29,3,2,4,11,10,2
+671059,"Sun, Aug 27, August, 2023",Sheffield United,Manchester City,1 - 2,https://www.espn.com/soccer/match/_/gameId/671059/manchester-city-sheffield-united,20.5%,79.5%,2,9,6,30,4,0,1,12,7,0
+671046,"Sat, Aug 19, August, 2023",Manchester City,Newcastle United,1 - 0,https://www.espn.com/soccer/match/_/gameId/671046/newcastle-united-manchester-city,58.7%,41.3%,4,1,14,7,1,5,3,0,1,3
+671031,"Fri, Aug 11, August, 2023",Burnley,Manchester City,0 - 3,https://www.espn.com/soccer/match/_/gameId/671031/manchester-city-burnley,34.4%,65.6%,1,8,6,17,0,0,6,5,5,1
+671362,"Wed, May 15, May, 2024",Manchester United,Newcastle United,3 - 2,https://www.espn.com/soccer/match/_/gameId/671362/newcastle-united-manchester-united,44.4%,55.6%,8,8,17,21,3,3,9,9,5,5
+671371,"Sat, Apr 27, April, 2024",Manchester United,Burnley,1 - 1,https://www.espn.com/soccer/match/_/gameId/671371/burnley-manchester-united,47.7%,52.3%,10,7,27,16,1,3,6,5,6,9
+671311,"Wed, Apr 24, April, 2024",Manchester United,Sheffield United,4 - 2,https://www.espn.com/soccer/match/_/gameId/671311/sheffield-united-manchester-united,71.5%,28.5%,13,4,25,10,0,1,9,4,2,9
+671278,"Sun, Feb 18, February, 2024",Luton Town,Manchester United,1 - 2,https://www.espn.com/soccer/match/_/gameId/671278/manchester-united-luton-town,58.5%,41.5%,4,9,22,21,3,5,8,6,6,3
+671252,"Sun, Feb 4, February, 2024",Manchester United,West Ham United,3 - 0,https://www.espn.com/soccer/match/_/gameId/671252/west-ham-united-manchester-united,51.1%,48.9%,5,3,12,22,0,1,5,8,4,2
+671246,"Thu, Feb 1, February, 2024",Wolverhampton Wanderers,Manchester United,3 - 4,https://www.espn.com/soccer/match/_/gameId/671246/manchester-united-wolverhampton-wanderers,53.1%,46.9%,7,8,16,21,2,5,4,5,5,3
+671238,"Sun, Jan 14, January, 2024",Manchester United,Tottenham Hotspur,2 - 2,https://www.espn.com/soccer/match/_/gameId/671238/tottenham-hotspur-manchester-united,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671230,"Sat, Dec 30, December, 2023",Nottingham Forest,Manchester United,2 - 1,https://www.espn.com/soccer/match/_/gameId/671230/manchester-united-nottingham-forest,45.2%,54.8%,2,5,8,10,2,4,4,5,4,0
+671206,"Sat, Dec 23, December, 2023",West Ham United,Manchester United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671206/manchester-united-west-ham-united,34.5%,65.5%,5,3,12,11,2,3,4,4,3,3
+671165,"Sat, Dec 2, December, 2023",Newcastle United,Manchester United,1 - 0,https://www.espn.com/soccer/match/_/gameId/671165/manchester-united-newcastle-united,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671142,"Sat, Nov 11, November, 2023",Manchester United,Luton Town,1 - 0,https://www.espn.com/soccer/match/_/gameId/671142/luton-town-manchester-united,64.5%,35.5%,4,4,15,10,0,2,11,3,4,3
+671119,"Sat, Oct 21, October, 2023",Sheffield United,Manchester United,1 - 2,https://www.espn.com/soccer/match/_/gameId/671119/manchester-united-sheffield-united,37.5%,62.5%,6,5,12,14,3,1,5,4,3,5
+671088,"Sat, Sep 23, September, 2023",Burnley,Manchester United,0 - 1,https://www.espn.com/soccer/match/_/gameId/671088/manchester-united-burnley,61.8%,38.2%,4,4,12,11,1,2,9,5,3,4
+671058,"Sat, Aug 26, August, 2023",Manchester United,Nottingham Forest,3 - 2,https://www.espn.com/soccer/match/_/gameId/671058/nottingham-forest-manchester-united,66.3%,33.7%,9,4,18,9,4,4,11,3,2,7
+671048,"Sat, Aug 19, August, 2023",Tottenham Hotspur,Manchester United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671048/manchester-united-tottenham-hotspur,55.7%,44.3%,6,6,17,22,1,3,5,6,6,5
+671040,"Mon, Aug 14, August, 2023",Manchester United,Wolverhampton Wanderers,1 - 0,https://www.espn.com/soccer/match/_/gameId/671040/wolverhampton-wanderers-manchester-united,51%,49%,3,6,15,23,2,3,8,7,6,2
+671384,"Sat, May 4, May, 2024",Burnley,Newcastle United,1 - 4,https://www.espn.com/soccer/match/_/gameId/671384/newcastle-united-burnley,46.6%,53.4%,5,11,17,23,2,2,4,11,7,4
+671372,"Sat, Apr 27, April, 2024",Newcastle United,Sheffield United,5 - 1,https://www.espn.com/soccer/match/_/gameId/671372/sheffield-united-newcastle-united,59.8%,40.2%,7,5,20,15,0,0,4,5,3,3
+671357,"Sat, Apr 13, April, 2024",Newcastle United,Tottenham Hotspur,4 - 0,https://www.espn.com/soccer/match/_/gameId/671357/tottenham-hotspur-newcastle-united,27.1%,72.9%,5,2,18,11,0,4,16,3,2,1
+671327,"Sat, Mar 30, March, 2024",Newcastle United,West Ham United,4 - 3,https://www.espn.com/soccer/match/_/gameId/671327/west-ham-united-newcastle-united,59.9%,40.1%,9,4,24,10,1,1,3,4,1,5
+671298,"Sat, Mar 2, March, 2024",Newcastle United,Wolverhampton Wanderers,3 - 0,https://www.espn.com/soccer/match/_/gameId/671298/wolverhampton-wanderers-newcastle-united,44.2%,55.8%,7,3,14,12,0,1,3,5,3,3
+671263,"Sat, Feb 10, February, 2024",Nottingham Forest,Newcastle United,2 - 3,https://www.espn.com/soccer/match/_/gameId/671263/newcastle-united-nottingham-forest,37.7%,62.3%,3,5,13,7,1,2,4,4,2,1
+671251,"Sat, Feb 3, February, 2024",Newcastle United,Luton Town,4 - 4,https://www.espn.com/soccer/match/_/gameId/671251/luton-town-newcastle-united,54.2%,45.8%,6,8,19,11,2,2,8,2,4,2
+671216,"Tue, Dec 26, December, 2023",Newcastle United,Nottingham Forest,1 - 3,https://www.espn.com/soccer/match/_/gameId/671216/nottingham-forest-newcastle-united,62%,38%,7,6,19,15,3,3,10,2,3,5
+671202,"Sat, Dec 23, December, 2023",Luton Town,Newcastle United,1 - 0,https://www.espn.com/soccer/match/_/gameId/671202/newcastle-united-luton-town,34.8%,65.2%,5,2,16,15,2,2,6,7,2,4
+671189,"Sun, Dec 10, December, 2023",Tottenham Hotspur,Newcastle United,4 - 1,https://www.espn.com/soccer/match/_/gameId/671189/newcastle-united-tottenham-hotspur,56.2%,43.8%,12,3,23,9,1,3,3,6,2,7
+671125,"Sat, Oct 28, October, 2023",Wolverhampton Wanderers,Newcastle United,2 - 2,https://www.espn.com/soccer/match/_/gameId/671125/newcastle-united-wolverhampton-wanderers,43.2%,56.8%,6,5,11,13,1,4,8,7,2,4
+671109,"Sun, Oct 8, October, 2023",West Ham United,Newcastle United,2 - 2,https://www.espn.com/soccer/match/_/gameId/671109/newcastle-united-west-ham-united,35.2%,64.8%,3,3,5,10,3,3,4,2,1,1
+671095,"Sat, Sep 30, September, 2023",Newcastle United,Burnley,2 - 0,https://www.espn.com/soccer/match/_/gameId/671095/burnley-newcastle-united,52.8%,47.2%,8,2,20,8,1,3,5,3,2,5
+671084,"Sun, Sep 24, September, 2023",Sheffield United,Newcastle United,0 - 8,https://www.espn.com/soccer/match/_/gameId/671084/newcastle-united-sheffield-united,42.2%,57.8%,1,15,9,22,4,0,2,6,7,1
+671404,"Sun, May 19, May, 2024",Burnley,Nottingham Forest,1 - 2,https://www.espn.com/soccer/match/_/gameId/671404/nottingham-forest-burnley,72.6%,27.4%,3,6,20,12,1,0,4,3,4,3
+671390,"Sat, May 4, May, 2024",Sheffield United,Nottingham Forest,1 - 3,https://www.espn.com/soccer/match/_/gameId/671390/nottingham-forest-sheffield-united,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671358,"Sat, Apr 13, April, 2024",Nottingham Forest,Wolverhampton Wanderers,2 - 2,https://www.espn.com/soccer/match/_/gameId/671358/wolverhampton-wanderers-nottingham-forest,46.2%,53.8%,9,4,18,11,2,3,10,1,1,7
+671341,"Sun, Apr 7, April, 2024",Tottenham Hotspur,Nottingham Forest,3 - 1,https://www.espn.com/soccer/match/_/gameId/671341/nottingham-forest-tottenham-hotspur,63.6%,36.4%,7,6,17,13,2,4,12,2,5,5
+671317,"Sat, Mar 16, March, 2024",Luton Town,Nottingham Forest,1 - 1,https://www.espn.com/soccer/match/_/gameId/671317/nottingham-forest-luton-town,59.7%,40.3%,4,6,10,16,1,2,6,7,2,3
+671275,"Sat, Feb 17, February, 2024",Nottingham Forest,West Ham United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671275/west-ham-united-nottingham-forest,48.4%,51.6%,8,3,19,10,4,4,5,3,3,6
+671197,"Fri, Dec 15, December, 2023",Nottingham Forest,Tottenham Hotspur,0 - 2,https://www.espn.com/soccer/match/_/gameId/671197/tottenham-hotspur-nottingham-forest,32.7%,67.3%,1,6,15,12,2,4,6,4,4,1
+671186,"Sat, Dec 9, December, 2023",Wolverhampton Wanderers,Nottingham Forest,1 - 1,https://www.espn.com/soccer/match/_/gameId/671186/nottingham-forest-wolverhampton-wanderers,68.1%,31.9%,4,2,10,8,0,1,4,3,1,3
+671143,"Sun, Nov 12, November, 2023",West Ham United,Nottingham Forest,3 - 2,https://www.espn.com/soccer/match/_/gameId/671143/nottingham-forest-west-ham-united,54.3%,45.7%,6,5,16,10,2,2,9,4,3,3
+671118,"Sat, Oct 21, October, 2023",Nottingham Forest,Luton Town,2 - 2,https://www.espn.com/soccer/match/_/gameId/671118/luton-town-nottingham-forest,57.2%,42.8%,8,4,19,13,3,0,4,2,2,6
+671076,"Mon, Sep 18, September, 2023",Nottingham Forest,Burnley,1 - 1,https://www.espn.com/soccer/match/_/gameId/671076/burnley-nottingham-forest,46.1%,53.9%,4,3,14,10,2,3,5,4,2,3
+671047,"Fri, Aug 18, August, 2023",Nottingham Forest,Sheffield United,2 - 1,https://www.espn.com/soccer/match/_/gameId/671047/sheffield-united-nottingham-forest,49.9%,50.1%,4,3,16,7,2,3,6,7,2,2
+671409,"Sun, May 19, May, 2024",Sheffield United,Tottenham Hotspur,0 - 3,https://www.espn.com/soccer/match/_/gameId/671409/tottenham-hotspur-sheffield-united,23.9%,76.1%,1,9,6,18,2,0,2,6,6,1
+671398,"Sat, May 11, May, 2024",Tottenham Hotspur,Burnley,2 - 1,https://www.espn.com/soccer/match/_/gameId/671398/burnley-tottenham-hotspur,63.1%,36.9%,9,3,21,7,3,5,9,3,2,7
+671336,"Tue, Apr 2, April, 2024",West Ham United,Tottenham Hotspur,1 - 1,https://www.espn.com/soccer/match/_/gameId/671336/tottenham-hotspur-west-ham-united,32.3%,67.7%,4,4,11,13,1,4,9,5,3,3
+671321,"Sat, Mar 30, March, 2024",Tottenham Hotspur,Luton Town,2 - 1,https://www.espn.com/soccer/match/_/gameId/671321/luton-town-tottenham-hotspur,69.6%,30.4%,4,3,17,7,3,4,3,6,2,2
+671277,"Sat, Feb 17, February, 2024",Tottenham Hotspur,Wolverhampton Wanderers,1 - 2,https://www.espn.com/soccer/match/_/gameId/671277/wolverhampton-wanderers-tottenham-hotspur,71.2%,28.8%,4,7,15,12,0,1,10,4,5,4
+671176,"Thu, Dec 7, December, 2023",Tottenham Hotspur,West Ham United,1 - 2,https://www.espn.com/soccer/match/_/gameId/671176/west-ham-united-tottenham-hotspur,75%,25%,7,5,23,11,3,3,8,4,3,5
+671144,"Sat, Nov 11, November, 2023",Wolverhampton Wanderers,Tottenham Hotspur,2 - 1,https://www.espn.com/soccer/match/_/gameId/671144/tottenham-hotspur-wolverhampton-wanderers,41.5%,58.5%,4,2,17,6,4,3,11,3,1,2
+671107,"Sat, Oct 7, October, 2023",Luton Town,Tottenham Hotspur,0 - 1,https://www.espn.com/soccer/match/_/gameId/671107/tottenham-hotspur-luton-town,33.1%,66.9%,2,4,12,15,2,1,5,6,3,2
+671079,"Sat, Sep 16, September, 2023",Tottenham Hotspur,Sheffield United,2 - 1,https://www.espn.com/soccer/match/_/gameId/671079/sheffield-united-tottenham-hotspur,70.1%,29.9%,10,5,28,7,6,5,15,2,4,8
+671061,"Sat, Sep 2, September, 2023",Burnley,Tottenham Hotspur,2 - 5,https://www.espn.com/soccer/match/_/gameId/671061/tottenham-hotspur-burnley,46.1%,53.9%,4,11,16,21,4,3,7,4,6,3
+671399,"Sat, May 11, May, 2024",West Ham United,Luton Town,3 - 1,https://www.espn.com/soccer/match/_/gameId/671399/luton-town-west-ham-united,57.9%,42.1%,8,1,24,4,1,3,7,6,0,5
+671345,"Sat, Apr 6, April, 2024",Wolverhampton Wanderers,West Ham United,1 - 2,https://www.espn.com/soccer/match/_/gameId/671345/west-ham-united-wolverhampton-wanderers,58.3%,41.7%,7,4,14,11,5,2,4,4,2,6
+671302,"Sun, Mar 10, March, 2024",West Ham United,Burnley,2 - 2,https://www.espn.com/soccer/match/_/gameId/671302/burnley-west-ham-united,51.6%,48.4%,4,4,22,11,2,4,4,4,3,2
+671240,"Sun, Jan 21, January, 2024",Sheffield United,West Ham United,2 - 2,https://www.espn.com/soccer/match/_/gameId/671240/west-ham-united-sheffield-united,57.4%,42.6%,6,5,21,16,3,1,4,1,3,4
+671196,"Sun, Dec 17, December, 2023",West Ham United,Wolverhampton Wanderers,3 - 0,https://www.espn.com/soccer/match/_/gameId/671196/wolverhampton-wanderers-west-ham-united,44.2%,55.8%,4,3,13,14,3,1,6,6,3,1
+671156,"Sat, Nov 25, November, 2023",Burnley,West Ham United,1 - 2,https://www.espn.com/soccer/match/_/gameId/671156/west-ham-united-burnley,50.9%,49.1%,5,3,11,11,1,3,4,5,2,4
+671096,"Sat, Sep 30, September, 2023",West Ham United,Sheffield United,2 - 0,https://www.espn.com/soccer/match/_/gameId/671096/sheffield-united-west-ham-united,52.4%,47.6%,9,2,20,16,1,1,7,4,2,6
+671070,"Fri, Sep 1, September, 2023",Luton Town,West Ham United,1 - 2,https://www.espn.com/soccer/match/_/gameId/671070/west-ham-united-luton-town,38.8%,61.2%,1,3,16,9,1,1,9,6,1,0
+671374,"Sat, Apr 27, April, 2024",Wolverhampton Wanderers,Luton Town,2 - 1,https://www.espn.com/soccer/match/_/gameId/671374/luton-town-wolverhampton-wanderers,N/A,N/A,0,0,0,0,0,0,0,0,0,0
+671334,"Tue, Apr 2, April, 2024",Burnley,Wolverhampton Wanderers,1 - 1,https://www.espn.com/soccer/match/_/gameId/671334/wolverhampton-wanderers-burnley,50.9%,49.1%,6,2,13,8,0,2,7,4,1,5
+671286,"Sun, Feb 25, February, 2024",Wolverhampton Wanderers,Sheffield United,1 - 0,https://www.espn.com/soccer/match/_/gameId/671286/sheffield-united-wolverhampton-wanderers,63.5%,36.5%,2,4,13,12,2,1,5,6,4,1
+671177,"Tue, Dec 5, December, 2023",Wolverhampton Wanderers,Burnley,1 - 0,https://www.espn.com/soccer/match/_/gameId/671177/burnley-wolverhampton-wanderers,51.1%,48.9%,4,3,7,12,2,4,6,8,3,3
+671140,"Sat, Nov 4, November, 2023",Sheffield United,Wolverhampton Wanderers,2 - 1,https://www.espn.com/soccer/match/_/gameId/671140/wolverhampton-wanderers-sheffield-united,38.1%,61.9%,2,3,11,10,2,3,4,4,2,0
+671082,"Sat, Sep 23, September, 2023",Luton Town,Wolverhampton Wanderers,1 - 1,https://www.espn.com/soccer/match/_/gameId/671082/wolverhampton-wanderers-luton-town,N/A,N/A,0,0,0,0,0,0,0,0,0,0

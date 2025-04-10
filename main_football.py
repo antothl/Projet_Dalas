@@ -99,4 +99,55 @@ test_results.to_csv(os.path.join(result_folder, "tests_home_away.csv"), index=Fa
 
 plot_goals_pleague(df_merged, result_folder)
 
-print(df_merged.columns)
+
+# Create a melted DataFrame for team 1: plot goal difference vs value ratios
+df_plot_t1 = df_merged[[
+    "Difference_t1",
+    "attack_value_ratio_t1",
+    "midfield_value_ratio_t1",
+    "defense_value_ratio_t1"
+]].copy()
+
+df_melted_t1 = df_plot_t1.melt(id_vars="Difference_t1", var_name="Value Ratio Type", value_name="Ratio")
+
+# Plot: Team 1 - Goal Difference vs Value Ratio
+plt.figure(figsize=(8, 5))
+sns.scatterplot(data=df_melted_t1, x="Ratio", y="Difference_t1", hue="Value Ratio Type")
+plt.title("Team 1: Goal Difference vs Value Composition")
+plt.xlabel("Value Ratio")
+plt.ylabel("Goal Difference")
+plt.grid(True, linestyle="--", alpha=0.3)
+plt.tight_layout()
+plt.show()
+
+# Create a melted DataFrame for team 1: plot goals scored vs value ratios
+df_plot_bp_t1 = df_merged[[
+    "Buts Pour_t1",
+    "attack_value_ratio_t1",
+    "midfield_value_ratio_t1",
+    "defense_value_ratio_t1"
+]].copy()
+
+df_melted_bp_t1 = df_plot_bp_t1.melt(id_vars="Buts Pour_t1", var_name="Value Ratio Type", value_name="Ratio")
+
+# Plot: Team 1 - Goals Scored vs Value Ratio
+plt.figure(figsize=(8, 5))
+sns.scatterplot(data=df_melted_bp_t1, x="Ratio", y="Buts Pour_t1", hue="Value Ratio Type")
+plt.title("Team 1: Goals Scored vs Value Composition")
+plt.xlabel("Value Ratio")
+plt.ylabel("Goals Scored")
+plt.grid(True, linestyle="--", alpha=0.3)
+plt.tight_layout()
+plt.show()
+
+# Correlation heatmap for team 1 stats
+df_corr = df_merged[[
+    "Buts Pour_t1", "Buts Contre_t1", "Difference_t1",
+    "attack_value_ratio_t1", "midfield_value_ratio_t1", "defense_value_ratio_t1"
+]].corr()
+
+plt.figure(figsize=(8, 6))
+sns.heatmap(df_corr, annot=True, cmap="coolwarm", fmt=".2f")
+plt.title("Team 1: Correlation between Goal Stats and Value Ratios")
+plt.tight_layout()
+plt.show()

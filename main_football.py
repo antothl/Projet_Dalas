@@ -34,8 +34,6 @@ df_matchs = clean_matching_names(df_classements, df_matchs, data_folder)
 # Process match table to contain more detailed information
 df_matchs = process_matches_table(df_teams, df_matchs, data_folder)
 
-# Clean matches dataset for correct league names
-df_matchs = clean_matches_league_names(df_matchs, data_folder)
 
 # ==== 2. START INITIAL VISUALS ===== #
 

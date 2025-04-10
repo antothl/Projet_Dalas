@@ -1,4 +1,4 @@
-season,league,Journee,position,club,wins,draws,losses,goals_for,goals_against,goal_difference,points
+season,league,matchday,position,club,wins,draws,losses,goals_for,goals_against,goal_difference,points
 2024,Ligue 1,1,1,Olympique de Marseille,1,0,0,5,1,4,3
 2024,Ligue 1,1,2,Paris Saint-Germain,1,0,0,4,1,3,3
 2024,Ligue 1,1,3,Stade Rennais FC,1,0,0,3,0,3,3

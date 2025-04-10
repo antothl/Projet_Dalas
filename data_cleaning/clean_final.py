@@ -44,6 +44,7 @@ df_tables = df_tables.rename(columns={
     'Championnat': 'league',
     'Saison': 'season',
     'Equipe': 'club',
+    'day': 'matchday',
     'Position': 'position',
     'V': 'wins',
     'N': 'draws',

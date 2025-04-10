@@ -1,0 +1,195 @@
+,competition_id,season,club_id,name,injuries
+1699,ES1,2022,13.0,Club Atlético de Madrid S.A.D.,11
+1700,ES1,2022,131.0,Futbol Club Barcelona,12
+1701,ES1,2022,150.0,Real Betis Balompié S.A.D.,16
+1702,ES1,2022,237.0,Real Club Deportivo Mallorca S.A.D.,10
+1703,ES1,2022,331.0,Club Atlético Osasuna,11
+1704,ES1,2022,366.0,Real Valladolid Club de Fútbol S.A.D.,28
+1705,ES1,2022,367.0,Rayo Vallecano de Madrid S.A.D.,10
+1706,ES1,2022,368.0,Sevilla Fútbol Club S.A.D.,19
+1707,ES1,2022,418.0,Real Madrid Club de Fútbol,8
+1708,ES1,2022,621.0,Athletic Club Bilbao,15
+1709,ES1,2022,681.0,Real Sociedad de Fútbol S.A.D.,11
+1710,ES1,2022,714.0,Reial Club Deportiu Espanyol de Barcelona S.A.D.,18
+1711,ES1,2022,940.0,Real Club Celta de Vigo S. A. D.,11
+1712,ES1,2022,1049.0,Valencia Club de Fútbol S. A. D.,26
+1713,ES1,2022,1050.0,Villarreal Club de Fútbol S.A.D.,19
+1714,ES1,2022,1531.0,Elche CF,17
+1715,ES1,2022,2687.0,Cádiz CF,22
+1716,ES1,2022,3302.0,UD Almería,10
+1717,ES1,2022,3709.0,Getafe Club de Fútbol S.A.D. Team Dubai,18
+1718,ES1,2022,12321.0,Girona Fútbol Club S. A. D.,15
+1719,ES1,2023,13.0,Club Atlético de Madrid S.A.D.,11
+1720,ES1,2023,131.0,Futbol Club Barcelona,12
+1721,ES1,2023,150.0,Real Betis Balompié S.A.D.,19
+1722,ES1,2023,237.0,Real Club Deportivo Mallorca S.A.D.,12
+1723,ES1,2023,331.0,Club Atlético Osasuna,13
+1724,ES1,2023,367.0,Rayo Vallecano de Madrid S.A.D.,7
+1725,ES1,2023,368.0,Sevilla Fútbol Club S.A.D.,21
+1726,ES1,2023,418.0,Real Madrid Club de Fútbol,10
+1727,ES1,2023,472.0,Unión Deportiva Las Palmas S.A.D.,8
+1728,ES1,2023,621.0,Athletic Club Bilbao,14
+1729,ES1,2023,681.0,Real Sociedad de Fútbol S.A.D.,21
+1730,ES1,2023,940.0,Real Club Celta de Vigo S. A. D.,19
+1731,ES1,2023,1049.0,Valencia Club de Fútbol S. A. D.,23
+1732,ES1,2023,1050.0,Villarreal Club de Fútbol S.A.D.,21
+1733,ES1,2023,1108.0,Deportivo Alavés S.A.D.,16
+1734,ES1,2023,2687.0,Cádiz CF,24
+1735,ES1,2023,3302.0,UD Almería,13
+1736,ES1,2023,3709.0,Getafe Club de Fútbol S.A.D. Team Dubai,18
+1737,ES1,2023,12321.0,Girona Fútbol Club S. A. D.,12
+1738,ES1,2023,16795.0,Granada CF,11
+2343,FR1,2022,162.0,Association sportive de Monaco Football Club,10
+2344,FR1,2022,244.0,Olympique de Marseille,16
+2345,FR1,2022,273.0,Stade Rennais Football Club,11
+2346,FR1,2022,290.0,Association de la Jeunesse auxerroise,10
+2347,FR1,2022,415.0,Toulouse Football Club,10
+2348,FR1,2022,417.0,Olympique Gymnaste Club Nice Côte d'Azur,20
+2349,FR1,2022,583.0,Paris Saint-Germain Football Club,18
+2350,FR1,2022,667.0,Racing Club de Strasbourg Alsace,18
+2351,FR1,2022,826.0,Racing Club de Lens,13
+2352,FR1,2022,969.0,Montpellier Hérault Sport Club,18
+2353,FR1,2022,995.0,Football Club de Nantes,11
+2354,FR1,2022,1041.0,Olympique Lyonnais,10
+2355,FR1,2022,1082.0,Lille Olympique Sporting Club,21
+2356,FR1,2022,1095.0,ESTAC Troyes,18
+2357,FR1,2022,1147.0,AC Ajaccio,16
+2358,FR1,2022,1158.0,FC Lorient,14
+2359,FR1,2022,1420.0,Angers Sporting Club de l'Ouest,15
+2360,FR1,2022,1421.0,Stade de Reims,9
+2361,FR1,2022,3524.0,Clermont Foot 63,14
+2362,FR1,2022,3911.0,Stade brestois 29,13
+2363,FR1,2023,162.0,Association sportive de Monaco Football Club,7
+2364,FR1,2023,244.0,Olympique de Marseille,14
+2365,FR1,2023,273.0,Stade Rennais Football Club,13
+2366,FR1,2023,347.0,FC Metz,12
+2367,FR1,2023,415.0,Toulouse Football Club,7
+2368,FR1,2023,417.0,Olympique Gymnaste Club Nice Côte d'Azur,11
+2369,FR1,2023,583.0,Paris Saint-Germain Football Club,5
+2370,FR1,2023,667.0,Racing Club de Strasbourg Alsace,17
+2371,FR1,2023,738.0,Le Havre Athletic Club,6
+2372,FR1,2023,826.0,Racing Club de Lens,12
+2373,FR1,2023,969.0,Montpellier Hérault Sport Club,23
+2374,FR1,2023,995.0,Football Club de Nantes,17
+2375,FR1,2023,1041.0,Olympique Lyonnais,12
+2376,FR1,2023,1082.0,Lille Olympique Sporting Club,12
+2377,FR1,2023,1158.0,FC Lorient,10
+2378,FR1,2023,1421.0,Stade de Reims,6
+2379,FR1,2023,3524.0,Clermont Foot 63,14
+2380,FR1,2023,3911.0,Stade brestois 29,5
+2625,GB1,2022,11.0,Arsenal Football Club,7
+2626,GB1,2022,29.0,Everton Football Club,17
+2627,GB1,2022,31.0,Liverpool Football Club,7
+2628,GB1,2022,148.0,Tottenham Hotspur Football Club,11
+2629,GB1,2022,180.0,Southampton Football Club,21
+2630,GB1,2022,281.0,Manchester City Football Club,7
+2631,GB1,2022,379.0,West Ham United Football Club,12
+2632,GB1,2022,399.0,Leeds United,10
+2633,GB1,2022,405.0,Aston Villa Football Club,16
+2634,GB1,2022,543.0,Wolverhampton Wanderers Football Club,16
+2635,GB1,2022,631.0,Chelsea Football Club,18
+2636,GB1,2022,703.0,Nottingham Forest Football Club,23
+2637,GB1,2022,762.0,Newcastle United Football Club,20
+2638,GB1,2022,873.0,Crystal Palace Football Club,14
+2639,GB1,2022,931.0,Fulham Football Club,11
+2640,GB1,2022,985.0,Manchester United Football Club,10
+2641,GB1,2022,989.0,Association Football Club Bournemouth,18
+2642,GB1,2022,1003.0,Leicester City Football Club,9
+2643,GB1,2022,1148.0,Brentford Football Club,13
+2644,GB1,2022,1237.0,Brighton and Hove Albion Football Club,13
+2645,GB1,2023,11.0,Arsenal Football Club,13
+2646,GB1,2023,29.0,Everton Football Club,14
+2647,GB1,2023,31.0,Liverpool Football Club,15
+2648,GB1,2023,148.0,Tottenham Hotspur Football Club,18
+2649,GB1,2023,281.0,Manchester City Football Club,13
+2650,GB1,2023,350.0,Sheffield United,24
+2651,GB1,2023,379.0,West Ham United Football Club,8
+2652,GB1,2023,405.0,Aston Villa Football Club,18
+2653,GB1,2023,543.0,Wolverhampton Wanderers Football Club,20
+2654,GB1,2023,631.0,Chelsea Football Club,16
+2655,GB1,2023,703.0,Nottingham Forest Football Club,20
+2656,GB1,2023,762.0,Newcastle United Football Club,23
+2657,GB1,2023,873.0,Crystal Palace Football Club,22
+2658,GB1,2023,931.0,Fulham Football Club,10
+2659,GB1,2023,985.0,Manchester United Football Club,16
+2660,GB1,2023,989.0,Association Football Club Bournemouth,15
+2661,GB1,2023,1031.0,Luton Town,18
+2662,GB1,2023,1132.0,Burnley FC,13
+2663,GB1,2023,1148.0,Brentford Football Club,15
+2664,GB1,2023,1237.0,Brighton and Hove Albion Football Club,17
+2911,IT1,2022,5.0,Associazione Calcio Milan,11
+2912,IT1,2022,12.0,Associazione Sportiva Roma,22
+2913,IT1,2022,46.0,Football Club Internazionale Milano S.p.A.,10
+2914,IT1,2022,276.0,Verona Hellas Football Club,30
+2915,IT1,2022,380.0,US Salernitana 1919,16
+2916,IT1,2022,398.0,Società Sportiva Lazio S.p.A.,17
+2917,IT1,2022,410.0,Udinese Calcio,16
+2918,IT1,2022,416.0,Torino Calcio,12
+2919,IT1,2022,430.0,Associazione Calcio Fiorentina,10
+2920,IT1,2022,506.0,Juventus Football Club,13
+2921,IT1,2022,749.0,Empoli Football Club S.r.l.,19
+2922,IT1,2022,800.0,Atalanta Bergamasca Calcio S.p.a.,22
+2923,IT1,2022,1005.0,Unione Sportiva Lecce,18
+2924,IT1,2022,1025.0,Bologna Football Club 1909,13
+2925,IT1,2022,1038.0,UC Sampdoria,17
+2926,IT1,2022,2239.0,US Cremonese,17
+2927,IT1,2022,2919.0,Associazione Calcio Monza,10
+2928,IT1,2022,3522.0,Spezia Calcio,20
+2929,IT1,2022,6195.0,Società Sportiva Calcio Napoli,12
+2930,IT1,2022,6574.0,US Sassuolo,12
+2931,IT1,2023,5.0,Associazione Calcio Milan,20
+2932,IT1,2023,12.0,Associazione Sportiva Roma,16
+2933,IT1,2023,46.0,Football Club Internazionale Milano S.p.A.,10
+2934,IT1,2023,252.0,Genoa Cricket and Football Club,19
+2935,IT1,2023,276.0,Verona Hellas Football Club,14
+2936,IT1,2023,380.0,US Salernitana 1919,18
+2937,IT1,2023,398.0,Società Sportiva Lazio S.p.A.,26
+2938,IT1,2023,410.0,Udinese Calcio,15
+2939,IT1,2023,416.0,Torino Calcio,25
+2940,IT1,2023,430.0,Associazione Calcio Fiorentina,4
+2941,IT1,2023,506.0,Juventus Football Club,10
+2942,IT1,2023,749.0,Empoli Football Club S.r.l.,17
+2943,IT1,2023,800.0,Atalanta Bergamasca Calcio S.p.a.,12
+2944,IT1,2023,1005.0,Unione Sportiva Lecce,8
+2945,IT1,2023,1025.0,Bologna Football Club 1909,10
+2946,IT1,2023,1390.0,Cagliari Calcio,16
+2947,IT1,2023,2919.0,Associazione Calcio Monza,19
+2948,IT1,2023,6195.0,Società Sportiva Calcio Napoli,12
+2949,IT1,2023,6574.0,US Sassuolo,19
+2950,IT1,2023,8970.0,Frosinone Calcio,17
+3151,L1,2022,3.0,1.FC Köln,10
+3152,L1,2022,15.0,Bayer 04 Leverkusen Fußball,9
+3153,L1,2022,16.0,Borussia Dortmund,14
+3154,L1,2022,18.0,Borussia Verein für Leibesübungen 1900 Mönchengladbach,16
+3155,L1,2022,24.0,Eintracht Frankfurt Fußball AG,10
+3156,L1,2022,27.0,FC Bayern München,9
+3157,L1,2022,33.0,FC Schalke 04,16
+3158,L1,2022,39.0,1. Fußball- und Sportverein Mainz 05,12
+3159,L1,2022,44.0,Hertha BSC,9
+3160,L1,2022,60.0,Sport-Club Freiburg,11
+3161,L1,2022,79.0,Verein für Bewegungsspiele Stuttgart 1893,12
+3162,L1,2022,80.0,Verein für Leibesübungen Bochum 1848 Fußballgemeinschaft,10
+3163,L1,2022,82.0,Verein für Leibesübungen Wolfsburg,10
+3164,L1,2022,86.0,Sportverein Werder Bremen von 1899,17
+3165,L1,2022,89.0,1. Fußballclub Union Berlin,10
+3166,L1,2022,167.0,Fußball-Club Augsburg 1907,18
+3167,L1,2022,533.0,Turn- und Sportgemeinschaft 1899 Hoffenheim Fußball-Spielbetriebs,18
+3168,L1,2022,23826.0,RasenBallsport Leipzig,5
+3169,L1,2023,3.0,1.FC Köln,12
+3170,L1,2023,15.0,Bayer 04 Leverkusen Fußball,7
+3171,L1,2023,16.0,Borussia Dortmund,13
+3172,L1,2023,18.0,Borussia Verein für Leibesübungen 1900 Mönchengladbach,15
+3173,L1,2023,24.0,Eintracht Frankfurt Fußball AG,14
+3174,L1,2023,27.0,FC Bayern München,22
+3175,L1,2023,39.0,1. Fußball- und Sportverein Mainz 05,9
+3176,L1,2023,60.0,Sport-Club Freiburg,12
+3177,L1,2023,79.0,Verein für Bewegungsspiele Stuttgart 1893,13
+3178,L1,2023,80.0,Verein für Leibesübungen Bochum 1848 Fußballgemeinschaft,7
+3179,L1,2023,82.0,Verein für Leibesübungen Wolfsburg,13
+3180,L1,2023,86.0,Sportverein Werder Bremen von 1899,10
+3181,L1,2023,89.0,1. Fußballclub Union Berlin,17
+3182,L1,2023,105.0,SV Darmstadt 98,20
+3183,L1,2023,167.0,Fußball-Club Augsburg 1907,12
+3184,L1,2023,533.0,Turn- und Sportgemeinschaft 1899 Hoffenheim Fußball-Spielbetriebs,11
+3185,L1,2023,2036.0,1. Fußballclub Heidenheim 1846,11
+3186,L1,2023,23826.0,RasenBallsport Leipzig,14

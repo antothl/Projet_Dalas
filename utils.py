@@ -7,10 +7,10 @@ import pickle
 
 def create_id_tables(data_folder):
     # Read the CSV file into a DataFrame
-    df = pd.read_csv(os.path.join(data_folder,"classements_5_grands_championnats.csv"))
+    df = pd.read_csv(os.path.join(data_folder,"table_leagues.csv"))
 
     # Create a new DataFrame with a unique team_id
-    unique_teams = df['Equipe'].drop_duplicates().reset_index(drop=True)
+    unique_teams = df['club'].drop_duplicates().reset_index(drop=True)
     teams_df = pd.DataFrame({'team': unique_teams})
     teams_df['team_id'] = teams_df.index + 1
     teams_df.to_csv(os.path.join(data_folder,"team_ids.csv"), index=False)
@@ -25,7 +25,7 @@ def create_id_tables(data_folder):
 def create_summary_stats_teams(data_folder):
 
     # Read csv file
-    df = pd.read_csv(os.path.join(data_folder,"joueurs_grands_championnats.csv"))
+    df = pd.read_csv(os.path.join(data_folder,"player_values.csv"))
 
     # Dictionary for month mapping (French to English)
     mois_fr_en = { 
@@ -149,23 +149,12 @@ def process_matches_table(stats_teams, df_matches, data_folder):
     stats_teams = stats_teams.drop(columns=["league"])
 
     # Fusionner les valeurs moyennes avec les matchs (Équipe 1 et Équipe 2)
-    df_matchs = df_matches.merge(stats_teams, left_on=["Saison", "Equipe 1"], right_on=["season", "club"], how="left")
+    df_matchs = df_matches.merge(stats_teams, left_on=["season", "home_team"], right_on=["season", "club"], how="left")
     df_matchs.drop(columns=["club"], inplace=True)
 
-    df_matchs = df_matchs.merge(stats_teams, left_on=["Saison", "Equipe 2"], right_on=["season", "club"], how="left", suffixes=("_t1","_t2"))
+    df_matchs = df_matchs.merge(stats_teams, left_on=["season", "away_team"], right_on=["season", "club"], how="left", suffixes=("_t1","_t2"))
     df_matchs.drop(columns=["club"], inplace=True)
 
-    return df_matchs
-
-def clean_matches_league_names(df_matchs, data_folder):
-    league_mapping = {
-        "ligue-1": "Ligue 1",
-        "premier-league": "Premier League",
-        "la-liga": "LaLiga",
-        "bundesliga-1": "Bundesliga",
-        "serie-a": "Serie A"
-    }
-    df_matchs["Championnat"] = df_matchs["Championnat"].map(league_mapping)
     return df_matchs
 
 # Assume df is your DataFrame

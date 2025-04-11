@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import pearsonr
 import os
 import numpy as np
+import math
 
 # Apply global settings
 plt.rcParams.update({
@@ -21,7 +22,6 @@ plt.rcParams.update({
 })
 
 def value_goals_correlation(merged_table_teams, x_vars, y_vars, result_folder, figure_name):
-
 
     # Create subplots with correct shape: rows = y, columns = x
     fig, axes = plt.subplots(len(y_vars), len(x_vars), figsize=(6 * len(x_vars), 4 * len(y_vars)))
@@ -86,4 +86,124 @@ def correlation_heatmap(df, cols, result_folder, filename):
     output_path = os.path.join(result_folder, filename)
     plt.tight_layout()
     plt.savefig(output_path, dpi=300)
+    plt.close()
+
+
+def plot_avg_top_bottom_by_league(df_league_avg, result_folder, filename):
+    leagues = df_league_avg["league"]
+    x = np.arange(len(leagues))
+    width = 0.35
+
+    with plt.style.context({
+        'axes.spines.right': False,
+        'axes.spines.top': False,
+        'axes.grid': True,
+        'grid.alpha': 0.4,
+        'grid.linestyle': '--',
+        'axes.edgecolor': 'black',
+        'axes.linewidth': 1.2,
+        'axes.labelsize': 11,
+        'xtick.direction': 'out',
+        'ytick.direction': 'out',
+    }):
+        fig, ax = plt.subplots(figsize=(10, 5))
+
+        # Bars
+        ax.bar(x - width/2, df_league_avg["top_avg_value"], width=width,
+               label="Top 5", color="springgreen", alpha=0.9)
+        ax.bar(x + width/2, df_league_avg["bottom_avg_value"], width=width,
+               label="Bottom 5", color="lightcoral", alpha=0.9)
+
+        # Labels and ticks
+        ax.set_xticks(x)
+        ax.set_xticklabels(leagues, rotation=45, ha="right", fontsize=11)
+        ax.set_ylabel("Average Market Value", fontsize=11)
+        ax.set_title("Top vs Bottom 5 Team Market Value by League", fontsize=13)
+        ax.legend()
+
+        # ✅ Enforce tick direction manually
+        ax.tick_params(axis='x', direction='out')
+        ax.tick_params(axis='y', direction='out')
+
+        plt.tight_layout()
+        os.makedirs(result_folder, exist_ok=True)
+        plt.savefig(os.path.join(result_folder, filename), dpi=300)
+        plt.close()
+
+
+def league_match_stats(df_stats, column_map, df_anova, result_folder, filename):
+    categories = list(column_map.values())
+    num_vars = len(categories)
+    angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
+    angles += angles[:1]
+
+    leagues = df_stats["league"].tolist()
+    data = df_stats[categories].values
+
+    # Determine grid size
+    num_leagues = len(leagues)
+    total_plots = num_leagues + 1  # one extra for the ANOVA
+    ncols = 2
+    nrows = math.ceil(total_plots / ncols)
+
+    # Use default color cycle
+    color_cycle = plt.rcParams['axes.prop_cycle'].by_key()['color']
+
+    fig, axes = plt.subplots(nrows=nrows, ncols=ncols,
+                             subplot_kw=dict(polar=True),
+                             figsize=(ncols * 6, nrows * 5))
+
+    axes = np.array(axes).reshape(-1)
+
+    for idx, ax in enumerate(axes):
+        if idx < num_leagues:
+            values = data[idx].tolist()
+            values += values[:1]
+
+            color = color_cycle[idx % len(color_cycle)]
+
+            ax.plot(angles, values, label=leagues[idx], color=color)
+            ax.fill(angles, values, alpha=0.1, color=color)
+
+            ax.set_xticks(angles[:-1])
+            ax.set_xticklabels(categories, fontsize=10)
+            ax.set_title(leagues[idx], fontsize=13, pad=10, weight='bold')
+            ax.set_yticks([])
+            ax.grid(True, linestyle="--", alpha=0.3)
+
+        elif idx == num_leagues:
+            # This is the "extra" subplot: turn off polar and show ANOVA
+            axes[idx].remove()  # remove polar projection
+            ax = fig.add_subplot(nrows, ncols, idx + 1)  # replace with regular axis
+
+            ax.axis('off')  # turn off axis frame
+
+            # Format ANOVA result lines
+            lines = [r"$\bf{ANOVA\ Test\ Results}$"]  # title line, LaTeX bold
+            lines.append("")
+            for _, row in df_anova.iterrows():
+                pval = f"{row['p-value']:.4f}"           # round to 2 decimal
+                sig_marker = "*" if row['p-value'] < 0.05 else " "
+                lines.append(f"{row['Variable']:<18}  F = {row['F-statistic']:05.2f}   p = {pval:<7} {sig_marker}")
+            
+            # Join into single string
+            full_text = "\n".join(lines)
+
+            # Display text in a centered fancy box
+            ax.text(
+                0.5, 0.5, full_text,
+                fontsize=11,
+                family='monospace',
+                ha='center', va='center',
+                bbox=dict(boxstyle="round,pad=0.6", facecolor="#f9f9f9", edgecolor="gray", alpha=0.95)
+            )
+
+        else:
+            ax.axis('off')  # hide any remaining unused subplots
+
+    plt.subplots_adjust(hspace=0.5)
+    fig.suptitle("Average Match Stats per League", fontsize=16, y=1.02)
+    plt.tight_layout()
+    os.makedirs(result_folder, exist_ok=True)
+    plt.savefig(os.path.join(result_folder, filename), dpi=300, bbox_inches='tight')
     plt.close()

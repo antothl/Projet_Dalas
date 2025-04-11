@@ -2,6 +2,7 @@ import os
 from utils import *
 from general_visu import *
 import pandas as pd
+from scipy.stats import f_oneway
 
 # Directories
 project_dir = os.getcwd()
@@ -19,10 +20,7 @@ if not os.path.exists(os.path.join(data_folder, "stats_teams.csv")):
     df_teams = create_summary_stats_teams(data_folder)
 else:
     df_teams = pd.read_csv(os.path.join(data_folder, "stats_teams.csv"))
-
-df_teams["attack_value_ratio"] = df_teams["total_attack_value"] / df_teams["sum_value"]
-df_teams["midfield_value_ratio"] = df_teams["total_midfield_value"] / df_teams["sum_value"]
-df_teams["defense_value_ratio"] = df_teams["total_defense_value"] / df_teams["sum_value"]
+    
 
 # ====== VALUE - GOAL STATS ======
 # Assuming your DataFrame 
@@ -194,4 +192,95 @@ correlation_heatmap(
 )
 
 # ====== MARKET VALUE GAP - TOP 5 vs. BOTTOM 5 ====== 
+# Assuming your DataFrame 
+df_classements['matchday'] = pd.to_numeric(df_classements['matchday'], errors='coerce')  # convert non-numeric to NaN
+df_classements_filter = df_classements.dropna(subset=['matchday'])                             # drop rows where Journee is NaN
+df_classements_filter['matchday'] = df_classements_filter['matchday'].astype(int)                      # optional: convert to int
+
+# Get the last matchday per group
+last_matchday_stats = df_classements_filter.groupby(['season', 'league', 'club'])['matchday'].transform('max')
+
+# Keep only rows where journee is the last for that team/league/season
+last_day_stats = df_classements[df_classements['matchday'] == last_matchday_stats].reset_index(drop=True)
+
+# Merge final standings with teams value info
+df_merged = pd.merge(
+    last_day_stats,
+    df_teams,
+    how="left",
+    on=["league", "season", "club"]
+)
+
+league_stats = []
+
+# Step 1: Compute top/bottom 5 per season
+for (league, season), group in df_merged.groupby(["league", "season"]):
+    group_sorted = group.sort_values("position")
+
+    n_teams = len(group_sorted)
+    top_n = min(5, n_teams)
+    bottom_n = min(5, n_teams)
+
+    top_avg = group_sorted.head(top_n)["mean_value"].mean()
+    bottom_avg = group_sorted.tail(bottom_n)["mean_value"].mean()
+
+    league_stats.append({
+        "league": league,
+        "season": season,
+        "top_avg_value": top_avg,
+        "bottom_avg_value": bottom_avg
+    })
+
+# Step 2: Convert to DataFrame
+df_seasonal = pd.DataFrame(league_stats)
+
+# Step 3: Group by league and average across seasons
+df_league_avg = df_seasonal.groupby("league")[["top_avg_value", "bottom_avg_value"]].mean().reset_index()
+
+plot_avg_top_bottom_by_league(df_league_avg, result_folder, "value_best_worst.png")
+
+
+# ====== GENERAL MATCH STATISTICS OF EACH LEAGUE ====== 
+
+# 1. Compute per-match totals (home + away)
+df_matchs["total_shots_on_goal"] = df_matchs["home_shots_on_goal"] + df_matchs["away_shots_on_goal"]
+df_matchs["total_yellow_cards"] = df_matchs["home_yellow_cards"] + df_matchs["away_yellow_cards"]
+df_matchs["total_corner_kicks"] = df_matchs["home_corner_kicks"] + df_matchs["away_corner_kicks"]
+df_matchs["total_saves"] = df_matchs["home_saves"] + df_matchs["away_saves"]
+
+print(df_matchs.columns)
+# 2. Define column name mapping: df column name -> label for plot
+column_map = {
+    "total_shots_on_goal": "Shots on Goal",
+    "total_yellow_cards": "Yellow Cards",
+    "total_corner_kicks": "Corner Kicks",
+    "total_saves": "Saves"
+}
+
+# ANOVA test on match variables per league
+anova_results = []
+for col, label in column_map.items():
+    groups = [
+        df_matchs[df_matchs['league'] == league][col].dropna()
+        for league in df_matchs['league'].unique()
+    ]
+    if all(len(g) > 1 for g in groups):
+        f_stat, p_val = f_oneway(*groups)
+        anova_results.append({
+            'Variable': label,
+            'F-statistic': f_stat,
+            'p-value': p_val
+        })
+
+# Save to DataFrame and export
+df_anova = pd.DataFrame(anova_results)
+df_anova.to_csv(os.path.join(result_folder, "ANOVA_match_statsp_league.csv"), index=False)
+
+# 3. Group by league and compute averages
+df_stats = df_matchs.groupby("league")[list(column_map.keys())].mean().reset_index()
+
+# 4. Rename columns to display names
+df_stats.rename(columns=column_map, inplace=True)
+
+league_match_stats(df_stats, column_map, df_anova, result_folder, "league_match_stats.png")
 

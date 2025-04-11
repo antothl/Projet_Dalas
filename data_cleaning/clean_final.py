@@ -113,6 +113,8 @@ df_teams.drop(columns=['calc_sum_value'], inplace=True)
 # Convert matchday to int
 df_matchs['matchday'] = pd.to_numeric(df_matchs['matchday'], errors='coerce').astype('Int64')
 
+df_matchs.drop(columns=['Unnamed: 0'], inplace=True)
+
 # Save all DataFrames to CSV
 df_matchs.to_csv(os.path.join(data_folder, "matches.csv"), index=False)
 df_tables.to_csv(os.path.join(data_folder, "table_leagues.csv"), index=False)

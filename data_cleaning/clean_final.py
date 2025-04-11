@@ -1,6 +1,4 @@
 import os
-from utils import *
-from visualizations import *
 import pandas as pd
 from scipy.stats import mannwhitneyu
 
@@ -98,6 +96,22 @@ df_players['league'] = df_players['league'].replace(league_map)
 df_goals['league']   = df_goals['league'].replace(league_map)
 df_teams['league']   = df_teams['league'].replace(league_map)
 
+
+# Compute total known values
+df_teams["calc_sum_value"] = (
+    df_teams["total_attack_value"] 
+    + df_teams["total_midfield_value"] 
+    + df_teams["total_defense_value"]
+)
+
+# Now calculate the ratios with respect to the new calc_sum_value
+df_teams["attack_value_ratio"] = df_teams["total_attack_value"] / df_teams["calc_sum_value"]
+df_teams["midfield_value_ratio"] = df_teams["total_midfield_value"] / df_teams["calc_sum_value"]
+df_teams["defense_value_ratio"] = df_teams["total_defense_value"] / df_teams["calc_sum_value"]
+df_teams.drop(columns=['calc_sum_value'], inplace=True)
+
+# Convert matchday to int
+df_matchs['matchday'] = pd.to_numeric(df_matchs['matchday'], errors='coerce').astype('Int64')
 
 # Save all DataFrames to CSV
 df_matchs.to_csv(os.path.join(data_folder, "matches.csv"), index=False)

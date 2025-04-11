@@ -1,0 +1,1759 @@
+game_id,league,season,date,home_team,away_team,score,home_shots_on_goal,away_shots_on_goal,home_shot_attempts,away_shot_attempts,home_yellow_cards,away_yellow_cards,home_corner_kicks,away_corner_kicks,home_saves,away_saves,home_possession,away_possession
+605660,ENG.1,2021,"Sun, May 22, May, 2022",Arsenal,Everton,5 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605669,ENG.1,2021,"Mon, May 16, May, 2022",Newcastle United,Arsenal,2 - 0,4,2,16,11,0,3,12,8,2,3,50.6%,49.4%
+605819,ENG.1,2021,"Thu, May 12, May, 2022",Tottenham Hotspur,Arsenal,3 - 0,6,5,16,9,1,3,2,2,5,3,57.6%,42.4%
+605681,ENG.1,2021,"Sun, May 8, May, 2022",Arsenal,Leeds United,2 - 1,9,2,19,3,2,2,8,2,1,7,63.2%,36.8%
+605689,ENG.1,2021,"Sun, May 1, May, 2022",West Ham United,Arsenal,1 - 2,3,7,8,13,2,2,3,7,5,2,56.6%,43.4%
+605702,ENG.1,2021,"Sat, Apr 23, April, 2022",Arsenal,Manchester United,3 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605789,ENG.1,2021,"Wed, Apr 20, April, 2022",Chelsea,Arsenal,2 - 4,2,4,11,14,3,1,6,1,0,0,68%,32%
+605709,ENG.1,2021,"Sat, Apr 16, April, 2022",Southampton,Arsenal,1 - 0,3,6,9,23,2,1,6,8,6,2,24.3%,75.7%
+605719,ENG.1,2021,"Sat, Apr 9, April, 2022",Arsenal,Brighton & Hove Albion,1 - 2,4,3,20,8,3,4,11,2,1,3,64.6%,35.4%
+605729,ENG.1,2021,"Mon, Apr 4, April, 2022",Crystal Palace,Arsenal,3 - 0,5,3,6,12,0,2,0,2,3,2,31.4%,68.6%
+605739,ENG.1,2021,"Sat, Mar 19, March, 2022",Aston Villa,Arsenal,0 - 1,1,3,8,10,3,3,6,5,3,1,47%,53%
+605772,ENG.1,2021,"Wed, Mar 16, March, 2022",Arsenal,Liverpool,0 - 2,2,3,9,9,0,1,1,6,1,2,48.4%,51.6%
+605751,ENG.1,2021,"Sun, Mar 13, March, 2022",Arsenal,Leicester City,2 - 0,8,3,21,6,0,3,2,6,3,5,46%,54%
+605759,ENG.1,2021,"Sun, Mar 6, March, 2022",Watford,Arsenal,2 - 3,7,4,13,16,1,2,1,5,1,5,43%,57%
+605848,ENG.1,2021,"Thu, Feb 24, February, 2022",Arsenal,Wolverhampton Wanderers,2 - 1,5,2,26,6,1,1,5,4,1,4,55.5%,44.5%
+605779,ENG.1,2021,"Sat, Feb 19, February, 2022",Arsenal,Brentford,2 - 1,8,2,24,6,1,1,14,0,1,5,66.4%,33.6%
+605803,ENG.1,2021,"Thu, Feb 10, February, 2022",Wolverhampton Wanderers,Arsenal,0 - 1,4,2,15,12,2,3,7,4,1,4,58.3%,41.7%
+605811,ENG.1,2021,"Sun, Jan 23, January, 2022",Arsenal,Burnley,0 - 0,5,1,20,10,0,2,12,4,1,5,75.6%,24.4%
+605833,ENG.1,2021,"Sat, Jan 1, January, 2022",Arsenal,Manchester City,1 - 2,2,2,7,15,3,2,5,5,0,1,28.8%,71.2%
+605849,ENG.1,2021,"Sun, Dec 26, December, 2021",Norwich City,Arsenal,0 - 5,2,6,4,16,1,2,3,5,1,2,35.2%,64.8%
+605859,ENG.1,2021,"Sat, Dec 18, December, 2021",Leeds United,Arsenal,1 - 4,2,12,9,21,3,1,1,4,8,1,50.9%,49.1%
+605877,ENG.1,2021,"Wed, Dec 15, December, 2021",Arsenal,West Ham United,2 - 0,8,1,21,7,2,0,5,2,1,6,56.2%,43.8%
+605884,ENG.1,2021,"Sat, Dec 11, December, 2021",Arsenal,Southampton,3 - 0,5,6,15,11,2,0,9,8,6,2,61.3%,38.7%
+605889,ENG.1,2021,"Mon, Dec 6, December, 2021",Everton,Arsenal,2 - 1,5,3,11,10,2,2,3,3,2,3,36.1%,63.9%
+605902,ENG.1,2021,"Thu, Dec 2, December, 2021",Manchester United,Arsenal,3 - 2,10,8,14,17,1,0,3,8,5,7,44.5%,55.5%
+605913,ENG.1,2021,"Sat, Nov 27, November, 2021",Arsenal,Newcastle United,2 - 0,6,5,24,9,1,3,4,4,5,4,65.6%,34.4%
+605919,ENG.1,2021,"Sat, Nov 20, November, 2021",Liverpool,Arsenal,4 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605937,ENG.1,2021,"Sun, Nov 7, November, 2021",Arsenal,Watford,1 - 0,6,1,14,7,4,2,4,2,1,5,60.6%,39.4%
+605939,ENG.1,2021,"Sat, Oct 30, October, 2021",Leicester City,Arsenal,0 - 2,8,5,16,9,2,0,7,6,4,8,64.3%,35.7%
+605949,ENG.1,2021,"Fri, Oct 22, October, 2021",Arsenal,Aston Villa,3 - 1,9,4,22,10,2,5,7,4,3,6,53.8%,46.2%
+605962,ENG.1,2021,"Mon, Oct 18, October, 2021",Arsenal,Crystal Palace,2 - 2,6,6,17,9,1,1,6,4,4,4,53.6%,46.4%
+605969,ENG.1,2021,"Sat, Oct 2, October, 2021",Brighton & Hove Albion,Arsenal,0 - 0,2,2,21,8,2,1,8,5,2,2,58.2%,41.8%
+605986,ENG.1,2021,"Sun, Sep 26, September, 2021",Arsenal,Tottenham Hotspur,3 - 1,7,4,12,10,2,1,4,4,3,4,46.6%,53.4%
+605989,ENG.1,2021,"Sat, Sep 18, September, 2021",Burnley,Arsenal,0 - 1,3,3,18,13,2,1,8,3,2,3,45%,55%
+606005,ENG.1,2021,"Sat, Sep 11, September, 2021",Arsenal,Norwich City,1 - 0,7,1,30,10,1,2,8,4,1,5,51.9%,48.1%
+606009,ENG.1,2021,"Sat, Aug 28, August, 2021",Manchester City,Arsenal,5 - 0,10,0,25,1,1,2,14,0,0,5,80.4%,19.6%
+606021,ENG.1,2021,"Sun, Aug 22, August, 2021",Arsenal,Chelsea,0 - 2,3,5,6,22,3,0,9,8,3,3,35%,65%
+606029,ENG.1,2021,"Fri, Aug 13, August, 2021",Brentford,Arsenal,2 - 0,3,4,8,22,0,0,2,5,4,1,35.3%,64.7%
+605659,ENG.1,2021,"Sun, May 22, May, 2022",Manchester City,Aston Villa,3 - 2,5,2,24,4,0,2,13,1,0,2,71.5%,28.5%
+605862,ENG.1,2021,"Thu, May 19, May, 2022",Aston Villa,Burnley,1 - 1,9,5,22,10,0,1,13,6,3,8,71.3%,28.7%
+605674,ENG.1,2021,"Sun, May 15, May, 2022",Aston Villa,Crystal Palace,1 - 1,4,4,13,16,1,3,1,5,3,3,48.4%,51.6%
+605716,ENG.1,2021,"Tue, May 10, May, 2022",Aston Villa,Liverpool,1 - 2,4,6,9,17,0,0,2,3,3,3,39.2%,60.8%
+605679,ENG.1,2021,"Sat, May 7, May, 2022",Burnley,Aston Villa,1 - 3,6,7,14,12,1,2,4,5,4,5,49%,51%
+605698,ENG.1,2021,"Sat, Apr 30, April, 2022",Aston Villa,Norwich City,2 - 0,6,3,21,9,4,1,2,3,3,4,45.1%,54.9%
+605699,ENG.1,2021,"Sat, Apr 23, April, 2022",Leicester City,Aston Villa,0 - 0,2,3,5,11,3,2,7,6,3,2,64.1%,35.9%
+605726,ENG.1,2021,"Sat, Apr 9, April, 2022",Aston Villa,Tottenham Hotspur,0 - 4,8,5,19,11,2,3,9,3,1,8,51.5%,48.5%
+605730,ENG.1,2021,"Sat, Apr 2, April, 2022",Wolverhampton Wanderers,Aston Villa,2 - 1,5,5,11,15,4,3,4,9,4,3,48.3%,51.7%
+605749,ENG.1,2021,"Sun, Mar 13, March, 2022",West Ham United,Aston Villa,2 - 1,4,7,11,13,1,0,5,7,6,2,47.1%,52.9%
+605839,ENG.1,2021,"Thu, Mar 10, March, 2022",Leeds United,Aston Villa,0 - 3,1,9,4,15,5,3,3,5,6,1,50.9%,49.1%
+605767,ENG.1,2021,"Sat, Mar 5, March, 2022",Aston Villa,Southampton,4 - 0,9,1,14,11,1,1,4,7,1,5,38.2%,61.8%
+605769,ENG.1,2021,"Sat, Feb 26, February, 2022",Brighton & Hove Albion,Aston Villa,0 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605788,ENG.1,2021,"Sat, Feb 19, February, 2022",Aston Villa,Watford,0 - 1,1,4,20,8,1,2,10,5,3,1,59.6%,40.4%
+605790,ENG.1,2021,"Sun, Feb 13, February, 2022",Newcastle United,Aston Villa,1 - 0,2,1,10,11,3,4,3,6,1,1,37%,63%
+605806,ENG.1,2021,"Wed, Feb 9, February, 2022",Aston Villa,Leeds United,3 - 3,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605809,ENG.1,2021,"Sat, Jan 22, January, 2022",Everton,Aston Villa,0 - 1,1,3,15,8,5,4,9,2,2,0,49.6%,50.4%
+605826,ENG.1,2021,"Sat, Jan 15, January, 2022",Aston Villa,Manchester United,2 - 2,9,6,13,13,1,2,3,6,4,7,54.6%,45.4%
+605829,ENG.1,2021,"Sun, Jan 2, January, 2022",Brentford,Aston Villa,2 - 1,4,5,10,16,2,2,3,7,4,2,45.4%,54.6%
+605851,ENG.1,2021,"Sun, Dec 26, December, 2021",Aston Villa,Chelsea,1 - 3,1,4,8,10,3,1,2,5,1,1,42.1%,57.9%
+605873,ENG.1,2021,"Tue, Dec 14, December, 2021",Norwich City,Aston Villa,0 - 2,3,6,7,17,3,1,7,10,4,3,50.2%,49.8%
+605879,ENG.1,2021,"Sat, Dec 11, December, 2021",Liverpool,Aston Villa,1 - 0,5,0,20,4,1,2,11,3,0,4,62.3%,37.7%
+605895,ENG.1,2021,"Sun, Dec 5, December, 2021",Aston Villa,Leicester City,2 - 1,4,5,13,12,1,1,3,6,3,2,41.1%,58.9%
+605908,ENG.1,2021,"Wed, Dec 1, December, 2021",Aston Villa,Manchester City,1 - 2,3,7,9,17,0,0,4,11,5,2,36%,64%
+605909,ENG.1,2021,"Sat, Nov 27, November, 2021",Crystal Palace,Aston Villa,1 - 2,3,3,8,10,3,3,7,3,1,2,63.3%,36.7%
+605921,ENG.1,2021,"Sat, Nov 20, November, 2021",Aston Villa,Brighton & Hove Albion,2 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605929,ENG.1,2021,"Fri, Nov 5, November, 2021",Southampton,Aston Villa,1 - 0,3,3,9,14,2,2,10,8,3,2,56.4%,43.6%
+605948,ENG.1,2021,"Sun, Oct 31, October, 2021",Aston Villa,West Ham United,1 - 4,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605968,ENG.1,2021,"Sat, Oct 16, October, 2021",Aston Villa,Wolverhampton Wanderers,2 - 3,5,4,14,9,2,3,6,7,1,3,48.3%,51.7%
+605970,ENG.1,2021,"Sun, Oct 3, October, 2021",Tottenham Hotspur,Aston Villa,2 - 1,8,3,17,14,2,1,5,8,2,6,56.3%,43.7%
+605979,ENG.1,2021,"Sat, Sep 25, September, 2021",Manchester United,Aston Villa,0 - 1,4,3,28,7,2,2,5,5,2,4,59.6%,40.4%
+605993,ENG.1,2021,"Sat, Sep 18, September, 2021",Aston Villa,Everton,3 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605999,ENG.1,2021,"Sat, Sep 11, September, 2021",Chelsea,Aston Villa,3 - 0,4,6,12,18,1,4,4,11,6,1,56.8%,43.2%
+606010,ENG.1,2021,"Sat, Aug 28, August, 2021",Aston Villa,Brentford,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+606025,ENG.1,2021,"Sat, Aug 21, August, 2021",Aston Villa,Newcastle United,2 - 0,2,1,10,9,3,4,3,4,1,0,47.3%,52.7%
+606030,ENG.1,2021,"Sat, Aug 14, August, 2021",Watford,Aston Villa,3 - 2,7,2,13,11,3,1,2,4,0,4,37.9%,62.1%
+605661,ENG.1,2021,"Sun, May 22, May, 2022",Brentford,Leeds United,1 - 2,5,6,14,14,2,1,3,2,4,4,48.7%,51.3%
+605670,ENG.1,2021,"Sun, May 15, May, 2022",Everton,Brentford,2 - 3,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605684,ENG.1,2021,"Sat, May 7, May, 2022",Brentford,Southampton,3 - 0,5,4,18,19,0,1,4,7,4,2,40.4%,59.6%
+605690,ENG.1,2021,"Mon, May 2, May, 2022",Manchester United,Brentford,3 - 0,5,4,9,12,1,0,3,8,4,3,64.1%,35.9%
+605705,ENG.1,2021,"Sat, Apr 23, April, 2022",Brentford,Tottenham Hotspur,0 - 0,2,0,15,9,2,1,12,8,0,1,44%,56%
+605710,ENG.1,2021,"Sat, Apr 16, April, 2022",Watford,Brentford,1 - 2,4,5,18,16,2,1,6,5,3,3,50.8%,49.2%
+605727,ENG.1,2021,"Sun, Apr 10, April, 2022",Brentford,West Ham United,2 - 0,7,1,15,5,0,1,4,6,1,5,47.1%,52.9%
+605731,ENG.1,2021,"Sat, Apr 2, April, 2022",Chelsea,Brentford,1 - 4,8,6,21,17,0,0,12,7,2,7,70.6%,29.4%
+605740,ENG.1,2021,"Sun, Mar 20, March, 2022",Leicester City,Brentford,2 - 1,4,6,12,15,1,2,2,5,5,2,52.8%,47.2%
+605750,ENG.1,2021,"Sat, Mar 12, March, 2022",Brentford,Burnley,2 - 0,4,1,13,7,1,1,2,9,1,1,54.9%,45.1%
+605760,ENG.1,2021,"Sat, Mar 5, March, 2022",Norwich City,Brentford,1 - 3,7,6,15,10,2,5,5,5,3,6,59.6%,40.4%
+605774,ENG.1,2021,"Sat, Feb 26, February, 2022",Brentford,Newcastle United,0 - 2,1,11,6,26,3,1,6,6,9,1,37.3%,62.7%
+605792,ENG.1,2021,"Sat, Feb 12, February, 2022",Brentford,Crystal Palace,0 - 0,2,3,9,6,1,0,3,9,3,2,42.6%,57.4%
+605799,ENG.1,2021,"Wed, Feb 9, February, 2022",Manchester City,Brentford,2 - 0,7,2,15,6,0,0,9,3,2,5,75.6%,24.4%
+605818,ENG.1,2021,"Sat, Jan 22, January, 2022",Brentford,Wolverhampton Wanderers,1 - 2,1,2,11,7,2,3,6,3,0,0,49.5%,50.5%
+605874,ENG.1,2021,"Wed, Jan 19, January, 2022",Brentford,Manchester United,1 - 3,9,5,18,13,0,0,6,9,2,8,43.7%,56.3%
+605820,ENG.1,2021,"Sun, Jan 16, January, 2022",Liverpool,Brentford,3 - 0,13,1,27,6,0,1,9,0,1,10,68.3%,31.7%
+605860,ENG.1,2021,"Tue, Jan 11, January, 2022",Southampton,Brentford,4 - 1,6,4,12,5,0,1,5,2,3,3,48.9%,51.1%
+605843,ENG.1,2021,"Wed, Dec 29, December, 2021",Brentford,Manchester City,0 - 1,2,3,6,12,0,0,3,5,2,3,23.7%,76.3%
+605850,ENG.1,2021,"Sun, Dec 26, December, 2021",Brighton & Hove Albion,Brentford,2 - 0,5,6,15,16,1,3,6,9,5,3,50.4%,49.6%
+605886,ENG.1,2021,"Fri, Dec 10, December, 2021",Brentford,Watford,2 - 1,5,2,14,6,4,0,8,2,1,3,63.4%,36.6%
+605890,ENG.1,2021,"Sun, Dec 5, December, 2021",Leeds United,Brentford,2 - 2,6,3,13,9,5,3,5,1,1,4,63.1%,36.9%
+605899,ENG.1,2021,"Thu, Dec 2, December, 2021",Tottenham Hotspur,Brentford,2 - 0,6,2,11,6,0,0,11,5,2,5,47%,53%
+605910,ENG.1,2021,"Sun, Nov 28, November, 2021",Brentford,Everton,1 - 0,4,5,6,14,4,3,3,3,5,3,39.7%,60.3%
+605920,ENG.1,2021,"Sat, Nov 20, November, 2021",Newcastle United,Brentford,3 - 3,9,4,23,10,2,2,8,2,1,6,52.2%,47.8%
+605935,ENG.1,2021,"Sat, Nov 6, November, 2021",Brentford,Norwich City,1 - 2,7,5,19,9,2,3,6,2,4,6,64.5%,35.5%
+605940,ENG.1,2021,"Sat, Oct 30, October, 2021",Burnley,Brentford,3 - 1,6,5,15,12,1,1,4,2,3,2,40.6%,59.4%
+605951,ENG.1,2021,"Sun, Oct 24, October, 2021",Brentford,Leicester City,1 - 2,5,6,15,10,1,1,9,2,4,4,54.4%,45.6%
+605961,ENG.1,2021,"Sat, Oct 16, October, 2021",Brentford,Chelsea,0 - 1,7,1,17,5,1,1,5,5,0,6,43.9%,56.1%
+605971,ENG.1,2021,"Sun, Oct 3, October, 2021",West Ham United,Brentford,1 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605982,ENG.1,2021,"Sat, Sep 25, September, 2021",Brentford,Liverpool,3 - 3,4,6,12,16,1,1,2,11,3,0,32.7%,67.3%
+605990,ENG.1,2021,"Sat, Sep 18, September, 2021",Wolverhampton Wanderers,Brentford,0 - 2,0,3,11,9,4,2,4,2,1,0,61.9%,38.1%
+606000,ENG.1,2021,"Sat, Sep 11, September, 2021",Brentford,Brighton & Hove Albion,0 - 1,1,2,7,4,3,2,1,6,1,1,41.3%,58.7%
+606019,ENG.1,2021,"Sat, Aug 21, August, 2021",Crystal Palace,Brentford,0 - 0,2,3,7,14,3,1,3,5,3,2,52.7%,47.3%
+605667,ENG.1,2021,"Sun, May 22, May, 2022",Brighton & Hove Albion,West Ham United,3 - 1,7,2,18,7,1,1,5,6,1,4,49.9%,50.1%
+605671,ENG.1,2021,"Sun, May 15, May, 2022",Leeds United,Brighton & Hove Albion,1 - 1,5,6,19,15,3,2,8,1,5,3,50.3%,49.7%
+605682,ENG.1,2021,"Sat, May 7, May, 2022",Brighton & Hove Albion,Manchester United,4 - 0,6,5,17,15,0,2,7,6,5,1,42%,58%
+605691,ENG.1,2021,"Sat, Apr 30, April, 2022",Wolverhampton Wanderers,Brighton & Hove Albion,0 - 3,1,9,11,17,2,1,7,3,6,1,49.2%,50.8%
+605704,ENG.1,2021,"Sun, Apr 24, April, 2022",Brighton & Hove Albion,Southampton,2 - 2,5,5,8,18,1,0,6,6,3,4,48.8%,51.2%
+605741,ENG.1,2021,"Wed, Apr 20, April, 2022",Manchester City,Brighton & Hove Albion,3 - 0,5,1,17,2,0,3,7,4,1,2,65.1%,34.9%
+605711,ENG.1,2021,"Sat, Apr 16, April, 2022",Tottenham Hotspur,Brighton & Hove Albion,0 - 1,0,5,5,12,3,3,4,4,3,0,48.6%,51.4%
+605736,ENG.1,2021,"Sat, Apr 2, April, 2022",Brighton & Hove Albion,Norwich City,0 - 0,4,0,31,6,1,1,11,2,0,4,63%,37%
+605885,ENG.1,2021,"Wed, Mar 16, March, 2022",Brighton & Hove Albion,Tottenham Hotspur,0 - 2,0,7,15,17,2,2,6,3,5,0,48.2%,51.8%
+605752,ENG.1,2021,"Sat, Mar 12, March, 2022",Brighton & Hove Albion,Liverpool,0 - 2,3,9,8,18,3,1,7,6,7,3,51.8%,48.2%
+605761,ENG.1,2021,"Sat, Mar 5, March, 2022",Newcastle United,Brighton & Hove Albion,2 - 1,4,4,10,15,1,1,4,7,3,2,32.4%,67.6%
+605780,ENG.1,2021,"Sat, Feb 19, February, 2022",Brighton & Hove Albion,Burnley,0 - 3,1,4,11,10,1,4,4,4,1,1,68.9%,31.1%
+605861,ENG.1,2021,"Tue, Feb 15, February, 2022",Manchester United,Brighton & Hove Albion,2 - 0,7,3,19,10,3,1,10,2,3,5,50%,50%
+605791,ENG.1,2021,"Sat, Feb 12, February, 2022",Watford,Brighton & Hove Albion,0 - 2,1,6,9,11,3,2,4,5,3,1,35.2%,64.8%
+605810,ENG.1,2021,"Sun, Jan 23, January, 2022",Leicester City,Brighton & Hove Albion,1 - 1,5,5,15,14,0,1,4,5,3,4,43.8%,56.2%
+605804,ENG.1,2021,"Tue, Jan 18, January, 2022",Brighton & Hove Albion,Chelsea,1 - 1,2,3,10,15,1,2,5,7,2,1,43.2%,56.8%
+605822,ENG.1,2021,"Fri, Jan 14, January, 2022",Brighton & Hove Albion,Crystal Palace,1 - 1,4,1,19,3,0,2,9,0,1,4,63.3%,36.7%
+605830,ENG.1,2021,"Sun, Jan 2, January, 2022",Everton,Brighton & Hove Albion,2 - 3,6,5,17,12,1,1,8,5,2,4,49.9%,50.1%
+605840,ENG.1,2021,"Wed, Dec 29, December, 2021",Chelsea,Brighton & Hove Albion,1 - 1,5,6,11,18,4,1,10,8,5,4,47.7%,52.3%
+605878,ENG.1,2021,"Wed, Dec 15, December, 2021",Brighton & Hove Albion,Wolverhampton Wanderers,0 - 1,2,5,12,8,2,0,7,4,4,2,59.3%,40.7%
+605891,ENG.1,2021,"Sat, Dec 4, December, 2021",Southampton,Brighton & Hove Albion,1 - 1,4,4,14,14,4,2,6,2,3,3,44.4%,55.6%
+605903,ENG.1,2021,"Wed, Dec 1, December, 2021",West Ham United,Brighton & Hove Albion,1 - 1,6,3,14,9,1,1,9,5,2,4,34.3%,65.7%
+605911,ENG.1,2021,"Sat, Nov 27, November, 2021",Brighton & Hove Albion,Leeds United,0 - 0,4,4,20,11,1,3,6,1,4,4,56.5%,43.5%
+605934,ENG.1,2021,"Sat, Nov 6, November, 2021",Brighton & Hove Albion,Newcastle United,1 - 1,5,1,14,6,3,4,2,5,1,4,65.7%,34.3%
+605941,ENG.1,2021,"Sat, Oct 30, October, 2021",Liverpool,Brighton & Hove Albion,2 - 2,3,6,14,9,2,2,5,3,4,1,58.4%,41.6%
+605953,ENG.1,2021,"Sat, Oct 23, October, 2021",Brighton & Hove Albion,Manchester City,1 - 4,5,14,10,23,2,3,7,6,8,4,47.7%,52.3%
+605959,ENG.1,2021,"Sat, Oct 16, October, 2021",Norwich City,Brighton & Hove Albion,0 - 0,3,3,15,11,3,5,8,4,3,2,35.1%,64.9%
+605980,ENG.1,2021,"Mon, Sep 27, September, 2021",Crystal Palace,Brighton & Hove Albion,1 - 1,3,4,8,8,2,5,6,5,3,2,46.9%,53.1%
+605995,ENG.1,2021,"Sun, Sep 19, September, 2021",Brighton & Hove Albion,Leicester City,2 - 1,5,3,12,14,2,1,4,9,2,3,37.1%,62.9%
+606013,ENG.1,2021,"Sat, Aug 28, August, 2021",Brighton & Hove Albion,Everton,0 - 2,3,5,14,14,1,2,4,5,3,3,65.6%,34.4%
+606028,ENG.1,2021,"Sat, Aug 21, August, 2021",Brighton & Hove Albion,Watford,2 - 0,3,1,13,10,4,0,7,2,1,1,56.9%,43.1%
+606031,ENG.1,2021,"Sat, Aug 14, August, 2021",Burnley,Brighton & Hove Albion,1 - 2,3,8,14,14,2,1,7,6,4,2,35.9%,64.1%
+605666,ENG.1,2021,"Sun, May 22, May, 2022",Chelsea,Watford,2 - 1,8,3,19,8,0,0,3,3,2,6,71.7%,28.3%
+605771,ENG.1,2021,"Thu, May 19, May, 2022",Chelsea,Leicester City,1 - 1,7,1,20,2,4,1,6,0,0,6,67.2%,32.8%
+605713,ENG.1,2021,"Wed, May 11, May, 2022",Leeds United,Chelsea,0 - 3,0,4,5,17,1,0,1,5,0,0,32.1%,67.9%
+605688,ENG.1,2021,"Sat, May 7, May, 2022",Chelsea,Wolverhampton Wanderers,2 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605693,ENG.1,2021,"Sun, May 1, May, 2022",Everton,Chelsea,1 - 0,4,5,9,17,3,5,3,8,5,3,21.7%,78.3%
+605673,ENG.1,2021,"Thu, Apr 28, April, 2022",Manchester United,Chelsea,1 - 1,3,6,6,21,0,1,2,9,5,2,35.2%,64.8%
+605707,ENG.1,2021,"Sun, Apr 24, April, 2022",Chelsea,West Ham United,1 - 0,5,2,26,6,1,0,3,1,2,4,66.6%,33.4%
+605721,ENG.1,2021,"Sat, Apr 9, April, 2022",Southampton,Chelsea,0 - 6,1,14,4,24,1,0,3,3,8,1,29%,71%
+605754,ENG.1,2021,"Sun, Mar 13, March, 2022",Chelsea,Newcastle United,1 - 0,3,2,8,7,4,3,7,2,2,2,72.8%,27.2%
+605742,ENG.1,2021,"Thu, Mar 10, March, 2022",Norwich City,Chelsea,1 - 3,3,7,8,15,0,2,3,8,4,2,33.7%,66.3%
+605762,ENG.1,2021,"Sat, Mar 5, March, 2022",Burnley,Chelsea,0 - 4,1,5,6,11,2,0,5,2,1,0,27.4%,72.6%
+605781,ENG.1,2021,"Sat, Feb 19, February, 2022",Crystal Palace,Chelsea,0 - 1,0,3,7,9,1,3,4,4,2,0,42.6%,57.4%
+605816,ENG.1,2021,"Sun, Jan 23, January, 2022",Chelsea,Tottenham Hotspur,2 - 0,7,3,15,6,2,1,10,3,3,5,64.6%,35.4%
+605821,ENG.1,2021,"Sat, Jan 15, January, 2022",Manchester City,Chelsea,1 - 0,6,1,11,4,0,2,9,1,1,5,55.7%,44.3%
+605832,ENG.1,2021,"Sun, Jan 2, January, 2022",Chelsea,Liverpool,2 - 2,6,6,15,10,1,2,6,7,4,4,55.3%,44.7%
+605863,ENG.1,2021,"Sun, Dec 19, December, 2021",Wolverhampton Wanderers,Chelsea,0 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605869,ENG.1,2021,"Thu, Dec 16, December, 2021",Chelsea,Everton,1 - 1,10,3,23,5,2,3,7,1,2,9,80.1%,19.9%
+605881,ENG.1,2021,"Sat, Dec 11, December, 2021",Chelsea,Leeds United,3 - 2,6,5,16,12,2,5,5,2,3,3,57.8%,42.2%
+605893,ENG.1,2021,"Sat, Dec 4, December, 2021",West Ham United,Chelsea,3 - 2,5,7,11,19,1,3,1,9,5,1,36.2%,63.8%
+605905,ENG.1,2021,"Wed, Dec 1, December, 2021",Watford,Chelsea,1 - 2,6,4,14,8,4,3,6,0,2,6,49.8%,50.2%
+605912,ENG.1,2021,"Sun, Nov 28, November, 2021",Chelsea,Manchester United,1 - 1,6,2,24,3,2,5,15,2,1,5,65.7%,34.3%
+605922,ENG.1,2021,"Sat, Nov 20, November, 2021",Leicester City,Chelsea,0 - 3,3,7,4,16,3,1,3,5,4,3,38.3%,61.7%
+605930,ENG.1,2021,"Sat, Nov 6, November, 2021",Chelsea,Burnley,1 - 1,4,2,25,5,1,4,14,2,1,4,69.9%,30.1%
+605942,ENG.1,2021,"Sat, Oct 30, October, 2021",Newcastle United,Chelsea,0 - 3,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605955,ENG.1,2021,"Sat, Oct 23, October, 2021",Chelsea,Norwich City,7 - 0,13,1,23,3,0,2,5,0,1,7,61.8%,38.2%
+605977,ENG.1,2021,"Sat, Oct 2, October, 2021",Chelsea,Southampton,3 - 1,9,2,20,6,1,3,7,2,1,6,61.6%,38.4%
+605983,ENG.1,2021,"Sat, Sep 25, September, 2021",Chelsea,Manchester City,0 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605991,ENG.1,2021,"Sun, Sep 19, September, 2021",Tottenham Hotspur,Chelsea,0 - 3,2,10,8,20,0,1,5,11,6,2,47%,53%
+606011,ENG.1,2021,"Sat, Aug 28, August, 2021",Liverpool,Chelsea,1 - 1,7,3,24,6,0,2,12,3,2,6,65.7%,34.3%
+606032,ENG.1,2021,"Sat, Aug 14, August, 2021",Chelsea,Crystal Palace,3 - 0,6,1,13,4,0,0,5,2,1,3,61.7%,38.3%
+605662,ENG.1,2021,"Sun, May 22, May, 2022",Crystal Palace,Manchester United,1 - 0,3,4,6,10,2,4,3,6,4,2,38.4%,61.6%
+605714,ENG.1,2021,"Thu, May 19, May, 2022",Everton,Crystal Palace,3 - 2,6,5,12,7,2,3,4,5,3,3,43.2%,56.8%
+605686,ENG.1,2021,"Sat, May 7, May, 2022",Crystal Palace,Watford,1 - 0,7,1,15,6,2,1,8,5,1,6,67.7%,32.3%
+605694,ENG.1,2021,"Sat, Apr 30, April, 2022",Southampton,Crystal Palace,1 - 2,3,5,8,14,1,3,6,7,3,2,38.3%,61.7%
+605701,ENG.1,2021,"Mon, Apr 25, April, 2022",Crystal Palace,Leeds United,0 - 0,7,2,17,9,2,2,6,3,2,7,52.5%,47.5%
+605743,ENG.1,2021,"Wed, Apr 20, April, 2022",Newcastle United,Crystal Palace,1 - 0,4,2,13,10,1,1,2,5,2,3,36.3%,63.7%
+605722,ENG.1,2021,"Sun, Apr 10, April, 2022",Leicester City,Crystal Palace,2 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605753,ENG.1,2021,"Mon, Mar 14, March, 2022",Crystal Palace,Manchester City,0 - 0,1,4,7,19,3,1,2,6,5,1,26.2%,73.8%
+605763,ENG.1,2021,"Sat, Mar 5, March, 2022",Wolverhampton Wanderers,Crystal Palace,0 - 2,5,8,12,12,0,3,7,7,6,5,64%,36%
+605770,ENG.1,2021,"Sat, Feb 26, February, 2022",Crystal Palace,Burnley,1 - 1,4,1,11,5,0,2,5,4,1,3,59.2%,40.8%
+605864,ENG.1,2021,"Wed, Feb 23, February, 2022",Watford,Crystal Palace,1 - 4,1,5,8,7,2,1,6,4,1,0,45.3%,54.7%
+605805,ENG.1,2021,"Wed, Feb 9, February, 2022",Norwich City,Crystal Palace,1 - 1,1,5,5,13,1,2,4,6,4,0,28.3%,71.7%
+605812,ENG.1,2021,"Sun, Jan 23, January, 2022",Crystal Palace,Liverpool,1 - 3,5,7,8,14,4,1,2,5,4,4,43.4%,56.6%
+605837,ENG.1,2021,"Sat, Jan 1, January, 2022",Crystal Palace,West Ham United,2 - 3,6,5,22,10,0,2,9,1,2,4,62.7%,37.3%
+605845,ENG.1,2021,"Tue, Dec 28, December, 2021",Crystal Palace,Norwich City,3 - 0,6,3,19,12,1,2,8,8,2,3,50.9%,49.1%
+605852,ENG.1,2021,"Sun, Dec 26, December, 2021",Tottenham Hotspur,Crystal Palace,3 - 0,6,0,17,4,1,1,4,2,0,3,59.7%,40.3%
+605872,ENG.1,2021,"Wed, Dec 15, December, 2021",Crystal Palace,Southampton,2 - 2,6,4,9,15,2,4,4,6,2,4,59.7%,40.3%
+605880,ENG.1,2021,"Sun, Dec 12, December, 2021",Crystal Palace,Everton,3 - 1,6,6,17,12,0,2,8,2,5,3,61.2%,38.8%
+605894,ENG.1,2021,"Sun, Dec 5, December, 2021",Manchester United,Crystal Palace,1 - 0,3,2,16,8,2,2,9,6,2,2,61.3%,38.7%
+605906,ENG.1,2021,"Tue, Nov 30, November, 2021",Leeds United,Crystal Palace,1 - 0,3,1,15,9,5,3,7,4,1,2,61.9%,38.1%
+605923,ENG.1,2021,"Sat, Nov 20, November, 2021",Burnley,Crystal Palace,3 - 3,9,8,15,18,2,3,3,6,5,6,39.5%,60.5%
+605938,ENG.1,2021,"Sat, Nov 6, November, 2021",Crystal Palace,Wolverhampton Wanderers,2 - 0,6,2,13,4,2,1,4,6,2,4,59.7%,40.3%
+605943,ENG.1,2021,"Sat, Oct 30, October, 2021",Manchester City,Crystal Palace,0 - 2,3,3,14,8,2,3,7,1,1,3,67.6%,32.4%
+605954,ENG.1,2021,"Sat, Oct 23, October, 2021",Crystal Palace,Newcastle United,1 - 1,3,2,15,6,3,4,3,7,0,2,75%,25%
+605973,ENG.1,2021,"Sun, Oct 3, October, 2021",Crystal Palace,Leicester City,2 - 2,4,5,18,9,2,3,1,3,3,2,60%,40%
+605992,ENG.1,2021,"Sat, Sep 18, September, 2021",Liverpool,Crystal Palace,3 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+606006,ENG.1,2021,"Sat, Sep 11, September, 2021",Crystal Palace,Tottenham Hotspur,3 - 0,4,1,18,2,2,1,8,2,1,1,62.3%,37.7%
+606012,ENG.1,2021,"Sat, Aug 28, August, 2021",West Ham United,Crystal Palace,2 - 2,4,2,14,9,1,0,5,3,0,2,45.7%,54.3%
+605744,ENG.1,2021,"Wed, May 11, May, 2022",Watford,Everton,0 - 0,0,5,6,16,1,2,1,13,5,0,48.2%,51.8%
+605680,ENG.1,2021,"Sun, May 8, May, 2022",Leicester City,Everton,1 - 2,9,4,16,10,3,0,6,1,2,7,66%,34%
+605700,ENG.1,2021,"Sun, Apr 24, April, 2022",Liverpool,Everton,2 - 0,4,1,18,9,2,5,13,1,1,2,82.4%,17.6%
+605865,ENG.1,2021,"Wed, Apr 20, April, 2022",Everton,Leicester City,1 - 1,3,3,13,11,4,2,5,4,2,2,36.7%,63.3%
+605725,ENG.1,2021,"Sat, Apr 9, April, 2022",Everton,Manchester United,1 - 0,3,4,7,12,2,2,5,7,4,2,32.5%,67.5%
+605853,ENG.1,2021,"Wed, Apr 6, April, 2022",Burnley,Everton,3 - 2,4,4,13,16,2,2,9,6,2,1,50.9%,49.1%
+605732,ENG.1,2021,"Sun, Apr 3, April, 2022",West Ham United,Everton,2 - 1,5,2,11,13,1,2,2,4,1,4,55.7%,44.3%
+605844,ENG.1,2021,"Thu, Mar 17, March, 2022",Everton,Newcastle United,1 - 0,3,6,9,17,2,1,5,7,6,2,38.3%,61.7%
+605758,ENG.1,2021,"Sun, Mar 13, March, 2022",Everton,Wolverhampton Wanderers,0 - 1,2,3,7,14,2,1,5,2,2,2,38%,62%
+605764,ENG.1,2021,"Mon, Mar 7, March, 2022",Tottenham Hotspur,Everton,5 - 0,7,0,14,6,2,0,5,2,0,3,55%,45%
+605773,ENG.1,2021,"Sat, Feb 26, February, 2022",Everton,Manchester City,0 - 1,2,8,6,13,3,2,3,4,7,2,32.6%,67.4%
+605782,ENG.1,2021,"Sat, Feb 19, February, 2022",Southampton,Everton,2 - 0,11,0,19,9,0,2,4,4,0,9,55.8%,44.2%
+605793,ENG.1,2021,"Sat, Feb 12, February, 2022",Everton,Leeds United,3 - 0,10,0,21,7,1,1,5,3,0,7,41.7%,58.3%
+605801,ENG.1,2021,"Tue, Feb 8, February, 2022",Newcastle United,Everton,3 - 1,9,3,20,11,2,3,6,2,2,7,39.3%,60.7%
+605823,ENG.1,2021,"Sat, Jan 15, January, 2022",Norwich City,Everton,2 - 1,3,5,14,12,3,1,8,8,4,2,40.4%,59.6%
+605907,ENG.1,2021,"Wed, Dec 1, December, 2021",Everton,Liverpool,1 - 4,2,7,8,16,4,3,3,11,3,1,31.3%,68.7%
+605924,ENG.1,2021,"Sun, Nov 21, November, 2021",Manchester City,Everton,3 - 0,7,1,17,4,1,1,7,1,1,4,77.3%,22.7%
+605936,ENG.1,2021,"Sun, Nov 7, November, 2021",Everton,Tottenham Hotspur,0 - 0,2,0,12,8,2,4,4,2,0,2,44.8%,55.2%
+605944,ENG.1,2021,"Mon, Nov 1, November, 2021",Wolverhampton Wanderers,Everton,2 - 1,4,5,10,14,1,1,4,3,4,2,62%,38%
+605957,ENG.1,2021,"Sat, Oct 23, October, 2021",Everton,Watford,2 - 5,4,8,15,20,4,3,3,5,3,2,50.1%,49.9%
+605967,ENG.1,2021,"Sun, Oct 17, October, 2021",Everton,West Ham United,0 - 1,2,4,15,16,0,2,7,9,3,2,39%,61%
+605972,ENG.1,2021,"Sat, Oct 2, October, 2021",Manchester United,Everton,1 - 1,6,2,13,12,1,1,10,1,1,5,71.8%,28.2%
+605985,ENG.1,2021,"Sat, Sep 25, September, 2021",Everton,Norwich City,2 - 0,4,2,11,10,2,3,6,4,2,2,46.8%,53.2%
+606001,ENG.1,2021,"Mon, Sep 13, September, 2021",Everton,Burnley,3 - 1,6,6,14,11,1,1,4,6,5,3,51.7%,48.3%
+606022,ENG.1,2021,"Sat, Aug 21, August, 2021",Leeds United,Everton,2 - 2,4,8,17,17,2,4,8,5,6,2,70%,30%
+606036,ENG.1,2021,"Sat, Aug 14, August, 2021",Everton,Southampton,3 - 1,6,3,14,6,2,0,6,8,2,3,48.1%,51.9%
+605664,ENG.1,2021,"Sun, May 22, May, 2022",Leicester City,Southampton,4 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605675,ENG.1,2021,"Sun, May 15, May, 2022",Watford,Leicester City,1 - 5,5,7,13,13,0,1,7,3,2,4,40.5%,59.5%
+605835,ENG.1,2021,"Wed, May 11, May, 2022",Leicester City,Norwich City,3 - 0,8,5,20,9,0,0,10,2,5,5,64.9%,35.1%
+605695,ENG.1,2021,"Sun, May 1, May, 2022",Tottenham Hotspur,Leicester City,3 - 1,7,2,13,6,2,3,7,3,1,4,39.3%,60.7%
+605715,ENG.1,2021,"Sun, Apr 17, April, 2022",Newcastle United,Leicester City,2 - 1,7,2,16,8,2,2,3,5,1,5,31.3%,68.7%
+605733,ENG.1,2021,"Sat, Apr 2, April, 2022",Manchester United,Leicester City,1 - 1,5,3,11,11,2,2,6,5,2,4,53.9%,46.1%
+605765,ENG.1,2021,"Sat, Mar 5, March, 2022",Leicester City,Leeds United,1 - 0,4,4,7,19,1,2,5,10,4,3,51%,49%
+605825,ENG.1,2021,"Tue, Mar 1, March, 2022",Burnley,Leicester City,0 - 2,2,6,9,22,1,1,6,8,4,2,44.8%,55.2%
+605783,ENG.1,2021,"Sun, Feb 20, February, 2022",Wolverhampton Wanderers,Leicester City,2 - 1,3,7,11,17,4,4,7,10,6,1,36.3%,63.7%
+605797,ENG.1,2021,"Sun, Feb 13, February, 2022",Leicester City,West Ham United,2 - 2,2,3,13,8,1,2,5,4,1,0,55.4%,44.6%
+605800,ENG.1,2021,"Thu, Feb 10, February, 2022",Liverpool,Leicester City,2 - 0,11,1,22,5,1,0,7,6,1,9,65%,35%
+605875,ENG.1,2021,"Wed, Jan 19, January, 2022",Leicester City,Tottenham Hotspur,2 - 3,4,10,14,27,1,2,3,8,5,2,48.8%,51.2%
+605842,ENG.1,2021,"Tue, Dec 28, December, 2021",Leicester City,Liverpool,1 - 0,1,0,6,0,0,0,1,0,4,0,36.6%,0%
+605855,ENG.1,2021,"Sun, Dec 26, December, 2021",Manchester City,Leicester City,6 - 3,9,8,17,14,1,2,14,4,5,2,71.8%,28.2%
+605883,ENG.1,2021,"Sun, Dec 12, December, 2021",Leicester City,Newcastle United,4 - 0,5,3,8,12,2,3,4,6,3,1,47.3%,52.7%
+605900,ENG.1,2021,"Wed, Dec 1, December, 2021",Southampton,Leicester City,2 - 2,7,6,15,15,1,3,2,4,4,5,44.5%,55.5%
+605916,ENG.1,2021,"Sun, Nov 28, November, 2021",Leicester City,Watford,4 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605931,ENG.1,2021,"Sun, Nov 7, November, 2021",Leeds United,Leicester City,1 - 1,5,3,18,9,1,1,10,5,2,4,55.8%,44.2%
+605965,ENG.1,2021,"Sat, Oct 16, October, 2021",Leicester City,Manchester United,4 - 2,11,6,22,18,0,3,4,3,4,7,48.8%,51.2%
+605981,ENG.1,2021,"Sat, Sep 25, September, 2021",Leicester City,Burnley,2 - 2,5,3,22,9,2,4,8,4,2,2,67.1%,32.9%
+606003,ENG.1,2021,"Sat, Sep 11, September, 2021",Leicester City,Manchester City,0 - 1,1,8,6,25,1,2,5,8,7,2,39.5%,60.5%
+606015,ENG.1,2021,"Sat, Aug 28, August, 2021",Norwich City,Leicester City,1 - 2,4,3,14,9,2,1,9,9,1,3,44.3%,55.7%
+606023,ENG.1,2021,"Mon, Aug 23, August, 2021",West Ham United,Leicester City,4 - 1,7,1,19,5,0,1,10,0,0,3,51.4%,48.6%
+606038,ENG.1,2021,"Sat, Aug 14, August, 2021",Leicester City,Wolverhampton Wanderers,1 - 0,5,3,9,17,1,2,5,4,3,4,56.3%,43.7%
+605668,ENG.1,2021,"Sun, May 22, May, 2022",Liverpool,Wolverhampton Wanderers,3 - 1,8,5,29,7,1,0,5,3,4,4,62.9%,37.1%
+605676,ENG.1,2021,"Tue, May 17, May, 2022",Southampton,Liverpool,1 - 2,2,5,4,24,2,0,1,9,3,1,29.1%,70.9%
+605685,ENG.1,2021,"Sat, May 7, May, 2022",Liverpool,Tottenham Hotspur,1 - 1,3,3,22,8,3,2,11,5,2,2,64.9%,35.1%
+605696,ENG.1,2021,"Sat, Apr 30, April, 2022",Newcastle United,Liverpool,0 - 1,2,10,4,24,1,3,0,6,9,2,33.9%,66.1%
+605746,ENG.1,2021,"Tue, Apr 19, April, 2022",Liverpool,Manchester United,4 - 0,5,1,14,2,1,2,10,2,1,1,71.6%,28.4%
+605724,ENG.1,2021,"Sun, Apr 10, April, 2022",Manchester City,Liverpool,2 - 2,5,4,11,6,1,4,4,1,2,2,55.1%,44.9%
+605738,ENG.1,2021,"Sat, Apr 2, April, 2022",Liverpool,Watford,2 - 0,3,2,20,5,1,1,9,3,2,1,73.1%,26.9%
+605768,ENG.1,2021,"Sat, Mar 5, March, 2022",Liverpool,West Ham United,1 - 0,5,5,22,13,2,1,4,6,4,4,68.7%,31.3%
+605854,ENG.1,2021,"Wed, Feb 23, February, 2022",Liverpool,Leeds United,6 - 0,15,2,23,3,0,3,4,0,2,8,63.7%,36.3%
+605786,ENG.1,2021,"Sat, Feb 19, February, 2022",Liverpool,Norwich City,3 - 1,8,1,29,6,0,1,9,4,0,4,69.4%,30.6%
+605794,ENG.1,2021,"Sun, Feb 13, February, 2022",Burnley,Liverpool,0 - 1,5,4,8,12,0,1,5,8,3,5,32.6%,67.4%
+605866,ENG.1,2021,"Sun, Dec 19, December, 2021",Tottenham Hotspur,Liverpool,2 - 2,5,6,10,18,4,4,6,4,4,3,43.7%,56.3%
+605871,ENG.1,2021,"Thu, Dec 16, December, 2021",Liverpool,Newcastle United,3 - 1,8,3,23,5,1,3,11,0,2,6,74.2%,25.8%
+605896,ENG.1,2021,"Sat, Dec 4, December, 2021",Wolverhampton Wanderers,Liverpool,0 - 1,1,5,3,17,2,2,2,8,3,1,32.9%,67.1%
+605914,ENG.1,2021,"Sat, Nov 27, November, 2021",Liverpool,Southampton,4 - 0,6,3,20,7,0,1,5,7,3,2,64.5%,35.5%
+605932,ENG.1,2021,"Sun, Nov 7, November, 2021",West Ham United,Liverpool,3 - 2,3,5,7,16,1,1,3,2,3,1,30.9%,69.1%
+605952,ENG.1,2021,"Sun, Oct 24, October, 2021",Manchester United,Liverpool,0 - 5,4,8,12,19,6,0,6,3,3,3,36.8%,63.2%
+605964,ENG.1,2021,"Sat, Oct 16, October, 2021",Watford,Liverpool,0 - 5,2,8,6,19,0,0,1,9,4,2,23.8%,76.2%
+605974,ENG.1,2021,"Sun, Oct 3, October, 2021",Liverpool,Manchester City,2 - 2,4,3,6,12,3,3,3,4,1,1,48.5%,51.5%
+606002,ENG.1,2021,"Sun, Sep 12, September, 2021",Leeds United,Liverpool,0 - 3,4,9,9,30,2,1,2,11,5,4,44.1%,55.9%
+606020,ENG.1,2021,"Sat, Aug 21, August, 2021",Liverpool,Burnley,2 - 0,9,3,27,9,0,0,8,4,3,6,66.5%,33.5%
+606034,ENG.1,2021,"Sat, Aug 14, August, 2021",Norwich City,Liverpool,0 - 3,3,8,14,19,1,1,3,11,3,3,50.1%,49.9%
+605677,ENG.1,2021,"Sun, May 15, May, 2022",West Ham United,Manchester City,2 - 2,2,8,6,31,3,1,4,9,7,0,21.8%,78.2%
+605717,ENG.1,2021,"Wed, May 11, May, 2022",Wolverhampton Wanderers,Manchester City,1 - 5,3,5,7,15,0,1,6,2,0,2,33.7%,66.3%
+605683,ENG.1,2021,"Sun, May 8, May, 2022",Manchester City,Newcastle United,5 - 0,9,3,21,7,1,3,8,2,3,4,71.4%,28.6%
+605697,ENG.1,2021,"Sat, Apr 30, April, 2022",Leeds United,Manchester City,0 - 4,2,6,7,19,1,2,3,6,2,1,40.9%,59.1%
+605706,ENG.1,2021,"Sat, Apr 23, April, 2022",Manchester City,Watford,5 - 1,8,2,21,5,1,0,11,4,1,4,74%,26%
+605734,ENG.1,2021,"Sat, Apr 2, April, 2022",Burnley,Manchester City,0 - 2,1,6,3,18,1,0,1,8,4,1,23.3%,76.7%
+605766,ENG.1,2021,"Sun, Mar 6, March, 2022",Manchester City,Manchester United,4 - 1,10,2,24,5,0,1,9,3,2,6,69.4%,30.6%
+605787,ENG.1,2021,"Sat, Feb 19, February, 2022",Manchester City,Tottenham Hotspur,2 - 3,4,5,21,6,0,3,10,0,2,2,71.2%,28.8%
+605795,ENG.1,2021,"Sat, Feb 12, February, 2022",Norwich City,Manchester City,0 - 4,3,9,8,22,0,2,4,12,5,3,28.5%,71.5%
+605813,ENG.1,2021,"Sat, Jan 22, January, 2022",Southampton,Manchester City,1 - 1,3,5,7,20,3,0,2,11,4,2,25.8%,74.2%
+605867,ENG.1,2021,"Sun, Dec 19, December, 2021",Newcastle United,Manchester City,0 - 4,1,7,5,18,1,2,3,6,3,1,28.1%,71.9%
+605870,ENG.1,2021,"Tue, Dec 14, December, 2021",Manchester City,Leeds United,7 - 0,15,3,31,6,1,1,6,2,3,8,64.2%,35.8%
+605888,ENG.1,2021,"Sat, Dec 11, December, 2021",Manchester City,Wolverhampton Wanderers,1 - 0,10,1,24,2,3,2,14,1,1,8,71%,29%
+605897,ENG.1,2021,"Sat, Dec 4, December, 2021",Watford,Manchester City,1 - 3,4,13,11,26,3,0,5,11,9,3,22.9%,77.1%
+605917,ENG.1,2021,"Sun, Nov 28, November, 2021",Manchester City,West Ham United,2 - 1,9,3,19,5,2,0,8,4,2,6,68.5%,31.5%
+605933,ENG.1,2021,"Sat, Nov 6, November, 2021",Manchester United,Manchester City,0 - 2,1,5,5,16,1,2,1,9,5,1,32.6%,67.4%
+605960,ENG.1,2021,"Sat, Oct 16, October, 2021",Manchester City,Burnley,2 - 0,6,2,15,7,1,0,6,2,2,4,70.6%,29.4%
+605997,ENG.1,2021,"Sat, Sep 18, September, 2021",Manchester City,Southampton,0 - 0,1,2,16,10,0,2,8,5,2,1,63.9%,36.1%
+606026,ENG.1,2021,"Sat, Aug 21, August, 2021",Manchester City,Norwich City,5 - 0,4,0,16,1,1,0,6,1,0,0,66.9%,33.1%
+606035,ENG.1,2021,"Sun, Aug 15, August, 2021",Tottenham Hotspur,Manchester City,1 - 0,3,4,13,18,2,1,3,11,4,1,34.4%,65.6%
+605718,ENG.1,2021,"Sat, Apr 16, April, 2022",Manchester United,Norwich City,3 - 2,9,4,20,15,0,0,6,7,2,6,60.8%,39.2%
+605756,ENG.1,2021,"Sat, Mar 12, March, 2022",Manchester United,Tottenham Hotspur,3 - 2,6,3,10,10,2,1,4,5,1,3,43.5%,56.5%
+605777,ENG.1,2021,"Sat, Feb 26, February, 2022",Manchester United,Watford,0 - 0,3,2,22,10,0,0,4,3,2,3,67.3%,32.7%
+605784,ENG.1,2021,"Sun, Feb 20, February, 2022",Leeds United,Manchester United,2 - 4,6,9,16,15,6,3,3,3,5,4,54.5%,45.5%
+605796,ENG.1,2021,"Sat, Feb 12, February, 2022",Manchester United,Southampton,1 - 1,8,4,12,13,4,0,1,4,3,6,52.3%,47.7%
+605807,ENG.1,2021,"Tue, Feb 8, February, 2022",Burnley,Manchester United,1 - 1,3,5,9,22,2,1,2,10,4,2,35.9%,64.1%
+605817,ENG.1,2021,"Sat, Jan 22, January, 2022",Manchester United,West Ham United,1 - 0,3,1,18,6,1,1,3,3,2,2,56.9%,43.1%
+605838,ENG.1,2021,"Mon, Jan 3, January, 2022",Manchester United,Wolverhampton Wanderers,0 - 1,2,6,9,19,3,1,3,8,5,2,51.3%,48.7%
+605841,ENG.1,2021,"Thu, Dec 30, December, 2021",Manchester United,Burnley,3 - 1,6,3,18,10,0,0,7,5,2,4,57.3%,42.7%
+605856,ENG.1,2021,"Mon, Dec 27, December, 2021",Newcastle United,Manchester United,1 - 1,8,4,13,13,3,3,2,3,2,7,31.4%,68.6%
+605882,ENG.1,2021,"Sat, Dec 11, December, 2021",Norwich City,Manchester United,0 - 1,5,5,11,13,1,1,8,6,4,5,47.2%,52.8%
+605926,ENG.1,2021,"Sat, Nov 20, November, 2021",Watford,Manchester United,4 - 1,7,3,20,9,2,1,9,3,2,3,38.7%,61.3%
+605946,ENG.1,2021,"Sat, Oct 30, October, 2021",Tottenham Hotspur,Manchester United,0 - 3,0,4,9,10,2,3,10,2,1,0,58.2%,41.8%
+605996,ENG.1,2021,"Sun, Sep 19, September, 2021",West Ham United,Manchester United,1 - 2,4,10,13,17,0,0,2,11,8,3,39.9%,60.1%
+606004,ENG.1,2021,"Sat, Sep 11, September, 2021",Manchester United,Newcastle United,4 - 1,7,3,21,12,1,0,7,3,2,2,64.1%,35.9%
+606016,ENG.1,2021,"Sun, Aug 29, August, 2021",Wolverhampton Wanderers,Manchester United,0 - 1,6,3,15,10,3,4,5,7,2,5,44.1%,55.9%
+606024,ENG.1,2021,"Sun, Aug 22, August, 2021",Southampton,Manchester United,1 - 1,3,4,8,15,2,3,7,7,2,3,36.4%,63.6%
+606033,ENG.1,2021,"Sat, Aug 14, August, 2021",Manchester United,Leeds United,5 - 1,8,3,16,10,1,2,5,4,2,3,48.6%,51.4%
+605663,ENG.1,2021,"Sun, May 22, May, 2022",Burnley,Newcastle United,1 - 2,5,6,12,8,1,0,8,2,4,3,51.4%,48.6%
+605703,ENG.1,2021,"Sat, Apr 23, April, 2022",Norwich City,Newcastle United,0 - 3,2,7,5,13,0,2,2,3,4,2,45.4%,54.6%
+605728,ENG.1,2021,"Fri, Apr 8, April, 2022",Newcastle United,Wolverhampton Wanderers,1 - 0,4,2,12,5,1,1,1,2,2,3,41.1%,58.9%
+605735,ENG.1,2021,"Sun, Apr 3, April, 2022",Tottenham Hotspur,Newcastle United,5 - 1,6,1,19,8,2,3,2,3,0,1,60.8%,39.2%
+605834,ENG.1,2021,"Thu, Mar 10, March, 2022",Southampton,Newcastle United,1 - 2,5,4,14,8,1,1,12,5,1,4,67.8%,32.2%
+605785,ENG.1,2021,"Sat, Feb 19, February, 2022",West Ham United,Newcastle United,1 - 1,3,3,11,14,3,3,3,7,2,2,47%,53%
+605814,ENG.1,2021,"Sat, Jan 22, January, 2022",Leeds United,Newcastle United,0 - 1,4,3,13,15,4,2,6,7,2,4,63%,37%
+605828,ENG.1,2021,"Sat, Jan 15, January, 2022",Newcastle United,Watford,1 - 1,1,5,12,18,3,2,4,6,4,0,52%,48%
+605892,ENG.1,2021,"Sat, Dec 4, December, 2021",Newcastle United,Burnley,1 - 0,4,1,19,10,1,1,10,3,1,3,47.8%,52.2%
+605901,ENG.1,2021,"Tue, Nov 30, November, 2021",Newcastle United,Norwich City,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605966,ENG.1,2021,"Sun, Oct 17, October, 2021",Newcastle United,Tottenham Hotspur,2 - 3,1,4,7,14,4,1,2,9,1,0,35.5%,64.5%
+605975,ENG.1,2021,"Sat, Oct 2, October, 2021",Wolverhampton Wanderers,Newcastle United,2 - 1,3,2,7,8,0,2,0,4,1,1,51.9%,48.1%
+605984,ENG.1,2021,"Sat, Sep 25, September, 2021",Watford,Newcastle United,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605994,ENG.1,2021,"Fri, Sep 17, September, 2021",Newcastle United,Leeds United,1 - 1,7,9,17,22,2,2,4,5,9,6,35.4%,64.6%
+606017,ENG.1,2021,"Sat, Aug 28, August, 2021",Newcastle United,Southampton,2 - 2,5,6,10,22,3,3,4,4,4,2,36.3%,63.7%
+606037,ENG.1,2021,"Sun, Aug 15, August, 2021",Newcastle United,West Ham United,2 - 4,3,9,17,18,1,0,7,6,4,1,46.4%,53.6%
+605747,ENG.1,2021,"Thu, Apr 21, April, 2022",Burnley,Southampton,2 - 0,6,3,16,11,2,2,10,10,4,4,43%,57%
+605737,ENG.1,2021,"Sat, Apr 2, April, 2022",Leeds United,Southampton,1 - 1,3,6,12,14,1,1,4,7,4,2,55.8%,44.2%
+605757,ENG.1,2021,"Sun, Mar 13, March, 2022",Southampton,Watford,1 - 2,7,5,13,9,3,2,11,3,3,5,62.5%,37.5%
+605775,ENG.1,2021,"Fri, Feb 25, February, 2022",Southampton,Norwich City,2 - 0,9,1,27,8,1,2,13,6,1,7,58.1%,41.9%
+605802,ENG.1,2021,"Wed, Feb 9, February, 2022",Tottenham Hotspur,Southampton,2 - 3,3,10,8,23,2,3,2,8,6,2,47.7%,52.3%
+605827,ENG.1,2021,"Sat, Jan 15, January, 2022",Wolverhampton Wanderers,Southampton,3 - 1,5,10,9,13,2,3,2,10,9,2,42.7%,57.3%
+605846,ENG.1,2021,"Tue, Dec 28, December, 2021",Southampton,Tottenham Hotspur,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605857,ENG.1,2021,"Sun, Dec 26, December, 2021",West Ham United,Southampton,2 - 3,5,6,11,11,2,3,10,2,3,2,55.8%,44.2%
+605927,ENG.1,2021,"Sat, Nov 20, November, 2021",Norwich City,Southampton,2 - 1,4,5,8,17,3,2,5,7,4,2,37%,63%
+605947,ENG.1,2021,"Sat, Oct 30, October, 2021",Watford,Southampton,0 - 1,4,1,10,12,2,2,5,8,0,3,38.7%,61.3%
+605950,ENG.1,2021,"Sat, Oct 23, October, 2021",Southampton,Burnley,2 - 2,4,5,16,9,1,3,6,2,3,2,61.3%,38.7%
+605963,ENG.1,2021,"Sat, Oct 16, October, 2021",Southampton,Leeds United,1 - 0,5,0,19,3,2,3,8,1,0,3,45.3%,54.7%
+605988,ENG.1,2021,"Sun, Sep 26, September, 2021",Southampton,Wolverhampton Wanderers,0 - 1,6,3,18,5,0,0,5,5,2,6,57%,43%
+606007,ENG.1,2021,"Sat, Sep 11, September, 2021",Southampton,West Ham United,0 - 0,3,3,11,13,3,1,5,4,3,2,41.8%,58.2%
+605665,ENG.1,2021,"Sun, May 22, May, 2022",Norwich City,Tottenham Hotspur,0 - 5,0,13,9,19,3,1,3,2,7,0,40.4%,59.6%
+605672,ENG.1,2021,"Sun, May 15, May, 2022",Tottenham Hotspur,Burnley,1 - 0,8,1,21,8,3,2,8,2,1,6,68.3%,31.7%
+605748,ENG.1,2021,"Sun, Mar 20, March, 2022",Tottenham Hotspur,West Ham United,3 - 1,4,1,17,6,0,1,5,3,0,2,52.7%,47.3%
+605776,ENG.1,2021,"Sat, Feb 26, February, 2022",Leeds United,Tottenham Hotspur,0 - 4,3,11,19,15,4,2,3,6,6,2,49.6%,50.4%
+605915,ENG.1,2021,"Wed, Feb 23, February, 2022",Burnley,Tottenham Hotspur,1 - 0,4,2,15,12,0,0,3,7,2,3,34.1%,65.9%
+605798,ENG.1,2021,"Sun, Feb 13, February, 2022",Tottenham Hotspur,Wolverhampton Wanderers,0 - 2,7,7,17,11,3,1,7,3,5,7,58.6%,41.4%
+605836,ENG.1,2021,"Sat, Jan 1, January, 2022",Watford,Tottenham Hotspur,0 - 1,4,9,6,21,0,1,3,7,9,4,25.8%,74.2%
+605898,ENG.1,2021,"Sun, Dec 5, December, 2021",Tottenham Hotspur,Norwich City,3 - 0,7,1,17,10,1,2,6,4,1,4,40.8%,59.2%
+605925,ENG.1,2021,"Sun, Nov 21, November, 2021",Tottenham Hotspur,Leeds United,2 - 1,4,7,13,18,1,4,4,8,6,2,43.2%,56.8%
+605956,ENG.1,2021,"Sun, Oct 24, October, 2021",West Ham United,Tottenham Hotspur,1 - 0,4,4,13,7,2,1,2,4,4,3,37.7%,62.3%
+606018,ENG.1,2021,"Sun, Aug 29, August, 2021",Tottenham Hotspur,Watford,1 - 0,8,2,15,9,3,3,10,3,2,7,57.6%,42.4%
+606027,ENG.1,2021,"Sun, Aug 22, August, 2021",Wolverhampton Wanderers,Tottenham Hotspur,0 - 1,6,6,25,8,1,4,5,4,5,6,57.8%,42.2%
+605687,ENG.1,2021,"Sun, May 8, May, 2022",Norwich City,West Ham United,0 - 4,2,5,8,13,1,1,9,5,1,2,36.5%,63.5%
+605712,ENG.1,2021,"Sun, Apr 17, April, 2022",West Ham United,Burnley,1 - 1,8,1,21,9,2,2,13,4,0,5,61%,39%
+605778,ENG.1,2021,"Sun, Feb 27, February, 2022",West Ham United,Wolverhampton Wanderers,1 - 0,4,1,13,14,1,0,3,5,1,3,39%,61%
+605808,ENG.1,2021,"Tue, Feb 8, February, 2022",West Ham United,Watford,1 - 0,3,1,9,6,1,0,5,6,1,1,64.3%,35.7%
+605824,ENG.1,2021,"Sun, Jan 16, January, 2022",West Ham United,Leeds United,2 - 3,5,5,15,18,3,2,4,3,2,3,47.4%,52.6%
+605868,ENG.1,2021,"Wed, Jan 12, January, 2022",West Ham United,Norwich City,2 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605847,ENG.1,2021,"Tue, Dec 28, December, 2021",Watford,West Ham United,1 - 4,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605887,ENG.1,2021,"Sun, Dec 12, December, 2021",Burnley,West Ham United,0 - 0,1,3,9,16,2,1,6,14,3,1,40.1%,59.9%
+605928,ENG.1,2021,"Sat, Nov 20, November, 2021",Wolverhampton Wanderers,West Ham United,1 - 0,5,3,15,8,1,1,7,3,3,4,52.4%,47.6%
+605987,ENG.1,2021,"Sat, Sep 25, September, 2021",Leeds United,West Ham United,1 - 2,5,7,15,20,3,2,5,7,5,4,53.5%,46.5%
+605678,ENG.1,2021,"Sun, May 15, May, 2022",Wolverhampton Wanderers,Norwich City,1 - 1,4,2,17,11,0,3,5,3,1,3,64%,36%
+605708,ENG.1,2021,"Sun, Apr 24, April, 2022",Burnley,Wolverhampton Wanderers,1 - 0,5,4,14,10,3,1,3,6,4,4,35.9%,64.1%
+605745,ENG.1,2021,"Fri, Mar 18, March, 2022",Wolverhampton Wanderers,Leeds United,2 - 3,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+605858,ENG.1,2021,"Thu, Mar 10, March, 2022",Wolverhampton Wanderers,Watford,4 - 0,5,0,10,9,2,2,5,2,0,2,65.8%,34.2%
+605904,ENG.1,2021,"Wed, Dec 1, December, 2021",Wolverhampton Wanderers,Burnley,0 - 0,2,1,16,6,2,3,5,5,1,2,65.2%,34.8%
+605918,ENG.1,2021,"Sat, Nov 27, November, 2021",Norwich City,Wolverhampton Wanderers,0 - 0,4,2,14,5,2,2,4,3,2,4,43.1%,56.9%
+605958,ENG.1,2021,"Sat, Oct 23, October, 2021",Leeds United,Wolverhampton Wanderers,1 - 1,4,4,18,8,2,3,6,3,3,3,63%,37%
+606008,ENG.1,2021,"Sat, Sep 11, September, 2021",Watford,Wolverhampton Wanderers,0 - 2,2,5,6,14,3,3,6,8,4,2,44%,56%
+610392,ESP.1,2021,"Sun, May 22, May, 2022",Alavés,Cádiz,0 - 1,2,6,9,13,0,1,4,4,5,2,49.5%,50.5%
+610400,ESP.1,2021,"Sun, May 15, May, 2022",Levante,Alavés,3 - 1,5,2,15,6,8,5,3,4,1,2,63.7%,36.3%
+610414,ESP.1,2021,"Wed, May 11, May, 2022",Alavés,Espanyol,2 - 1,9,3,27,5,3,1,12,3,2,7,45.9%,54.1%
+610420,ESP.1,2021,"Sat, May 7, May, 2022",Celta Vigo,Alavés,4 - 0,8,1,15,3,1,2,7,1,1,4,66.9%,33.1%
+610439,ESP.1,2021,"Sat, Apr 30, April, 2022",Alavés,Villarreal,2 - 1,5,6,11,16,5,2,5,8,5,2,32.9%,67.1%
+610440,ESP.1,2021,"Tue, Apr 19, April, 2022",Mallorca,Alavés,2 - 1,3,4,5,12,2,6,0,6,4,1,40%,60%
+610456,ESP.1,2021,"Sat, Apr 16, April, 2022",Alavés,Rayo Vallecano,1 - 0,5,3,11,20,2,3,2,12,3,4,38.3%,61.7%
+610460,ESP.1,2021,"Sun, Apr 10, April, 2022",Osasuna,Alavés,1 - 0,4,2,15,8,3,1,7,3,2,3,65.4%,34.6%
+610470,ESP.1,2021,"Sat, Apr 2, April, 2022",Atlético Madrid,Alavés,4 - 1,8,1,14,7,1,0,8,2,0,4,49.5%,50.5%
+610483,ESP.1,2021,"Sat, Mar 19, March, 2022",Alavés,Granada,2 - 3,6,3,11,12,4,6,7,2,0,5,50.1%,49.9%
+610490,ESP.1,2021,"Sun, Mar 13, March, 2022",Real Sociedad,Alavés,1 - 0,6,4,15,13,1,1,6,4,4,4,59.5%,40.5%
+610508,ESP.1,2021,"Fri, Mar 4, March, 2022",Alavés,Sevilla,0 - 0,2,4,14,13,3,1,5,5,4,2,34.1%,65.9%
+610510,ESP.1,2021,"Sat, Feb 26, February, 2022",Getafe,Alavés,2 - 2,3,3,12,7,2,4,6,1,1,1,49.2%,50.8%
+610520,ESP.1,2021,"Sat, Feb 19, February, 2022",Real Madrid,Alavés,3 - 0,9,2,23,7,1,1,7,1,2,5,69.8%,30.2%
+610539,ESP.1,2021,"Sun, Feb 13, February, 2022",Alavés,Valencia,2 - 1,5,4,9,9,4,3,5,9,3,3,40.5%,59.5%
+610540,ESP.1,2021,"Sat, Feb 5, February, 2022",Elche,Alavés,3 - 1,4,2,14,6,1,1,7,3,1,1,59.9%,40.1%
+610551,ESP.1,2021,"Sun, Jan 23, January, 2022",Alavés,Barcelona,0 - 1,2,4,6,10,0,0,1,10,3,2,24.4%,75.6%
+610560,ESP.1,2021,"Tue, Jan 18, January, 2022",Real Betis,Alavés,4 - 0,5,2,18,9,2,0,8,3,2,1,61.4%,38.6%
+610570,ESP.1,2021,"Sun, Jan 9, January, 2022",Alavés,Athletic Club,0 - 0,1,2,12,10,2,0,7,5,2,1,41.9%,58.1%
+610588,ESP.1,2021,"Sun, Jan 2, January, 2022",Alavés,Real Sociedad,1 - 1,5,4,19,10,3,3,2,3,3,4,34.8%,65.2%
+610730,ESP.1,2021,"Tue, Dec 21, December, 2021",Villarreal,Alavés,5 - 2,10,2,24,4,0,2,6,2,1,5,62.2%,37.8%
+610590,ESP.1,2021,"Sat, Dec 18, December, 2021",Rayo Vallecano,Alavés,2 - 0,5,4,20,6,1,2,5,5,4,3,61.5%,38.5%
+610604,ESP.1,2021,"Sat, Dec 11, December, 2021",Alavés,Getafe,1 - 1,1,2,9,11,2,4,1,1,1,0,65.4%,34.6%
+610610,ESP.1,2021,"Fri, Dec 3, December, 2021",Granada,Alavés,2 - 1,2,2,9,14,2,2,3,5,2,0,43.8%,56.2%
+610622,ESP.1,2021,"Sat, Nov 27, November, 2021",Alavés,Celta Vigo,1 - 2,5,5,13,8,3,2,5,3,3,4,42.1%,57.9%
+610630,ESP.1,2021,"Sat, Nov 20, November, 2021",Sevilla,Alavés,2 - 2,6,3,16,8,4,4,5,2,1,4,68.3%,31.7%
+610646,ESP.1,2021,"Sat, Nov 6, November, 2021",Alavés,Levante,2 - 1,3,7,10,12,3,3,1,3,6,1,60.5%,39.5%
+610650,ESP.1,2021,"Sat, Oct 30, October, 2021",Barcelona,Alavés,1 - 1,5,2,16,3,0,2,9,0,1,4,79.4%,20.6%
+610664,ESP.1,2021,"Tue, Oct 26, October, 2021",Alavés,Elche,1 - 0,5,1,16,4,1,1,4,7,1,4,38.3%,61.7%
+610670,ESP.1,2021,"Sat, Oct 23, October, 2021",Cádiz,Alavés,0 - 2,4,4,23,8,0,2,14,3,2,3,61.3%,38.7%
+610687,ESP.1,2021,"Mon, Oct 18, October, 2021",Alavés,Real Betis,0 - 1,2,4,14,19,1,1,7,7,3,2,36.4%,63.6%
+610690,ESP.1,2021,"Fri, Oct 1, October, 2021",Athletic Club,Alavés,1 - 0,5,5,16,17,3,2,13,9,5,4,55.6%,44.4%
+610701,ESP.1,2021,"Sat, Sep 25, September, 2021",Alavés,Atlético Madrid,1 - 0,1,1,7,13,2,3,3,8,1,0,28.9%,71.1%
+610710,ESP.1,2021,"Wed, Sep 22, September, 2021",Espanyol,Alavés,1 - 0,2,2,10,7,2,1,4,8,2,1,53.1%,46.9%
+610726,ESP.1,2021,"Sat, Sep 18, September, 2021",Alavés,Osasuna,0 - 2,3,5,8,13,4,3,2,8,3,3,55.9%,44.1%
+610740,ESP.1,2021,"Fri, Aug 27, August, 2021",Valencia,Alavés,3 - 0,4,2,9,9,1,4,4,4,2,1,48.8%,51.2%
+610754,ESP.1,2021,"Sat, Aug 21, August, 2021",Alavés,Mallorca,0 - 1,4,2,9,12,1,3,1,8,1,4,47.3%,52.7%
+610768,ESP.1,2021,"Sat, Aug 14, August, 2021",Alavés,Real Madrid,1 - 4,4,7,11,19,1,2,0,4,4,3,40.7%,59.3%
+610390,ESP.1,2021,"Sun, May 22, May, 2022",Sevilla,Athletic Club,1 - 0,3,1,13,10,3,3,5,0,1,2,66%,34%
+610404,ESP.1,2021,"Sun, May 15, May, 2022",Athletic Club,Osasuna,2 - 0,8,1,14,8,0,0,10,6,1,6,44.9%,55.1%
+610410,ESP.1,2021,"Tue, May 10, May, 2022",Granada,Athletic Club,1 - 0,2,1,12,8,4,0,2,7,3,1,40.8%,59.2%
+610429,ESP.1,2021,"Sat, May 7, May, 2022",Athletic Club,Valencia,0 - 0,5,1,10,4,4,2,4,2,1,5,58.8%,41.2%
+610430,ESP.1,2021,"Sat, Apr 30, April, 2022",Athletic Club,Atlético Madrid,2 - 0,4,3,11,9,3,2,5,3,3,3,43.2%,56.8%
+610441,ESP.1,2021,"Thu, Apr 21, April, 2022",Cádiz,Athletic Club,2 - 3,8,7,27,9,3,4,4,1,4,8,58.2%,41.8%
+610451,ESP.1,2021,"Sun, Apr 17, April, 2022",Athletic Club,Celta Vigo,0 - 2,2,4,10,6,2,2,5,4,2,2,50%,50%
+610461,ESP.1,2021,"Sat, Apr 9, April, 2022",Villarreal,Athletic Club,1 - 1,5,6,11,12,2,3,7,2,5,4,60.2%,39.8%
+610472,ESP.1,2021,"Sun, Apr 3, April, 2022",Athletic Club,Elche,2 - 1,6,2,16,6,2,4,7,4,1,4,48.1%,51.9%
+610482,ESP.1,2021,"Fri, Mar 18, March, 2022",Athletic Club,Getafe,1 - 1,11,2,22,8,4,5,8,2,1,10,66.1%,33.9%
+610491,ESP.1,2021,"Sun, Mar 13, March, 2022",Real Betis,Athletic Club,1 - 0,5,2,8,11,4,5,5,6,2,4,51.1%,48.9%
+610504,ESP.1,2021,"Mon, Mar 7, March, 2022",Athletic Club,Levante,3 - 1,9,2,17,5,1,2,4,3,1,5,50%,50%
+610511,ESP.1,2021,"Sun, Feb 27, February, 2022",Barcelona,Athletic Club,4 - 0,7,3,17,6,2,1,5,0,3,3,71.8%,28.2%
+610527,ESP.1,2021,"Sun, Feb 20, February, 2022",Athletic Club,Real Sociedad,4 - 0,8,2,18,9,4,1,6,4,2,4,46.8%,53.2%
+610530,ESP.1,2021,"Mon, Feb 14, February, 2022",Mallorca,Athletic Club,3 - 2,5,2,16,7,6,4,6,6,0,3,44.5%,55.5%
+610543,ESP.1,2021,"Mon, Feb 7, February, 2022",Athletic Club,Espanyol,2 - 1,4,3,7,7,3,3,5,3,2,2,43.3%,56.7%
+610550,ESP.1,2021,"Sun, Jan 23, January, 2022",Rayo Vallecano,Athletic Club,0 - 1,3,3,29,9,1,6,9,7,2,3,67.3%,32.7%
+610580,ESP.1,2021,"Mon, Jan 3, January, 2022",Osasuna,Athletic Club,1 - 3,4,5,15,17,3,2,4,5,2,3,57.1%,42.9%
+610566,ESP.1,2021,"Wed, Dec 22, December, 2021",Athletic Club,Real Madrid,1 - 2,2,7,15,12,2,2,7,0,5,1,40.2%,59.8%
+610597,ESP.1,2021,"Sun, Dec 19, December, 2021",Athletic Club,Real Betis,3 - 2,6,8,9,16,1,3,5,6,6,3,43.6%,56.4%
+610609,ESP.1,2021,"Sat, Dec 11, December, 2021",Athletic Club,Sevilla,0 - 1,2,1,13,6,4,3,9,2,0,2,54.7%,45.3%
+610611,ESP.1,2021,"Mon, Dec 6, December, 2021",Getafe,Athletic Club,0 - 0,5,3,17,9,2,1,5,3,3,5,45%,55%
+610680,ESP.1,2021,"Wed, Dec 1, December, 2021",Real Madrid,Athletic Club,1 - 0,7,2,17,18,2,3,7,6,2,6,62.1%,37.9%
+610625,ESP.1,2021,"Fri, Nov 26, November, 2021",Athletic Club,Granada,2 - 2,5,4,17,8,1,2,8,3,1,3,62.9%,37.1%
+610631,ESP.1,2021,"Fri, Nov 19, November, 2021",Levante,Athletic Club,0 - 0,2,2,15,7,2,1,6,3,2,2,48.7%,51.3%
+610642,ESP.1,2021,"Fri, Nov 5, November, 2021",Athletic Club,Cádiz,0 - 1,5,4,15,8,3,1,5,1,3,4,70.3%,29.7%
+610651,ESP.1,2021,"Sun, Oct 31, October, 2021",Real Sociedad,Athletic Club,1 - 1,3,5,8,11,4,1,2,7,4,2,54.2%,45.8%
+610660,ESP.1,2021,"Tue, Oct 26, October, 2021",Espanyol,Athletic Club,1 - 1,3,7,14,23,1,2,8,12,5,2,45.9%,54.1%
+610679,ESP.1,2021,"Sat, Oct 23, October, 2021",Athletic Club,Villarreal,2 - 1,7,3,14,11,0,3,9,2,2,5,51.8%,48.2%
+610700,ESP.1,2021,"Sat, Sep 25, September, 2021",Valencia,Athletic Club,1 - 1,6,4,13,12,3,2,4,5,3,5,52.4%,47.6%
+610716,ESP.1,2021,"Tue, Sep 21, September, 2021",Athletic Club,Rayo Vallecano,1 - 2,1,3,8,8,3,3,2,1,1,1,47%,53%
+610720,ESP.1,2021,"Sat, Sep 18, September, 2021",Atlético Madrid,Athletic Club,0 - 0,2,0,14,6,4,2,5,5,0,2,54.6%,45.4%
+610735,ESP.1,2021,"Sat, Sep 11, September, 2021",Athletic Club,Mallorca,2 - 0,5,1,19,7,1,2,7,2,1,4,47.9%,52.1%
+610741,ESP.1,2021,"Sat, Aug 28, August, 2021",Celta Vigo,Athletic Club,0 - 1,0,2,13,6,2,1,5,4,1,0,61.8%,38.2%
+610750,ESP.1,2021,"Sat, Aug 21, August, 2021",Athletic Club,Barcelona,1 - 1,7,3,16,9,1,2,13,2,2,5,32.8%,67.2%
+610760,ESP.1,2021,"Mon, Aug 16, August, 2021",Elche,Athletic Club,0 - 0,2,3,8,9,2,2,6,8,3,2,50.2%,49.8%
+610391,ESP.1,2021,"Sun, May 22, May, 2022",Real Sociedad,Atlético Madrid,1 - 2,3,5,12,6,4,2,3,2,3,2,62.3%,37.7%
+610408,ESP.1,2021,"Sun, May 15, May, 2022",Atlético Madrid,Sevilla,1 - 1,3,4,12,8,2,5,4,5,3,2,40.9%,59.1%
+610411,ESP.1,2021,"Wed, May 11, May, 2022",Elche,Atlético Madrid,0 - 2,0,6,9,11,2,2,6,3,3,0,56%,44%
+610426,ESP.1,2021,"Sun, May 8, May, 2022",Atlético Madrid,Real Madrid,1 - 0,2,6,16,15,2,4,4,6,6,1,41%,59%
+610445,ESP.1,2021,"Wed, Apr 20, April, 2022",Atlético Madrid,Granada,0 - 0,1,2,22,7,4,5,11,1,2,1,63.8%,36.2%
+610452,ESP.1,2021,"Sun, Apr 17, April, 2022",Atlético Madrid,Espanyol,2 - 1,3,5,10,11,3,5,6,3,4,1,51.6%,48.4%
+610462,ESP.1,2021,"Sat, Apr 9, April, 2022",Mallorca,Atlético Madrid,1 - 0,3,1,10,9,1,4,1,6,1,2,32.5%,67.5%
+610480,ESP.1,2021,"Sat, Mar 19, March, 2022",Rayo Vallecano,Atlético Madrid,0 - 1,3,3,15,11,3,5,3,6,2,3,54.7%,45.3%
+610492,ESP.1,2021,"Fri, Mar 11, March, 2022",Atlético Madrid,Cádiz,2 - 1,5,3,6,14,4,1,0,4,1,3,45.6%,54.4%
+610500,ESP.1,2021,"Sun, Mar 6, March, 2022",Real Betis,Atlético Madrid,1 - 3,6,6,18,8,5,3,10,3,3,5,65.2%,34.8%
+610513,ESP.1,2021,"Sat, Feb 26, February, 2022",Atlético Madrid,Celta Vigo,2 - 0,6,2,13,16,4,3,5,9,2,4,36.1%,63.9%
+610521,ESP.1,2021,"Sat, Feb 19, February, 2022",Osasuna,Atlético Madrid,0 - 3,4,4,14,5,1,2,4,2,1,4,62.3%,37.7%
+610563,ESP.1,2021,"Wed, Feb 16, February, 2022",Atlético Madrid,Levante,0 - 1,1,5,10,8,3,4,5,3,4,1,54.1%,45.9%
+610534,ESP.1,2021,"Sat, Feb 12, February, 2022",Atlético Madrid,Getafe,4 - 3,7,4,11,10,4,4,5,4,1,4,50.2%,49.8%
+610541,ESP.1,2021,"Sun, Feb 6, February, 2022",Barcelona,Atlético Madrid,4 - 2,4,4,9,10,2,2,3,5,2,0,57.1%,42.9%
+610559,ESP.1,2021,"Sat, Jan 22, January, 2022",Atlético Madrid,Valencia,3 - 2,6,3,16,7,6,6,5,4,1,3,65.1%,34.9%
+610571,ESP.1,2021,"Sun, Jan 9, January, 2022",Villarreal,Atlético Madrid,2 - 2,3,5,13,7,0,0,7,3,3,1,59.9%,40.1%
+610586,ESP.1,2021,"Sun, Jan 2, January, 2022",Atlético Madrid,Rayo Vallecano,2 - 0,5,0,15,5,3,0,8,2,0,3,50.2%,49.8%
+610681,ESP.1,2021,"Wed, Dec 22, December, 2021",Granada,Atlético Madrid,2 - 1,4,3,6,15,4,1,2,7,2,2,40.2%,59.8%
+610591,ESP.1,2021,"Sat, Dec 18, December, 2021",Sevilla,Atlético Madrid,2 - 1,2,3,6,15,4,1,4,7,2,0,54.8%,45.2%
+610600,ESP.1,2021,"Sun, Dec 12, December, 2021",Real Madrid,Atlético Madrid,2 - 0,3,6,7,9,2,3,3,6,6,1,61.4%,38.6%
+610614,ESP.1,2021,"Sat, Dec 4, December, 2021",Atlético Madrid,Mallorca,1 - 2,6,3,14,10,2,5,8,5,1,5,58.4%,41.6%
+610620,ESP.1,2021,"Sun, Nov 28, November, 2021",Cádiz,Atlético Madrid,1 - 4,1,7,9,17,2,0,4,8,3,0,36.4%,63.6%
+610635,ESP.1,2021,"Sat, Nov 20, November, 2021",Atlético Madrid,Osasuna,1 - 0,2,3,15,9,2,2,7,4,3,1,60.9%,39.1%
+610640,ESP.1,2021,"Sun, Nov 7, November, 2021",Valencia,Atlético Madrid,3 - 3,5,7,11,13,2,2,9,0,4,3,48.3%,51.7%
+610657,ESP.1,2021,"Sun, Oct 31, October, 2021",Atlético Madrid,Real Betis,3 - 0,9,1,18,8,0,0,13,0,1,7,46.8%,53.2%
+610661,ESP.1,2021,"Thu, Oct 28, October, 2021",Levante,Atlético Madrid,2 - 2,3,3,10,7,1,5,5,2,1,1,34.9%,65.1%
+610678,ESP.1,2021,"Sun, Oct 24, October, 2021",Atlético Madrid,Real Sociedad,2 - 2,4,4,17,8,1,3,4,3,2,2,56%,44%
+610691,ESP.1,2021,"Sat, Oct 2, October, 2021",Atlético Madrid,Barcelona,2 - 0,3,2,6,9,2,1,2,6,2,1,29.4%,70.6%
+610711,ESP.1,2021,"Tue, Sep 21, September, 2021",Getafe,Atlético Madrid,1 - 2,1,4,7,12,4,5,2,5,2,1,31.4%,68.6%
+610731,ESP.1,2021,"Sun, Sep 12, September, 2021",Espanyol,Atlético Madrid,1 - 2,3,3,9,13,1,4,6,3,1,2,42.2%,57.8%
+610749,ESP.1,2021,"Sun, Aug 29, August, 2021",Atlético Madrid,Villarreal,2 - 2,4,2,23,2,5,2,16,0,0,2,48.9%,51.1%
+610753,ESP.1,2021,"Sun, Aug 22, August, 2021",Atlético Madrid,Elche,1 - 0,4,2,8,4,2,2,2,1,2,3,41.8%,58.2%
+610761,ESP.1,2021,"Sun, Aug 15, August, 2021",Celta Vigo,Atlético Madrid,1 - 2,2,5,10,13,3,5,2,5,2,1,53.2%,46.8%
+610399,ESP.1,2021,"Sun, May 22, May, 2022",Barcelona,Villarreal,0 - 2,3,3,14,4,3,1,12,1,1,3,69.5%,30.5%
+610401,ESP.1,2021,"Sun, May 15, May, 2022",Getafe,Barcelona,0 - 0,3,1,9,5,1,2,5,5,1,3,28.7%,71.3%
+610413,ESP.1,2021,"Tue, May 10, May, 2022",Barcelona,Celta Vigo,3 - 1,4,5,10,13,3,0,2,8,4,1,53.8%,46.2%
+610421,ESP.1,2021,"Sat, May 7, May, 2022",Real Betis,Barcelona,1 - 2,5,5,14,11,1,2,4,8,3,4,42.3%,57.7%
+610435,ESP.1,2021,"Sun, May 1, May, 2022",Barcelona,Mallorca,2 - 1,5,2,17,6,2,3,5,2,1,3,70.5%,29.5%
+610565,ESP.1,2021,"Sun, Apr 24, April, 2022",Barcelona,Rayo Vallecano,0 - 1,5,1,18,3,4,6,9,1,0,4,71.1%,28.9%
+610442,ESP.1,2021,"Thu, Apr 21, April, 2022",Real Sociedad,Barcelona,0 - 1,5,1,8,10,1,2,5,3,0,5,55.5%,44.5%
+610450,ESP.1,2021,"Mon, Apr 18, April, 2022",Barcelona,Cádiz,0 - 1,6,4,18,6,4,1,8,1,3,6,75.4%,24.6%
+610463,ESP.1,2021,"Sun, Apr 10, April, 2022",Levante,Barcelona,2 - 3,6,7,11,14,1,1,4,3,4,3,36.3%,63.7%
+610478,ESP.1,2021,"Sun, Apr 3, April, 2022",Barcelona,Sevilla,1 - 0,6,3,19,8,3,3,9,2,3,5,55.1%,44.9%
+610481,ESP.1,2021,"Sun, Mar 20, March, 2022",Real Madrid,Barcelona,0 - 4,4,10,14,18,4,4,4,3,6,4,40.5%,59.5%
+610496,ESP.1,2021,"Sun, Mar 13, March, 2022",Barcelona,Osasuna,4 - 0,9,3,24,4,0,4,5,1,3,6,72.1%,27.9%
+610501,ESP.1,2021,"Sun, Mar 6, March, 2022",Elche,Barcelona,1 - 2,3,9,13,20,2,6,5,6,6,2,32.4%,67.6%
+610522,ESP.1,2021,"Sun, Feb 20, February, 2022",Valencia,Barcelona,1 - 4,5,6,11,7,3,4,8,3,2,4,35.6%,64.4%
+610531,ESP.1,2021,"Sun, Feb 13, February, 2022",Espanyol,Barcelona,2 - 2,4,4,10,12,3,2,3,5,2,2,35.8%,64.2%
+610572,ESP.1,2021,"Sat, Jan 8, January, 2022",Granada,Barcelona,1 - 1,4,1,14,13,2,3,3,2,0,3,35.1%,64.9%
+610581,ESP.1,2021,"Sun, Jan 2, January, 2022",Mallorca,Barcelona,0 - 1,3,4,13,13,5,2,4,3,2,3,35.3%,64.7%
+610732,ESP.1,2021,"Tue, Dec 21, December, 2021",Sevilla,Barcelona,1 - 1,1,7,5,23,2,3,4,9,6,0,41.4%,58.6%
+610593,ESP.1,2021,"Sat, Dec 18, December, 2021",Barcelona,Elche,3 - 2,8,3,19,5,1,3,5,0,1,4,73.4%,26.6%
+610601,ESP.1,2021,"Sun, Dec 12, December, 2021",Osasuna,Barcelona,2 - 2,3,2,8,10,5,4,6,5,0,1,38.1%,61.9%
+610616,ESP.1,2021,"Sat, Dec 4, December, 2021",Barcelona,Real Betis,0 - 1,3,2,12,8,1,2,6,1,1,3,62.9%,37.1%
+610621,ESP.1,2021,"Sat, Nov 27, November, 2021",Villarreal,Barcelona,1 - 3,2,6,14,12,2,2,4,4,3,1,50.4%,49.6%
+610633,ESP.1,2021,"Sat, Nov 20, November, 2021",Barcelona,Espanyol,1 - 0,6,2,16,12,4,2,4,4,3,5,65.3%,34.7%
+610641,ESP.1,2021,"Sat, Nov 6, November, 2021",Celta Vigo,Barcelona,3 - 3,4,6,18,10,3,6,3,1,3,1,52.4%,47.6%
+610662,ESP.1,2021,"Wed, Oct 27, October, 2021",Rayo Vallecano,Barcelona,1 - 0,3,1,12,16,2,2,3,7,1,2,31.3%,68.7%
+610677,ESP.1,2021,"Sun, Oct 24, October, 2021",Barcelona,Real Madrid,1 - 2,2,5,12,10,1,1,7,4,3,1,51.6%,48.4%
+610689,ESP.1,2021,"Sun, Oct 17, October, 2021",Barcelona,Valencia,3 - 1,5,3,12,9,2,3,9,3,2,2,60.4%,39.6%
+610707,ESP.1,2021,"Sun, Sep 26, September, 2021",Barcelona,Levante,3 - 0,12,2,20,6,1,3,11,1,2,9,70.1%,29.9%
+610712,ESP.1,2021,"Thu, Sep 23, September, 2021",Cádiz,Barcelona,0 - 0,3,2,13,6,3,2,4,5,2,3,31.9%,68.1%
+610724,ESP.1,2021,"Mon, Sep 20, September, 2021",Barcelona,Granada,1 - 1,6,2,17,5,3,6,12,4,1,5,77.1%,22.9%
+610743,ESP.1,2021,"Sun, Aug 29, August, 2021",Barcelona,Getafe,2 - 1,3,3,7,8,3,1,3,2,2,1,66.6%,33.4%
+610769,ESP.1,2021,"Sun, Aug 15, August, 2021",Barcelona,Real Sociedad,4 - 2,8,3,13,11,2,4,5,3,1,4,61.7%,38.3%
+610393,ESP.1,2021,"Sat, May 21, May, 2022",Valencia,Celta Vigo,2 - 0,3,3,10,9,3,3,3,3,3,2,45%,55%
+610402,ESP.1,2021,"Sun, May 15, May, 2022",Celta Vigo,Elche,1 - 0,5,1,14,10,2,2,8,5,1,3,48.7%,51.3%
+610432,ESP.1,2021,"Sun, May 1, May, 2022",Granada,Celta Vigo,1 - 1,6,6,15,13,1,3,5,4,4,5,42%,58%
+610444,ESP.1,2021,"Wed, Apr 20, April, 2022",Celta Vigo,Getafe,0 - 2,2,3,9,6,2,5,2,1,1,2,71.3%,28.7%
+610464,ESP.1,2021,"Sun, Apr 10, April, 2022",Espanyol,Celta Vigo,1 - 0,2,5,11,10,4,1,2,3,6,1,46.5%,53.5%
+610477,ESP.1,2021,"Sat, Apr 2, April, 2022",Celta Vigo,Real Madrid,1 - 2,5,6,11,12,3,0,9,3,4,4,54.8%,45.2%
+610486,ESP.1,2021,"Sun, Mar 20, March, 2022",Celta Vigo,Real Betis,0 - 0,3,1,9,7,1,2,2,2,1,3,52.3%,47.7%
+610493,ESP.1,2021,"Sat, Mar 12, March, 2022",Villarreal,Celta Vigo,1 - 0,3,2,10,12,1,2,5,6,1,2,50.1%,49.9%
+610505,ESP.1,2021,"Sun, Mar 6, March, 2022",Celta Vigo,Mallorca,4 - 3,8,3,16,12,3,4,4,5,1,4,59.3%,40.7%
+610524,ESP.1,2021,"Mon, Feb 21, February, 2022",Celta Vigo,Levante,1 - 1,4,3,8,13,3,5,2,5,2,3,63%,37%
+610532,ESP.1,2021,"Sat, Feb 12, February, 2022",Cádiz,Celta Vigo,0 - 0,2,1,8,6,3,2,3,3,1,2,44.4%,55.6%
+610546,ESP.1,2021,"Sat, Feb 5, February, 2022",Celta Vigo,Rayo Vallecano,2 - 0,3,0,13,11,0,2,7,2,0,1,51.7%,48.3%
+610553,ESP.1,2021,"Sat, Jan 22, January, 2022",Sevilla,Celta Vigo,2 - 2,5,4,16,6,1,4,7,0,2,2,65.2%,34.8%
+610564,ESP.1,2021,"Wed, Jan 19, January, 2022",Celta Vigo,Osasuna,2 - 0,3,0,5,9,1,2,0,5,0,1,47.3%,52.7%
+610574,ESP.1,2021,"Sat, Jan 8, January, 2022",Real Sociedad,Celta Vigo,1 - 0,3,0,12,4,3,3,6,4,0,2,41.3%,58.7%
+610582,ESP.1,2021,"Sun, Jan 2, January, 2022",Real Betis,Celta Vigo,0 - 2,7,5,18,7,1,2,3,3,3,7,54%,46%
+610594,ESP.1,2021,"Fri, Dec 17, December, 2021",Celta Vigo,Espanyol,3 - 1,5,3,12,6,2,1,3,3,2,2,52.2%,47.8%
+610602,ESP.1,2021,"Fri, Dec 10, December, 2021",Mallorca,Celta Vigo,0 - 0,1,5,12,14,3,2,7,4,5,1,48.4%,51.6%
+610618,ESP.1,2021,"Sun, Dec 5, December, 2021",Celta Vigo,Valencia,1 - 2,5,5,11,8,3,2,6,4,3,4,66.9%,33.1%
+610639,ESP.1,2021,"Sat, Nov 20, November, 2021",Celta Vigo,Villarreal,1 - 1,3,6,12,18,1,1,3,5,5,2,56.7%,43.3%
+610652,ESP.1,2021,"Mon, Nov 1, November, 2021",Rayo Vallecano,Celta Vigo,0 - 0,5,4,11,10,2,5,4,7,4,5,53%,47%
+610667,ESP.1,2021,"Thu, Oct 28, October, 2021",Celta Vigo,Real Sociedad,0 - 2,6,4,14,11,1,0,7,6,2,6,57%,43%
+610671,ESP.1,2021,"Mon, Oct 25, October, 2021",Getafe,Celta Vigo,0 - 3,2,8,11,16,2,2,2,7,5,2,34.4%,65.6%
+610688,ESP.1,2021,"Sun, Oct 17, October, 2021",Celta Vigo,Sevilla,0 - 1,3,2,14,8,2,3,5,4,1,3,46%,54%
+610692,ESP.1,2021,"Sun, Oct 3, October, 2021",Elche,Celta Vigo,1 - 0,5,1,12,10,4,3,7,4,1,3,44.9%,55.1%
+610706,ESP.1,2021,"Mon, Sep 27, September, 2021",Celta Vigo,Granada,1 - 0,5,4,14,7,2,7,5,3,4,4,73.2%,26.8%
+610713,ESP.1,2021,"Tue, Sep 21, September, 2021",Levante,Celta Vigo,0 - 2,2,2,6,4,3,2,2,4,0,2,45%,55%
+610721,ESP.1,2021,"Fri, Sep 17, September, 2021",Celta Vigo,Cádiz,1 - 2,4,3,14,7,3,2,7,1,1,3,77.8%,22.2%
+610733,ESP.1,2021,"Sun, Sep 12, September, 2021",Real Madrid,Celta Vigo,5 - 2,11,4,15,11,2,3,7,3,3,7,59.8%,40.2%
+610752,ESP.1,2021,"Mon, Aug 23, August, 2021",Osasuna,Celta Vigo,0 - 0,7,0,15,4,4,3,1,2,0,7,46.3%,53.7%
+610394,ESP.1,2021,"Sun, May 22, May, 2022",Granada,Espanyol,0 - 0,5,5,15,10,1,0,7,3,5,5,38.6%,61.4%
+610409,ESP.1,2021,"Sat, May 14, May, 2022",Espanyol,Valencia,1 - 1,3,5,5,18,4,1,2,3,4,2,48.1%,51.9%
+610424,ESP.1,2021,"Sun, May 8, May, 2022",Espanyol,Osasuna,1 - 1,3,5,12,12,1,3,6,6,3,2,50.6%,49.4%
+610433,ESP.1,2021,"Sat, Apr 30, April, 2022",Real Madrid,Espanyol,4 - 0,5,6,11,20,2,0,6,9,6,1,58.2%,41.8%
+610446,ESP.1,2021,"Thu, Apr 21, April, 2022",Espanyol,Rayo Vallecano,0 - 1,2,2,6,13,4,4,3,10,1,2,57.3%,42.7%
+610473,ESP.1,2021,"Mon, Apr 4, April, 2022",Real Sociedad,Espanyol,1 - 0,6,2,17,8,2,4,6,0,2,5,68.2%,31.8%
+610485,ESP.1,2021,"Sun, Mar 20, March, 2022",Espanyol,Mallorca,1 - 0,3,4,12,10,3,3,6,6,4,2,43.7%,56.3%
+610495,ESP.1,2021,"Sat, Mar 12, March, 2022",Levante,Espanyol,1 - 1,3,1,14,6,4,4,8,2,0,2,56.2%,43.8%
+610502,ESP.1,2021,"Sat, Mar 5, March, 2022",Espanyol,Getafe,2 - 0,1,3,4,12,6,5,1,5,3,0,55.2%,44.8%
+610515,ESP.1,2021,"Sun, Feb 27, February, 2022",Villarreal,Espanyol,5 - 1,11,2,19,7,2,1,10,3,1,7,65.6%,34.4%
+610528,ESP.1,2021,"Sun, Feb 20, February, 2022",Espanyol,Sevilla,1 - 1,4,2,11,7,4,4,3,7,1,3,43.5%,56.5%
+610558,ESP.1,2021,"Fri, Jan 21, January, 2022",Espanyol,Real Betis,1 - 4,4,8,12,15,1,4,6,5,4,3,38.1%,61.9%
+610561,ESP.1,2021,"Tue, Jan 18, January, 2022",Cádiz,Espanyol,2 - 2,4,7,10,14,5,1,3,2,5,2,47.5%,52.5%
+610575,ESP.1,2021,"Mon, Jan 10, January, 2022",Espanyol,Elche,1 - 2,2,2,11,3,4,6,13,0,0,1,54.2%,45.8%
+610583,ESP.1,2021,"Fri, Dec 31, December, 2021",Valencia,Espanyol,1 - 2,2,4,12,15,5,3,7,5,2,0,36.5%,63.5%
+610606,ESP.1,2021,"Sat, Dec 11, December, 2021",Espanyol,Levante,4 - 3,8,5,17,14,4,4,4,2,2,4,52.2%,47.8%
+610613,ESP.1,2021,"Sun, Dec 5, December, 2021",Rayo Vallecano,Espanyol,1 - 0,0,3,7,10,3,3,6,3,3,0,49.9%,50.1%
+610628,ESP.1,2021,"Sun, Nov 28, November, 2021",Espanyol,Real Sociedad,1 - 0,2,4,8,10,1,1,2,9,5,1,39.8%,60.2%
+610645,ESP.1,2021,"Sat, Nov 6, November, 2021",Espanyol,Granada,2 - 0,6,5,17,18,1,1,5,3,5,4,43.1%,56.9%
+610653,ESP.1,2021,"Sun, Oct 31, October, 2021",Getafe,Espanyol,2 - 1,7,3,12,10,7,4,6,11,2,5,43.9%,56.1%
+610672,ESP.1,2021,"Sat, Oct 23, October, 2021",Elche,Espanyol,2 - 2,7,7,12,20,3,1,3,7,5,5,57.6%,42.4%
+610682,ESP.1,2021,"Mon, Oct 18, October, 2021",Espanyol,Cádiz,2 - 0,6,2,14,13,1,0,7,9,3,4,54.4%,45.6%
+610696,ESP.1,2021,"Sun, Oct 3, October, 2021",Espanyol,Real Madrid,2 - 1,4,4,8,18,2,1,2,8,3,2,34.5%,65.5%
+610704,ESP.1,2021,"Sat, Sep 25, September, 2021",Sevilla,Espanyol,2 - 0,5,2,12,13,2,0,4,8,2,4,53.8%,46.2%
+610722,ESP.1,2021,"Sun, Sep 19, September, 2021",Real Betis,Espanyol,2 - 2,9,4,23,11,4,4,10,4,2,8,60.1%,39.9%
+610742,ESP.1,2021,"Fri, Aug 27, August, 2021",Mallorca,Espanyol,1 - 0,6,3,12,8,4,3,3,2,3,5,47.1%,52.9%
+610759,ESP.1,2021,"Sat, Aug 21, August, 2021",Espanyol,Villarreal,0 - 0,3,2,14,12,3,4,9,7,2,3,40.4%,59.6%
+610762,ESP.1,2021,"Sat, Aug 14, August, 2021",Osasuna,Espanyol,0 - 0,1,3,14,10,3,3,4,6,3,1,52.9%,47.1%
+610395,ESP.1,2021,"Sun, May 22, May, 2022",Elche,Getafe,3 - 1,9,2,19,7,2,2,8,3,1,6,59.3%,40.7%
+610415,ESP.1,2021,"Wed, May 11, May, 2022",Osasuna,Getafe,1 - 1,1,0,12,6,2,4,7,2,0,0,67.9%,32.1%
+610425,ESP.1,2021,"Sun, May 8, May, 2022",Getafe,Rayo Vallecano,0 - 0,6,1,12,12,3,4,4,5,1,6,43.9%,56.1%
+610437,ESP.1,2021,"Mon, May 2, May, 2022",Getafe,Real Betis,0 - 0,2,4,13,9,1,1,2,4,4,2,34.9%,65.1%
+610459,ESP.1,2021,"Sat, Apr 16, April, 2022",Getafe,Villarreal,1 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+610465,ESP.1,2021,"Sat, Apr 9, April, 2022",Real Madrid,Getafe,2 - 0,8,0,26,8,2,2,10,2,0,6,68.6%,31.4%
+610474,ESP.1,2021,"Sat, Apr 2, April, 2022",Getafe,Mallorca,1 - 0,3,1,16,7,5,4,5,1,1,2,62.1%,37.9%
+610499,ESP.1,2021,"Sat, Mar 12, March, 2022",Getafe,Valencia,0 - 0,6,0,16,6,6,5,5,3,1,6,52.7%,47.3%
+610523,ESP.1,2021,"Sat, Feb 19, February, 2022",Cádiz,Getafe,1 - 1,2,1,9,6,3,4,7,2,0,1,64.6%,35.4%
+610545,ESP.1,2021,"Fri, Feb 4, February, 2022",Getafe,Levante,3 - 0,8,2,14,11,4,3,2,8,2,5,41%,59%
+610555,ESP.1,2021,"Sun, Jan 23, January, 2022",Real Sociedad,Getafe,0 - 0,3,2,9,9,1,1,7,2,2,3,70.3%,29.7%
+610562,ESP.1,2021,"Thu, Jan 20, January, 2022",Getafe,Granada,4 - 2,4,4,12,7,3,4,4,8,2,0,49.9%,50.1%
+610576,ESP.1,2021,"Sun, Jan 9, January, 2022",Sevilla,Getafe,1 - 0,1,2,10,4,1,3,5,2,2,0,66.9%,33.1%
+610587,ESP.1,2021,"Sun, Jan 2, January, 2022",Getafe,Real Madrid,1 - 0,3,4,6,14,3,2,2,9,4,2,26.5%,73.5%
+610596,ESP.1,2021,"Sun, Dec 19, December, 2021",Getafe,Osasuna,1 - 0,3,3,18,11,3,1,4,3,3,2,48.5%,51.5%
+610624,ESP.1,2021,"Sat, Nov 27, November, 2021",Mallorca,Getafe,0 - 0,2,0,12,11,3,0,2,0,0,2,52.9%,47.1%
+610632,ESP.1,2021,"Sun, Nov 21, November, 2021",Getafe,Cádiz,4 - 0,8,2,17,10,2,4,3,7,2,5,46.9%,53.1%
+610644,ESP.1,2021,"Sun, Nov 7, November, 2021",Villarreal,Getafe,1 - 0,4,2,10,5,1,2,6,4,2,3,67.1%,32.9%
+610665,ESP.1,2021,"Thu, Oct 28, October, 2021",Granada,Getafe,1 - 1,3,4,18,6,1,4,5,0,3,2,76.6%,23.4%
+610684,ESP.1,2021,"Sat, Oct 16, October, 2021",Levante,Getafe,0 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+610697,ESP.1,2021,"Sun, Oct 3, October, 2021",Getafe,Real Sociedad,1 - 1,2,5,9,10,4,2,2,5,4,1,38%,62%
+610705,ESP.1,2021,"Sun, Sep 26, September, 2021",Real Betis,Getafe,2 - 0,5,3,20,8,1,3,3,3,3,3,51.1%,48.9%
+610723,ESP.1,2021,"Sat, Sep 18, September, 2021",Rayo Vallecano,Getafe,3 - 0,5,3,11,13,6,7,5,3,3,2,50.2%,49.8%
+610734,ESP.1,2021,"Mon, Sep 13, September, 2021",Getafe,Elche,0 - 1,1,3,10,8,2,4,8,2,2,1,56.3%,43.7%
+610757,ESP.1,2021,"Mon, Aug 23, August, 2021",Getafe,Sevilla,0 - 1,0,3,12,9,3,2,5,4,2,0,38.6%,61.4%
+610763,ESP.1,2021,"Fri, Aug 13, August, 2021",Valencia,Getafe,1 - 0,2,4,4,22,6,2,1,9,4,1,26.4%,73.6%
+610397,ESP.1,2021,"Sun, May 22, May, 2022",Osasuna,Mallorca,0 - 2,1,6,11,14,2,2,5,7,4,1,62.7%,37.3%
+610405,ESP.1,2021,"Sun, May 15, May, 2022",Mallorca,Rayo Vallecano,2 - 1,5,4,12,11,1,0,5,3,3,3,45%,55%
+610417,ESP.1,2021,"Wed, May 11, May, 2022",Sevilla,Mallorca,0 - 0,4,2,18,10,4,6,6,3,2,3,72.2%,27.8%
+610423,ESP.1,2021,"Sat, May 7, May, 2022",Mallorca,Granada,2 - 6,8,7,18,14,3,2,5,5,1,6,58.9%,41.1%
+610454,ESP.1,2021,"Sat, Apr 16, April, 2022",Elche,Mallorca,3 - 0,2,2,6,13,2,3,2,1,2,0,52.4%,47.6%
+610497,ESP.1,2021,"Mon, Mar 14, March, 2022",Mallorca,Real Madrid,0 - 3,3,5,14,11,3,3,1,6,2,3,37.4%,62.6%
+610567,ESP.1,2021,"Wed, Mar 2, March, 2022",Mallorca,Real Sociedad,0 - 2,1,3,13,13,0,2,3,4,1,1,51.6%,48.4%
+610519,ESP.1,2021,"Sat, Feb 26, February, 2022",Mallorca,Valencia,0 - 1,3,4,23,8,4,4,14,1,3,3,67.3%,32.7%
+610525,ESP.1,2021,"Sun, Feb 20, February, 2022",Real Betis,Mallorca,2 - 1,5,1,14,10,3,2,4,7,0,3,55%,45%
+610542,ESP.1,2021,"Sat, Feb 5, February, 2022",Mallorca,Cádiz,2 - 1,5,5,17,12,2,4,6,4,4,3,46.3%,53.7%
+610556,ESP.1,2021,"Sat, Jan 22, January, 2022",Villarreal,Mallorca,3 - 0,6,2,12,8,1,0,10,6,2,4,56.2%,43.8%
+610577,ESP.1,2021,"Sat, Jan 8, January, 2022",Levante,Mallorca,2 - 0,8,8,16,15,3,1,5,5,8,6,43.3%,56.7%
+610595,ESP.1,2021,"Sun, Dec 19, December, 2021",Granada,Mallorca,4 - 1,6,5,15,8,3,2,4,2,4,3,45.6%,54.4%
+610634,ESP.1,2021,"Mon, Nov 22, November, 2021",Rayo Vallecano,Mallorca,3 - 1,6,5,15,11,3,2,6,4,4,2,52.6%,47.4%
+610643,ESP.1,2021,"Sun, Nov 7, November, 2021",Mallorca,Elche,2 - 2,6,2,18,7,2,3,3,3,0,4,51.5%,48.5%
+610655,ESP.1,2021,"Sun, Oct 31, October, 2021",Cádiz,Mallorca,1 - 1,2,5,13,11,3,5,6,5,4,1,43.5%,56.5%
+610668,ESP.1,2021,"Wed, Oct 27, October, 2021",Mallorca,Sevilla,1 - 1,4,3,11,10,4,6,4,2,2,3,30.2%,69.8%
+610675,ESP.1,2021,"Sat, Oct 23, October, 2021",Valencia,Mallorca,2 - 2,6,4,20,9,5,2,5,0,3,3,72.7%,27.3%
+610685,ESP.1,2021,"Sat, Oct 16, October, 2021",Real Sociedad,Mallorca,1 - 0,2,1,10,7,1,3,2,6,1,1,49.7%,50.3%
+610693,ESP.1,2021,"Sat, Oct 2, October, 2021",Mallorca,Levante,1 - 0,7,3,11,6,4,4,8,3,2,6,53.1%,46.9%
+610708,ESP.1,2021,"Sun, Sep 26, September, 2021",Mallorca,Osasuna,2 - 3,8,6,17,11,2,3,5,5,3,6,55.5%,44.5%
+610715,ESP.1,2021,"Wed, Sep 22, September, 2021",Real Madrid,Mallorca,6 - 1,12,5,18,17,2,1,3,2,4,5,59.3%,40.7%
+610729,ESP.1,2021,"Sun, Sep 19, September, 2021",Mallorca,Villarreal,0 - 0,1,3,10,11,2,3,3,1,3,1,34.1%,65.9%
+610767,ESP.1,2021,"Sat, Aug 14, August, 2021",Mallorca,Real Betis,1 - 1,2,0,6,9,1,3,4,3,0,1,34.2%,65.8%
+610436,ESP.1,2021,"Sun, May 1, May, 2022",Elche,Osasuna,1 - 1,4,3,11,9,4,2,7,4,2,3,57%,43%
+610447,ESP.1,2021,"Wed, Apr 20, April, 2022",Osasuna,Real Madrid,1 - 3,3,11,12,23,1,3,3,4,8,2,34.8%,65.2%
+610455,ESP.1,2021,"Sat, Apr 16, April, 2022",Valencia,Osasuna,1 - 2,4,3,11,9,2,2,9,5,1,3,52.3%,47.7%
+610475,ESP.1,2021,"Sun, Apr 3, April, 2022",Real Betis,Osasuna,4 - 1,8,3,24,10,1,3,11,7,2,4,55.1%,44.9%
+610484,ESP.1,2021,"Sat, Mar 19, March, 2022",Osasuna,Levante,3 - 1,7,4,20,13,0,1,6,1,3,4,45%,55%
+610509,ESP.1,2021,"Sat, Mar 5, March, 2022",Osasuna,Villarreal,1 - 0,3,1,12,10,1,0,6,8,1,2,27.5%,72.5%
+610516,ESP.1,2021,"Sun, Feb 27, February, 2022",Real Sociedad,Osasuna,1 - 0,5,1,11,11,0,5,6,5,1,4,58%,42%
+610536,ESP.1,2021,"Sat, Feb 12, February, 2022",Rayo Vallecano,Osasuna,0 - 3,3,5,10,12,2,1,4,5,2,3,54.8%,45.2%
+610548,ESP.1,2021,"Sat, Feb 5, February, 2022",Osasuna,Sevilla,0 - 0,3,4,9,9,1,1,1,1,4,3,26.5%,73.5%
+610557,ESP.1,2021,"Sun, Jan 23, January, 2022",Granada,Osasuna,0 - 2,2,7,6,16,0,2,4,3,5,2,55.3%,44.7%
+610573,ESP.1,2021,"Sun, Jan 9, January, 2022",Osasuna,Cádiz,2 - 0,5,1,15,6,2,2,5,7,1,3,59.8%,40.2%
+610615,ESP.1,2021,"Sun, Dec 5, December, 2021",Levante,Osasuna,0 - 0,3,1,11,11,2,3,7,2,1,3,57.8%,42.2%
+610623,ESP.1,2021,"Mon, Nov 29, November, 2021",Osasuna,Elche,1 - 1,4,4,17,10,1,3,5,4,3,3,50.1%,49.9%
+610648,ESP.1,2021,"Sun, Nov 7, November, 2021",Osasuna,Real Sociedad,0 - 2,2,4,6,9,0,2,5,2,1,2,42.9%,57.1%
+610656,ESP.1,2021,"Sat, Oct 30, October, 2021",Sevilla,Osasuna,2 - 0,4,3,16,10,2,2,4,5,3,2,64.2%,35.8%
+610666,ESP.1,2021,"Wed, Oct 27, October, 2021",Real Madrid,Osasuna,0 - 0,3,0,17,7,1,1,11,3,0,3,74.7%,25.3%
+610673,ESP.1,2021,"Fri, Oct 22, October, 2021",Osasuna,Granada,1 - 1,6,4,17,9,1,3,4,1,3,4,42.2%,57.8%
+610686,ESP.1,2021,"Sun, Oct 17, October, 2021",Villarreal,Osasuna,1 - 2,6,2,11,6,1,5,4,4,0,5,72.7%,27.3%
+610694,ESP.1,2021,"Sat, Oct 2, October, 2021",Osasuna,Rayo Vallecano,1 - 0,3,0,7,7,3,3,6,3,0,2,50.8%,49.2%
+610717,ESP.1,2021,"Thu, Sep 23, September, 2021",Osasuna,Real Betis,1 - 3,3,9,11,16,2,0,4,7,6,2,47.9%,52.1%
+610739,ESP.1,2021,"Sun, Sep 12, September, 2021",Osasuna,Valencia,1 - 4,2,4,11,10,4,2,4,4,1,1,56.9%,43.1%
+610746,ESP.1,2021,"Sun, Aug 29, August, 2021",Cádiz,Osasuna,2 - 3,3,4,7,14,4,0,4,11,1,1,27.1%,72.9%
+610396,ESP.1,2021,"Fri, May 20, May, 2022",Rayo Vallecano,Levante,2 - 4,8,7,19,14,0,3,7,3,2,6,55.6%,44.4%
+610419,ESP.1,2021,"Thu, May 12, May, 2022",Rayo Vallecano,Villarreal,1 - 5,3,8,17,11,5,2,9,3,3,2,56%,44%
+610438,ESP.1,2021,"Sun, May 1, May, 2022",Rayo Vallecano,Real Sociedad,1 - 1,7,3,13,8,2,1,8,5,2,6,43.8%,56.2%
+610469,ESP.1,2021,"Mon, Apr 11, April, 2022",Rayo Vallecano,Valencia,1 - 1,4,2,11,6,3,4,5,4,1,3,56%,44%
+610476,ESP.1,2021,"Sun, Apr 3, April, 2022",Granada,Rayo Vallecano,2 - 2,9,4,17,10,4,4,5,4,2,7,64%,36%
+610498,ESP.1,2021,"Sun, Mar 13, March, 2022",Rayo Vallecano,Sevilla,1 - 1,2,2,10,3,0,1,5,6,1,1,42.9%,57.1%
+610506,ESP.1,2021,"Sun, Mar 6, March, 2022",Cádiz,Rayo Vallecano,2 - 0,7,3,13,14,5,3,5,6,3,5,46.5%,53.5%
+610518,ESP.1,2021,"Sat, Feb 26, February, 2022",Rayo Vallecano,Real Madrid,0 - 1,5,6,19,13,5,3,5,9,5,5,34%,66%
+610526,ESP.1,2021,"Fri, Feb 18, February, 2022",Elche,Rayo Vallecano,2 - 1,5,2,9,13,2,4,2,3,1,3,43.8%,56.2%
+610578,ESP.1,2021,"Sun, Jan 9, January, 2022",Rayo Vallecano,Real Betis,1 - 1,7,5,17,9,1,3,6,4,4,6,58.3%,41.7%
+610607,ESP.1,2021,"Sun, Dec 12, December, 2021",Villarreal,Rayo Vallecano,2 - 0,5,7,13,19,1,3,5,6,6,3,51.9%,48.1%
+610627,ESP.1,2021,"Sat, Nov 27, November, 2021",Valencia,Rayo Vallecano,1 - 1,4,6,9,12,6,5,3,9,4,3,41.9%,58.1%
+610647,ESP.1,2021,"Sat, Nov 6, November, 2021",Real Madrid,Rayo Vallecano,2 - 1,7,7,15,19,1,2,4,5,5,5,54.6%,45.4%
+610676,ESP.1,2021,"Sun, Oct 24, October, 2021",Real Betis,Rayo Vallecano,3 - 2,5,3,11,14,1,2,4,4,1,2,46.4%,53.6%
+610683,ESP.1,2021,"Sun, Oct 17, October, 2021",Rayo Vallecano,Elche,2 - 1,4,3,10,7,2,2,6,2,2,2,52.5%,47.5%
+610702,ESP.1,2021,"Sun, Sep 26, September, 2021",Rayo Vallecano,Cádiz,3 - 1,6,1,13,6,2,4,4,3,0,3,59.1%,40.9%
+610736,ESP.1,2021,"Sat, Sep 11, September, 2021",Levante,Rayo Vallecano,1 - 1,2,6,7,22,3,4,2,5,5,1,45%,55%
+610744,ESP.1,2021,"Sun, Aug 29, August, 2021",Rayo Vallecano,Granada,4 - 0,6,3,19,9,1,4,5,7,3,2,46.9%,53.1%
+610755,ESP.1,2021,"Sun, Aug 22, August, 2021",Real Sociedad,Rayo Vallecano,1 - 0,8,1,13,9,3,4,5,4,1,7,61.2%,38.8%
+610766,ESP.1,2021,"Sun, Aug 15, August, 2021",Sevilla,Rayo Vallecano,3 - 0,8,3,21,4,1,0,4,0,3,5,75.3%,24.7%
+610398,ESP.1,2021,"Fri, May 20, May, 2022",Real Madrid,Real Betis,0 - 0,3,2,17,11,0,0,8,5,2,3,52.2%,47.8%
+610403,ESP.1,2021,"Sun, May 15, May, 2022",Real Betis,Granada,2 - 0,4,4,11,14,0,1,4,9,4,2,61.4%,38.6%
+610418,ESP.1,2021,"Tue, May 10, May, 2022",Valencia,Real Betis,0 - 3,5,5,19,9,1,3,7,3,2,5,44.6%,55.4%
+610443,ESP.1,2021,"Tue, Apr 19, April, 2022",Real Betis,Elche,0 - 1,3,1,18,9,2,3,2,3,0,3,64.8%,35.2%
+610457,ESP.1,2021,"Fri, Apr 15, April, 2022",Real Sociedad,Real Betis,0 - 0,2,2,9,9,3,4,8,1,2,2,57%,43%
+610467,ESP.1,2021,"Sat, Apr 9, April, 2022",Cádiz,Real Betis,1 - 2,4,3,10,10,1,2,8,4,0,2,39.5%,60.5%
+610517,ESP.1,2021,"Sun, Feb 27, February, 2022",Sevilla,Real Betis,2 - 1,3,2,12,10,6,3,4,4,1,1,45.6%,54.4%
+610537,ESP.1,2021,"Sun, Feb 13, February, 2022",Levante,Real Betis,2 - 4,4,11,12,19,1,2,5,7,7,2,41.3%,58.7%
+610549,ESP.1,2021,"Sun, Feb 6, February, 2022",Real Betis,Villarreal,0 - 2,3,3,9,9,2,3,6,6,1,3,60.4%,39.6%
+610608,ESP.1,2021,"Sun, Dec 12, December, 2021",Real Betis,Real Sociedad,4 - 0,5,5,11,15,3,1,4,7,5,1,48.3%,51.7%
+610626,ESP.1,2021,"Sun, Nov 28, November, 2021",Real Betis,Levante,3 - 1,8,2,26,8,2,3,5,8,1,5,60.4%,39.6%
+610636,ESP.1,2021,"Sun, Nov 21, November, 2021",Elche,Real Betis,0 - 3,4,4,14,9,1,1,10,1,1,4,57.6%,42.4%
+610649,ESP.1,2021,"Sun, Nov 7, November, 2021",Real Betis,Sevilla,0 - 2,1,2,8,12,1,1,2,1,1,1,25.6%,74.4%
+610669,ESP.1,2021,"Wed, Oct 27, October, 2021",Real Betis,Valencia,4 - 1,9,4,14,10,2,5,4,7,3,5,61.1%,38.9%
+610695,ESP.1,2021,"Sun, Oct 3, October, 2021",Villarreal,Real Betis,2 - 0,5,3,11,10,2,4,4,6,3,2,58.2%,41.8%
+610737,ESP.1,2021,"Mon, Sep 13, September, 2021",Granada,Real Betis,1 - 2,2,9,11,19,1,2,6,8,7,1,43%,57%
+610747,ESP.1,2021,"Sat, Aug 28, August, 2021",Real Betis,Real Madrid,0 - 1,6,3,12,13,5,3,3,7,2,6,50.9%,49.1%
+610751,ESP.1,2021,"Fri, Aug 20, August, 2021",Real Betis,Cádiz,1 - 1,7,3,16,8,4,0,4,5,2,6,74.3%,25.7%
+610406,ESP.1,2021,"Sun, May 15, May, 2022",Cádiz,Real Madrid,1 - 1,7,7,21,16,6,2,10,2,6,6,38%,62%
+610416,ESP.1,2021,"Thu, May 12, May, 2022",Real Madrid,Levante,6 - 0,16,1,27,16,2,1,6,6,1,10,53.7%,46.3%
+610458,ESP.1,2021,"Sun, Apr 17, April, 2022",Sevilla,Real Madrid,2 - 3,2,6,7,15,3,4,0,3,3,0,40.5%,59.5%
+610507,ESP.1,2021,"Sat, Mar 5, March, 2022",Real Madrid,Real Sociedad,4 - 1,8,1,18,1,0,2,7,1,0,4,63.9%,36.1%
+610538,ESP.1,2021,"Sat, Feb 12, February, 2022",Villarreal,Real Madrid,0 - 0,2,6,9,17,2,4,3,3,5,2,43.6%,56.4%
+610544,ESP.1,2021,"Sun, Feb 6, February, 2022",Real Madrid,Granada,1 - 0,11,3,24,7,2,1,9,2,3,10,65.7%,34.3%
+610554,ESP.1,2021,"Sun, Jan 23, January, 2022",Real Madrid,Elche,2 - 2,8,2,23,3,3,1,10,3,0,6,64.7%,35.3%
+610579,ESP.1,2021,"Sat, Jan 8, January, 2022",Real Madrid,Valencia,4 - 1,8,7,23,12,3,3,3,8,6,4,67.2%,32.8%
+610592,ESP.1,2021,"Sun, Dec 19, December, 2021",Real Madrid,Cádiz,0 - 0,9,0,36,4,1,1,13,2,0,9,82.1%,17.9%
+610617,ESP.1,2021,"Sat, Dec 4, December, 2021",Real Sociedad,Real Madrid,0 - 2,0,8,11,13,2,0,6,5,6,0,51.2%,48.8%
+610629,ESP.1,2021,"Sun, Nov 28, November, 2021",Real Madrid,Sevilla,2 - 1,4,6,14,11,3,3,0,4,4,2,52.8%,47.2%
+610637,ESP.1,2021,"Sun, Nov 21, November, 2021",Granada,Real Madrid,1 - 4,3,10,11,21,1,1,9,6,5,3,31.7%,68.3%
+610658,ESP.1,2021,"Sat, Oct 30, October, 2021",Elche,Real Madrid,1 - 2,4,5,13,17,0,0,5,4,3,3,43.7%,56.3%
+610709,ESP.1,2021,"Sat, Sep 25, September, 2021",Real Madrid,Villarreal,0 - 0,2,2,15,6,1,2,6,3,2,2,48.7%,51.3%
+610727,ESP.1,2021,"Sun, Sep 19, September, 2021",Valencia,Real Madrid,1 - 2,4,10,12,18,1,5,2,5,8,3,38.6%,61.4%
+610756,ESP.1,2021,"Sun, Aug 22, August, 2021",Levante,Real Madrid,3 - 3,4,5,8,20,3,2,4,6,2,1,38.6%,61.4%
+610407,ESP.1,2021,"Sun, May 15, May, 2022",Villarreal,Real Sociedad,1 - 2,4,6,10,11,4,3,4,3,5,3,48.9%,51.1%
+610412,ESP.1,2021,"Thu, May 12, May, 2022",Real Sociedad,Cádiz,3 - 0,7,1,13,14,4,2,2,12,1,4,52.5%,47.5%
+610427,ESP.1,2021,"Fri, May 6, May, 2022",Levante,Real Sociedad,2 - 1,7,6,16,21,2,3,7,6,4,5,35.3%,64.7%
+610468,ESP.1,2021,"Sun, Apr 10, April, 2022",Elche,Real Sociedad,1 - 2,1,6,10,17,3,3,8,9,4,0,50%,50%
+610487,ESP.1,2021,"Sun, Mar 20, March, 2022",Sevilla,Real Sociedad,0 - 0,0,2,10,13,0,3,7,3,3,0,60.1%,39.9%
+610535,ESP.1,2021,"Sun, Feb 13, February, 2022",Real Sociedad,Granada,2 - 0,8,2,18,15,0,2,6,5,2,6,57%,43%
+610547,ESP.1,2021,"Sun, Feb 6, February, 2022",Valencia,Real Sociedad,0 - 0,3,2,14,8,4,2,9,9,2,3,39.9%,60.1%
+610599,ESP.1,2021,"Sat, Dec 18, December, 2021",Real Sociedad,Villarreal,1 - 3,4,8,8,15,2,3,5,5,4,3,39%,61%
+610638,ESP.1,2021,"Sun, Nov 21, November, 2021",Real Sociedad,Valencia,0 - 0,2,3,9,8,4,7,2,4,3,2,62.2%,37.8%
+610703,ESP.1,2021,"Sun, Sep 26, September, 2021",Real Sociedad,Elche,1 - 0,5,2,18,5,1,3,6,1,2,3,64.3%,35.7%
+610718,ESP.1,2021,"Thu, Sep 23, September, 2021",Granada,Real Sociedad,2 - 3,2,11,10,20,5,1,4,7,8,0,38.3%,61.7%
+610728,ESP.1,2021,"Sun, Sep 19, September, 2021",Real Sociedad,Sevilla,0 - 0,4,4,11,11,2,3,5,6,4,4,47.2%,52.8%
+610738,ESP.1,2021,"Sun, Sep 12, September, 2021",Cádiz,Real Sociedad,0 - 2,1,4,6,16,2,0,2,8,2,1,22.4%,77.6%
+610745,ESP.1,2021,"Sat, Aug 28, August, 2021",Real Sociedad,Levante,1 - 0,2,0,7,6,1,1,2,2,0,1,51.5%,48.5%
+610428,ESP.1,2021,"Sun, May 8, May, 2022",Villarreal,Sevilla,1 - 1,7,2,14,7,3,0,4,2,1,6,53.3%,46.7%
+610431,ESP.1,2021,"Fri, Apr 29, April, 2022",Sevilla,Cádiz,1 - 1,6,4,11,10,2,2,5,6,2,5,57.5%,42.5%
+610448,ESP.1,2021,"Thu, Apr 21, April, 2022",Levante,Sevilla,2 - 3,6,6,15,13,1,5,10,4,3,4,45.3%,54.7%
+610466,ESP.1,2021,"Fri, Apr 8, April, 2022",Sevilla,Granada,4 - 2,8,5,16,15,3,2,14,3,3,4,73.3%,26.7%
+610533,ESP.1,2021,"Fri, Feb 11, February, 2022",Sevilla,Elche,2 - 0,6,1,14,7,1,5,5,4,1,4,56.7%,43.3%
+610568,ESP.1,2021,"Wed, Jan 19, January, 2022",Valencia,Sevilla,1 - 1,2,3,10,12,1,3,4,4,3,1,31.6%,68.4%
+610589,ESP.1,2021,"Mon, Jan 3, January, 2022",Cádiz,Sevilla,0 - 1,2,4,9,14,0,1,2,8,2,2,25.2%,74.8%
+610619,ESP.1,2021,"Sat, Dec 4, December, 2021",Sevilla,Villarreal,1 - 0,3,2,8,16,2,2,5,8,2,2,45%,55%
+610674,ESP.1,2021,"Sun, Oct 24, October, 2021",Sevilla,Levante,5 - 3,11,7,18,12,1,2,10,4,4,6,60.7%,39.3%
+610698,ESP.1,2021,"Sun, Oct 3, October, 2021",Granada,Sevilla,1 - 0,1,3,3,14,3,2,2,6,3,0,31.5%,68.5%
+610719,ESP.1,2021,"Wed, Sep 22, September, 2021",Sevilla,Valencia,3 - 1,5,3,11,8,5,3,1,4,2,2,58.2%,41.8%
+610748,ESP.1,2021,"Sat, Aug 28, August, 2021",Elche,Sevilla,1 - 1,4,5,7,18,2,0,5,3,4,3,29.1%,70.9%
+610434,ESP.1,2021,"Sat, Apr 30, April, 2022",Valencia,Levante,1 - 1,1,6,6,24,4,3,1,7,5,0,31.7%,68.3%
+610449,ESP.1,2021,"Tue, Apr 19, April, 2022",Villarreal,Valencia,2 - 0,5,1,12,5,2,3,3,2,1,3,57.7%,42.3%
+610471,ESP.1,2021,"Sun, Apr 3, April, 2022",Valencia,Cádiz,0 - 0,1,3,5,4,3,4,4,3,3,1,51.3%,48.7%
+610488,ESP.1,2021,"Sat, Mar 19, March, 2022",Elche,Valencia,0 - 1,2,3,8,8,3,3,4,2,2,2,55.5%,44.5%
+610503,ESP.1,2021,"Sat, Mar 5, March, 2022",Valencia,Granada,3 - 1,4,0,12,7,3,3,3,6,0,1,52.1%,47.9%
+610598,ESP.1,2021,"Mon, Dec 20, December, 2021",Levante,Valencia,3 - 4,9,8,15,15,2,3,6,4,4,6,51.6%,48.4%
+610603,ESP.1,2021,"Sat, Dec 11, December, 2021",Valencia,Elche,2 - 1,8,4,21,8,3,2,8,1,3,5,41%,59%
+610659,ESP.1,2021,"Sat, Oct 30, October, 2021",Valencia,Villarreal,2 - 0,3,1,9,11,2,4,7,6,1,0,25%,75%
+610699,ESP.1,2021,"Sat, Oct 2, October, 2021",Cádiz,Valencia,0 - 0,1,4,2,16,3,4,1,3,4,1,31.9%,68.1%
+610758,ESP.1,2021,"Sat, Aug 21, August, 2021",Granada,Valencia,1 - 1,2,7,9,18,4,2,2,6,5,1,46.3%,53.7%
+610479,ESP.1,2021,"Sat, Apr 2, April, 2022",Levante,Villarreal,2 - 0,4,2,13,13,4,2,1,8,2,2,40.9%,59.1%
+610489,ESP.1,2021,"Sun, Mar 20, March, 2022",Cádiz,Villarreal,1 - 0,7,1,16,3,4,2,6,3,1,6,41.5%,58.5%
+610529,ESP.1,2021,"Sat, Feb 19, February, 2022",Granada,Villarreal,1 - 4,5,7,20,15,3,6,9,2,3,3,38.1%,61.9%
+610569,ESP.1,2021,"Sun, Jan 16, January, 2022",Elche,Villarreal,1 - 0,2,4,5,9,4,3,3,8,4,1,49.2%,50.8%
+610585,ESP.1,2021,"Mon, Jan 3, January, 2022",Villarreal,Levante,5 - 0,7,3,17,7,3,2,6,5,3,2,57.6%,42.4%
+610663,ESP.1,2021,"Tue, Oct 26, October, 2021",Villarreal,Cádiz,3 - 3,5,4,14,9,3,6,8,2,1,2,77.5%,22.5%
+610714,ESP.1,2021,"Wed, Sep 22, September, 2021",Villarreal,Elche,4 - 1,9,3,14,9,1,2,8,7,2,5,60%,40%
+610764,ESP.1,2021,"Mon, Aug 16, August, 2021",Villarreal,Granada,0 - 0,4,1,14,6,2,1,6,2,1,3,60.5%,39.5%
+608836,GER.1,2021,"Sat, May 14, May, 2022",1. FC Union Berlin,VfL Bochum,3 - 2,11,3,16,5,3,2,1,3,1,8,42.9%,57.1%
+608831,GER.1,2021,"Sat, May 7, May, 2022",SC Freiburg,1. FC Union Berlin,1 - 4,3,5,19,13,1,2,4,6,1,2,70.9%,29.1%
+608818,GER.1,2021,"Fri, Apr 29, April, 2022",1. FC Union Berlin,SpVgg Greuther Furth,1 - 1,3,2,8,7,2,2,2,4,1,2,54%,46%
+608812,GER.1,2021,"Sat, Apr 23, April, 2022",RB Leipzig,1. FC Union Berlin,1 - 2,1,4,5,14,2,2,2,5,2,0,54.8%,45.2%
+608800,GER.1,2021,"Sun, Apr 17, April, 2022",1. FC Union Berlin,Eintracht Frankfurt,2 - 0,4,3,13,10,2,1,4,3,3,2,44.2%,55.8%
+608793,GER.1,2021,"Sat, Apr 9, April, 2022",Hertha Berlin,1. FC Union Berlin,1 - 4,3,12,11,16,4,0,2,8,8,3,52.8%,47.2%
+608782,GER.1,2021,"Fri, Apr 1, April, 2022",1. FC Union Berlin,FC Cologne,1 - 0,4,1,12,6,3,3,2,4,1,3,36.1%,63.9%
+608775,GER.1,2021,"Sat, Mar 19, March, 2022",Bayern Munich,1. FC Union Berlin,4 - 0,6,4,16,10,2,1,3,2,4,2,71.2%,28.8%
+608764,GER.1,2021,"Sat, Mar 12, March, 2022",1. FC Union Berlin,VfB Stuttgart,1 - 1,3,3,12,11,3,2,3,3,2,2,44%,56%
+608762,GER.1,2021,"Sat, Mar 5, March, 2022",VfL Wolfsburg,1. FC Union Berlin,1 - 0,3,4,8,19,0,1,6,10,4,3,46%,54%
+608746,GER.1,2021,"Sat, Feb 26, February, 2022",1. FC Union Berlin,Mainz,3 - 1,3,0,6,0,4,0,2,0,0,0,48.5%,0%
+608744,GER.1,2021,"Sat, Feb 19, February, 2022",Arminia Bielefeld,1. FC Union Berlin,1 - 0,2,3,12,10,0,2,6,4,3,1,42.1%,57.9%
+608735,GER.1,2021,"Sun, Feb 13, February, 2022",1. FC Union Berlin,Borussia Dortmund,0 - 3,2,6,11,10,4,1,2,5,3,2,38.9%,61.1%
+608722,GER.1,2021,"Sat, Feb 5, February, 2022",FC Augsburg,1. FC Union Berlin,2 - 0,8,4,14,14,0,2,4,6,4,5,47.6%,52.4%
+608711,GER.1,2021,"Sat, Jan 22, January, 2022",Borussia Monchengladbach,1. FC Union Berlin,1 - 2,5,3,11,6,1,2,4,1,1,4,59.7%,40.3%
+608703,GER.1,2021,"Sat, Jan 15, January, 2022",1. FC Union Berlin,TSG Hoffenheim,2 - 1,4,4,9,11,0,3,0,8,4,2,41.5%,58.5%
+608695,GER.1,2021,"Sat, Jan 8, January, 2022",Bayer Leverkusen,1. FC Union Berlin,2 - 2,8,7,19,19,1,2,11,5,5,6,64.7%,35.3%
+608687,GER.1,2021,"Sat, Dec 18, December, 2021",VfL Bochum,1. FC Union Berlin,0 - 1,3,3,13,9,2,0,1,5,2,3,54.5%,45.5%
+608681,GER.1,2021,"Wed, Dec 15, December, 2021",1. FC Union Berlin,SC Freiburg,0 - 0,5,3,19,12,1,1,4,3,3,4,54.3%,45.7%
+608668,GER.1,2021,"Sun, Dec 12, December, 2021",SpVgg Greuther Furth,1. FC Union Berlin,1 - 0,3,6,5,15,3,0,3,7,6,2,37.2%,62.8%
+608656,GER.1,2021,"Fri, Dec 3, December, 2021",1. FC Union Berlin,RB Leipzig,2 - 1,4,3,15,12,1,1,5,7,2,2,36.7%,63.3%
+608648,GER.1,2021,"Sun, Nov 28, November, 2021",Eintracht Frankfurt,1. FC Union Berlin,2 - 1,2,4,13,7,0,4,7,2,3,0,53.5%,46.5%
+608641,GER.1,2021,"Sat, Nov 20, November, 2021",1. FC Union Berlin,Hertha Berlin,2 - 0,5,2,15,8,1,1,7,6,2,3,43.1%,56.9%
+608632,GER.1,2021,"Sun, Nov 7, November, 2021",FC Cologne,1. FC Union Berlin,2 - 2,5,3,18,10,2,2,5,2,1,3,70.3%,29.7%
+608620,GER.1,2021,"Sat, Oct 30, October, 2021",1. FC Union Berlin,Bayern Munich,2 - 5,6,6,9,11,1,1,6,1,1,4,39.4%,60.6%
+608615,GER.1,2021,"Sun, Oct 24, October, 2021",VfB Stuttgart,1. FC Union Berlin,1 - 1,2,3,8,12,1,1,1,2,2,1,55.3%,44.7%
+608609,GER.1,2021,"Sat, Oct 16, October, 2021",1. FC Union Berlin,VfL Wolfsburg,2 - 0,3,4,5,13,3,1,3,3,4,1,39%,61%
+608599,GER.1,2021,"Sun, Oct 3, October, 2021",Mainz,1. FC Union Berlin,1 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608589,GER.1,2021,"Sat, Sep 25, September, 2021",1. FC Union Berlin,Arminia Bielefeld,1 - 0,4,2,17,10,1,0,5,4,2,3,54.3%,45.7%
+608583,GER.1,2021,"Sun, Sep 19, September, 2021",Borussia Dortmund,1. FC Union Berlin,4 - 2,5,6,13,9,2,3,3,6,4,2,62.8%,37.2%
+608571,GER.1,2021,"Sat, Sep 11, September, 2021",1. FC Union Berlin,FC Augsburg,0 - 0,5,6,16,14,1,2,6,4,6,5,60.3%,39.7%
+608558,GER.1,2021,"Sun, Aug 29, August, 2021",1. FC Union Berlin,Borussia Monchengladbach,2 - 1,3,5,11,20,2,0,4,8,4,1,27.5%,72.5%
+608554,GER.1,2021,"Sun, Aug 22, August, 2021",TSG Hoffenheim,1. FC Union Berlin,2 - 2,3,8,7,12,1,1,6,5,6,1,64.2%,35.8%
+608540,GER.1,2021,"Sat, Aug 14, August, 2021",1. FC Union Berlin,Bayer Leverkusen,1 - 1,5,3,8,16,0,1,1,6,2,4,33.1%,66.9%
+608842,GER.1,2021,"Sat, May 14, May, 2022",Bayer Leverkusen,SC Freiburg,2 - 1,4,2,11,13,2,3,6,9,1,1,52.4%,47.6%
+608830,GER.1,2021,"Sat, May 7, May, 2022",TSG Hoffenheim,Bayer Leverkusen,2 - 4,5,8,12,16,1,0,6,7,4,3,46.5%,53.5%
+608825,GER.1,2021,"Mon, May 2, May, 2022",Bayer Leverkusen,Eintracht Frankfurt,2 - 0,3,4,11,9,0,0,4,4,4,1,54.9%,45.1%
+608813,GER.1,2021,"Sat, Apr 23, April, 2022",SpVgg Greuther Furth,Bayer Leverkusen,1 - 4,3,5,8,9,0,0,6,3,1,2,51.9%,48.1%
+608801,GER.1,2021,"Sun, Apr 17, April, 2022",Bayer Leverkusen,RB Leipzig,0 - 1,4,1,12,4,2,1,7,1,0,4,46.1%,53.9%
+608797,GER.1,2021,"Sun, Apr 10, April, 2022",VfL Bochum,Bayer Leverkusen,0 - 0,2,2,12,10,0,0,2,3,2,2,41.3%,58.7%
+608786,GER.1,2021,"Sat, Apr 2, April, 2022",Bayer Leverkusen,Hertha Berlin,2 - 1,6,4,19,7,0,1,3,3,3,4,69.5%,30.5%
+608777,GER.1,2021,"Sun, Mar 20, March, 2022",VfL Wolfsburg,Bayer Leverkusen,0 - 2,3,5,14,15,2,3,7,7,3,3,49.8%,50.2%
+608765,GER.1,2021,"Sun, Mar 13, March, 2022",Bayer Leverkusen,FC Cologne,0 - 1,3,3,15,6,2,2,7,0,2,3,54.4%,45.6%
+608757,GER.1,2021,"Sat, Mar 5, March, 2022",Bayern Munich,Bayer Leverkusen,1 - 1,5,2,19,9,1,2,7,2,2,4,68.9%,31.1%
+608753,GER.1,2021,"Sat, Feb 26, February, 2022",Bayer Leverkusen,Arminia Bielefeld,3 - 0,9,3,21,9,0,1,6,3,3,6,71.8%,28.2%
+608738,GER.1,2021,"Fri, Feb 18, February, 2022",Mainz,Bayer Leverkusen,3 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608734,GER.1,2021,"Sat, Feb 12, February, 2022",Bayer Leverkusen,VfB Stuttgart,4 - 2,6,4,20,8,3,2,10,0,2,2,69%,31%
+608724,GER.1,2021,"Sun, Feb 6, February, 2022",Borussia Dortmund,Bayer Leverkusen,2 - 5,6,7,14,10,1,1,7,6,2,5,64.4%,35.6%
+608710,GER.1,2021,"Sat, Jan 22, January, 2022",Bayer Leverkusen,FC Augsburg,5 - 1,12,5,22,14,1,2,9,5,5,7,66.7%,33.3%
+608705,GER.1,2021,"Sat, Jan 15, January, 2022",Borussia Monchengladbach,Bayer Leverkusen,1 - 2,6,14,17,32,2,3,5,8,12,5,54.9%,45.1%
+608689,GER.1,2021,"Sun, Dec 19, December, 2021",SC Freiburg,Bayer Leverkusen,2 - 1,5,4,15,7,2,3,4,8,3,3,43.3%,56.7%
+608674,GER.1,2021,"Wed, Dec 15, December, 2021",Bayer Leverkusen,TSG Hoffenheim,2 - 2,9,6,16,18,3,3,6,3,4,7,45.4%,54.6%
+608672,GER.1,2021,"Sun, Dec 12, December, 2021",Eintracht Frankfurt,Bayer Leverkusen,5 - 2,7,4,17,11,0,3,7,4,1,2,44%,56%
+608664,GER.1,2021,"Sat, Dec 4, December, 2021",Bayer Leverkusen,SpVgg Greuther Furth,7 - 1,8,3,13,8,0,1,4,3,2,1,60.3%,39.7%
+608654,GER.1,2021,"Sun, Nov 28, November, 2021",RB Leipzig,Bayer Leverkusen,1 - 3,3,4,13,11,1,3,7,2,1,2,58.6%,41.4%
+608639,GER.1,2021,"Sat, Nov 20, November, 2021",Bayer Leverkusen,VfL Bochum,1 - 0,5,7,11,21,3,2,7,7,7,4,54.7%,45.3%
+608629,GER.1,2021,"Sun, Nov 7, November, 2021",Hertha Berlin,Bayer Leverkusen,1 - 1,5,4,15,9,1,3,5,6,3,4,46.3%,53.7%
+608627,GER.1,2021,"Sat, Oct 30, October, 2021",Bayer Leverkusen,VfL Wolfsburg,0 - 2,1,8,13,12,3,2,11,2,6,1,65.6%,34.4%
+608611,GER.1,2021,"Sun, Oct 24, October, 2021",FC Cologne,Bayer Leverkusen,2 - 2,5,6,19,9,1,3,6,6,4,3,62.1%,37.9%
+608608,GER.1,2021,"Sun, Oct 17, October, 2021",Bayer Leverkusen,Bayern Munich,1 - 5,4,11,6,27,0,0,4,7,6,3,40.5%,59.5%
+608601,GER.1,2021,"Sun, Oct 3, October, 2021",Arminia Bielefeld,Bayer Leverkusen,0 - 4,2,7,10,18,4,1,2,4,3,2,33.5%,66.5%
+608588,GER.1,2021,"Sat, Sep 25, September, 2021",Bayer Leverkusen,Mainz,1 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608577,GER.1,2021,"Sun, Sep 19, September, 2021",VfB Stuttgart,Bayer Leverkusen,1 - 3,6,4,17,7,2,3,2,6,1,5,63.7%,36.3%
+608572,GER.1,2021,"Sat, Sep 11, September, 2021",Bayer Leverkusen,Borussia Dortmund,3 - 4,5,6,11,14,4,3,4,3,2,2,42.3%,57.7%
+608563,GER.1,2021,"Sat, Aug 28, August, 2021",FC Augsburg,Bayer Leverkusen,1 - 4,4,5,14,14,0,1,4,4,3,3,42.1%,57.9%
+608551,GER.1,2021,"Sat, Aug 21, August, 2021",Bayer Leverkusen,Borussia Monchengladbach,4 - 0,6,6,12,11,4,2,7,3,6,2,47.3%,52.7%
+608840,GER.1,2021,"Sat, May 14, May, 2022",VfL Wolfsburg,Bayern Munich,2 - 2,2,8,9,26,1,2,2,12,6,0,33.3%,66.7%
+608835,GER.1,2021,"Sun, May 8, May, 2022",Bayern Munich,VfB Stuttgart,2 - 2,7,5,22,15,2,3,7,4,3,6,75.2%,24.8%
+608824,GER.1,2021,"Sat, Apr 30, April, 2022",Mainz,Bayern Munich,3 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608810,GER.1,2021,"Sat, Apr 23, April, 2022",Bayern Munich,Borussia Dortmund,3 - 1,6,2,14,7,0,1,3,1,1,4,58.5%,41.5%
+608804,GER.1,2021,"Sun, Apr 17, April, 2022",Arminia Bielefeld,Bayern Munich,0 - 3,3,8,8,22,1,2,5,4,6,3,24.2%,75.8%
+608792,GER.1,2021,"Sat, Apr 9, April, 2022",Bayern Munich,FC Augsburg,1 - 0,4,1,14,6,1,2,3,3,1,3,67.8%,32.2%
+608784,GER.1,2021,"Sat, Apr 2, April, 2022",SC Freiburg,Bayern Munich,1 - 4,3,10,8,21,1,1,1,6,6,2,38.6%,61.4%
+608772,GER.1,2021,"Sat, Mar 12, March, 2022",TSG Hoffenheim,Bayern Munich,1 - 1,6,8,9,18,4,1,3,8,6,5,38.3%,61.7%
+608751,GER.1,2021,"Sat, Feb 26, February, 2022",Eintracht Frankfurt,Bayern Munich,0 - 1,1,9,6,21,1,2,2,8,8,1,31.6%,68.4%
+608742,GER.1,2021,"Sun, Feb 20, February, 2022",Bayern Munich,SpVgg Greuther Furth,4 - 1,8,3,20,8,2,1,6,4,2,5,78.4%,21.6%
+608736,GER.1,2021,"Sat, Feb 12, February, 2022",VfL Bochum,Bayern Munich,4 - 2,6,5,11,21,2,1,4,9,2,2,35.9%,64.1%
+608721,GER.1,2021,"Sat, Feb 5, February, 2022",Bayern Munich,RB Leipzig,3 - 2,7,7,23,12,1,3,3,0,5,5,58.2%,41.8%
+608713,GER.1,2021,"Sun, Jan 23, January, 2022",Hertha Berlin,Bayern Munich,1 - 4,2,19,5,30,1,0,4,9,14,1,30.2%,69.8%
+608704,GER.1,2021,"Sat, Jan 15, January, 2022",FC Cologne,Bayern Munich,0 - 4,3,9,12,23,1,0,5,12,5,3,49.7%,50.3%
+608693,GER.1,2021,"Fri, Jan 7, January, 2022",Bayern Munich,Borussia Monchengladbach,1 - 2,7,4,18,10,0,1,6,6,2,5,61.7%,38.3%
+608685,GER.1,2021,"Fri, Dec 17, December, 2021",Bayern Munich,VfL Wolfsburg,4 - 0,9,2,25,9,0,0,5,3,2,5,63.2%,36.8%
+608679,GER.1,2021,"Tue, Dec 14, December, 2021",VfB Stuttgart,Bayern Munich,0 - 5,1,12,13,25,1,1,1,3,7,1,43.1%,56.9%
+608671,GER.1,2021,"Sat, Dec 11, December, 2021",Bayern Munich,Mainz,2 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608663,GER.1,2021,"Sat, Dec 4, December, 2021",Borussia Dortmund,Bayern Munich,2 - 3,4,6,12,17,2,2,4,6,3,2,47.3%,52.7%
+608649,GER.1,2021,"Sat, Nov 27, November, 2021",Bayern Munich,Arminia Bielefeld,1 - 0,9,0,22,8,1,1,13,4,0,8,73.4%,26.6%
+608645,GER.1,2021,"Fri, Nov 19, November, 2021",FC Augsburg,Bayern Munich,2 - 1,3,4,5,18,2,1,1,10,3,1,20.8%,79.2%
+608630,GER.1,2021,"Sat, Nov 6, November, 2021",Bayern Munich,SC Freiburg,2 - 1,11,3,29,13,0,0,6,4,2,9,63.3%,36.7%
+608618,GER.1,2021,"Sat, Oct 23, October, 2021",Bayern Munich,TSG Hoffenheim,4 - 0,7,2,15,9,0,4,4,2,2,3,61.2%,38.8%
+608596,GER.1,2021,"Sun, Oct 3, October, 2021",Bayern Munich,Eintracht Frankfurt,1 - 2,10,3,20,5,2,1,10,1,1,10,72.6%,27.4%
+608584,GER.1,2021,"Fri, Sep 24, September, 2021",SpVgg Greuther Furth,Bayern Munich,1 - 3,5,4,10,12,4,1,6,3,2,4,32.7%,67.3%
+608582,GER.1,2021,"Sat, Sep 18, September, 2021",Bayern Munich,VfL Bochum,7 - 0,15,0,24,5,1,1,2,2,0,8,69.3%,30.7%
+608567,GER.1,2021,"Sat, Sep 11, September, 2021",RB Leipzig,Bayern Munich,1 - 4,4,6,10,18,0,0,2,6,2,3,52.5%,47.5%
+608562,GER.1,2021,"Sat, Aug 28, August, 2021",Bayern Munich,Hertha Berlin,5 - 0,6,3,16,7,0,0,8,3,3,1,63.2%,36.8%
+608549,GER.1,2021,"Sun, Aug 22, August, 2021",Bayern Munich,FC Cologne,3 - 2,6,3,18,10,1,1,3,4,1,3,57.4%,42.6%
+608539,GER.1,2021,"Fri, Aug 13, August, 2021",Borussia Monchengladbach,Bayern Munich,1 - 1,4,9,11,21,2,0,3,8,8,3,35%,65%
+608841,GER.1,2021,"Sat, May 14, May, 2022",Borussia Dortmund,Hertha Berlin,2 - 1,2,1,8,5,0,2,3,1,0,0,74%,26%
+608832,GER.1,2021,"Sat, May 7, May, 2022",SpVgg Greuther Furth,Borussia Dortmund,1 - 3,3,4,8,8,1,1,5,2,1,2,42.3%,57.7%
+608826,GER.1,2021,"Sat, Apr 30, April, 2022",Borussia Dortmund,VfL Bochum,3 - 4,9,6,18,12,4,3,10,3,2,6,68.9%,31.1%
+608802,GER.1,2021,"Sat, Apr 16, April, 2022",Borussia Dortmund,VfL Wolfsburg,6 - 1,8,4,12,10,0,2,4,6,3,2,59.6%,40.4%
+608796,GER.1,2021,"Fri, Apr 8, April, 2022",VfB Stuttgart,Borussia Dortmund,0 - 2,2,4,13,12,2,1,4,5,2,2,42.1%,57.9%
+608789,GER.1,2021,"Sat, Apr 2, April, 2022",Borussia Dortmund,RB Leipzig,1 - 4,2,5,10,10,3,1,7,5,1,1,63.9%,36.1%
+608773,GER.1,2021,"Sun, Mar 20, March, 2022",FC Cologne,Borussia Dortmund,1 - 1,1,3,11,9,2,3,7,5,2,0,54.8%,45.2%
+608755,GER.1,2021,"Wed, Mar 16, March, 2022",Mainz,Borussia Dortmund,0 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608766,GER.1,2021,"Sun, Mar 13, March, 2022",Borussia Dortmund,Arminia Bielefeld,1 - 0,3,5,19,12,1,1,4,5,5,2,58.9%,41.1%
+608754,GER.1,2021,"Sun, Feb 27, February, 2022",FC Augsburg,Borussia Dortmund,1 - 1,3,6,8,10,2,1,5,5,5,2,35.2%,64.8%
+608745,GER.1,2021,"Sun, Feb 20, February, 2022",Borussia Dortmund,Borussia Monchengladbach,6 - 0,10,4,16,8,2,1,5,5,4,4,50.1%,49.9%
+608718,GER.1,2021,"Sat, Jan 22, January, 2022",TSG Hoffenheim,Borussia Dortmund,2 - 3,3,2,16,4,2,2,7,3,0,2,57.7%,42.3%
+608701,GER.1,2021,"Fri, Jan 14, January, 2022",Borussia Dortmund,SC Freiburg,5 - 1,7,4,20,5,2,0,9,2,3,2,65.8%,34.2%
+608694,GER.1,2021,"Sat, Jan 8, January, 2022",Eintracht Frankfurt,Borussia Dortmund,2 - 3,5,8,12,20,3,2,4,11,5,3,36.1%,63.9%
+608686,GER.1,2021,"Sat, Dec 18, December, 2021",Hertha Berlin,Borussia Dortmund,3 - 2,5,4,13,11,0,1,1,5,2,2,40.6%,59.4%
+608675,GER.1,2021,"Wed, Dec 15, December, 2021",Borussia Dortmund,SpVgg Greuther Furth,3 - 0,5,1,12,8,2,2,5,8,1,2,68.1%,31.9%
+608666,GER.1,2021,"Sat, Dec 11, December, 2021",VfL Bochum,Borussia Dortmund,1 - 1,3,7,5,20,0,3,0,15,5,2,32.2%,67.8%
+608651,GER.1,2021,"Sat, Nov 27, November, 2021",VfL Wolfsburg,Borussia Dortmund,1 - 3,7,8,15,15,4,1,7,7,5,6,41.3%,58.7%
+608638,GER.1,2021,"Sat, Nov 20, November, 2021",Borussia Dortmund,VfB Stuttgart,2 - 1,5,4,21,13,0,2,2,3,3,3,63.7%,36.3%
+608637,GER.1,2021,"Sat, Nov 6, November, 2021",RB Leipzig,Borussia Dortmund,2 - 1,6,3,14,11,3,5,5,6,2,4,53.5%,46.5%
+608626,GER.1,2021,"Sat, Oct 30, October, 2021",Borussia Dortmund,FC Cologne,2 - 0,5,5,8,21,2,3,4,3,5,3,42.4%,57.6%
+608619,GER.1,2021,"Sat, Oct 23, October, 2021",Arminia Bielefeld,Borussia Dortmund,1 - 3,7,7,16,14,1,0,7,2,4,6,30.6%,69.4%
+608607,GER.1,2021,"Sat, Oct 16, October, 2021",Borussia Dortmund,Mainz,3 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608598,GER.1,2021,"Sat, Oct 2, October, 2021",Borussia Dortmund,FC Augsburg,2 - 1,4,3,20,6,1,3,7,3,2,2,70.6%,29.4%
+608587,GER.1,2021,"Sat, Sep 25, September, 2021",Borussia Monchengladbach,Borussia Dortmund,1 - 0,3,0,15,8,4,2,5,1,0,2,55.6%,44.4%
+608560,GER.1,2021,"Fri, Aug 27, August, 2021",Borussia Dortmund,TSG Hoffenheim,3 - 2,13,5,24,10,2,3,4,7,3,10,59.1%,40.9%
+608555,GER.1,2021,"Sat, Aug 21, August, 2021",SC Freiburg,Borussia Dortmund,2 - 1,4,4,7,18,1,4,0,10,4,2,23.8%,76.2%
+608547,GER.1,2021,"Sat, Aug 14, August, 2021",Borussia Dortmund,Eintracht Frankfurt,5 - 2,7,3,13,10,0,0,7,3,2,2,60.1%,39.9%
+608844,GER.1,2021,"Sat, May 14, May, 2022",Borussia Monchengladbach,TSG Hoffenheim,5 - 1,9,2,18,10,1,2,6,2,1,4,54.6%,45.4%
+608828,GER.1,2021,"Sun, May 8, May, 2022",Eintracht Frankfurt,Borussia Monchengladbach,1 - 1,4,7,18,12,1,0,10,1,5,2,47.2%,52.8%
+608823,GER.1,2021,"Mon, May 2, May, 2022",Borussia Monchengladbach,RB Leipzig,3 - 1,6,7,9,12,4,2,3,8,6,3,49.2%,50.8%
+608814,GER.1,2021,"Sat, Apr 23, April, 2022",SC Freiburg,Borussia Monchengladbach,3 - 3,6,4,19,7,1,4,8,0,1,3,62%,38%
+608803,GER.1,2021,"Sat, Apr 16, April, 2022",Borussia Monchengladbach,FC Cologne,1 - 3,5,6,17,17,3,2,5,5,3,4,57.4%,42.6%
+608795,GER.1,2021,"Sat, Apr 9, April, 2022",SpVgg Greuther Furth,Borussia Monchengladbach,0 - 2,1,6,10,17,1,0,3,5,4,1,50.2%,49.8%
+608788,GER.1,2021,"Sun, Apr 3, April, 2022",Borussia Monchengladbach,Mainz,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608780,GER.1,2021,"Fri, Mar 18, March, 2022",VfL Bochum,Borussia Monchengladbach,0 - 2,7,5,16,8,2,1,7,3,3,7,50.9%,49.1%
+608767,GER.1,2021,"Sat, Mar 12, March, 2022",Borussia Monchengladbach,Hertha Berlin,2 - 0,5,3,13,12,3,0,3,6,3,3,53.6%,46.4%
+608760,GER.1,2021,"Sat, Mar 5, March, 2022",VfB Stuttgart,Borussia Monchengladbach,3 - 2,7,3,19,8,1,2,5,2,1,4,56.8%,43.2%
+608752,GER.1,2021,"Sat, Feb 26, February, 2022",Borussia Monchengladbach,VfL Wolfsburg,2 - 2,10,2,26,6,2,4,7,4,0,8,67%,33%
+608733,GER.1,2021,"Sat, Feb 12, February, 2022",Borussia Monchengladbach,FC Augsburg,3 - 2,5,6,14,15,2,2,3,2,4,2,57.3%,42.7%
+608727,GER.1,2021,"Sat, Feb 5, February, 2022",Arminia Bielefeld,Borussia Monchengladbach,1 - 1,5,4,11,21,3,3,5,11,3,4,38.8%,61.2%
+608690,GER.1,2021,"Sat, Dec 18, December, 2021",TSG Hoffenheim,Borussia Monchengladbach,1 - 1,7,5,22,11,2,2,15,3,4,6,60.1%,39.9%
+608676,GER.1,2021,"Wed, Dec 15, December, 2021",Borussia Monchengladbach,Eintracht Frankfurt,2 - 3,8,4,18,12,2,3,7,1,1,6,57.7%,42.3%
+608673,GER.1,2021,"Sat, Dec 11, December, 2021",RB Leipzig,Borussia Monchengladbach,4 - 1,10,5,19,11,3,2,6,0,4,6,53.2%,46.8%
+608662,GER.1,2021,"Sun, Dec 5, December, 2021",Borussia Monchengladbach,SC Freiburg,0 - 6,3,7,17,13,2,1,3,3,1,3,64.5%,35.5%
+608647,GER.1,2021,"Sat, Nov 27, November, 2021",FC Cologne,Borussia Monchengladbach,4 - 1,9,5,15,16,1,3,4,4,4,5,49.3%,50.7%
+608642,GER.1,2021,"Sat, Nov 20, November, 2021",Borussia Monchengladbach,SpVgg Greuther Furth,4 - 0,11,1,18,5,1,3,7,7,1,7,56.7%,43.3%
+608631,GER.1,2021,"Fri, Nov 5, November, 2021",Mainz,Borussia Monchengladbach,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608625,GER.1,2021,"Sun, Oct 31, October, 2021",Borussia Monchengladbach,VfL Bochum,2 - 1,5,4,15,12,1,1,9,1,3,2,65.5%,34.5%
+608617,GER.1,2021,"Sat, Oct 23, October, 2021",Hertha Berlin,Borussia Monchengladbach,1 - 0,4,1,10,10,2,2,2,6,1,3,42.1%,57.9%
+608606,GER.1,2021,"Sat, Oct 16, October, 2021",Borussia Monchengladbach,VfB Stuttgart,1 - 1,9,2,31,5,3,3,9,1,1,8,58.9%,41.1%
+608597,GER.1,2021,"Sat, Oct 2, October, 2021",VfL Wolfsburg,Borussia Monchengladbach,1 - 3,5,10,12,19,5,3,4,6,7,4,51.8%,48.2%
+608575,GER.1,2021,"Sat, Sep 18, September, 2021",FC Augsburg,Borussia Monchengladbach,1 - 0,1,0,5,11,1,2,2,6,0,0,28.8%,71.2%
+608573,GER.1,2021,"Sun, Sep 12, September, 2021",Borussia Monchengladbach,Arminia Bielefeld,3 - 1,4,7,18,18,1,1,3,4,6,1,64.5%,35.5%
+608843,GER.1,2021,"Sat, May 14, May, 2022",Mainz,Eintracht Frankfurt,2 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608816,GER.1,2021,"Sat, Apr 23, April, 2022",Eintracht Frankfurt,TSG Hoffenheim,2 - 2,7,4,17,10,1,3,9,7,3,5,49.3%,50.7%
+608798,GER.1,2021,"Sun, Apr 10, April, 2022",Eintracht Frankfurt,SC Freiburg,1 - 2,5,4,18,12,1,2,2,5,2,4,53.4%,46.6%
+608790,GER.1,2021,"Sat, Apr 2, April, 2022",Eintracht Frankfurt,SpVgg Greuther Furth,0 - 0,6,2,21,4,1,0,9,0,2,6,68.3%,31.7%
+608781,GER.1,2021,"Sun, Mar 20, March, 2022",RB Leipzig,Eintracht Frankfurt,0 - 0,7,0,15,5,1,5,3,2,0,6,54.8%,45.2%
+608768,GER.1,2021,"Sun, Mar 13, March, 2022",Eintracht Frankfurt,VfL Bochum,2 - 1,4,5,14,7,3,4,9,3,4,3,53.5%,46.5%
+608758,GER.1,2021,"Sat, Mar 5, March, 2022",Hertha Berlin,Eintracht Frankfurt,1 - 4,4,6,10,12,2,2,3,8,2,3,47.2%,52.8%
+608737,GER.1,2021,"Sat, Feb 19, February, 2022",FC Cologne,Eintracht Frankfurt,1 - 0,8,2,13,10,1,2,5,6,2,7,58.7%,41.3%
+608732,GER.1,2021,"Sat, Feb 12, February, 2022",Eintracht Frankfurt,VfL Wolfsburg,0 - 2,3,3,17,11,1,2,10,1,1,3,61.3%,38.7%
+608719,GER.1,2021,"Sat, Feb 5, February, 2022",VfB Stuttgart,Eintracht Frankfurt,2 - 3,5,6,15,15,0,0,3,14,3,3,52.7%,47.3%
+608712,GER.1,2021,"Fri, Jan 21, January, 2022",Eintracht Frankfurt,Arminia Bielefeld,0 - 2,7,5,18,8,4,2,10,1,3,7,68.2%,31.8%
+608708,GER.1,2021,"Sun, Jan 16, January, 2022",FC Augsburg,Eintracht Frankfurt,1 - 1,5,4,10,14,3,3,4,3,3,3,48.5%,51.5%
+608684,GER.1,2021,"Sat, Dec 18, December, 2021",Eintracht Frankfurt,Mainz,1 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608659,GER.1,2021,"Sat, Dec 4, December, 2021",TSG Hoffenheim,Eintracht Frankfurt,3 - 2,5,3,8,16,2,2,4,6,1,1,48.8%,51.2%
+608644,GER.1,2021,"Sun, Nov 21, November, 2021",SC Freiburg,Eintracht Frankfurt,0 - 2,5,7,21,13,0,4,10,4,5,4,62.2%,37.8%
+608634,GER.1,2021,"Sun, Nov 7, November, 2021",SpVgg Greuther Furth,Eintracht Frankfurt,1 - 2,2,4,20,16,4,1,6,3,2,1,54.2%,45.8%
+608623,GER.1,2021,"Sat, Oct 30, October, 2021",Eintracht Frankfurt,RB Leipzig,1 - 1,3,6,11,14,1,1,5,5,5,2,46.4%,53.6%
+608614,GER.1,2021,"Sun, Oct 24, October, 2021",VfL Bochum,Eintracht Frankfurt,2 - 0,7,6,19,16,0,2,4,7,6,5,40.7%,59.3%
+608605,GER.1,2021,"Sat, Oct 16, October, 2021",Eintracht Frankfurt,Hertha Berlin,1 - 2,5,6,13,12,1,2,7,4,4,4,58.8%,41.2%
+608586,GER.1,2021,"Sat, Sep 25, September, 2021",Eintracht Frankfurt,FC Cologne,1 - 1,3,2,10,14,2,3,7,6,1,2,45.6%,54.4%
+608578,GER.1,2021,"Sun, Sep 19, September, 2021",VfL Wolfsburg,Eintracht Frankfurt,1 - 1,6,2,14,5,2,6,7,4,1,5,60.1%,39.9%
+608574,GER.1,2021,"Sun, Sep 12, September, 2021",Eintracht Frankfurt,VfB Stuttgart,1 - 1,4,3,17,9,1,3,6,6,2,3,57.6%,42.4%
+608564,GER.1,2021,"Sat, Aug 28, August, 2021",Arminia Bielefeld,Eintracht Frankfurt,1 - 1,5,3,13,11,0,3,4,4,2,3,34.5%,65.5%
+608550,GER.1,2021,"Sat, Aug 21, August, 2021",Eintracht Frankfurt,FC Augsburg,0 - 0,5,0,21,4,3,3,6,1,0,5,62.2%,37.8%
+608838,GER.1,2021,"Sat, May 14, May, 2022",FC Augsburg,SpVgg Greuther Furth,2 - 1,3,4,8,7,2,3,3,5,3,1,49.7%,50.3%
+608833,GER.1,2021,"Sun, May 8, May, 2022",RB Leipzig,FC Augsburg,4 - 0,8,1,14,6,1,2,5,1,1,4,64.7%,35.3%
+608821,GER.1,2021,"Sat, Apr 30, April, 2022",FC Augsburg,FC Cologne,1 - 4,4,7,12,17,2,4,5,7,3,4,47.1%,52.9%
+608815,GER.1,2021,"Sun, Apr 24, April, 2022",VfL Bochum,FC Augsburg,0 - 2,3,5,18,12,1,3,10,4,3,3,58.8%,41.2%
+608805,GER.1,2021,"Sat, Apr 16, April, 2022",FC Augsburg,Hertha Berlin,0 - 1,2,1,13,13,4,4,1,7,0,2,58.6%,41.4%
+608769,GER.1,2021,"Wed, Apr 6, April, 2022",FC Augsburg,Mainz,2 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608785,GER.1,2021,"Sun, Apr 3, April, 2022",FC Augsburg,VfL Wolfsburg,3 - 0,5,5,13,18,1,0,3,5,5,1,38.2%,61.8%
+608779,GER.1,2021,"Sat, Mar 19, March, 2022",VfB Stuttgart,FC Augsburg,3 - 2,9,4,24,10,2,3,8,0,2,5,63.4%,36.6%
+608756,GER.1,2021,"Fri, Mar 4, March, 2022",Arminia Bielefeld,FC Augsburg,0 - 1,1,1,5,7,3,5,6,1,0,1,50.1%,49.9%
+608743,GER.1,2021,"Sat, Feb 19, February, 2022",FC Augsburg,SC Freiburg,1 - 2,4,5,17,16,1,1,11,4,3,3,53.8%,46.2%
+608699,GER.1,2021,"Sat, Jan 8, January, 2022",TSG Hoffenheim,FC Augsburg,3 - 1,5,3,13,10,1,0,2,4,2,2,57.9%,42.1%
+608688,GER.1,2021,"Sat, Dec 18, December, 2021",SpVgg Greuther Furth,FC Augsburg,0 - 0,1,4,3,14,2,3,6,5,4,1,47.2%,52.8%
+608678,GER.1,2021,"Wed, Dec 15, December, 2021",FC Augsburg,RB Leipzig,1 - 1,1,3,9,12,2,0,6,8,2,1,30.8%,69.2%
+608665,GER.1,2021,"Fri, Dec 10, December, 2021",FC Cologne,FC Augsburg,0 - 2,3,4,14,12,2,4,9,4,2,3,64.8%,35.2%
+608660,GER.1,2021,"Sat, Dec 4, December, 2021",FC Augsburg,VfL Bochum,2 - 3,7,6,16,12,0,2,13,6,3,4,52.7%,47.3%
+608650,GER.1,2021,"Sat, Nov 27, November, 2021",Hertha Berlin,FC Augsburg,1 - 1,4,6,12,18,2,3,5,6,5,3,51.3%,48.7%
+608633,GER.1,2021,"Sat, Nov 6, November, 2021",VfL Wolfsburg,FC Augsburg,1 - 0,3,3,8,10,2,3,0,8,3,2,62%,38%
+608622,GER.1,2021,"Sun, Oct 31, October, 2021",FC Augsburg,VfB Stuttgart,4 - 1,10,3,18,13,3,4,7,5,2,6,32.6%,67.4%
+608612,GER.1,2021,"Fri, Oct 22, October, 2021",Mainz,FC Augsburg,4 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608604,GER.1,2021,"Sun, Oct 17, October, 2021",FC Augsburg,Arminia Bielefeld,1 - 1,6,2,14,10,3,1,9,5,1,5,49.6%,50.4%
+608590,GER.1,2021,"Sun, Sep 26, September, 2021",SC Freiburg,FC Augsburg,3 - 0,8,2,18,9,0,1,6,3,2,4,60.7%,39.3%
+608544,GER.1,2021,"Sat, Aug 14, August, 2021",FC Augsburg,TSG Hoffenheim,0 - 4,0,8,7,15,1,2,6,5,4,0,46%,54%
+608834,GER.1,2021,"Sat, May 7, May, 2022",Hertha Berlin,Mainz,1 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608817,GER.1,2021,"Fri, Apr 22, April, 2022",VfL Wolfsburg,Mainz,5 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608807,GER.1,2021,"Sat, Apr 16, April, 2022",Mainz,VfB Stuttgart,0 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608791,GER.1,2021,"Sat, Apr 9, April, 2022",FC Cologne,Mainz,3 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608774,GER.1,2021,"Sat, Mar 19, March, 2022",Mainz,Arminia Bielefeld,4 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608729,GER.1,2021,"Sat, Feb 12, February, 2022",SC Freiburg,Mainz,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608725,GER.1,2021,"Sat, Feb 5, February, 2022",Mainz,TSG Hoffenheim,2 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608716,GER.1,2021,"Sat, Jan 22, January, 2022",SpVgg Greuther Furth,Mainz,2 - 1,5,0,9,0,1,0,7,0,4,0,41.6%,0%
+608702,GER.1,2021,"Sat, Jan 15, January, 2022",Mainz,VfL Bochum,1 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608700,GER.1,2021,"Sat, Jan 8, January, 2022",RB Leipzig,Mainz,4 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608682,GER.1,2021,"Tue, Dec 14, December, 2021",Mainz,Hertha Berlin,4 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608657,GER.1,2021,"Sat, Dec 4, December, 2021",Mainz,VfL Wolfsburg,3 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608652,GER.1,2021,"Fri, Nov 26, November, 2021",VfB Stuttgart,Mainz,2 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608640,GER.1,2021,"Sun, Nov 21, November, 2021",Mainz,FC Cologne,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608628,GER.1,2021,"Sat, Oct 30, October, 2021",Arminia Bielefeld,Mainz,1 - 2,5,5,14,16,2,3,6,6,2,4,49.3%,50.7%
+608580,GER.1,2021,"Sat, Sep 18, September, 2021",Mainz,SC Freiburg,0 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608569,GER.1,2021,"Sat, Sep 11, September, 2021",TSG Hoffenheim,Mainz,0 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608559,GER.1,2021,"Sat, Aug 28, August, 2021",Mainz,SpVgg Greuther Furth,3 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608553,GER.1,2021,"Sat, Aug 21, August, 2021",VfL Bochum,Mainz,2 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608546,GER.1,2021,"Sun, Aug 15, August, 2021",Mainz,RB Leipzig,1 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+608839,GER.1,2021,"Sat, May 14, May, 2022",Arminia Bielefeld,RB Leipzig,1 - 1,4,10,9,20,1,1,2,6,9,3,42%,58%
+608794,GER.1,2021,"Sun, Apr 10, April, 2022",RB Leipzig,TSG Hoffenheim,3 - 0,4,0,11,3,1,2,2,1,0,1,51%,49%
+608770,GER.1,2021,"Sun, Mar 13, March, 2022",SpVgg Greuther Furth,RB Leipzig,1 - 6,1,7,7,12,2,0,0,2,0,0,46.7%,53.3%
+608763,GER.1,2021,"Sat, Mar 5, March, 2022",RB Leipzig,SC Freiburg,1 - 1,6,3,14,4,1,0,4,1,2,5,71.8%,28.2%
+608750,GER.1,2021,"Sun, Feb 27, February, 2022",VfL Bochum,RB Leipzig,0 - 1,1,1,14,6,1,1,5,0,0,1,51.3%,48.7%
+608741,GER.1,2021,"Sun, Feb 20, February, 2022",Hertha Berlin,RB Leipzig,1 - 6,4,10,8,18,2,3,3,10,4,3,36%,64%
+608731,GER.1,2021,"Fri, Feb 11, February, 2022",RB Leipzig,FC Cologne,3 - 1,4,2,6,9,1,2,5,6,1,1,49.8%,50.2%
+608717,GER.1,2021,"Sun, Jan 23, January, 2022",RB Leipzig,VfL Wolfsburg,2 - 0,3,3,11,10,5,1,4,3,3,1,53.9%,46.1%
+608707,GER.1,2021,"Sat, Jan 15, January, 2022",VfB Stuttgart,RB Leipzig,0 - 2,8,3,16,7,3,1,5,1,1,8,50.4%,49.6%
+608691,GER.1,2021,"Sat, Dec 18, December, 2021",RB Leipzig,Arminia Bielefeld,0 - 2,4,4,17,4,0,2,10,1,2,4,78.1%,21.9%
+608643,GER.1,2021,"Sat, Nov 20, November, 2021",TSG Hoffenheim,RB Leipzig,2 - 0,8,0,23,5,2,2,7,2,0,6,41.3%,58.7%
+608616,GER.1,2021,"Sat, Oct 23, October, 2021",RB Leipzig,SpVgg Greuther Furth,4 - 1,5,4,13,9,2,0,3,4,3,1,56.8%,43.2%
+608602,GER.1,2021,"Sat, Oct 16, October, 2021",SC Freiburg,RB Leipzig,1 - 1,4,3,15,12,0,4,8,5,2,3,52.4%,47.6%
+608594,GER.1,2021,"Sat, Oct 2, October, 2021",RB Leipzig,VfL Bochum,3 - 0,9,2,16,9,1,1,2,3,2,5,59.7%,40.3%
+608585,GER.1,2021,"Sat, Sep 25, September, 2021",RB Leipzig,Hertha Berlin,6 - 0,10,2,18,4,1,3,2,1,2,3,61.3%,38.7%
+608581,GER.1,2021,"Sat, Sep 18, September, 2021",FC Cologne,RB Leipzig,1 - 1,5,9,14,19,3,1,4,10,8,4,47.2%,52.8%
+608561,GER.1,2021,"Sun, Aug 29, August, 2021",VfL Wolfsburg,RB Leipzig,1 - 0,2,2,8,11,4,2,7,7,2,1,47.2%,52.8%
+608552,GER.1,2021,"Fri, Aug 20, August, 2021",RB Leipzig,VfB Stuttgart,4 - 0,12,5,28,11,0,3,6,2,5,8,52%,48%
+608820,GER.1,2021,"Sat, Apr 30, April, 2022",TSG Hoffenheim,SC Freiburg,3 - 4,7,5,19,11,1,0,4,5,1,4,57.6%,42.4%
+608806,GER.1,2021,"Sat, Apr 16, April, 2022",SC Freiburg,VfL Bochum,3 - 0,8,3,15,10,0,0,3,4,3,5,62.2%,37.8%
+608778,GER.1,2021,"Sat, Mar 19, March, 2022",SpVgg Greuther Furth,SC Freiburg,0 - 0,1,3,8,15,1,0,1,11,3,1,38.6%,61.4%
+608771,GER.1,2021,"Sat, Mar 12, March, 2022",SC Freiburg,VfL Wolfsburg,3 - 2,8,5,15,12,2,0,7,5,3,5,41.6%,58.4%
+608748,GER.1,2021,"Sat, Feb 26, February, 2022",SC Freiburg,Hertha Berlin,3 - 0,5,2,16,18,1,2,6,6,2,2,59%,41%
+608726,GER.1,2021,"Sat, Feb 5, February, 2022",FC Cologne,SC Freiburg,1 - 0,4,2,12,15,2,2,8,8,2,2,42.5%,57.5%
+608715,GER.1,2021,"Sat, Jan 22, January, 2022",SC Freiburg,VfB Stuttgart,2 - 0,4,1,15,6,1,1,6,3,1,3,49.9%,50.1%
+608698,GER.1,2021,"Sat, Jan 8, January, 2022",SC Freiburg,Arminia Bielefeld,2 - 2,6,5,18,15,2,1,7,12,3,3,49%,51%
+608667,GER.1,2021,"Sat, Dec 11, December, 2021",SC Freiburg,TSG Hoffenheim,1 - 2,6,5,15,13,4,3,6,7,3,5,42.2%,57.8%
+608655,GER.1,2021,"Sat, Nov 27, November, 2021",VfL Bochum,SC Freiburg,2 - 1,6,11,13,21,2,1,4,7,10,4,40.6%,59.4%
+608621,GER.1,2021,"Sat, Oct 30, October, 2021",SC Freiburg,SpVgg Greuther Furth,3 - 1,5,4,12,8,0,2,5,2,3,3,50.5%,49.5%
+608613,GER.1,2021,"Sat, Oct 23, October, 2021",VfL Wolfsburg,SC Freiburg,0 - 2,4,4,18,11,3,0,7,1,2,4,56.5%,43.5%
+608595,GER.1,2021,"Sat, Oct 2, October, 2021",Hertha Berlin,SC Freiburg,1 - 2,3,5,12,11,3,0,4,9,3,2,44.6%,55.4%
+608570,GER.1,2021,"Sat, Sep 11, September, 2021",SC Freiburg,FC Cologne,1 - 1,3,4,9,15,1,1,4,2,3,3,54%,46%
+608565,GER.1,2021,"Sat, Aug 28, August, 2021",VfB Stuttgart,SC Freiburg,2 - 3,7,7,17,15,2,1,8,5,4,5,64.3%,35.7%
+608543,GER.1,2021,"Sat, Aug 14, August, 2021",Arminia Bielefeld,SC Freiburg,0 - 0,3,5,10,15,3,4,4,9,5,3,44%,56%
+608808,GER.1,2021,"Sun, Apr 17, April, 2022",TSG Hoffenheim,SpVgg Greuther Furth,0 - 0,3,1,16,8,3,3,10,1,1,3,58.4%,41.6%
+608783,GER.1,2021,"Sat, Apr 2, April, 2022",TSG Hoffenheim,VfL Bochum,1 - 2,6,6,13,21,3,2,5,6,4,5,58.6%,41.4%
+608776,GER.1,2021,"Sat, Mar 19, March, 2022",Hertha Berlin,TSG Hoffenheim,3 - 0,6,0,13,8,2,1,1,6,0,3,29.6%,70.4%
+608759,GER.1,2021,"Sun, Mar 6, March, 2022",FC Cologne,TSG Hoffenheim,0 - 1,4,3,10,13,1,4,4,1,2,4,55.3%,44.7%
+608747,GER.1,2021,"Fri, Feb 25, February, 2022",TSG Hoffenheim,VfB Stuttgart,2 - 1,6,4,16,13,3,2,10,3,3,4,55.7%,44.3%
+608739,GER.1,2021,"Sat, Feb 19, February, 2022",VfL Wolfsburg,TSG Hoffenheim,1 - 2,6,4,14,11,1,2,5,2,2,5,54.8%,45.2%
+608728,GER.1,2021,"Sun, Feb 13, February, 2022",TSG Hoffenheim,Arminia Bielefeld,2 - 0,8,3,24,8,2,0,13,3,3,6,53.7%,46.3%
+608653,GER.1,2021,"Sat, Nov 27, November, 2021",SpVgg Greuther Furth,TSG Hoffenheim,3 - 6,7,11,16,21,1,0,4,10,6,4,49.6%,50.4%
+608636,GER.1,2021,"Sat, Nov 6, November, 2021",VfL Bochum,TSG Hoffenheim,2 - 0,5,1,12,10,1,5,2,4,1,2,37.5%,62.5%
+608624,GER.1,2021,"Fri, Oct 29, October, 2021",TSG Hoffenheim,Hertha Berlin,2 - 0,3,2,13,5,2,1,9,4,2,1,53.9%,46.1%
+608610,GER.1,2021,"Fri, Oct 15, October, 2021",TSG Hoffenheim,FC Cologne,5 - 0,8,0,14,10,1,1,3,3,0,3,51.3%,48.7%
+608593,GER.1,2021,"Sat, Oct 2, October, 2021",VfB Stuttgart,TSG Hoffenheim,3 - 1,6,4,14,13,0,1,9,4,3,3,40.8%,59.2%
+608591,GER.1,2021,"Sat, Sep 25, September, 2021",TSG Hoffenheim,VfL Wolfsburg,3 - 1,3,2,11,13,2,2,5,2,1,0,50.2%,49.8%
+608576,GER.1,2021,"Sat, Sep 18, September, 2021",Arminia Bielefeld,TSG Hoffenheim,0 - 0,2,3,9,16,2,1,5,6,3,2,41.8%,58.2%
+608837,GER.1,2021,"Sat, May 14, May, 2022",VfB Stuttgart,FC Cologne,2 - 1,12,2,24,13,1,4,8,10,1,10,34.4%,65.6%
+608819,GER.1,2021,"Sat, Apr 30, April, 2022",VfB Stuttgart,VfL Wolfsburg,1 - 1,5,5,19,15,3,2,7,9,4,4,57%,43%
+608811,GER.1,2021,"Sun, Apr 24, April, 2022",Hertha Berlin,VfB Stuttgart,2 - 0,2,5,9,12,1,1,4,6,5,0,41.6%,58.4%
+608787,GER.1,2021,"Sat, Apr 2, April, 2022",Arminia Bielefeld,VfB Stuttgart,1 - 1,4,4,10,15,1,5,6,2,3,3,53.9%,46.1%
+608740,GER.1,2021,"Sat, Feb 19, February, 2022",VfB Stuttgart,VfL Bochum,1 - 1,7,4,16,12,0,4,6,0,3,7,55.5%,44.5%
+608697,GER.1,2021,"Sat, Jan 8, January, 2022",SpVgg Greuther Furth,VfB Stuttgart,0 - 0,3,3,10,17,0,1,1,5,2,2,39.2%,60.8%
+608683,GER.1,2021,"Sun, Dec 19, December, 2021",FC Cologne,VfB Stuttgart,1 - 0,3,1,10,5,3,1,2,1,1,2,51.2%,48.8%
+608669,GER.1,2021,"Sat, Dec 11, December, 2021",VfL Wolfsburg,VfB Stuttgart,0 - 2,4,3,18,11,2,2,5,3,1,4,52.2%,47.8%
+608658,GER.1,2021,"Sun, Dec 5, December, 2021",VfB Stuttgart,Hertha Berlin,2 - 2,3,6,10,15,0,1,7,5,4,1,53.8%,46.2%
+608635,GER.1,2021,"Sat, Nov 6, November, 2021",VfB Stuttgart,Arminia Bielefeld,0 - 1,3,3,9,15,0,3,8,4,2,3,66%,34%
+608592,GER.1,2021,"Sun, Sep 26, September, 2021",VfL Bochum,VfB Stuttgart,0 - 0,4,3,15,8,2,5,7,2,3,4,43.9%,56.1%
+608545,GER.1,2021,"Sat, Aug 14, August, 2021",VfB Stuttgart,SpVgg Greuther Furth,5 - 1,15,5,33,8,0,1,9,2,3,10,67.2%,32.8%
+608829,GER.1,2021,"Fri, May 6, May, 2022",VfL Bochum,Arminia Bielefeld,2 - 1,9,4,17,14,0,0,6,2,3,8,61.6%,38.4%
+608761,GER.1,2021,"Sat, Mar 5, March, 2022",VfL Bochum,SpVgg Greuther Furth,2 - 1,7,2,14,9,2,4,3,6,2,5,45.3%,54.7%
+608720,GER.1,2021,"Fri, Feb 4, February, 2022",Hertha Berlin,VfL Bochum,1 - 1,3,3,13,10,3,1,4,7,2,2,52.3%,47.7%
+608714,GER.1,2021,"Sat, Jan 22, January, 2022",VfL Bochum,FC Cologne,2 - 2,7,3,17,8,0,3,1,5,1,5,54.2%,45.8%
+608696,GER.1,2021,"Sun, Jan 9, January, 2022",VfL Bochum,VfL Wolfsburg,1 - 0,3,3,12,12,1,2,4,2,3,2,50.5%,49.5%
+608677,GER.1,2021,"Tue, Dec 14, December, 2021",Arminia Bielefeld,VfL Bochum,2 - 0,4,3,13,5,2,2,6,2,3,2,51.1%,48.9%
+608603,GER.1,2021,"Sat, Oct 16, October, 2021",SpVgg Greuther Furth,VfL Bochum,0 - 1,3,2,11,10,2,4,4,3,1,3,55.9%,44.1%
+608568,GER.1,2021,"Sun, Sep 12, September, 2021",VfL Bochum,Hertha Berlin,1 - 3,5,4,18,5,0,3,7,2,1,4,67.2%,32.8%
+608557,GER.1,2021,"Sat, Aug 28, August, 2021",FC Cologne,VfL Bochum,2 - 1,5,1,22,11,2,1,5,5,0,3,70.7%,29.3%
+608542,GER.1,2021,"Sat, Aug 14, August, 2021",VfL Wolfsburg,VfL Bochum,1 - 0,9,1,19,7,0,2,5,2,1,7,61.3%,38.7%
+608827,GER.1,2021,"Sat, May 7, May, 2022",FC Cologne,VfL Wolfsburg,0 - 1,9,3,18,5,0,2,9,2,2,9,60.3%,39.7%
+608799,GER.1,2021,"Sat, Apr 9, April, 2022",VfL Wolfsburg,Arminia Bielefeld,4 - 0,6,3,11,7,0,1,3,2,3,2,52.6%,47.4%
+608723,GER.1,2021,"Sun, Feb 6, February, 2022",VfL Wolfsburg,SpVgg Greuther Furth,4 - 1,6,5,14,8,1,2,2,3,3,2,56.9%,43.1%
+608706,GER.1,2021,"Sat, Jan 15, January, 2022",VfL Wolfsburg,Hertha Berlin,0 - 0,3,1,9,6,1,1,3,2,1,3,47%,53%
+608680,GER.1,2021,"Tue, Dec 14, December, 2021",VfL Wolfsburg,FC Cologne,2 - 3,5,6,19,17,3,2,9,5,3,3,37.9%,62.1%
+608646,GER.1,2021,"Sat, Nov 20, November, 2021",Arminia Bielefeld,VfL Wolfsburg,2 - 2,3,5,10,13,4,1,6,5,3,1,36.9%,63.1%
+608566,GER.1,2021,"Sat, Sep 11, September, 2021",SpVgg Greuther Furth,VfL Wolfsburg,0 - 2,4,3,9,9,2,3,3,5,1,4,28.9%,71.1%
+608548,GER.1,2021,"Sat, Aug 21, August, 2021",Hertha Berlin,VfL Wolfsburg,1 - 2,5,3,13,12,1,2,4,4,1,4,40.6%,59.4%
+614551,ITA.1,2021,"Sun, May 22, May, 2022",Sassuolo,AC Milan,0 - 3,3,12,15,18,2,1,3,7,8,3,53.5%,46.5%
+614556,ITA.1,2021,"Sun, May 15, May, 2022",AC Milan,Atalanta,2 - 0,6,2,12,12,3,4,4,6,2,4,45.8%,54.2%
+614571,ITA.1,2021,"Sun, May 8, May, 2022",Hellas Verona,AC Milan,1 - 3,3,8,10,18,2,1,5,8,5,2,47%,53%
+614577,ITA.1,2021,"Sun, May 1, May, 2022",AC Milan,Fiorentina,1 - 0,2,2,13,8,1,3,2,2,2,1,47.7%,52.3%
+614590,ITA.1,2021,"Sun, Apr 24, April, 2022",Lazio,AC Milan,1 - 2,2,8,7,25,3,4,2,8,6,1,46.4%,53.6%
+614598,ITA.1,2021,"Fri, Apr 15, April, 2022",AC Milan,Genoa,2 - 0,5,1,10,7,1,2,4,1,2,3,59.1%,40.9%
+614611,ITA.1,2021,"Sun, Apr 10, April, 2022",Torino,AC Milan,0 - 0,3,3,14,14,2,2,6,5,3,3,43.6%,56.4%
+614616,ITA.1,2021,"Mon, Apr 4, April, 2022",AC Milan,Bologna,0 - 0,7,4,33,8,0,2,9,2,4,7,54%,46%
+614630,ITA.1,2021,"Sat, Mar 19, March, 2022",Cagliari,AC Milan,0 - 1,1,6,13,21,1,0,6,5,4,1,42.2%,57.8%
+614638,ITA.1,2021,"Sat, Mar 12, March, 2022",AC Milan,Empoli,1 - 0,5,2,15,5,1,0,5,4,2,4,53%,47%
+614650,ITA.1,2021,"Sun, Mar 6, March, 2022",Napoli,AC Milan,0 - 1,2,7,9,12,4,4,6,7,6,2,60.1%,39.9%
+614664,ITA.1,2021,"Fri, Feb 25, February, 2022",AC Milan,Udinese,1 - 1,3,6,9,11,2,4,5,4,5,2,62.4%,37.6%
+614671,ITA.1,2021,"Sat, Feb 19, February, 2022",Salernitana,AC Milan,2 - 2,5,5,9,13,2,4,5,7,3,2,38.9%,61.1%
+614683,ITA.1,2021,"Sun, Feb 13, February, 2022",AC Milan,Sampdoria,1 - 0,7,1,15,4,3,1,4,0,1,6,50.2%,49.8%
+614691,ITA.1,2021,"Sat, Feb 5, February, 2022",Internazionale,AC Milan,1 - 2,5,3,11,10,2,4,6,4,1,4,46%,54%
+614699,ITA.1,2021,"Sun, Jan 23, January, 2022",AC Milan,Juventus,0 - 0,4,0,14,8,2,2,4,1,0,4,46.6%,53.4%
+614713,ITA.1,2021,"Mon, Jan 17, January, 2022",AC Milan,Spezia,1 - 2,8,6,25,10,2,5,10,1,4,7,60.4%,39.6%
+614721,ITA.1,2021,"Sun, Jan 9, January, 2022",Venezia,AC Milan,0 - 3,3,8,9,18,1,3,1,7,4,3,38.4%,61.6%
+614732,ITA.1,2021,"Thu, Jan 6, January, 2022",AC Milan,AS Roma,3 - 1,5,5,19,11,2,3,3,9,4,2,54.8%,45.2%
+614741,ITA.1,2021,"Wed, Dec 22, December, 2021",Empoli,AC Milan,2 - 4,5,8,16,18,1,2,7,3,4,3,54.8%,45.2%
+614751,ITA.1,2021,"Sun, Dec 19, December, 2021",AC Milan,Napoli,0 - 1,2,2,12,11,0,2,5,5,1,2,48.9%,51.1%
+614762,ITA.1,2021,"Sat, Dec 11, December, 2021",Udinese,AC Milan,1 - 1,6,1,11,12,3,1,3,5,0,5,34.3%,65.7%
+614772,ITA.1,2021,"Sat, Dec 4, December, 2021",AC Milan,Salernitana,2 - 0,8,2,22,7,1,2,9,5,2,6,70.2%,29.8%
+614779,ITA.1,2021,"Wed, Dec 1, December, 2021",Genoa,AC Milan,0 - 3,3,5,10,18,2,1,2,6,2,3,42.1%,57.9%
+614794,ITA.1,2021,"Sun, Nov 28, November, 2021",AC Milan,Sassuolo,1 - 3,2,5,15,15,4,2,7,6,3,1,49.5%,50.5%
+614799,ITA.1,2021,"Sat, Nov 20, November, 2021",Fiorentina,AC Milan,4 - 3,5,7,9,17,1,1,5,6,5,1,44.7%,55.3%
+614811,ITA.1,2021,"Sun, Nov 7, November, 2021",AC Milan,Internazionale,1 - 1,4,3,16,13,1,0,4,8,1,4,50.6%,49.4%
+614820,ITA.1,2021,"Sun, Oct 31, October, 2021",AS Roma,AC Milan,1 - 2,6,3,24,8,4,5,5,2,1,5,49.6%,50.4%
+614835,ITA.1,2021,"Tue, Oct 26, October, 2021",AC Milan,Torino,1 - 0,2,2,10,12,3,3,2,5,2,1,44.5%,55.5%
+614841,ITA.1,2021,"Sat, Oct 23, October, 2021",Bologna,AC Milan,2 - 4,4,7,9,15,1,3,4,1,3,3,37.1%,62.9%
+614849,ITA.1,2021,"Sat, Oct 16, October, 2021",AC Milan,Hellas Verona,3 - 2,4,5,17,10,1,4,5,4,3,2,54.6%,45.4%
+614861,ITA.1,2021,"Sun, Oct 3, October, 2021",Atalanta,AC Milan,2 - 3,6,7,17,13,1,4,9,5,4,3,56.1%,43.9%
+614871,ITA.1,2021,"Sat, Sep 25, September, 2021",Spezia,AC Milan,1 - 2,2,5,8,18,2,2,2,4,3,1,36.6%,63.4%
+614885,ITA.1,2021,"Wed, Sep 22, September, 2021",AC Milan,Venezia,2 - 0,4,2,14,8,0,2,4,5,2,2,67%,33%
+614890,ITA.1,2021,"Sun, Sep 19, September, 2021",Juventus,AC Milan,1 - 1,4,3,9,13,1,1,4,4,2,3,44.3%,55.7%
+614901,ITA.1,2021,"Sun, Sep 12, September, 2021",AC Milan,Lazio,2 - 0,3,5,19,8,1,4,5,1,5,1,46.6%,53.4%
+614907,ITA.1,2021,"Sun, Aug 29, August, 2021",AC Milan,Cagliari,4 - 1,5,2,18,7,1,5,8,3,1,1,57%,43%
+614921,ITA.1,2021,"Mon, Aug 23, August, 2021",Sampdoria,AC Milan,0 - 1,3,4,16,11,3,1,8,4,3,3,49.9%,50.1%
+614553,ITA.1,2021,"Fri, May 20, May, 2022",Torino,AS Roma,0 - 3,2,6,13,14,2,2,5,6,3,2,58.9%,41.1%
+614565,ITA.1,2021,"Sat, May 14, May, 2022",AS Roma,Venezia,1 - 1,16,2,46,4,2,5,20,2,1,16,68.8%,31.2%
+614573,ITA.1,2021,"Mon, May 9, May, 2022",Fiorentina,AS Roma,2 - 0,7,1,12,7,3,1,5,3,1,5,54.6%,45.4%
+614576,ITA.1,2021,"Sun, May 1, May, 2022",AS Roma,Bologna,0 - 0,5,4,17,10,0,1,10,5,4,5,42.2%,57.8%
+614592,ITA.1,2021,"Sat, Apr 23, April, 2022",Internazionale,AS Roma,3 - 1,8,2,11,9,2,2,4,3,1,5,44.6%,55.4%
+614601,ITA.1,2021,"Mon, Apr 18, April, 2022",Napoli,AS Roma,1 - 1,4,6,9,8,4,2,5,5,5,3,49.5%,50.5%
+614612,ITA.1,2021,"Sun, Apr 10, April, 2022",AS Roma,Salernitana,2 - 1,7,3,17,6,5,8,9,2,2,5,66.7%,33.3%
+614622,ITA.1,2021,"Sun, Apr 3, April, 2022",Sampdoria,AS Roma,0 - 1,3,1,8,6,2,3,4,4,0,3,48.6%,51.4%
+614629,ITA.1,2021,"Sun, Mar 20, March, 2022",AS Roma,Lazio,3 - 0,5,3,11,9,4,3,6,3,3,2,34.2%,65.8%
+614643,ITA.1,2021,"Sun, Mar 13, March, 2022",Udinese,AS Roma,1 - 1,5,2,11,10,3,2,6,4,1,4,36%,64%
+614646,ITA.1,2021,"Sat, Mar 5, March, 2022",AS Roma,Atalanta,1 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+614662,ITA.1,2021,"Sun, Feb 27, February, 2022",Spezia,AS Roma,0 - 1,3,10,9,31,3,3,1,8,8,3,35.4%,64.6%
+614669,ITA.1,2021,"Sat, Feb 19, February, 2022",AS Roma,Hellas Verona,2 - 2,3,3,7,5,3,2,4,2,1,1,57.2%,42.8%
+614681,ITA.1,2021,"Sun, Feb 13, February, 2022",Sassuolo,AS Roma,2 - 2,3,8,12,13,2,2,4,3,6,2,46.2%,53.8%
+614688,ITA.1,2021,"Sat, Feb 5, February, 2022",AS Roma,Genoa,0 - 0,3,3,23,10,3,2,6,4,3,3,63%,37%
+614700,ITA.1,2021,"Sun, Jan 23, January, 2022",Empoli,AS Roma,2 - 4,7,8,16,16,2,2,2,3,4,5,58.4%,41.6%
+614706,ITA.1,2021,"Sun, Jan 16, January, 2022",AS Roma,Cagliari,1 - 0,7,2,15,8,3,4,1,1,2,6,56.8%,43.2%
+614719,ITA.1,2021,"Sun, Jan 9, January, 2022",AS Roma,Juventus,3 - 4,7,5,19,14,3,2,8,1,1,4,52.3%,47.7%
+614743,ITA.1,2021,"Wed, Dec 22, December, 2021",AS Roma,Sampdoria,1 - 1,4,2,15,9,0,3,10,2,1,3,54.6%,45.4%
+614752,ITA.1,2021,"Sat, Dec 18, December, 2021",Atalanta,AS Roma,1 - 4,6,5,17,8,1,3,10,0,1,6,71.3%,28.7%
+614765,ITA.1,2021,"Mon, Dec 13, December, 2021",AS Roma,Spezia,2 - 0,6,2,12,8,2,1,10,4,2,3,52.2%,47.8%
+614770,ITA.1,2021,"Sat, Dec 4, December, 2021",AS Roma,Internazionale,0 - 3,1,4,9,10,3,1,4,4,1,1,33.9%,66.1%
+614781,ITA.1,2021,"Wed, Dec 1, December, 2021",Bologna,AS Roma,1 - 0,3,5,6,13,3,4,3,3,6,2,42.7%,57.3%
+614795,ITA.1,2021,"Sun, Nov 28, November, 2021",AS Roma,Torino,1 - 0,2,3,10,17,2,1,2,9,3,1,31.5%,68.5%
+614801,ITA.1,2021,"Sun, Nov 21, November, 2021",Genoa,AS Roma,0 - 2,1,4,1,19,3,2,2,7,2,1,41%,59%
+614812,ITA.1,2021,"Sun, Nov 7, November, 2021",Venezia,AS Roma,3 - 2,7,11,13,27,2,2,4,11,7,4,39.2%,60.8%
+614832,ITA.1,2021,"Wed, Oct 27, October, 2021",Cagliari,AS Roma,1 - 2,5,3,7,22,3,4,2,10,1,4,41.4%,58.6%
+614842,ITA.1,2021,"Sun, Oct 24, October, 2021",AS Roma,Napoli,0 - 0,1,3,13,11,4,1,7,4,2,1,37.8%,62.2%
+614851,ITA.1,2021,"Sun, Oct 17, October, 2021",Juventus,AS Roma,1 - 0,2,4,6,15,3,5,0,6,4,1,47.9%,52.1%
+614856,ITA.1,2021,"Sun, Oct 3, October, 2021",AS Roma,Empoli,2 - 0,7,3,18,11,2,3,6,5,3,4,64.1%,35.9%
+614872,ITA.1,2021,"Sun, Sep 26, September, 2021",Lazio,AS Roma,3 - 2,4,8,10,20,2,4,1,9,6,1,49%,51%
+614884,ITA.1,2021,"Thu, Sep 23, September, 2021",AS Roma,Udinese,1 - 0,2,3,12,8,2,1,6,6,2,1,51.5%,48.5%
+614892,ITA.1,2021,"Sun, Sep 19, September, 2021",Hellas Verona,AS Roma,3 - 2,6,2,10,15,4,2,3,8,1,4,52.4%,47.6%
+614903,ITA.1,2021,"Sun, Sep 12, September, 2021",AS Roma,Sassuolo,2 - 1,6,7,17,14,2,1,4,6,6,5,49.4%,50.6%
+614911,ITA.1,2021,"Sun, Aug 29, August, 2021",Salernitana,AS Roma,0 - 4,0,9,5,28,2,2,1,10,5,0,19.7%,80.3%
+614917,ITA.1,2021,"Sun, Aug 22, August, 2021",AS Roma,Fiorentina,3 - 1,6,8,11,11,1,2,4,4,7,3,41.7%,58.3%
+614548,ITA.1,2021,"Sat, May 21, May, 2022",Atalanta,Empoli,0 - 1,11,3,40,7,1,1,15,2,2,9,62.3%,37.7%
+614566,ITA.1,2021,"Sun, May 8, May, 2022",Spezia,Atalanta,1 - 3,1,6,5,17,2,3,0,3,3,0,34.7%,65.3%
+614582,ITA.1,2021,"Mon, May 2, May, 2022",Atalanta,Salernitana,1 - 1,5,9,20,11,3,2,11,4,8,4,62.5%,37.5%
+614733,ITA.1,2021,"Wed, Apr 27, April, 2022",Atalanta,Torino,4 - 4,5,4,17,5,2,2,8,0,1,1,49.5%,50.5%
+614586,ITA.1,2021,"Sat, Apr 23, April, 2022",Venezia,Atalanta,1 - 3,2,5,8,19,0,3,0,7,1,1,39.8%,60.2%
+614599,ITA.1,2021,"Mon, Apr 18, April, 2022",Atalanta,Hellas Verona,1 - 2,4,6,17,21,3,3,11,1,5,3,56.1%,43.9%
+614606,ITA.1,2021,"Sun, Apr 10, April, 2022",Sassuolo,Atalanta,2 - 1,7,4,14,15,2,1,8,8,3,5,50.2%,49.8%
+614621,ITA.1,2021,"Sun, Apr 3, April, 2022",Atalanta,Napoli,1 - 3,3,5,19,6,2,3,9,1,2,2,55.6%,44.4%
+614626,ITA.1,2021,"Sun, Mar 20, March, 2022",Bologna,Atalanta,0 - 1,3,3,12,15,0,1,6,3,1,3,60.7%,39.3%
+614639,ITA.1,2021,"Sun, Mar 13, March, 2022",Atalanta,Genoa,0 - 0,2,3,11,13,2,0,4,3,3,2,57.7%,42.3%
+614663,ITA.1,2021,"Mon, Feb 28, February, 2022",Atalanta,Sampdoria,4 - 0,9,1,19,6,1,2,8,1,1,5,56%,44%
+614666,ITA.1,2021,"Sun, Feb 20, February, 2022",Fiorentina,Atalanta,1 - 0,3,1,6,7,2,5,2,1,1,2,50.2%,49.8%
+614680,ITA.1,2021,"Sun, Feb 13, February, 2022",Atalanta,Juventus,1 - 1,3,6,21,15,2,3,8,8,5,2,52.8%,47.2%
+614686,ITA.1,2021,"Sun, Feb 6, February, 2022",Atalanta,Cagliari,1 - 2,3,4,10,7,1,5,3,1,2,2,60.5%,39.5%
+614696,ITA.1,2021,"Sat, Jan 22, January, 2022",Lazio,Atalanta,0 - 0,1,2,9,6,0,3,4,1,2,1,61.2%,38.8%
+614710,ITA.1,2021,"Sun, Jan 16, January, 2022",Atalanta,Internazionale,0 - 0,6,3,12,11,2,2,6,4,3,6,36.2%,63.8%
+614716,ITA.1,2021,"Sun, Jan 9, January, 2022",Udinese,Atalanta,2 - 6,4,7,8,21,2,2,2,5,1,3,39.5%,60.5%
+614736,ITA.1,2021,"Tue, Dec 21, December, 2021",Genoa,Atalanta,0 - 0,0,3,1,17,2,1,3,8,3,0,32.8%,67.2%
+614756,ITA.1,2021,"Sun, Dec 12, December, 2021",Hellas Verona,Atalanta,1 - 2,4,6,19,14,2,1,6,6,4,2,52.8%,47.2%
+614766,ITA.1,2021,"Sat, Dec 4, December, 2021",Napoli,Atalanta,2 - 3,4,7,15,21,2,3,6,7,4,2,54.7%,45.3%
+614785,ITA.1,2021,"Tue, Nov 30, November, 2021",Atalanta,Venezia,4 - 0,6,4,19,8,0,1,4,2,4,2,59%,41%
+614786,ITA.1,2021,"Sat, Nov 27, November, 2021",Juventus,Atalanta,0 - 1,2,1,15,7,4,5,6,4,0,2,59%,41%
+614803,ITA.1,2021,"Sat, Nov 20, November, 2021",Atalanta,Spezia,5 - 2,9,5,18,10,2,3,0,6,3,4,51%,49%
+614806,ITA.1,2021,"Sat, Nov 6, November, 2021",Cagliari,Atalanta,1 - 2,1,8,7,21,1,1,2,7,6,0,37.1%,62.9%
+614819,ITA.1,2021,"Sat, Oct 30, October, 2021",Atalanta,Lazio,2 - 2,3,5,17,8,1,3,6,2,3,1,56.6%,43.4%
+614826,ITA.1,2021,"Wed, Oct 27, October, 2021",Sampdoria,Atalanta,1 - 3,3,4,8,13,4,3,3,3,2,2,40.5%,59.5%
+614844,ITA.1,2021,"Sun, Oct 24, October, 2021",Atalanta,Udinese,1 - 1,3,3,8,9,2,2,6,3,3,2,67.5%,32.5%
+614846,ITA.1,2021,"Sun, Oct 17, October, 2021",Empoli,Atalanta,1 - 4,6,7,12,22,3,2,5,4,4,3,47.7%,52.3%
+614866,ITA.1,2021,"Sat, Sep 25, September, 2021",Internazionale,Atalanta,2 - 2,6,5,19,22,3,5,4,11,3,4,49.1%,50.9%
+614883,ITA.1,2021,"Tue, Sep 21, September, 2021",Atalanta,Sassuolo,2 - 1,5,1,14,8,2,2,5,5,0,3,47.8%,52.2%
+614886,ITA.1,2021,"Sat, Sep 18, September, 2021",Salernitana,Atalanta,0 - 1,1,3,10,10,4,4,6,4,2,1,41.7%,58.3%
+614896,ITA.1,2021,"Sat, Sep 11, September, 2021",Atalanta,Fiorentina,1 - 2,5,2,13,7,4,4,10,3,0,4,54.6%,45.4%
+614906,ITA.1,2021,"Sat, Aug 28, August, 2021",Atalanta,Bologna,0 - 0,3,1,22,4,2,5,5,5,1,3,59.3%,40.7%
+614916,ITA.1,2021,"Sat, Aug 21, August, 2021",Torino,Atalanta,1 - 2,8,2,21,7,2,2,5,1,0,6,48.2%,51.8%
+614546,ITA.1,2021,"Sat, May 21, May, 2022",Genoa,Bologna,0 - 1,5,4,18,11,3,1,9,9,3,5,50.9%,49.1%
+614562,ITA.1,2021,"Sun, May 15, May, 2022",Bologna,Sassuolo,1 - 3,2,7,8,16,0,1,5,9,4,1,54.7%,45.3%
+614567,ITA.1,2021,"Sun, May 8, May, 2022",Venezia,Bologna,4 - 3,9,10,18,23,2,4,4,8,7,5,39.5%,60.5%
+614730,ITA.1,2021,"Wed, Apr 27, April, 2022",Bologna,Internazionale,2 - 1,3,7,5,26,1,3,0,7,6,1,41.4%,58.6%
+614595,ITA.1,2021,"Sun, Apr 24, April, 2022",Bologna,Udinese,2 - 2,3,5,10,17,2,2,2,4,3,1,55.1%,44.9%
+614596,ITA.1,2021,"Sat, Apr 16, April, 2022",Juventus,Bologna,1 - 1,4,2,23,9,1,3,4,5,1,3,51.3%,48.7%
+614613,ITA.1,2021,"Mon, Apr 11, April, 2022",Bologna,Sampdoria,2 - 0,4,2,19,9,1,2,6,0,2,2,52.3%,47.7%
+614636,ITA.1,2021,"Sun, Mar 13, March, 2022",Fiorentina,Bologna,1 - 0,5,0,14,4,1,3,9,1,0,4,61.3%,38.7%
+614655,ITA.1,2021,"Sun, Mar 6, March, 2022",Bologna,Torino,0 - 0,1,2,6,13,3,3,5,7,2,1,51.2%,48.8%
+614656,ITA.1,2021,"Sat, Feb 26, February, 2022",Salernitana,Bologna,1 - 1,4,3,15,8,2,3,6,1,2,3,55.9%,44.1%
+614674,ITA.1,2021,"Mon, Feb 21, February, 2022",Bologna,Spezia,2 - 1,7,2,19,6,1,1,12,0,1,5,61.1%,38.9%
+614676,ITA.1,2021,"Sat, Feb 12, February, 2022",Lazio,Bologna,3 - 0,6,3,12,11,2,2,5,3,3,3,55.7%,44.3%
+614687,ITA.1,2021,"Sun, Feb 6, February, 2022",Bologna,Empoli,0 - 0,2,4,12,15,2,4,3,5,4,2,60.2%,39.8%
+614697,ITA.1,2021,"Fri, Jan 21, January, 2022",Hellas Verona,Bologna,2 - 1,6,2,14,8,2,4,7,2,1,4,56.1%,43.9%
+614712,ITA.1,2021,"Mon, Jan 17, January, 2022",Bologna,Napoli,0 - 2,5,5,12,14,3,1,1,4,3,5,38.6%,61.4%
+614717,ITA.1,2021,"Tue, Jan 11, January, 2022",Cagliari,Bologna,2 - 1,4,3,13,9,3,2,6,5,2,2,52.4%,47.6%
+614737,ITA.1,2021,"Wed, Dec 22, December, 2021",Sassuolo,Bologna,0 - 3,5,5,13,9,1,3,5,5,2,5,60.7%,39.3%
+614750,ITA.1,2021,"Sat, Dec 18, December, 2021",Bologna,Juventus,0 - 2,3,7,11,11,1,1,8,5,5,3,57.7%,42.3%
+614757,ITA.1,2021,"Sun, Dec 12, December, 2021",Torino,Bologna,2 - 1,7,5,16,8,2,4,5,0,4,7,48.3%,51.7%
+614767,ITA.1,2021,"Sun, Dec 5, December, 2021",Bologna,Fiorentina,2 - 3,4,3,8,6,3,3,0,2,0,2,36.7%,63.3%
+614787,ITA.1,2021,"Sun, Nov 28, November, 2021",Spezia,Bologna,0 - 1,5,5,13,17,3,1,3,6,4,5,43.1%,56.9%
+614805,ITA.1,2021,"Sun, Nov 21, November, 2021",Bologna,Venezia,0 - 1,6,6,22,8,0,3,17,1,5,6,66.7%,33.3%
+614807,ITA.1,2021,"Sun, Nov 7, November, 2021",Sampdoria,Bologna,1 - 2,4,7,10,14,4,1,6,5,4,3,46%,54%
+614816,ITA.1,2021,"Mon, Nov 1, November, 2021",Bologna,Cagliari,2 - 0,3,2,8,9,3,2,5,2,2,1,57.2%,42.8%
+614827,ITA.1,2021,"Thu, Oct 28, October, 2021",Napoli,Bologna,3 - 0,6,1,18,8,1,1,4,2,1,3,65.2%,34.8%
+614847,ITA.1,2021,"Sun, Oct 17, October, 2021",Udinese,Bologna,1 - 1,2,11,10,24,1,7,2,8,10,1,40.5%,59.5%
+614860,ITA.1,2021,"Sun, Oct 3, October, 2021",Bologna,Lazio,3 - 0,3,4,10,8,2,5,3,3,4,0,40.7%,59.3%
+614867,ITA.1,2021,"Sun, Sep 26, September, 2021",Empoli,Bologna,4 - 2,7,5,15,20,2,2,2,10,3,4,37.2%,62.8%
+614877,ITA.1,2021,"Tue, Sep 21, September, 2021",Bologna,Genoa,2 - 2,6,6,17,11,3,4,8,2,4,3,60%,40%
+614887,ITA.1,2021,"Sat, Sep 18, September, 2021",Internazionale,Bologna,6 - 1,11,2,19,7,0,3,5,1,1,5,45.2%,54.8%
+614898,ITA.1,2021,"Mon, Sep 13, September, 2021",Bologna,Hellas Verona,1 - 0,3,0,15,5,1,3,6,2,0,2,41.8%,58.2%
+614922,ITA.1,2021,"Sun, Aug 22, August, 2021",Bologna,Salernitana,3 - 2,7,4,18,10,2,1,9,4,2,4,72.6%,27.4%
+614547,ITA.1,2021,"Sun, May 22, May, 2022",Venezia,Cagliari,0 - 0,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+614559,ITA.1,2021,"Sun, May 15, May, 2022",Cagliari,Internazionale,1 - 3,2,7,10,17,0,2,2,5,4,1,37.7%,62.3%
+614568,ITA.1,2021,"Sun, May 8, May, 2022",Salernitana,Cagliari,1 - 1,2,3,13,9,5,2,7,6,2,1,48.9%,51.1%
+614579,ITA.1,2021,"Sat, Apr 30, April, 2022",Cagliari,Hellas Verona,1 - 2,5,4,14,13,2,4,2,2,2,4,58.3%,41.7%
+614587,ITA.1,2021,"Sun, Apr 24, April, 2022",Genoa,Cagliari,1 - 0,2,1,13,11,3,2,3,3,1,1,55.6%,44.4%
+614603,ITA.1,2021,"Sat, Apr 16, April, 2022",Cagliari,Sassuolo,1 - 0,8,2,16,8,2,2,3,3,2,8,36.4%,63.6%
+614609,ITA.1,2021,"Sat, Apr 9, April, 2022",Cagliari,Juventus,1 - 2,1,6,4,20,1,0,1,4,4,0,40.3%,59.7%
+614617,ITA.1,2021,"Sun, Apr 3, April, 2022",Udinese,Cagliari,5 - 1,11,3,24,6,2,2,2,2,2,6,51.2%,48.8%
+614637,ITA.1,2021,"Sat, Mar 12, March, 2022",Spezia,Cagliari,2 - 0,7,1,12,11,1,4,8,7,1,5,42.6%,57.4%
+614649,ITA.1,2021,"Sat, Mar 5, March, 2022",Cagliari,Lazio,0 - 3,3,5,16,13,3,0,7,6,2,3,44.5%,55.5%
+614657,ITA.1,2021,"Sun, Feb 27, February, 2022",Torino,Cagliari,1 - 2,6,5,15,11,2,4,4,3,3,5,57%,43%
+614672,ITA.1,2021,"Mon, Feb 21, February, 2022",Cagliari,Napoli,1 - 1,5,3,13,7,1,2,3,7,2,4,46.6%,53.4%
+614677,ITA.1,2021,"Sun, Feb 13, February, 2022",Empoli,Cagliari,1 - 1,5,5,15,17,1,2,6,4,3,4,45.5%,54.5%
+614698,ITA.1,2021,"Sun, Jan 23, January, 2022",Cagliari,Fiorentina,1 - 1,3,6,12,16,3,3,6,4,5,1,40.3%,59.7%
+614726,ITA.1,2021,"Thu, Jan 6, January, 2022",Sampdoria,Cagliari,1 - 2,1,7,4,15,1,3,0,5,5,0,49.2%,50.8%
+614738,ITA.1,2021,"Tue, Dec 21, December, 2021",Juventus,Cagliari,2 - 0,4,1,15,6,0,3,7,1,1,2,63%,37%
+614754,ITA.1,2021,"Sat, Dec 18, December, 2021",Cagliari,Udinese,0 - 4,2,5,5,10,2,2,4,2,1,2,55.3%,44.7%
+614758,ITA.1,2021,"Sun, Dec 12, December, 2021",Internazionale,Cagliari,4 - 0,15,2,24,5,1,2,9,1,2,11,75.3%,24.7%
+614774,ITA.1,2021,"Mon, Dec 6, December, 2021",Cagliari,Torino,1 - 1,2,3,15,8,2,4,5,2,3,1,48.6%,51.4%
+614776,ITA.1,2021,"Tue, Nov 30, November, 2021",Hellas Verona,Cagliari,0 - 0,6,4,15,12,3,2,11,1,4,6,69.5%,30.5%
+614793,ITA.1,2021,"Fri, Nov 26, November, 2021",Cagliari,Salernitana,1 - 1,3,2,19,8,3,1,7,6,1,2,57%,43%
+614796,ITA.1,2021,"Sun, Nov 21, November, 2021",Sassuolo,Cagliari,2 - 2,4,4,20,11,1,2,6,5,3,2,59.7%,40.3%
+614836,ITA.1,2021,"Sun, Oct 24, October, 2021",Fiorentina,Cagliari,3 - 0,5,1,21,3,0,2,4,1,1,2,65.1%,34.9%
+614853,ITA.1,2021,"Sun, Oct 17, October, 2021",Cagliari,Sampdoria,3 - 1,5,3,12,17,4,2,5,9,2,2,40.7%,59.3%
+614865,ITA.1,2021,"Fri, Oct 1, October, 2021",Cagliari,Venezia,1 - 1,3,4,9,11,2,5,2,4,3,2,42.2%,57.8%
+614868,ITA.1,2021,"Sun, Sep 26, September, 2021",Napoli,Cagliari,2 - 0,7,1,17,6,2,1,6,4,1,5,68.4%,31.6%
+614876,ITA.1,2021,"Wed, Sep 22, September, 2021",Cagliari,Empoli,0 - 2,1,5,15,17,2,1,7,4,3,1,50.4%,49.6%
+614888,ITA.1,2021,"Sun, Sep 19, September, 2021",Lazio,Cagliari,2 - 2,10,3,28,10,1,1,10,1,1,8,73.3%,26.7%
+614897,ITA.1,2021,"Sun, Sep 12, September, 2021",Cagliari,Genoa,2 - 3,3,3,9,11,2,3,2,6,0,1,52.1%,47.9%
+614924,ITA.1,2021,"Mon, Aug 23, August, 2021",Cagliari,Spezia,2 - 2,9,4,20,12,2,3,11,4,2,6,58.5%,41.5%
+614561,ITA.1,2021,"Sat, May 14, May, 2022",Empoli,Salernitana,1 - 1,6,9,16,28,3,2,3,11,7,5,45.8%,54.2%
+614569,ITA.1,2021,"Fri, May 6, May, 2022",Internazionale,Empoli,4 - 2,10,2,37,4,1,0,14,2,0,7,64.3%,35.7%
+614584,ITA.1,2021,"Sun, May 1, May, 2022",Empoli,Torino,1 - 3,4,3,11,13,2,2,5,4,0,3,38.1%,61.9%
+614591,ITA.1,2021,"Sun, Apr 24, April, 2022",Empoli,Napoli,3 - 2,7,2,17,16,4,1,10,7,0,5,40.3%,59.7%
+614597,ITA.1,2021,"Sat, Apr 16, April, 2022",Udinese,Empoli,4 - 1,5,4,13,15,1,4,4,7,3,2,38.8%,61.2%
+614614,ITA.1,2021,"Sat, Apr 9, April, 2022",Empoli,Spezia,0 - 0,4,5,15,11,2,2,5,4,4,4,57.3%,42.7%
+614618,ITA.1,2021,"Sun, Apr 3, April, 2022",Fiorentina,Empoli,1 - 0,11,1,24,5,1,1,5,0,1,10,62.6%,37.4%
+614628,ITA.1,2021,"Sun, Mar 20, March, 2022",Empoli,Hellas Verona,1 - 1,2,4,7,14,2,3,3,7,3,1,36.8%,63.2%
+614647,ITA.1,2021,"Sun, Mar 6, March, 2022",Genoa,Empoli,0 - 0,7,2,18,8,4,3,7,2,2,6,52.5%,47.5%
+614660,ITA.1,2021,"Sat, Feb 26, February, 2022",Empoli,Juventus,2 - 3,2,5,11,12,2,0,7,3,2,0,52.8%,47.2%
+614667,ITA.1,2021,"Sat, Feb 19, February, 2022",Sampdoria,Empoli,2 - 0,3,2,8,10,4,2,3,6,2,1,42.3%,57.7%
+614707,ITA.1,2021,"Sun, Jan 16, January, 2022",Venezia,Empoli,1 - 1,3,6,14,18,3,5,6,5,5,2,48.9%,51.1%
+614724,ITA.1,2021,"Sun, Jan 9, January, 2022",Empoli,Sassuolo,1 - 5,4,14,15,25,0,3,5,5,8,3,45.3%,54.7%
+614727,ITA.1,2021,"Thu, Jan 6, January, 2022",Lazio,Empoli,3 - 3,10,4,23,11,4,4,9,2,1,6,62.4%,37.6%
+614746,ITA.1,2021,"Sun, Dec 19, December, 2021",Spezia,Empoli,1 - 1,2,6,9,22,3,2,3,5,6,2,34.6%,65.4%
+614759,ITA.1,2021,"Sun, Dec 12, December, 2021",Napoli,Empoli,0 - 1,6,5,30,12,0,1,10,3,4,6,60.2%,39.8%
+614775,ITA.1,2021,"Mon, Dec 6, December, 2021",Empoli,Udinese,3 - 1,9,8,22,19,4,3,8,6,6,5,58%,42%
+614777,ITA.1,2021,"Thu, Dec 2, December, 2021",Torino,Empoli,2 - 2,3,5,10,16,1,3,1,11,4,1,40.9%,59.1%
+614788,ITA.1,2021,"Sat, Nov 27, November, 2021",Empoli,Fiorentina,2 - 1,5,7,17,16,1,1,8,5,6,3,51%,49%
+614797,ITA.1,2021,"Mon, Nov 22, November, 2021",Hellas Verona,Empoli,2 - 1,5,4,22,9,1,3,1,3,3,3,56.8%,43.2%
+614809,ITA.1,2021,"Fri, Nov 5, November, 2021",Empoli,Genoa,2 - 2,2,7,10,15,0,4,4,5,5,0,52%,48%
+614817,ITA.1,2021,"Sun, Oct 31, October, 2021",Sassuolo,Empoli,1 - 2,5,6,15,14,4,2,4,6,3,5,57.9%,42.1%
+614831,ITA.1,2021,"Wed, Oct 27, October, 2021",Empoli,Internazionale,0 - 2,3,9,9,21,1,3,5,6,7,2,30.9%,69.1%
+614837,ITA.1,2021,"Sat, Oct 23, October, 2021",Salernitana,Empoli,2 - 4,6,5,12,10,1,3,7,2,2,4,60.3%,39.7%
+614893,ITA.1,2021,"Sun, Sep 19, September, 2021",Empoli,Sampdoria,0 - 3,4,7,15,14,2,2,8,8,4,4,53.5%,46.5%
+614905,ITA.1,2021,"Sat, Sep 11, September, 2021",Empoli,Venezia,1 - 2,6,3,22,10,2,5,8,2,1,5,68%,32%
+614908,ITA.1,2021,"Sat, Aug 28, August, 2021",Juventus,Empoli,0 - 1,5,3,18,11,2,3,8,9,3,5,55.2%,44.8%
+614920,ITA.1,2021,"Sat, Aug 21, August, 2021",Empoli,Lazio,1 - 3,4,4,16,8,2,1,6,3,1,2,44.9%,55.1%
+614550,ITA.1,2021,"Sat, May 21, May, 2022",Fiorentina,Juventus,2 - 0,4,0,13,1,3,3,6,2,0,1,66.4%,33.6%
+614557,ITA.1,2021,"Mon, May 16, May, 2022",Sampdoria,Fiorentina,4 - 1,5,1,12,12,3,3,4,5,0,1,36.3%,63.7%
+614734,ITA.1,2021,"Wed, Apr 27, April, 2022",Fiorentina,Udinese,0 - 4,7,8,18,17,3,4,14,2,4,7,72.6%,27.4%
+614588,ITA.1,2021,"Sun, Apr 24, April, 2022",Salernitana,Fiorentina,2 - 1,4,3,10,8,1,1,6,4,2,2,27.6%,72.4%
+614605,ITA.1,2021,"Sat, Apr 16, April, 2022",Fiorentina,Venezia,1 - 0,6,1,22,3,4,4,5,0,1,4,69.3%,30.7%
+614607,ITA.1,2021,"Sun, Apr 10, April, 2022",Napoli,Fiorentina,2 - 3,3,4,15,11,0,3,3,2,1,1,49.5%,50.5%
+614627,ITA.1,2021,"Sat, Mar 19, March, 2022",Internazionale,Fiorentina,1 - 1,5,4,13,17,1,2,5,3,3,4,51.2%,48.8%
+614648,ITA.1,2021,"Sun, Mar 6, March, 2022",Fiorentina,Hellas Verona,1 - 1,2,2,8,2,0,4,4,2,1,1,50.6%,49.4%
+614658,ITA.1,2021,"Sat, Feb 26, February, 2022",Sassuolo,Fiorentina,2 - 1,6,6,16,15,1,1,6,10,5,4,49.7%,50.3%
+614678,ITA.1,2021,"Mon, Feb 14, February, 2022",Spezia,Fiorentina,1 - 2,1,4,9,21,2,1,4,9,2,0,33.3%,66.7%
+614690,ITA.1,2021,"Sat, Feb 5, February, 2022",Fiorentina,Lazio,0 - 3,3,7,9,12,1,5,4,3,5,3,50%,50%
+614708,ITA.1,2021,"Mon, Jan 17, January, 2022",Fiorentina,Genoa,6 - 0,12,0,22,3,1,3,4,0,0,6,73.5%,26.5%
+614718,ITA.1,2021,"Mon, Jan 10, January, 2022",Torino,Fiorentina,4 - 0,6,3,9,10,2,2,1,5,3,2,45.4%,54.6%
+614739,ITA.1,2021,"Wed, Dec 22, December, 2021",Hellas Verona,Fiorentina,1 - 1,2,1,7,11,2,1,3,8,0,1,38.6%,61.4%
+614753,ITA.1,2021,"Sun, Dec 19, December, 2021",Fiorentina,Sassuolo,2 - 2,8,4,23,8,1,5,10,3,2,6,56.9%,43.1%
+614763,ITA.1,2021,"Sat, Dec 11, December, 2021",Fiorentina,Salernitana,4 - 0,9,6,17,11,1,1,1,3,6,5,70.2%,29.8%
+614782,ITA.1,2021,"Tue, Nov 30, November, 2021",Fiorentina,Sampdoria,3 - 1,7,4,17,11,0,3,3,6,3,4,60.2%,39.8%
+614808,ITA.1,2021,"Sat, Nov 6, November, 2021",Juventus,Fiorentina,1 - 0,3,1,13,6,2,2,5,6,1,2,50.1%,49.9%
+614823,ITA.1,2021,"Sun, Oct 31, October, 2021",Fiorentina,Spezia,3 - 0,12,0,27,3,4,3,7,4,0,9,54.7%,45.3%
+614828,ITA.1,2021,"Wed, Oct 27, October, 2021",Lazio,Fiorentina,1 - 0,2,1,5,9,3,3,3,6,1,1,48.9%,51.1%
+614848,ITA.1,2021,"Mon, Oct 18, October, 2021",Venezia,Fiorentina,1 - 0,2,2,4,10,2,3,2,5,2,1,38.2%,61.8%
+614862,ITA.1,2021,"Sun, Oct 3, October, 2021",Fiorentina,Napoli,1 - 2,3,6,10,12,3,3,8,2,4,2,54.1%,45.9%
+614869,ITA.1,2021,"Sun, Sep 26, September, 2021",Udinese,Fiorentina,0 - 1,5,2,12,8,2,3,4,1,1,5,45.3%,54.7%
+614879,ITA.1,2021,"Tue, Sep 21, September, 2021",Fiorentina,Internazionale,1 - 3,6,5,14,17,0,3,4,8,2,5,53%,47%
+614889,ITA.1,2021,"Sat, Sep 18, September, 2021",Genoa,Fiorentina,1 - 2,3,5,9,16,4,4,1,11,3,2,35.3%,64.7%
+614914,ITA.1,2021,"Sat, Aug 28, August, 2021",Fiorentina,Torino,2 - 1,6,1,9,5,4,5,3,3,0,4,57.6%,42.4%
+614558,ITA.1,2021,"Sun, May 15, May, 2022",Napoli,Genoa,3 - 0,9,3,17,11,1,1,9,2,3,6,66.7%,33.3%
+614570,ITA.1,2021,"Fri, May 6, May, 2022",Genoa,Juventus,2 - 1,6,4,18,12,2,3,9,2,3,4,46.1%,53.9%
+614578,ITA.1,2021,"Sat, Apr 30, April, 2022",Sampdoria,Genoa,1 - 0,2,4,10,14,3,1,1,2,4,1,48.9%,51.1%
+614610,ITA.1,2021,"Sun, Apr 10, April, 2022",Genoa,Lazio,1 - 4,4,11,15,17,0,1,3,6,7,4,42.8%,57.2%
+614619,ITA.1,2021,"Mon, Apr 4, April, 2022",Hellas Verona,Genoa,1 - 0,3,4,7,7,4,3,2,5,4,2,47.2%,52.8%
+614634,ITA.1,2021,"Fri, Mar 18, March, 2022",Genoa,Torino,1 - 0,2,3,7,9,1,3,2,3,3,1,24.7%,75.3%
+614659,ITA.1,2021,"Fri, Feb 25, February, 2022",Genoa,Internazionale,0 - 0,1,4,7,21,1,1,0,14,4,1,27.8%,72.2%
+614668,ITA.1,2021,"Sun, Feb 20, February, 2022",Venezia,Genoa,1 - 1,4,3,15,12,2,2,6,5,1,3,45.9%,54.1%
+614682,ITA.1,2021,"Sun, Feb 13, February, 2022",Genoa,Salernitana,1 - 1,5,4,15,12,3,2,5,4,3,4,50.1%,49.9%
+614704,ITA.1,2021,"Sat, Jan 22, January, 2022",Genoa,Udinese,0 - 0,3,0,10,2,2,4,10,4,0,3,51.1%,48.9%
+614725,ITA.1,2021,"Sun, Jan 9, January, 2022",Genoa,Spezia,0 - 1,2,9,15,17,3,3,7,4,8,2,53.4%,46.6%
+614728,ITA.1,2021,"Thu, Jan 6, January, 2022",Sassuolo,Genoa,1 - 1,7,1,28,4,3,0,7,4,0,6,74.5%,25.5%
+614747,ITA.1,2021,"Fri, Dec 17, December, 2021",Lazio,Genoa,3 - 1,5,2,11,4,0,3,5,2,1,2,55.2%,44.8%
+614764,ITA.1,2021,"Fri, Dec 10, December, 2021",Genoa,Sampdoria,1 - 3,2,5,12,14,2,2,8,3,3,1,53.2%,46.8%
+614768,ITA.1,2021,"Sun, Dec 5, December, 2021",Juventus,Genoa,2 - 0,12,0,27,0,3,1,5,1,0,10,70.3%,29.7%
+614789,ITA.1,2021,"Sun, Nov 28, November, 2021",Udinese,Genoa,0 - 0,3,2,17,8,3,4,8,1,2,3,42.7%,57.3%
+614825,ITA.1,2021,"Sun, Oct 31, October, 2021",Genoa,Venezia,0 - 0,4,2,19,6,1,3,12,4,2,4,62.6%,37.4%
+614829,ITA.1,2021,"Tue, Oct 26, October, 2021",Spezia,Genoa,1 - 1,3,2,13,9,2,4,3,3,1,3,47.1%,52.9%
+614838,ITA.1,2021,"Fri, Oct 22, October, 2021",Torino,Genoa,3 - 2,6,4,17,14,2,3,2,4,2,3,59.2%,40.8%
+614854,ITA.1,2021,"Sun, Oct 17, October, 2021",Genoa,Sassuolo,2 - 2,4,5,19,15,3,4,6,1,3,2,41.9%,58.1%
+614857,ITA.1,2021,"Sat, Oct 2, October, 2021",Salernitana,Genoa,1 - 0,4,3,10,18,2,2,9,8,3,3,49%,51%
+614870,ITA.1,2021,"Sat, Sep 25, September, 2021",Genoa,Hellas Verona,3 - 3,3,7,10,13,3,1,3,2,4,0,48.8%,51.2%
+614910,ITA.1,2021,"Sun, Aug 29, August, 2021",Genoa,Napoli,1 - 2,3,8,6,13,2,3,4,5,6,2,38.9%,61.1%
+614918,ITA.1,2021,"Sat, Aug 21, August, 2021",Internazionale,Genoa,4 - 0,8,4,16,10,1,2,8,2,4,4,60%,40%
+614549,ITA.1,2021,"Sat, May 21, May, 2022",Lazio,Hellas Verona,3 - 3,7,7,19,10,2,6,6,4,4,5,54.6%,45.4%
+614564,ITA.1,2021,"Sat, May 14, May, 2022",Hellas Verona,Torino,0 - 1,5,5,11,11,3,2,4,4,4,5,47%,53%
+614593,ITA.1,2021,"Sat, Apr 23, April, 2022",Hellas Verona,Sampdoria,1 - 1,1,3,12,4,1,3,4,5,2,0,57.7%,42.3%
+614608,ITA.1,2021,"Sat, Apr 9, April, 2022",Internazionale,Hellas Verona,2 - 0,6,3,18,9,2,0,10,2,3,4,47.5%,52.5%
+614642,ITA.1,2021,"Sun, Mar 13, March, 2022",Hellas Verona,Napoli,1 - 2,1,4,8,13,2,0,3,5,2,0,48.9%,51.1%
+614665,ITA.1,2021,"Sun, Feb 27, February, 2022",Hellas Verona,Venezia,3 - 1,11,4,19,9,0,1,5,5,2,8,56.7%,43.3%
+614684,ITA.1,2021,"Sun, Feb 13, February, 2022",Hellas Verona,Udinese,4 - 0,5,6,6,21,3,1,2,7,6,1,43.4%,56.6%
+614689,ITA.1,2021,"Sun, Feb 6, February, 2022",Juventus,Hellas Verona,2 - 0,8,1,11,13,1,1,6,5,1,6,46.7%,53.3%
+614709,ITA.1,2021,"Sun, Jan 16, January, 2022",Sassuolo,Hellas Verona,2 - 4,5,6,13,21,2,4,9,7,2,3,56.3%,43.7%
+614722,ITA.1,2021,"Sun, Jan 9, January, 2022",Hellas Verona,Salernitana,1 - 2,7,5,24,9,1,3,17,4,3,6,70.5%,29.5%
+614729,ITA.1,2021,"Thu, Jan 6, January, 2022",Spezia,Hellas Verona,1 - 2,3,5,9,22,3,2,6,7,3,2,40.4%,59.6%
+614748,ITA.1,2021,"Sun, Dec 19, December, 2021",Torino,Hellas Verona,1 - 0,1,2,8,8,1,2,5,3,2,1,66.9%,33.1%
+614769,ITA.1,2021,"Sun, Dec 5, December, 2021",Venezia,Hellas Verona,3 - 4,5,6,9,16,2,2,1,6,3,2,43.8%,56.2%
+614790,ITA.1,2021,"Sat, Nov 27, November, 2021",Sampdoria,Hellas Verona,3 - 1,5,3,15,14,4,1,4,5,3,2,41.2%,58.8%
+614810,ITA.1,2021,"Sun, Nov 7, November, 2021",Napoli,Hellas Verona,1 - 1,1,3,16,11,2,3,3,2,2,0,58.4%,41.6%
+614818,ITA.1,2021,"Sat, Oct 30, October, 2021",Hellas Verona,Juventus,2 - 1,5,4,12,15,4,3,4,1,3,3,45.8%,54.2%
+614830,ITA.1,2021,"Wed, Oct 27, October, 2021",Udinese,Hellas Verona,1 - 1,5,2,16,5,1,2,7,4,1,4,33.1%,66.9%
+614840,ITA.1,2021,"Sun, Oct 24, October, 2021",Hellas Verona,Lazio,4 - 1,7,4,16,9,2,2,3,4,3,3,48.5%,51.5%
+614863,ITA.1,2021,"Sun, Oct 3, October, 2021",Hellas Verona,Spezia,4 - 0,4,4,6,12,1,1,1,5,4,0,45.2%,54.8%
+614878,ITA.1,2021,"Wed, Sep 22, September, 2021",Salernitana,Hellas Verona,2 - 2,4,5,15,10,2,3,4,5,3,2,49.6%,50.4%
+614909,ITA.1,2021,"Fri, Aug 27, August, 2021",Hellas Verona,Internazionale,1 - 3,1,7,8,15,2,2,6,4,4,0,43.1%,56.9%
+614923,ITA.1,2021,"Sat, Aug 21, August, 2021",Hellas Verona,Sassuolo,2 - 3,4,7,15,18,1,2,7,4,4,2,38.9%,61.1%
+614554,ITA.1,2021,"Sun, May 22, May, 2022",Internazionale,Sampdoria,3 - 0,12,3,28,8,1,2,8,2,3,8,58.3%,41.7%
+614580,ITA.1,2021,"Sun, May 1, May, 2022",Udinese,Internazionale,1 - 2,3,5,7,12,2,1,5,11,3,3,47.9%,52.1%
+614600,ITA.1,2021,"Fri, Apr 15, April, 2022",Spezia,Internazionale,1 - 3,2,7,10,23,2,0,6,7,4,1,32.7%,67.3%
+614620,ITA.1,2021,"Sun, Apr 3, April, 2022",Juventus,Internazionale,0 - 1,5,1,22,5,4,4,8,1,0,5,54%,46%
+614640,ITA.1,2021,"Sun, Mar 13, March, 2022",Torino,Internazionale,1 - 1,4,7,13,14,1,5,3,4,6,3,44.2%,55.8%
+614651,ITA.1,2021,"Fri, Mar 4, March, 2022",Internazionale,Salernitana,5 - 0,12,3,23,11,2,1,10,3,3,7,60%,40%
+614673,ITA.1,2021,"Sun, Feb 20, February, 2022",Internazionale,Sassuolo,0 - 2,8,5,29,13,1,2,8,3,3,8,58.4%,41.6%
+614679,ITA.1,2021,"Sat, Feb 12, February, 2022",Napoli,Internazionale,1 - 1,4,2,13,8,1,1,4,2,1,3,47.9%,52.1%
+614705,ITA.1,2021,"Sat, Jan 22, January, 2022",Internazionale,Venezia,2 - 1,12,3,24,3,3,4,6,0,2,10,70.5%,29.5%
+614720,ITA.1,2021,"Sun, Jan 9, January, 2022",Internazionale,Lazio,2 - 1,6,2,17,5,1,4,5,3,1,3,60.5%,39.5%
+614745,ITA.1,2021,"Wed, Dec 22, December, 2021",Internazionale,Torino,1 - 0,3,3,15,12,1,0,7,4,3,2,53.6%,46.4%
+614749,ITA.1,2021,"Fri, Dec 17, December, 2021",Salernitana,Internazionale,0 - 5,2,8,10,23,1,2,3,11,3,2,33.9%,66.1%
+614783,ITA.1,2021,"Wed, Dec 1, December, 2021",Internazionale,Spezia,2 - 0,11,4,31,7,1,2,11,1,4,9,63.4%,36.6%
+614791,ITA.1,2021,"Sat, Nov 27, November, 2021",Venezia,Internazionale,0 - 2,1,12,6,27,2,0,3,9,9,1,44.2%,55.8%
+614800,ITA.1,2021,"Sun, Nov 21, November, 2021",Internazionale,Napoli,3 - 2,7,3,17,9,4,3,4,1,1,4,44.6%,55.4%
+614824,ITA.1,2021,"Sun, Oct 31, October, 2021",Internazionale,Udinese,2 - 0,6,5,15,9,0,2,6,5,5,3,67%,33%
+614839,ITA.1,2021,"Sun, Oct 24, October, 2021",Internazionale,Juventus,1 - 1,2,4,10,16,2,2,5,2,3,1,48.8%,51.2%
+614850,ITA.1,2021,"Sat, Oct 16, October, 2021",Lazio,Internazionale,3 - 1,8,4,19,12,3,6,7,3,3,5,52.1%,47.9%
+614858,ITA.1,2021,"Sat, Oct 2, October, 2021",Sassuolo,Internazionale,1 - 2,8,3,12,18,4,2,6,8,1,7,55.6%,44.4%
+614899,ITA.1,2021,"Sun, Sep 12, September, 2021",Sampdoria,Internazionale,2 - 2,3,3,14,8,4,4,4,4,1,0,51.9%,48.1%
+614560,ITA.1,2021,"Mon, May 16, May, 2022",Juventus,Lazio,2 - 2,2,7,4,18,3,3,0,9,6,0,36.7%,63.3%
+614585,ITA.1,2021,"Sun, May 1, May, 2022",Juventus,Venezia,2 - 1,4,3,17,9,3,3,8,4,2,2,49.7%,50.3%
+614589,ITA.1,2021,"Mon, Apr 25, April, 2022",Sassuolo,Juventus,1 - 2,7,5,22,10,2,2,6,4,4,6,63.5%,36.5%
+614631,ITA.1,2021,"Sun, Mar 20, March, 2022",Juventus,Salernitana,2 - 0,7,4,12,12,3,2,5,5,4,5,56.5%,43.5%
+614641,ITA.1,2021,"Sat, Mar 12, March, 2022",Sampdoria,Juventus,1 - 3,5,3,17,6,0,2,10,0,2,4,49.2%,50.8%
+614654,ITA.1,2021,"Sun, Mar 6, March, 2022",Juventus,Spezia,1 - 0,3,4,10,9,3,2,4,4,4,2,56.4%,43.6%
+614675,ITA.1,2021,"Fri, Feb 18, February, 2022",Juventus,Torino,1 - 1,3,3,12,10,1,2,7,9,2,2,45.9%,54.1%
+614715,ITA.1,2021,"Sat, Jan 15, January, 2022",Juventus,Udinese,2 - 0,4,3,14,16,1,2,7,7,3,2,66.8%,33.2%
+614731,ITA.1,2021,"Thu, Jan 6, January, 2022",Juventus,Napoli,1 - 1,5,4,22,16,2,1,5,3,3,4,44%,56%
+614760,ITA.1,2021,"Sat, Dec 11, December, 2021",Venezia,Juventus,1 - 1,4,6,13,20,4,2,3,11,5,3,38.8%,61.2%
+614778,ITA.1,2021,"Tue, Nov 30, November, 2021",Salernitana,Juventus,0 - 2,0,7,4,18,1,1,4,4,5,0,26.1%,73.9%
+614798,ITA.1,2021,"Sat, Nov 20, November, 2021",Lazio,Juventus,0 - 2,1,5,8,11,3,1,3,2,3,1,58%,42%
+614834,ITA.1,2021,"Wed, Oct 27, October, 2021",Juventus,Sassuolo,1 - 2,3,4,14,8,1,5,4,4,2,1,56.4%,43.6%
+614859,ITA.1,2021,"Sat, Oct 2, October, 2021",Torino,Juventus,0 - 1,2,3,13,10,3,1,4,6,2,2,47.4%,52.6%
+614874,ITA.1,2021,"Sun, Sep 26, September, 2021",Juventus,Sampdoria,3 - 2,6,3,16,5,4,3,4,2,1,3,50.5%,49.5%
+614880,ITA.1,2021,"Wed, Sep 22, September, 2021",Spezia,Juventus,2 - 3,5,9,10,26,2,1,5,15,6,2,39.8%,60.2%
+614900,ITA.1,2021,"Sat, Sep 11, September, 2021",Napoli,Juventus,2 - 1,6,4,25,8,2,1,13,1,3,5,67.2%,32.8%
+614919,ITA.1,2021,"Sun, Aug 22, August, 2021",Udinese,Juventus,2 - 2,6,3,12,10,1,3,3,3,1,4,43.5%,56.5%
+614574,ITA.1,2021,"Sat, May 7, May, 2022",Lazio,Sampdoria,2 - 0,10,2,16,9,1,1,6,0,2,8,61.5%,38.5%
+614581,ITA.1,2021,"Sat, Apr 30, April, 2022",Spezia,Lazio,3 - 4,3,9,9,22,3,1,4,5,6,0,29.3%,70.7%
+614604,ITA.1,2021,"Sat, Apr 16, April, 2022",Lazio,Torino,1 - 1,4,4,10,12,1,2,9,7,2,3,48.2%,51.8%
+614623,ITA.1,2021,"Sat, Apr 2, April, 2022",Lazio,Sassuolo,2 - 1,5,5,14,20,1,3,4,3,4,3,53.2%,46.8%
+614645,ITA.1,2021,"Mon, Mar 14, March, 2022",Lazio,Venezia,1 - 0,1,2,10,7,1,1,8,4,2,0,66.2%,33.8%
+614661,ITA.1,2021,"Sun, Feb 27, February, 2022",Lazio,Napoli,1 - 2,8,7,13,15,3,2,1,5,5,7,45.8%,54.2%
+614670,ITA.1,2021,"Sun, Feb 20, February, 2022",Udinese,Lazio,1 - 1,2,2,12,10,3,2,2,12,1,1,40.1%,59.9%
+614711,ITA.1,2021,"Sat, Jan 15, January, 2022",Salernitana,Lazio,0 - 3,1,8,6,15,2,3,3,7,5,1,26.5%,73.5%
+614740,ITA.1,2021,"Wed, Dec 22, December, 2021",Venezia,Lazio,1 - 3,2,4,11,7,3,3,4,4,1,1,47.1%,52.9%
+614761,ITA.1,2021,"Sun, Dec 12, December, 2021",Sassuolo,Lazio,2 - 1,6,2,17,6,1,2,6,0,1,4,59.5%,40.5%
+614771,ITA.1,2021,"Sun, Dec 5, December, 2021",Sampdoria,Lazio,1 - 3,5,5,18,6,4,1,7,0,2,4,48.2%,51.8%
+614784,ITA.1,2021,"Thu, Dec 2, December, 2021",Lazio,Udinese,4 - 4,5,5,13,12,1,3,5,4,1,1,62%,38%
+614792,ITA.1,2021,"Sun, Nov 28, November, 2021",Napoli,Lazio,4 - 0,8,2,18,6,2,4,1,3,2,4,61.3%,38.7%
+614813,ITA.1,2021,"Sun, Nov 7, November, 2021",Lazio,Salernitana,3 - 0,5,0,16,5,1,2,5,1,0,2,60.8%,39.2%
+614881,ITA.1,2021,"Thu, Sep 23, September, 2021",Torino,Lazio,1 - 1,5,2,16,6,3,3,6,5,1,4,45.5%,54.5%
+614913,ITA.1,2021,"Sat, Aug 28, August, 2021",Lazio,Spezia,6 - 1,10,2,18,5,0,2,4,2,1,4,61.4%,38.6%
+614552,ITA.1,2021,"Sun, May 22, May, 2022",Spezia,Napoli,0 - 3,4,4,16,10,1,2,4,2,1,4,31.8%,68.2%
+614572,ITA.1,2021,"Sat, May 7, May, 2022",Torino,Napoli,0 - 1,3,6,10,11,2,3,6,4,5,3,42.8%,57.2%
+614583,ITA.1,2021,"Sat, Apr 30, April, 2022",Napoli,Sassuolo,6 - 1,8,4,18,13,0,3,4,4,3,2,53.3%,46.7%
+614635,ITA.1,2021,"Sat, Mar 19, March, 2022",Napoli,Udinese,2 - 1,8,3,20,10,2,2,8,4,2,6,63.7%,36.3%
+614692,ITA.1,2021,"Sun, Feb 6, February, 2022",Venezia,Napoli,0 - 2,3,6,7,16,2,2,2,6,4,3,33.6%,66.4%
+614701,ITA.1,2021,"Sun, Jan 23, January, 2022",Napoli,Salernitana,4 - 1,14,1,26,1,0,2,10,0,0,10,81.8%,18.2%
+614723,ITA.1,2021,"Sun, Jan 9, January, 2022",Napoli,Sampdoria,1 - 0,5,1,22,11,0,2,13,0,1,4,68.8%,31.2%
+614744,ITA.1,2021,"Wed, Dec 22, December, 2021",Napoli,Spezia,0 - 1,7,0,26,8,2,3,10,5,0,6,65.1%,34.9%
+614780,ITA.1,2021,"Wed, Dec 1, December, 2021",Sassuolo,Napoli,2 - 2,7,4,9,9,4,2,5,4,2,5,50.3%,49.7%
+614821,ITA.1,2021,"Sun, Oct 31, October, 2021",Salernitana,Napoli,0 - 1,3,3,9,18,0,2,4,4,2,2,36.9%,63.1%
+614855,ITA.1,2021,"Sun, Oct 17, October, 2021",Napoli,Torino,1 - 0,3,3,10,11,2,4,3,5,3,2,50.8%,49.2%
+614882,ITA.1,2021,"Thu, Sep 23, September, 2021",Sampdoria,Napoli,0 - 4,5,9,13,17,2,1,5,5,5,5,47.5%,52.5%
+614891,ITA.1,2021,"Mon, Sep 20, September, 2021",Udinese,Napoli,0 - 4,1,8,9,18,2,1,2,5,4,1,37.5%,62.5%
+614925,ITA.1,2021,"Sun, Aug 22, August, 2021",Napoli,Venezia,2 - 0,4,4,13,8,1,7,2,2,4,2,56.4%,43.6%
+614594,ITA.1,2021,"Sat, Apr 23, April, 2022",Torino,Spezia,2 - 1,6,2,15,7,1,2,5,6,1,4,55.8%,44.2%
+614624,ITA.1,2021,"Sat, Apr 2, April, 2022",Salernitana,Torino,0 - 1,3,5,14,8,3,4,9,2,4,3,52.7%,47.3%
+614685,ITA.1,2021,"Sat, Feb 12, February, 2022",Torino,Venezia,1 - 2,2,2,14,5,2,3,8,4,0,1,67.2%,32.8%
+614695,ITA.1,2021,"Sun, Feb 6, February, 2022",Udinese,Torino,2 - 0,3,1,11,5,3,3,8,3,1,1,41.3%,58.7%
+614703,ITA.1,2021,"Sun, Jan 23, January, 2022",Torino,Sassuolo,1 - 1,6,1,21,6,3,3,4,3,0,5,50.3%,49.7%
+614714,ITA.1,2021,"Sat, Jan 15, January, 2022",Sampdoria,Torino,1 - 2,3,12,11,20,0,2,3,10,10,1,36.8%,63.2%
+614804,ITA.1,2021,"Mon, Nov 22, November, 2021",Torino,Udinese,2 - 1,4,7,14,18,1,3,4,7,6,1,51.7%,48.3%
+614815,ITA.1,2021,"Sat, Nov 6, November, 2021",Spezia,Torino,1 - 0,3,1,7,9,3,3,2,3,1,2,40.5%,59.5%
+614822,ITA.1,2021,"Sat, Oct 30, October, 2021",Torino,Sampdoria,3 - 0,6,1,16,5,2,4,4,5,1,2,64.4%,35.6%
+614875,ITA.1,2021,"Mon, Sep 27, September, 2021",Venezia,Torino,1 - 1,1,3,7,8,1,2,4,1,2,0,43.7%,56.3%
+614895,ITA.1,2021,"Fri, Sep 17, September, 2021",Sassuolo,Torino,0 - 1,2,6,10,18,0,4,6,3,3,2,52.6%,47.4%
+614902,ITA.1,2021,"Sun, Sep 12, September, 2021",Torino,Salernitana,4 - 0,7,2,15,8,0,2,7,4,2,3,59.8%,40.2%
+614555,ITA.1,2021,"Sun, May 22, May, 2022",Salernitana,Udinese,0 - 4,10,11,25,19,1,1,7,2,7,11,52.7%,47.3%
+614563,ITA.1,2021,"Sat, May 14, May, 2022",Udinese,Spezia,2 - 3,6,7,17,11,3,2,5,2,4,4,61.4%,38.6%
+614575,ITA.1,2021,"Sat, May 7, May, 2022",Sassuolo,Udinese,1 - 1,6,6,15,13,2,2,6,9,5,4,59.2%,40.8%
+614742,ITA.1,2021,"Wed, Apr 20, April, 2022",Udinese,Salernitana,0 - 1,3,3,12,9,3,5,9,3,2,3,54.2%,45.8%
+614615,ITA.1,2021,"Sun, Apr 10, April, 2022",Venezia,Udinese,1 - 2,4,5,9,16,7,2,7,11,3,3,53.4%,46.6%
+614652,ITA.1,2021,"Sat, Mar 5, March, 2022",Udinese,Sampdoria,2 - 1,5,4,19,8,5,2,11,4,3,3,42.4%,57.6%
+614814,ITA.1,2021,"Sun, Nov 7, November, 2021",Udinese,Sassuolo,3 - 2,2,4,13,10,1,3,1,5,2,0,36.6%,63.4%
+614864,ITA.1,2021,"Sun, Oct 3, October, 2021",Sampdoria,Udinese,3 - 3,3,7,12,18,4,5,6,8,4,1,54.4%,45.6%
+614904,ITA.1,2021,"Sun, Sep 12, September, 2021",Spezia,Udinese,0 - 1,6,4,19,9,1,2,4,5,3,5,56.1%,43.9%
+614915,ITA.1,2021,"Fri, Aug 27, August, 2021",Udinese,Venezia,3 - 0,10,3,21,11,2,3,7,2,3,7,44.4%,55.6%
+614735,ITA.1,2021,"Thu, May 5, May, 2022",Salernitana,Venezia,2 - 1,4,4,19,10,2,5,6,4,3,2,42.7%,57.3%
+614625,ITA.1,2021,"Sat, Apr 2, April, 2022",Spezia,Venezia,1 - 0,5,3,11,14,3,1,5,2,3,3,52.1%,47.9%
+614632,ITA.1,2021,"Sun, Mar 20, March, 2022",Venezia,Sampdoria,0 - 2,1,4,13,8,3,1,3,4,2,1,46.4%,53.6%
+614653,ITA.1,2021,"Sun, Mar 6, March, 2022",Venezia,Sassuolo,1 - 4,5,10,16,16,4,1,8,6,6,4,44.7%,55.3%
+614755,ITA.1,2021,"Sun, Dec 19, December, 2021",Sampdoria,Venezia,1 - 1,8,1,18,12,2,1,4,3,0,6,48.8%,51.2%
+614833,ITA.1,2021,"Tue, Oct 26, October, 2021",Venezia,Salernitana,1 - 2,4,7,8,21,3,3,4,5,5,3,45.5%,54.5%
+614845,ITA.1,2021,"Sat, Oct 23, October, 2021",Sassuolo,Venezia,3 - 1,7,3,14,8,1,2,5,4,1,5,63.3%,36.7%
+614894,ITA.1,2021,"Sun, Sep 19, September, 2021",Venezia,Spezia,1 - 2,3,3,14,12,4,1,3,10,1,2,44.5%,55.5%
+609151,FRA.1,2021,"Sat, May 21, May, 2022",Lens,AS Monaco,2 - 2,10,5,28,12,2,3,10,8,2,8,60.4%,39.6%
+609162,FRA.1,2021,"Sat, May 14, May, 2022",AS Monaco,Brest,4 - 2,9,5,25,10,2,1,10,5,3,4,56.6%,43.4%
+609171,FRA.1,2021,"Fri, May 6, May, 2022",Lille,AS Monaco,1 - 2,5,3,15,9,4,1,3,5,1,4,51.3%,48.7%
+609181,FRA.1,2021,"Sun, May 1, May, 2022",AS Monaco,Angers,2 - 0,7,5,15,11,2,2,8,5,5,6,42.8%,57.2%
+609191,FRA.1,2021,"Sat, Apr 23, April, 2022",Saint-Etienne,AS Monaco,1 - 4,4,6,8,13,2,3,1,1,3,3,57%,43%
+609207,FRA.1,2021,"Wed, Apr 20, April, 2022",AS Monaco,Nice,1 - 0,7,2,17,15,5,2,7,10,2,6,47.5%,52.5%
+609211,FRA.1,2021,"Fri, Apr 15, April, 2022",Stade Rennais,AS Monaco,2 - 3,4,4,13,12,1,3,6,0,1,2,63.7%,36.3%
+609230,FRA.1,2021,"Sun, Apr 10, April, 2022",AS Monaco,Troyes,2 - 1,3,1,10,8,2,2,10,1,0,1,56%,44%
+609231,FRA.1,2021,"Sun, Apr 3, April, 2022",Metz,AS Monaco,1 - 2,4,4,17,14,0,0,3,6,2,4,42.9%,57.1%
+609248,FRA.1,2021,"Sun, Mar 20, March, 2022",AS Monaco,Paris Saint-Germain,3 - 0,8,6,13,13,3,3,6,7,5,5,39.3%,60.7%
+609251,FRA.1,2021,"Sun, Mar 13, March, 2022",Strasbourg,AS Monaco,1 - 0,3,0,11,5,1,2,6,7,0,2,45%,55%
+609261,FRA.1,2021,"Sun, Mar 6, March, 2022",Marseille,AS Monaco,0 - 1,2,3,14,5,2,1,10,3,2,2,67%,33%
+609280,FRA.1,2021,"Sun, Feb 27, February, 2022",AS Monaco,Stade de Reims,1 - 2,5,7,18,12,1,2,10,3,6,4,69.1%,30.9%
+609281,FRA.1,2021,"Sun, Feb 20, February, 2022",Bordeaux,AS Monaco,1 - 1,3,4,11,13,3,2,2,7,4,2,47%,53%
+609293,FRA.1,2021,"Sun, Feb 13, February, 2022",AS Monaco,Lorient,0 - 0,4,1,15,5,3,2,12,2,1,5,65%,35%
+609306,FRA.1,2021,"Sat, Feb 5, February, 2022",AS Monaco,Lyon,2 - 0,6,5,10,19,1,2,3,4,4,4,36.2%,63.8%
+609311,FRA.1,2021,"Sun, Jan 23, January, 2022",Montpellier,AS Monaco,3 - 2,7,7,15,18,2,2,5,10,5,4,38.8%,61.2%
+609324,FRA.1,2021,"Sun, Jan 16, January, 2022",AS Monaco,Clermont Foot,4 - 0,10,1,20,6,0,1,6,1,1,6,53.1%,46.9%
+609331,FRA.1,2021,"Sun, Jan 9, January, 2022",Nantes,AS Monaco,0 - 0,4,1,8,9,1,2,5,2,1,4,31.4%,68.6%
+609348,FRA.1,2021,"Wed, Dec 22, December, 2021",AS Monaco,Stade Rennais,2 - 1,3,6,11,16,2,1,7,5,5,1,47.7%,52.3%
+609351,FRA.1,2021,"Sun, Dec 12, December, 2021",Paris Saint-Germain,AS Monaco,2 - 0,2,3,9,13,3,4,1,6,3,0,52.6%,47.4%
+609365,FRA.1,2021,"Sun, Dec 5, December, 2021",AS Monaco,Metz,4 - 0,5,0,8,6,1,2,5,4,0,1,65%,35%
+609371,FRA.1,2021,"Wed, Dec 1, December, 2021",Angers,AS Monaco,1 - 3,3,8,9,14,1,2,4,4,5,3,47.6%,52.4%
+609389,FRA.1,2021,"Sun, Nov 28, November, 2021",AS Monaco,Strasbourg,1 - 1,3,4,8,7,2,1,4,3,3,2,59%,41%
+609393,FRA.1,2021,"Fri, Nov 19, November, 2021",AS Monaco,Lille,2 - 2,8,8,17,15,1,5,6,5,6,5,53.4%,46.6%
+609401,FRA.1,2021,"Sun, Nov 7, November, 2021",Stade de Reims,AS Monaco,0 - 0,4,3,11,12,0,2,5,6,3,4,42%,58%
+609411,FRA.1,2021,"Sun, Oct 31, October, 2021",Brest,AS Monaco,2 - 0,3,2,7,5,1,4,2,5,2,1,33.2%,66.8%
+609427,FRA.1,2021,"Sun, Oct 24, October, 2021",AS Monaco,Montpellier,3 - 1,4,4,14,13,1,4,4,4,3,1,64.8%,35.2%
+609431,FRA.1,2021,"Sat, Oct 16, October, 2021",Lyon,AS Monaco,2 - 0,8,3,14,9,1,2,2,4,3,6,61.9%,38.1%
+609441,FRA.1,2021,"Sun, Oct 3, October, 2021",AS Monaco,Bordeaux,3 - 0,4,1,12,4,2,1,10,2,0,2,57.4%,42.6%
+609451,FRA.1,2021,"Sun, Sep 26, September, 2021",Clermont Foot,AS Monaco,1 - 3,4,3,12,6,2,4,5,1,0,3,53.5%,46.5%
+609467,FRA.1,2021,"Wed, Sep 22, September, 2021",AS Monaco,Saint-Etienne,3 - 1,6,2,14,8,1,1,6,3,2,3,66.2%,33.8%
+609471,FRA.1,2021,"Sun, Sep 19, September, 2021",Nice,AS Monaco,2 - 2,3,3,12,8,2,3,5,2,1,1,48.9%,51.1%
+609485,FRA.1,2021,"Sat, Sep 11, September, 2021",AS Monaco,Marseille,0 - 2,0,5,7,13,4,1,3,2,3,0,51.4%,48.6%
+609491,FRA.1,2021,"Sun, Aug 29, August, 2021",Troyes,AS Monaco,1 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+609503,FRA.1,2021,"Sat, Aug 21, August, 2021",AS Monaco,Lens,0 - 2,2,2,9,4,1,1,13,3,0,2,71.1%,28.9%
+609511,FRA.1,2021,"Fri, Aug 13, August, 2021",Lorient,AS Monaco,1 - 0,2,3,2,12,3,2,0,6,3,1,27.8%,72.2%
+609528,FRA.1,2021,"Fri, Aug 6, August, 2021",AS Monaco,Nantes,1 - 1,3,1,15,5,0,0,5,2,0,1,75.1%,24.9%
+609155,FRA.1,2021,"Sat, May 21, May, 2022",Angers,Montpellier,2 - 0,3,1,19,14,1,4,4,3,1,1,52.3%,47.7%
+609161,FRA.1,2021,"Sat, May 14, May, 2022",Metz,Angers,1 - 0,2,4,7,11,3,1,1,4,4,1,45.5%,54.5%
+609172,FRA.1,2021,"Sun, May 8, May, 2022",Angers,Bordeaux,4 - 1,8,3,13,7,1,5,6,3,2,4,41.5%,58.5%
+609192,FRA.1,2021,"Sun, Apr 24, April, 2022",Clermont Foot,Angers,2 - 2,6,5,12,9,0,4,4,4,3,4,52%,48%
+609208,FRA.1,2021,"Wed, Apr 20, April, 2022",Angers,Paris Saint-Germain,0 - 3,1,8,8,15,1,2,3,7,5,1,42.6%,57.4%
+609212,FRA.1,2021,"Sun, Apr 17, April, 2022",Nantes,Angers,1 - 1,7,3,24,10,4,1,14,5,2,6,60%,40%
+609221,FRA.1,2021,"Sun, Apr 10, April, 2022",Angers,Lille,1 - 1,3,3,13,17,3,2,6,7,2,3,35%,65%
+609232,FRA.1,2021,"Sun, Apr 3, April, 2022",Lyon,Angers,3 - 2,5,4,15,7,1,1,9,2,2,2,62.1%,37.9%
+609241,FRA.1,2021,"Sun, Mar 20, March, 2022",Angers,Brest,1 - 0,3,2,9,16,2,1,6,11,2,2,50.1%,49.9%
+609260,FRA.1,2021,"Sun, Mar 13, March, 2022",Angers,Stade de Reims,0 - 1,7,3,20,10,4,2,4,2,2,6,62.7%,37.3%
+609262,FRA.1,2021,"Sun, Mar 6, March, 2022",Stade Rennais,Angers,2 - 0,4,2,15,7,1,1,7,7,2,2,56.6%,43.4%
+609272,FRA.1,2021,"Sun, Feb 27, February, 2022",Angers,Lens,1 - 2,4,2,13,8,2,3,7,3,1,3,46.8%,53.2%
+609282,FRA.1,2021,"Sun, Feb 20, February, 2022",Nice,Angers,1 - 0,5,2,9,11,2,2,4,5,2,4,57.3%,42.7%
+609299,FRA.1,2021,"Sun, Feb 13, February, 2022",Angers,Strasbourg,0 - 1,2,2,9,8,3,1,5,3,1,2,64.2%,35.8%
+609301,FRA.1,2021,"Fri, Feb 4, February, 2022",Marseille,Angers,5 - 2,8,2,18,4,0,3,6,2,0,3,59.6%,40.4%
+609336,FRA.1,2021,"Wed, Jan 26, January, 2022",Angers,Saint-Etienne,0 - 1,4,5,7,8,1,1,3,1,5,3,53%,47%
+609320,FRA.1,2021,"Sun, Jan 23, January, 2022",Angers,Troyes,2 - 1,3,6,10,11,1,3,3,3,5,1,43.4%,56.6%
+609321,FRA.1,2021,"Sun, Jan 16, January, 2022",Lorient,Angers,0 - 0,4,0,14,5,3,1,6,1,0,4,54.3%,45.7%
+609341,FRA.1,2021,"Wed, Dec 22, December, 2021",Montpellier,Angers,4 - 1,6,6,9,13,1,1,1,6,5,2,46.6%,53.4%
+609353,FRA.1,2021,"Sun, Dec 12, December, 2021",Angers,Clermont Foot,0 - 1,3,3,13,16,1,2,8,3,2,3,63.6%,36.4%
+609361,FRA.1,2021,"Sun, Dec 5, December, 2021",Stade de Reims,Angers,1 - 2,2,4,5,13,2,3,7,4,2,1,42.9%,57.1%
+609381,FRA.1,2021,"Fri, Nov 26, November, 2021",Lens,Angers,2 - 2,4,5,9,12,2,0,5,5,3,2,49.3%,50.7%
+609394,FRA.1,2021,"Sun, Nov 21, November, 2021",Angers,Lorient,1 - 0,4,3,8,10,4,0,6,3,3,3,53.8%,46.2%
+609402,FRA.1,2021,"Sat, Nov 6, November, 2021",Lille,Angers,1 - 1,6,5,11,9,2,2,4,8,4,5,46.1%,53.9%
+609417,FRA.1,2021,"Sun, Oct 31, October, 2021",Angers,Nice,1 - 2,2,5,3,14,1,2,3,8,3,1,37.3%,62.7%
+609421,FRA.1,2021,"Fri, Oct 22, October, 2021",Saint-Etienne,Angers,2 - 2,6,2,17,4,0,3,6,1,0,4,63.9%,36.1%
+609432,FRA.1,2021,"Fri, Oct 15, October, 2021",Paris Saint-Germain,Angers,2 - 1,2,2,13,7,1,2,6,5,1,1,72.9%,27.1%
+609446,FRA.1,2021,"Sun, Oct 3, October, 2021",Angers,Metz,3 - 2,5,2,18,2,1,3,12,2,0,2,57.9%,42.1%
+609452,FRA.1,2021,"Sun, Sep 26, September, 2021",Troyes,Angers,1 - 1,3,6,6,17,2,2,2,9,5,2,37%,63%
+609464,FRA.1,2021,"Wed, Sep 22, September, 2021",Angers,Marseille,0 - 0,1,1,9,6,1,3,4,2,1,1,40.5%,59.5%
+609479,FRA.1,2021,"Sun, Sep 19, September, 2021",Angers,Nantes,1 - 4,5,4,10,8,2,2,10,5,0,4,66%,34%
+609481,FRA.1,2021,"Sun, Sep 12, September, 2021",Brest,Angers,1 - 1,6,2,12,8,2,2,5,3,1,5,48.7%,51.3%
+609500,FRA.1,2021,"Sun, Aug 29, August, 2021",Angers,Stade Rennais,2 - 0,4,2,16,7,1,0,3,1,2,2,52.7%,47.3%
+609501,FRA.1,2021,"Sun, Aug 22, August, 2021",Bordeaux,Angers,1 - 1,5,3,14,6,2,0,3,3,2,5,53.2%,46.8%
+609513,FRA.1,2021,"Sun, Aug 15, August, 2021",Angers,Lyon,3 - 0,6,3,13,8,1,3,6,4,3,4,42.3%,57.7%
+609521,FRA.1,2021,"Sun, Aug 8, August, 2021",Strasbourg,Angers,0 - 2,1,2,7,9,2,3,5,4,0,1,57.1%,42.9%
+609152,FRA.1,2021,"Sat, May 21, May, 2022",Brest,Bordeaux,2 - 4,7,7,11,15,1,0,10,1,3,5,47.8%,52.2%
+609179,FRA.1,2021,"Sat, May 7, May, 2022",Brest,Strasbourg,0 - 1,2,5,7,14,1,2,5,5,4,2,45.5%,54.5%
+609182,FRA.1,2021,"Sun, May 1, May, 2022",Brest,Clermont Foot,2 - 0,4,7,8,16,2,2,5,13,7,2,41.7%,58.3%
+609194,FRA.1,2021,"Sun, Apr 24, April, 2022",Metz,Brest,0 - 1,0,3,10,16,4,0,4,7,2,0,58.1%,41.9%
+609203,FRA.1,2021,"Wed, Apr 20, April, 2022",Brest,Lyon,2 - 1,3,5,9,18,2,2,2,2,4,1,33.9%,66.1%
+609214,FRA.1,2021,"Sat, Apr 16, April, 2022",Saint-Etienne,Brest,2 - 1,4,3,11,7,0,2,7,3,2,2,38.4%,61.6%
+609225,FRA.1,2021,"Sun, Apr 10, April, 2022",Brest,Nantes,1 - 1,6,4,12,11,1,3,4,5,3,5,52.4%,47.6%
+609234,FRA.1,2021,"Sun, Apr 3, April, 2022",Montpellier,Brest,1 - 2,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+609255,FRA.1,2021,"Sun, Mar 13, March, 2022",Brest,Marseille,1 - 4,2,7,8,13,1,4,0,3,3,1,47.4%,52.6%
+609263,FRA.1,2021,"Sat, Mar 5, March, 2022",Lens,Brest,0 - 1,6,3,20,5,1,1,4,0,2,5,63.4%,36.6%
+609274,FRA.1,2021,"Sun, Feb 27, February, 2022",Brest,Lorient,0 - 1,0,8,4,17,2,4,4,6,7,0,45.1%,54.9%
+609283,FRA.1,2021,"Sun, Feb 20, February, 2022",Stade de Reims,Brest,1 - 1,2,4,8,15,1,2,1,6,2,1,43.7%,56.3%
+609300,FRA.1,2021,"Sun, Feb 13, February, 2022",Brest,Troyes,5 - 1,5,2,12,5,1,1,1,5,1,0,58.2%,41.8%
+609303,FRA.1,2021,"Sun, Feb 6, February, 2022",Stade Rennais,Brest,2 - 0,8,1,19,5,3,1,6,1,1,6,60.8%,39.2%
+609312,FRA.1,2021,"Sat, Jan 22, January, 2022",Brest,Lille,2 - 0,3,5,9,17,2,3,5,10,5,2,37.7%,62.3%
+609323,FRA.1,2021,"Sat, Jan 15, January, 2022",Paris Saint-Germain,Brest,2 - 0,9,3,20,6,5,3,9,6,3,7,68.5%,31.5%
+609334,FRA.1,2021,"Sun, Jan 9, January, 2022",Brest,Nice,0 - 3,10,4,26,9,0,3,14,3,1,9,62.5%,37.5%
+609342,FRA.1,2021,"Wed, Dec 22, December, 2021",Troyes,Brest,1 - 1,4,2,15,8,1,2,9,0,1,3,66.2%,33.8%
+609358,FRA.1,2021,"Sat, Dec 11, December, 2021",Brest,Montpellier,0 - 4,6,4,17,9,2,1,8,2,0,6,43.6%,56.4%
+609362,FRA.1,2021,"Sat, Dec 4, December, 2021",Marseille,Brest,1 - 2,4,4,16,9,1,2,5,0,2,3,74.2%,25.8%
+609379,FRA.1,2021,"Wed, Dec 1, December, 2021",Brest,Saint-Etienne,1 - 0,3,3,8,13,2,3,1,3,3,2,35.3%,64.7%
+609382,FRA.1,2021,"Sun, Nov 28, November, 2021",Bordeaux,Brest,1 - 2,4,4,16,14,3,1,5,2,2,3,65%,35%
+609392,FRA.1,2021,"Sun, Nov 21, November, 2021",Brest,Lens,4 - 0,5,5,13,14,1,2,6,5,4,1,36.2%,63.8%
+609403,FRA.1,2021,"Sun, Nov 7, November, 2021",Lorient,Brest,1 - 2,3,5,9,16,1,1,3,6,3,2,38.8%,61.2%
+609423,FRA.1,2021,"Sat, Oct 23, October, 2021",Lille,Brest,1 - 1,3,5,13,14,1,2,5,4,4,2,63.4%,36.6%
+609440,FRA.1,2021,"Sun, Oct 17, October, 2021",Brest,Stade de Reims,1 - 1,4,2,9,13,3,4,7,7,1,3,55.4%,44.6%
+609442,FRA.1,2021,"Sat, Oct 2, October, 2021",Nice,Brest,2 - 1,9,2,20,6,1,1,6,2,1,7,70.1%,29.9%
+609456,FRA.1,2021,"Sun, Sep 26, September, 2021",Brest,Metz,1 - 2,2,4,11,6,3,2,4,3,2,1,66.1%,33.9%
+609462,FRA.1,2021,"Wed, Sep 22, September, 2021",Nantes,Brest,3 - 1,6,2,14,10,1,2,4,4,1,3,41.6%,58.4%
+609473,FRA.1,2021,"Sun, Sep 19, September, 2021",Clermont Foot,Brest,1 - 1,4,1,7,5,1,1,3,5,0,3,57.7%,42.3%
+609493,FRA.1,2021,"Sun, Aug 29, August, 2021",Strasbourg,Brest,3 - 1,5,5,11,11,1,1,1,9,4,3,48.9%,51.1%
+609508,FRA.1,2021,"Fri, Aug 20, August, 2021",Brest,Paris Saint-Germain,2 - 4,3,8,11,16,1,2,3,9,4,1,25.9%,74.1%
+609518,FRA.1,2021,"Sun, Aug 15, August, 2021",Brest,Stade Rennais,1 - 1,5,2,10,6,2,3,6,11,1,4,40.5%,59.5%
+609522,FRA.1,2021,"Sat, Aug 7, August, 2021",Lyon,Brest,1 - 1,4,8,17,13,1,1,9,4,6,3,69%,31%
+609164,FRA.1,2021,"Sat, May 14, May, 2022",Troyes,Lens,1 - 3,2,9,6,15,1,2,5,7,6,1,48%,52%
+609173,FRA.1,2021,"Sun, May 8, May, 2022",Stade de Reims,Lens,1 - 2,2,5,7,21,1,2,3,10,3,1,38.9%,61.1%
+609186,FRA.1,2021,"Sat, Apr 30, April, 2022",Lens,Nantes,2 - 2,5,5,20,13,0,5,6,5,3,3,53.1%,46.9%
+609195,FRA.1,2021,"Sat, Apr 23, April, 2022",Paris Saint-Germain,Lens,1 - 1,7,3,18,8,4,0,4,3,2,5,65.8%,34.2%
+609205,FRA.1,2021,"Wed, Apr 20, April, 2022",Lens,Montpellier,2 - 0,5,4,12,10,1,0,5,3,4,3,49.2%,50.8%
+609216,FRA.1,2021,"Sat, Apr 16, April, 2022",Lille,Lens,1 - 2,5,7,17,11,3,2,13,7,5,4,55.9%,44.1%
+609226,FRA.1,2021,"Sun, Apr 10, April, 2022",Lens,Nice,3 - 0,3,6,6,16,2,2,1,7,6,0,42.6%,57.4%
+609235,FRA.1,2021,"Sun, Apr 3, April, 2022",Strasbourg,Lens,1 - 0,3,2,13,13,3,1,2,6,2,2,49%,51%
+609242,FRA.1,2021,"Sat, Mar 19, March, 2022",Lens,Clermont Foot,3 - 1,7,3,20,10,1,1,7,2,2,4,60.3%,39.7%
+609253,FRA.1,2021,"Sun, Mar 13, March, 2022",Metz,Lens,0 - 0,3,0,6,11,5,2,5,4,0,3,48.7%,51.3%
+609285,FRA.1,2021,"Sat, Feb 19, February, 2022",Lens,Lyon,1 - 1,6,2,13,10,0,2,4,4,1,5,37.4%,62.6%
+609291,FRA.1,2021,"Sun, Feb 13, February, 2022",Lens,Bordeaux,3 - 2,7,5,9,10,3,2,6,2,2,4,43.3%,56.7%
+609305,FRA.1,2021,"Sun, Feb 6, February, 2022",Lorient,Lens,2 - 0,3,0,8,8,0,3,1,4,0,1,35.5%,64.5%
+609314,FRA.1,2021,"Sat, Jan 22, January, 2022",Lens,Marseille,0 - 2,3,7,9,10,3,2,8,5,5,3,47.2%,52.8%
+609325,FRA.1,2021,"Sat, Jan 15, January, 2022",Saint-Etienne,Lens,1 - 2,4,4,12,15,1,1,6,6,2,3,40%,60%
+609337,FRA.1,2021,"Sat, Jan 8, January, 2022",Lens,Stade Rennais,1 - 0,4,0,11,5,1,1,12,1,0,3,58.2%,41.8%
+609343,FRA.1,2021,"Wed, Dec 22, December, 2021",Nice,Lens,2 - 1,3,4,9,8,0,2,5,4,2,1,54.6%,45.4%
+609354,FRA.1,2021,"Fri, Dec 10, December, 2021",Nantes,Lens,3 - 2,5,2,15,4,3,3,8,2,0,2,40.4%,59.6%
+609367,FRA.1,2021,"Sat, Dec 4, December, 2021",Lens,Paris Saint-Germain,1 - 1,7,6,18,13,2,2,8,5,5,6,35.6%,64.4%
+609373,FRA.1,2021,"Wed, Dec 1, December, 2021",Clermont Foot,Lens,2 - 2,7,2,19,9,4,5,5,3,1,5,52.8%,47.2%
+609410,FRA.1,2021,"Fri, Nov 5, November, 2021",Lens,Troyes,4 - 0,12,3,23,11,1,1,4,2,3,8,59.8%,40.2%
+609412,FRA.1,2021,"Sat, Oct 30, October, 2021",Lyon,Lens,2 - 1,4,10,13,18,1,2,3,5,7,2,54.6%,45.4%
+609426,FRA.1,2021,"Sun, Oct 24, October, 2021",Lens,Metz,4 - 1,5,4,12,9,2,3,5,6,3,1,55.6%,44.4%
+609433,FRA.1,2021,"Sun, Oct 17, October, 2021",Montpellier,Lens,1 - 0,6,5,15,18,2,4,3,2,5,5,49.6%,50.4%
+609448,FRA.1,2021,"Fri, Oct 1, October, 2021",Lens,Stade de Reims,2 - 0,7,0,13,3,3,1,5,3,0,5,61.4%,38.6%
+609453,FRA.1,2021,"Sun, Sep 26, September, 2021",Marseille,Lens,2 - 3,4,5,13,13,2,1,5,7,2,2,60.1%,39.9%
+609469,FRA.1,2021,"Wed, Sep 22, September, 2021",Lens,Strasbourg,0 - 1,4,1,17,6,2,3,7,3,0,4,59.7%,40.3%
+609474,FRA.1,2021,"Sat, Sep 18, September, 2021",Lens,Lille,1 - 0,4,2,13,6,2,2,4,3,2,3,46.9%,53.1%
+609483,FRA.1,2021,"Sun, Sep 12, September, 2021",Bordeaux,Lens,2 - 3,3,5,10,13,3,2,2,7,2,1,55%,45%
+609494,FRA.1,2021,"Sun, Aug 29, August, 2021",Lens,Lorient,2 - 2,9,7,19,14,2,4,8,4,5,7,54.4%,45.6%
+609517,FRA.1,2021,"Sun, Aug 15, August, 2021",Lens,Saint-Etienne,2 - 2,7,7,22,12,1,6,7,2,4,5,57.9%,42.1%
+609524,FRA.1,2021,"Sun, Aug 8, August, 2021",Stade Rennais,Lens,1 - 1,2,6,10,11,0,2,3,9,5,1,59.8%,40.2%
+609158,FRA.1,2021,"Sat, May 21, May, 2022",Lille,Stade Rennais,2 - 2,4,3,13,13,2,2,7,4,1,2,49.3%,50.7%
+609165,FRA.1,2021,"Sat, May 14, May, 2022",Nice,Lille,1 - 3,6,5,16,9,2,3,10,3,2,5,58.9%,41.1%
+609183,FRA.1,2021,"Sun, May 1, May, 2022",Troyes,Lille,3 - 0,5,1,9,9,0,3,1,4,1,2,38.1%,61.9%
+609199,FRA.1,2021,"Sun, Apr 24, April, 2022",Lille,Strasbourg,1 - 0,3,3,11,11,2,3,4,6,3,2,46%,54%
+609202,FRA.1,2021,"Wed, Apr 20, April, 2022",Stade de Reims,Lille,2 - 1,4,5,10,20,1,1,6,2,4,3,40.7%,59.3%
+609233,FRA.1,2021,"Sat, Apr 2, April, 2022",Lille,Bordeaux,0 - 0,6,0,22,2,2,2,7,2,0,6,65.8%,34.2%
+609243,FRA.1,2021,"Sat, Mar 19, March, 2022",Nantes,Lille,0 - 1,3,4,11,12,3,4,7,7,3,3,51.9%,48.1%
+609258,FRA.1,2021,"Fri, Mar 11, March, 2022",Lille,Saint-Etienne,0 - 0,2,3,10,11,1,1,2,3,3,2,50.6%,49.4%
+609264,FRA.1,2021,"Sun, Mar 6, March, 2022",Lille,Clermont Foot,4 - 0,8,1,15,9,1,1,3,2,1,4,48.4%,51.6%
+609273,FRA.1,2021,"Sun, Feb 27, February, 2022",Lyon,Lille,0 - 1,8,2,21,6,3,2,7,3,1,8,63.7%,36.3%
+609286,FRA.1,2021,"Fri, Feb 18, February, 2022",Lille,Metz,0 - 0,1,0,13,7,2,4,10,1,0,1,63.6%,36.4%
+609292,FRA.1,2021,"Sat, Feb 12, February, 2022",Montpellier,Lille,0 - 1,5,7,16,16,3,4,6,4,6,5,56.3%,43.7%
+609310,FRA.1,2021,"Sun, Feb 6, February, 2022",Lille,Paris Saint-Germain,1 - 5,5,7,10,18,2,1,4,3,2,4,40.8%,59.2%
+609332,FRA.1,2021,"Wed, Jan 19, January, 2022",Lille,Lorient,3 - 1,5,5,13,18,0,0,4,2,4,3,55.2%,44.8%
+609326,FRA.1,2021,"Sun, Jan 16, January, 2022",Marseille,Lille,1 - 1,6,4,22,5,1,3,15,2,3,5,77.6%,22.4%
+609344,FRA.1,2021,"Wed, Dec 22, December, 2021",Bordeaux,Lille,2 - 3,3,3,12,13,1,3,5,6,0,1,41.3%,58.7%
+609356,FRA.1,2021,"Sun, Dec 12, December, 2021",Lille,Lyon,0 - 0,2,2,14,13,2,6,4,3,2,2,50.5%,49.5%
+609370,FRA.1,2021,"Sat, Dec 4, December, 2021",Lille,Troyes,2 - 1,4,3,13,7,3,4,8,6,2,3,44.9%,55.1%
+609374,FRA.1,2021,"Wed, Dec 1, December, 2021",Stade Rennais,Lille,1 - 2,2,2,10,6,2,1,3,1,0,1,65.1%,34.9%
+609386,FRA.1,2021,"Sat, Nov 27, November, 2021",Lille,Nantes,1 - 1,3,3,10,7,1,2,12,1,2,2,59.2%,40.8%
+609413,FRA.1,2021,"Fri, Oct 29, October, 2021",Paris Saint-Germain,Lille,2 - 1,6,3,17,11,1,5,4,5,2,4,59.9%,40.1%
+609434,FRA.1,2021,"Sat, Oct 16, October, 2021",Clermont Foot,Lille,1 - 0,3,2,9,9,1,3,6,10,2,2,43%,57%
+609445,FRA.1,2021,"Sun, Oct 3, October, 2021",Lille,Marseille,2 - 0,5,3,12,10,2,1,3,5,3,4,36.1%,63.9%
+609454,FRA.1,2021,"Sat, Sep 25, September, 2021",Strasbourg,Lille,1 - 2,3,7,10,16,4,4,8,8,5,2,57.5%,42.5%
+609468,FRA.1,2021,"Wed, Sep 22, September, 2021",Lille,Stade de Reims,2 - 1,4,5,7,11,2,1,4,4,4,2,53.1%,46.9%
+609484,FRA.1,2021,"Fri, Sep 10, September, 2021",Lorient,Lille,2 - 1,7,3,14,9,2,2,2,5,2,5,43.6%,56.4%
+609497,FRA.1,2021,"Sun, Aug 29, August, 2021",Lille,Montpellier,2 - 1,4,2,15,6,3,5,3,4,1,2,44.5%,55.5%
+609504,FRA.1,2021,"Sat, Aug 21, August, 2021",Saint-Etienne,Lille,1 - 1,2,6,10,8,1,3,5,3,5,1,47.6%,52.4%
+609516,FRA.1,2021,"Sat, Aug 14, August, 2021",Lille,Nice,0 - 4,2,7,11,11,3,1,8,7,3,2,62.1%,37.9%
+609525,FRA.1,2021,"Sun, Aug 8, August, 2021",Metz,Lille,3 - 3,5,6,12,17,1,2,4,5,4,2,38.4%,61.6%
+609153,FRA.1,2021,"Sat, May 21, May, 2022",Clermont Foot,Lyon,1 - 2,3,5,18,21,2,2,10,4,3,2,45.2%,54.8%
+609168,FRA.1,2021,"Sat, May 14, May, 2022",Lyon,Nantes,3 - 2,6,6,17,17,1,0,5,6,5,3,61.8%,38.2%
+609174,FRA.1,2021,"Sun, May 8, May, 2022",Metz,Lyon,3 - 2,8,5,15,17,3,2,3,7,3,4,35.9%,64.1%
+609184,FRA.1,2021,"Sun, May 1, May, 2022",Marseille,Lyon,0 - 3,2,5,9,12,2,1,3,6,2,2,62.7%,37.3%
+609198,FRA.1,2021,"Sat, Apr 23, April, 2022",Lyon,Montpellier,5 - 2,13,7,27,11,2,2,8,2,5,8,51.8%,48.2%
+609213,FRA.1,2021,"Sun, Apr 17, April, 2022",Lyon,Bordeaux,6 - 1,9,5,15,17,0,0,3,5,4,3,60.4%,39.6%
+609222,FRA.1,2021,"Sun, Apr 10, April, 2022",Strasbourg,Lyon,1 - 1,4,3,15,13,3,1,5,3,2,3,41.5%,58.5%
+609244,FRA.1,2021,"Sun, Mar 20, March, 2022",Stade de Reims,Lyon,0 - 0,2,2,5,10,0,3,7,3,2,2,35.6%,64.4%
+609259,FRA.1,2021,"Sun, Mar 13, March, 2022",Lyon,Stade Rennais,2 - 4,2,7,11,9,2,3,8,2,3,1,61.9%,38.1%
+609265,FRA.1,2021,"Fri, Mar 4, March, 2022",Lorient,Lyon,1 - 4,6,7,15,15,1,0,8,3,3,5,37.3%,62.7%
+609295,FRA.1,2021,"Sat, Feb 12, February, 2022",Lyon,Nice,2 - 0,8,1,12,1,0,1,4,1,1,5,60.2%,39.8%
+609395,FRA.1,2021,"Tue, Feb 1, February, 2022",Lyon,Marseille,2 - 1,4,1,12,9,0,0,4,6,0,2,54.5%,45.5%
+609316,FRA.1,2021,"Fri, Jan 21, January, 2022",Lyon,Saint-Etienne,1 - 0,4,1,11,4,1,4,2,2,1,3,58.9%,41.1%
+609327,FRA.1,2021,"Sun, Jan 16, January, 2022",Troyes,Lyon,0 - 1,2,8,6,19,2,1,4,7,7,1,37.8%,62.2%
+609335,FRA.1,2021,"Sun, Jan 9, January, 2022",Lyon,Paris Saint-Germain,1 - 1,4,3,11,15,2,2,2,7,2,3,31.6%,68.4%
+609345,FRA.1,2021,"Wed, Dec 22, December, 2021",Lyon,Metz,1 - 1,6,2,19,6,2,3,13,2,1,4,76%,24%
+609364,FRA.1,2021,"Sun, Dec 5, December, 2021",Bordeaux,Lyon,2 - 2,5,5,12,19,0,0,3,8,4,4,29.5%,70.5%
+609380,FRA.1,2021,"Wed, Dec 1, December, 2021",Lyon,Stade de Reims,1 - 2,6,4,14,8,3,2,3,4,2,5,62.8%,37.2%
+609384,FRA.1,2021,"Sun, Nov 28, November, 2021",Montpellier,Lyon,0 - 1,6,3,15,11,1,4,8,5,2,6,44.4%,55.6%
+609405,FRA.1,2021,"Sun, Nov 7, November, 2021",Stade Rennais,Lyon,4 - 1,12,4,25,6,2,2,7,2,3,6,48.2%,51.8%
+609425,FRA.1,2021,"Sun, Oct 24, October, 2021",Nice,Lyon,3 - 2,7,8,17,13,1,0,3,2,6,4,42.4%,57.6%
+609444,FRA.1,2021,"Sun, Oct 3, October, 2021",Saint-Etienne,Lyon,1 - 1,6,5,18,15,2,3,6,4,4,5,44.2%,55.8%
+609455,FRA.1,2021,"Sat, Sep 25, September, 2021",Lyon,Lorient,1 - 1,2,5,12,12,1,2,9,3,4,1,53%,47%
+609470,FRA.1,2021,"Wed, Sep 22, September, 2021",Lyon,Troyes,3 - 1,8,7,15,12,1,3,7,3,5,5,68.6%,31.4%
+609476,FRA.1,2021,"Sun, Sep 19, September, 2021",Paris Saint-Germain,Lyon,2 - 1,5,5,14,12,3,1,10,4,4,3,54.4%,45.6%
+609489,FRA.1,2021,"Sun, Sep 12, September, 2021",Lyon,Strasbourg,3 - 1,7,4,14,12,2,1,4,6,3,4,58.7%,41.3%
+609495,FRA.1,2021,"Fri, Aug 27, August, 2021",Nantes,Lyon,0 - 1,5,5,18,12,2,0,6,6,4,5,35.8%,64.2%
+609502,FRA.1,2021,"Sun, Aug 22, August, 2021",Lyon,Clermont Foot,3 - 3,9,5,21,17,2,2,5,8,3,6,54.8%,45.2%
+609159,FRA.1,2021,"Sat, May 21, May, 2022",Marseille,Strasbourg,4 - 0,11,4,17,10,2,1,7,3,4,7,60.6%,39.4%
+609167,FRA.1,2021,"Sat, May 14, May, 2022",Stade Rennais,Marseille,2 - 0,4,0,12,8,1,2,6,1,0,2,40.1%,59.9%
+609175,FRA.1,2021,"Sun, May 8, May, 2022",Lorient,Marseille,0 - 3,0,6,7,9,1,1,4,8,3,0,31.1%,68.9%
+609197,FRA.1,2021,"Sun, Apr 24, April, 2022",Stade de Reims,Marseille,0 - 1,3,3,10,14,1,1,3,4,2,2,29.3%,70.7%
+609206,FRA.1,2021,"Wed, Apr 20, April, 2022",Marseille,Nantes,3 - 2,5,3,19,4,2,3,7,3,1,2,76.5%,23.5%
+609218,FRA.1,2021,"Sun, Apr 17, April, 2022",Paris Saint-Germain,Marseille,2 - 1,3,1,7,3,6,1,3,4,0,1,42%,58%
+609224,FRA.1,2021,"Sun, Apr 10, April, 2022",Marseille,Montpellier,2 - 0,5,2,11,6,0,2,0,8,2,3,61.3%,38.7%
+609237,FRA.1,2021,"Sun, Apr 3, April, 2022",Saint-Etienne,Marseille,2 - 4,2,9,5,15,2,1,2,9,6,0,29.9%,70.1%
+609247,FRA.1,2021,"Sun, Mar 20, March, 2022",Marseille,Nice,2 - 1,6,3,13,9,2,2,3,2,2,4,56.7%,43.3%
+609275,FRA.1,2021,"Sun, Feb 27, February, 2022",Troyes,Marseille,1 - 1,3,3,9,8,5,3,4,8,2,2,41.9%,58.1%
+609284,FRA.1,2021,"Sun, Feb 20, February, 2022",Marseille,Clermont Foot,0 - 2,4,3,18,4,2,2,8,3,1,4,64.7%,35.3%
+609294,FRA.1,2021,"Sun, Feb 13, February, 2022",Metz,Marseille,1 - 2,4,5,11,13,2,2,3,8,3,3,45.3%,54.7%
+609333,FRA.1,2021,"Fri, Jan 7, January, 2022",Bordeaux,Marseille,0 - 1,2,6,6,18,1,1,3,9,5,2,34.4%,65.6%
+609349,FRA.1,2021,"Wed, Dec 22, December, 2021",Marseille,Stade de Reims,1 - 1,6,2,14,7,4,3,7,4,1,5,72.9%,27.1%
+609357,FRA.1,2021,"Sun, Dec 12, December, 2021",Strasbourg,Marseille,0 - 2,3,3,11,8,2,1,8,3,1,3,49.4%,50.6%
+609376,FRA.1,2021,"Wed, Dec 1, December, 2021",Nantes,Marseille,0 - 1,1,5,3,15,1,2,4,7,4,1,29.4%,70.6%
+609390,FRA.1,2021,"Sun, Nov 28, November, 2021",Marseille,Troyes,1 - 0,4,2,14,5,1,4,7,3,2,3,55.6%,44.4%
+609406,FRA.1,2021,"Sun, Nov 7, November, 2021",Marseille,Metz,0 - 0,4,4,15,13,1,3,9,7,4,4,76.4%,23.6%
+609415,FRA.1,2021,"Sun, Oct 31, October, 2021",Clermont Foot,Marseille,0 - 1,1,4,12,9,1,4,4,2,3,1,41.3%,58.7%
+609506,FRA.1,2021,"Wed, Oct 27, October, 2021",Nice,Marseille,1 - 1,3,1,11,7,6,4,6,5,0,3,44.6%,55.4%
+609428,FRA.1,2021,"Sun, Oct 24, October, 2021",Marseille,Paris Saint-Germain,0 - 0,1,4,15,10,1,2,4,5,4,1,48.5%,51.5%
+609435,FRA.1,2021,"Sun, Oct 17, October, 2021",Marseille,Lorient,4 - 1,5,7,16,15,0,1,6,4,6,2,63.9%,36.1%
+609480,FRA.1,2021,"Sun, Sep 19, September, 2021",Marseille,Stade Rennais,2 - 0,6,2,17,13,0,2,6,7,2,4,64.7%,35.3%
+609499,FRA.1,2021,"Sat, Aug 28, August, 2021",Marseille,Saint-Etienne,3 - 1,5,7,19,11,1,3,5,4,6,2,64.3%,35.7%
+609512,FRA.1,2021,"Sun, Aug 15, August, 2021",Marseille,Bordeaux,2 - 2,2,2,10,8,2,2,3,4,0,0,67.5%,32.5%
+609527,FRA.1,2021,"Sun, Aug 8, August, 2021",Montpellier,Marseille,2 - 3,1,7,8,21,0,1,6,11,4,0,40.6%,59.4%
+609169,FRA.1,2021,"Sat, May 14, May, 2022",Montpellier,Paris Saint-Germain,0 - 4,3,9,10,15,2,4,0,2,5,3,29.8%,70.2%
+609176,FRA.1,2021,"Sun, May 8, May, 2022",Clermont Foot,Montpellier,2 - 1,4,2,12,11,2,4,5,3,1,2,49.2%,50.8%
+609185,FRA.1,2021,"Sun, May 1, May, 2022",Montpellier,Metz,2 - 2,6,6,18,17,2,3,8,1,4,4,51.1%,48.9%
+609219,FRA.1,2021,"Sun, Apr 17, April, 2022",Montpellier,Stade de Reims,0 - 0,3,9,14,15,0,3,9,6,9,3,60.4%,39.6%
+609246,FRA.1,2021,"Sun, Mar 20, March, 2022",Bordeaux,Montpellier,0 - 2,10,2,32,7,3,0,11,4,0,10,58.3%,41.7%
+609257,FRA.1,2021,"Sat, Mar 12, March, 2022",Montpellier,Nice,0 - 0,7,0,24,8,3,2,13,1,0,5,57%,43%
+609267,FRA.1,2021,"Sun, Mar 6, March, 2022",Nantes,Montpellier,2 - 0,5,1,16,6,1,1,6,4,1,3,45.4%,54.6%
+609279,FRA.1,2021,"Fri, Feb 25, February, 2022",Montpellier,Stade Rennais,2 - 4,5,9,12,11,3,2,7,1,5,2,46.9%,53.1%
+609287,FRA.1,2021,"Sun, Feb 20, February, 2022",Lorient,Montpellier,0 - 1,3,5,16,6,2,2,8,5,4,4,47.5%,52.5%
+609308,FRA.1,2021,"Sat, Feb 5, February, 2022",Saint-Etienne,Montpellier,3 - 1,8,2,27,3,1,0,11,0,1,5,60.6%,39.4%
+609340,FRA.1,2021,"Wed, Jan 19, January, 2022",Montpellier,Troyes,0 - 1,2,5,11,13,5,1,5,4,4,2,52%,48%
+609329,FRA.1,2021,"Sun, Jan 16, January, 2022",Strasbourg,Montpellier,3 - 1,8,5,19,9,2,2,7,3,4,5,56.4%,43.6%
+609363,FRA.1,2021,"Sun, Dec 5, December, 2021",Montpellier,Clermont Foot,1 - 0,2,3,8,10,3,3,1,3,3,1,48.5%,51.5%
+609377,FRA.1,2021,"Wed, Dec 1, December, 2021",Metz,Montpellier,1 - 3,7,7,20,10,2,2,7,4,4,6,45.8%,54.2%
+609396,FRA.1,2021,"Sat, Nov 20, November, 2021",Stade Rennais,Montpellier,2 - 0,7,2,30,4,1,1,8,2,2,5,67.8%,32.2%
+609407,FRA.1,2021,"Sun, Nov 7, November, 2021",Nice,Montpellier,0 - 1,6,2,22,8,2,0,8,2,1,6,68.8%,31.2%
+609416,FRA.1,2021,"Sun, Oct 31, October, 2021",Montpellier,Nantes,2 - 0,10,1,19,12,3,5,5,5,1,8,57.5%,42.5%
+609449,FRA.1,2021,"Sat, Oct 2, October, 2021",Montpellier,Strasbourg,1 - 1,4,3,12,6,2,0,3,4,2,3,54.6%,45.4%
+609457,FRA.1,2021,"Sat, Sep 25, September, 2021",Paris Saint-Germain,Montpellier,2 - 0,5,4,16,10,0,1,8,7,4,4,53.5%,46.5%
+609461,FRA.1,2021,"Wed, Sep 22, September, 2021",Montpellier,Bordeaux,3 - 3,6,7,15,15,0,2,6,6,4,4,54.7%,45.3%
+609478,FRA.1,2021,"Sun, Sep 19, September, 2021",Troyes,Montpellier,1 - 1,3,2,8,6,4,2,1,6,1,2,41.7%,58.3%
+609487,FRA.1,2021,"Sun, Sep 12, September, 2021",Montpellier,Saint-Etienne,2 - 0,4,2,11,14,1,4,7,6,2,2,42.2%,57.8%
+609505,FRA.1,2021,"Sun, Aug 22, August, 2021",Montpellier,Lorient,3 - 1,11,4,32,5,0,2,5,1,3,7,56.7%,43.3%
+609515,FRA.1,2021,"Sun, Aug 15, August, 2021",Stade de Reims,Montpellier,3 - 3,9,5,19,15,2,1,8,7,2,6,57.2%,42.8%
+609157,FRA.1,2021,"Sat, May 21, May, 2022",Nantes,Saint-Etienne,1 - 1,5,3,12,13,2,0,5,5,2,3,53.1%,46.9%
+609178,FRA.1,2021,"Wed, May 11, May, 2022",Nantes,Stade Rennais,2 - 1,3,5,9,17,2,1,5,5,4,1,29.6%,70.4%
+609193,FRA.1,2021,"Sun, Apr 24, April, 2022",Nantes,Bordeaux,5 - 3,6,7,15,20,1,1,6,4,5,2,56.5%,43.5%
+609238,FRA.1,2021,"Sun, Apr 3, April, 2022",Clermont Foot,Nantes,2 - 3,4,4,11,9,5,1,5,6,1,2,55%,45%
+609256,FRA.1,2021,"Sat, Mar 12, March, 2022",Troyes,Nantes,1 - 0,2,1,11,6,1,1,8,4,1,2,44.3%,55.7%
+609276,FRA.1,2021,"Sun, Feb 27, February, 2022",Metz,Nantes,0 - 0,0,3,8,12,1,2,3,4,3,0,49.5%,50.5%
+609288,FRA.1,2021,"Sat, Feb 19, February, 2022",Nantes,Paris Saint-Germain,3 - 1,7,9,13,16,2,6,5,7,8,4,28.1%,71.9%
+609298,FRA.1,2021,"Sun, Feb 13, February, 2022",Nantes,Stade de Reims,1 - 0,3,4,11,7,1,1,5,5,3,2,60.4%,39.6%
+609309,FRA.1,2021,"Sun, Feb 6, February, 2022",Strasbourg,Nantes,1 - 0,3,2,13,10,3,3,7,9,2,1,50.9%,49.1%
+609313,FRA.1,2021,"Sun, Jan 23, January, 2022",Nantes,Lorient,4 - 2,8,6,12,15,3,0,7,6,4,4,53.8%,46.2%
+609330,FRA.1,2021,"Fri, Jan 14, January, 2022",Nice,Nantes,2 - 1,5,3,13,11,2,1,3,5,2,3,54.6%,45.4%
+609346,FRA.1,2021,"Wed, Dec 22, December, 2021",Saint-Etienne,Nantes,0 - 1,6,3,14,8,1,1,5,4,2,5,49.9%,50.1%
+609366,FRA.1,2021,"Sun, Dec 5, December, 2021",Lorient,Nantes,0 - 1,2,1,17,5,1,3,8,3,0,2,53.6%,46.4%
+609397,FRA.1,2021,"Sat, Nov 20, November, 2021",Paris Saint-Germain,Nantes,3 - 1,7,6,14,12,1,2,4,3,5,5,66.4%,33.6%
+609409,FRA.1,2021,"Sun, Nov 7, November, 2021",Nantes,Strasbourg,2 - 2,6,6,20,16,2,1,9,5,4,4,47.6%,52.4%
+609424,FRA.1,2021,"Sat, Oct 23, October, 2021",Nantes,Clermont Foot,2 - 1,4,1,8,4,1,0,1,3,0,1,45.8%,54.2%
+609436,FRA.1,2021,"Sun, Oct 17, October, 2021",Bordeaux,Nantes,1 - 1,1,7,8,13,2,3,2,5,6,0,60%,40%
+609450,FRA.1,2021,"Sun, Oct 3, October, 2021",Nantes,Troyes,2 - 0,4,4,8,15,2,2,3,7,4,2,54.1%,45.9%
+609458,FRA.1,2021,"Sun, Sep 26, September, 2021",Stade de Reims,Nantes,3 - 1,5,2,9,11,1,1,3,7,1,2,45%,55%
+609486,FRA.1,2021,"Sun, Sep 12, September, 2021",Nantes,Nice,0 - 2,7,3,19,9,2,3,8,3,1,6,50.1%,49.9%
+609507,FRA.1,2021,"Sun, Aug 22, August, 2021",Stade Rennais,Nantes,1 - 0,5,1,14,4,2,2,6,2,1,4,62.4%,37.6%
+609514,FRA.1,2021,"Sun, Aug 15, August, 2021",Nantes,Metz,2 - 0,7,5,11,10,2,0,6,6,5,4,35.5%,64.5%
+609156,FRA.1,2021,"Sat, May 21, May, 2022",Stade de Reims,Nice,2 - 3,4,6,5,17,0,2,2,7,3,2,45.2%,54.8%
+609177,FRA.1,2021,"Wed, May 11, May, 2022",Nice,Saint-Etienne,4 - 2,7,6,14,12,2,3,2,2,4,3,63%,37%
+609187,FRA.1,2021,"Sun, May 1, May, 2022",Bordeaux,Nice,0 - 1,1,3,5,14,1,2,2,5,1,1,44.2%,55.8%
+609200,FRA.1,2021,"Sun, Apr 24, April, 2022",Nice,Troyes,1 - 0,3,3,18,9,1,1,7,3,3,2,61.4%,38.6%
+609217,FRA.1,2021,"Sun, Apr 17, April, 2022",Nice,Lorient,2 - 1,2,1,15,6,2,1,5,1,0,0,63.5%,36.5%
+609239,FRA.1,2021,"Sat, Apr 2, April, 2022",Nice,Stade Rennais,1 - 1,3,4,10,13,2,1,7,11,2,2,39.4%,60.6%
+609268,FRA.1,2021,"Sat, Mar 5, March, 2022",Nice,Paris Saint-Germain,1 - 0,6,2,11,8,1,0,3,4,2,5,42.6%,57.4%
+609277,FRA.1,2021,"Sat, Feb 26, February, 2022",Strasbourg,Nice,0 - 0,6,0,17,4,1,0,9,2,0,6,63.2%,36.8%
+609304,FRA.1,2021,"Sun, Feb 6, February, 2022",Nice,Clermont Foot,0 - 1,3,5,7,14,1,1,5,3,4,3,54.9%,45.1%
+609315,FRA.1,2021,"Sun, Jan 23, January, 2022",Metz,Nice,0 - 2,1,6,8,7,3,1,3,4,4,1,53%,47%
+609359,FRA.1,2021,"Sun, Dec 12, December, 2021",Stade Rennais,Nice,1 - 2,8,3,21,8,1,4,11,6,1,7,66.5%,33.5%
+609369,FRA.1,2021,"Sun, Dec 5, December, 2021",Nice,Strasbourg,0 - 3,5,5,12,15,3,3,9,4,2,5,60.4%,39.6%
+609378,FRA.1,2021,"Wed, Dec 1, December, 2021",Paris Saint-Germain,Nice,0 - 0,5,2,22,4,1,3,6,5,2,5,70.1%,29.9%
+609385,FRA.1,2021,"Sat, Nov 27, November, 2021",Nice,Metz,0 - 1,2,1,20,4,2,2,8,1,0,2,70%,30%
+609398,FRA.1,2021,"Sun, Nov 21, November, 2021",Clermont Foot,Nice,1 - 2,6,4,18,9,1,4,3,5,2,5,51.3%,48.7%
+609437,FRA.1,2021,"Sun, Oct 17, October, 2021",Troyes,Nice,1 - 0,3,3,8,11,2,1,4,3,3,2,38.2%,61.8%
+609459,FRA.1,2021,"Sat, Sep 25, September, 2021",Saint-Etienne,Nice,0 - 3,6,9,11,14,0,2,2,9,6,5,59.7%,40.3%
+609465,FRA.1,2021,"Wed, Sep 22, September, 2021",Lorient,Nice,1 - 0,1,1,8,13,0,4,6,5,2,0,35.6%,64.4%
+609492,FRA.1,2021,"Sat, Aug 28, August, 2021",Nice,Bordeaux,4 - 0,5,4,11,13,3,2,3,0,4,2,43.4%,56.6%
+609530,FRA.1,2021,"Sun, Aug 8, August, 2021",Nice,Stade de Reims,0 - 0,2,0,12,5,1,1,4,2,0,2,61.4%,38.6%
+609154,FRA.1,2021,"Sat, May 21, May, 2022",Paris Saint-Germain,Metz,5 - 0,12,1,27,4,1,0,4,2,1,6,75.3%,24.7%
+609180,FRA.1,2021,"Sun, May 8, May, 2022",Paris Saint-Germain,Troyes,2 - 2,7,3,17,9,1,2,7,4,1,5,63.8%,36.2%
+609188,FRA.1,2021,"Fri, Apr 29, April, 2022",Strasbourg,Paris Saint-Germain,3 - 3,2,6,14,14,3,3,2,5,3,0,43.4%,56.6%
+609227,FRA.1,2021,"Sat, Apr 9, April, 2022",Clermont Foot,Paris Saint-Germain,1 - 6,4,10,10,17,1,1,2,5,4,3,36.2%,63.8%
+609236,FRA.1,2021,"Sun, Apr 3, April, 2022",Paris Saint-Germain,Lorient,5 - 1,7,4,15,11,2,1,4,1,3,2,66.9%,33.1%
+609252,FRA.1,2021,"Sun, Mar 13, March, 2022",Paris Saint-Germain,Bordeaux,3 - 0,5,5,12,15,1,3,2,4,5,1,57.4%,42.6%
+609278,FRA.1,2021,"Sat, Feb 26, February, 2022",Paris Saint-Germain,Saint-Etienne,3 - 1,8,6,21,13,2,1,8,3,5,5,62.2%,37.8%
+609297,FRA.1,2021,"Fri, Feb 11, February, 2022",Paris Saint-Germain,Stade Rennais,1 - 0,1,1,12,13,2,1,5,3,1,0,63.8%,36.2%
+609318,FRA.1,2021,"Sun, Jan 23, January, 2022",Paris Saint-Germain,Stade de Reims,4 - 0,9,3,22,7,0,1,14,0,3,4,68.1%,31.9%
+609347,FRA.1,2021,"Wed, Dec 22, December, 2021",Lorient,Paris Saint-Germain,1 - 1,5,4,17,17,1,1,6,8,3,4,22.9%,77.1%
+609387,FRA.1,2021,"Sun, Nov 28, November, 2021",Saint-Etienne,Paris Saint-Germain,1 - 3,4,8,8,15,3,1,5,5,5,3,28.5%,71.5%
+609408,FRA.1,2021,"Sat, Nov 6, November, 2021",Bordeaux,Paris Saint-Germain,2 - 3,6,5,18,9,2,1,10,5,2,5,43.7%,56.3%
+609447,FRA.1,2021,"Sun, Oct 3, October, 2021",Stade Rennais,Paris Saint-Germain,2 - 0,4,0,12,13,2,3,4,4,0,2,32.6%,67.4%
+609466,FRA.1,2021,"Wed, Sep 22, September, 2021",Metz,Paris Saint-Germain,1 - 2,2,5,6,15,4,2,3,3,2,1,25.8%,74.2%
+609482,FRA.1,2021,"Sat, Sep 11, September, 2021",Paris Saint-Germain,Clermont Foot,4 - 0,7,2,13,14,0,1,4,4,2,3,51.8%,48.2%
+609498,FRA.1,2021,"Sun, Aug 29, August, 2021",Stade de Reims,Paris Saint-Germain,0 - 2,4,3,11,12,1,3,3,3,1,4,32.7%,67.3%
+609519,FRA.1,2021,"Sat, Aug 14, August, 2021",Paris Saint-Germain,Strasbourg,4 - 2,5,2,11,8,1,2,4,4,0,2,65%,35%
+609529,FRA.1,2021,"Sat, Aug 7, August, 2021",Troyes,Paris Saint-Germain,1 - 2,7,3,15,12,1,4,9,1,0,6,43.1%,56.9%
+609170,FRA.1,2021,"Sat, May 14, May, 2022",Saint-Etienne,Stade de Reims,1 - 2,7,7,16,17,1,0,3,2,5,5,55.4%,44.6%
+609189,FRA.1,2021,"Sat, Apr 30, April, 2022",Stade Rennais,Saint-Etienne,2 - 0,3,3,13,8,1,4,4,3,3,1,73%,27%
+609209,FRA.1,2021,"Wed, Apr 20, April, 2022",Bordeaux,Saint-Etienne,2 - 2,7,2,11,9,5,6,5,4,0,5,46.4%,53.6%
+609228,FRA.1,2021,"Fri, Apr 8, April, 2022",Lorient,Saint-Etienne,6 - 2,12,4,18,13,2,3,2,3,2,6,43.9%,56.1%
+609250,FRA.1,2021,"Fri, Mar 18, March, 2022",Saint-Etienne,Troyes,1 - 1,3,4,10,8,2,2,1,4,3,2,62.6%,37.4%
+609266,FRA.1,2021,"Sun, Mar 6, March, 2022",Saint-Etienne,Metz,1 - 0,5,2,13,5,3,4,12,3,1,4,54.5%,45.5%
+609289,FRA.1,2021,"Sun, Feb 20, February, 2022",Saint-Etienne,Strasbourg,2 - 2,4,4,9,8,3,2,3,4,2,2,51.2%,48.8%
+609296,FRA.1,2021,"Sun, Feb 13, February, 2022",Clermont Foot,Saint-Etienne,1 - 2,3,3,9,6,4,1,6,3,1,2,46.4%,53.6%
+609360,FRA.1,2021,"Sat, Dec 11, December, 2021",Stade de Reims,Saint-Etienne,2 - 0,6,0,17,4,2,2,11,5,0,4,53.2%,46.8%
+609368,FRA.1,2021,"Sun, Dec 5, December, 2021",Saint-Etienne,Stade Rennais,0 - 5,2,10,12,18,1,0,7,2,6,2,43.5%,56.5%
+609399,FRA.1,2021,"Sun, Nov 21, November, 2021",Troyes,Saint-Etienne,0 - 1,3,4,15,14,1,4,6,8,3,3,46.6%,53.4%
+609404,FRA.1,2021,"Sun, Nov 7, November, 2021",Saint-Etienne,Clermont Foot,3 - 2,4,4,18,9,1,1,9,2,1,1,49.4%,50.6%
+609418,FRA.1,2021,"Sat, Oct 30, October, 2021",Metz,Saint-Etienne,1 - 1,4,3,9,11,0,3,5,8,2,3,37%,63%
+609438,FRA.1,2021,"Sun, Oct 17, October, 2021",Strasbourg,Saint-Etienne,5 - 1,6,2,12,4,3,2,7,4,1,2,51.7%,48.3%
+609472,FRA.1,2021,"Sat, Sep 18, September, 2021",Saint-Etienne,Bordeaux,1 - 2,5,3,12,13,1,4,7,2,1,3,54.8%,45.2%
+609526,FRA.1,2021,"Sun, Aug 8, August, 2021",Saint-Etienne,Lorient,1 - 1,0,0,0,0,0,0,0,0,0,0,N/A,N/A
+609196,FRA.1,2021,"Sun, Apr 24, April, 2022",Stade Rennais,Lorient,5 - 0,7,2,10,12,1,0,2,4,2,3,58.7%,41.3%
+609210,FRA.1,2021,"Wed, Apr 20, April, 2022",Strasbourg,Stade Rennais,2 - 1,5,3,13,11,1,2,2,7,2,3,37.2%,62.8%
+609229,FRA.1,2021,"Sat, Apr 9, April, 2022",Stade de Reims,Stade Rennais,2 - 3,7,8,14,14,2,0,2,6,5,6,39.8%,60.2%
+609245,FRA.1,2021,"Sun, Mar 20, March, 2022",Stade Rennais,Metz,6 - 1,8,1,21,2,1,2,10,1,0,2,64%,36%
+609290,FRA.1,2021,"Sun, Feb 20, February, 2022",Stade Rennais,Troyes,4 - 1,8,1,17,4,1,4,6,7,0,4,63%,37%
+609317,FRA.1,2021,"Sun, Jan 23, January, 2022",Clermont Foot,Stade Rennais,2 - 1,4,4,12,13,2,3,4,6,3,2,46.8%,53.2%
+609322,FRA.1,2021,"Sun, Jan 16, January, 2022",Stade Rennais,Bordeaux,6 - 0,11,1,19,5,1,3,9,1,1,3,58.1%,41.9%
+609388,FRA.1,2021,"Sun, Nov 28, November, 2021",Lorient,Stade Rennais,0 - 2,0,5,6,11,0,2,3,4,3,0,42.3%,57.7%
+609419,FRA.1,2021,"Sun, Oct 31, October, 2021",Troyes,Stade Rennais,2 - 2,5,5,14,13,0,1,5,12,3,3,38.1%,61.9%
+609429,FRA.1,2021,"Sun, Oct 24, October, 2021",Stade Rennais,Strasbourg,1 - 0,3,2,18,8,1,2,11,6,2,2,63.7%,36.3%
+609439,FRA.1,2021,"Sun, Oct 17, October, 2021",Metz,Stade Rennais,0 - 3,2,8,9,21,3,1,4,10,6,2,34.7%,65.3%
+609460,FRA.1,2021,"Sun, Sep 26, September, 2021",Bordeaux,Stade Rennais,1 - 1,3,8,10,18,1,4,8,6,7,2,46.4%,53.6%
+609463,FRA.1,2021,"Wed, Sep 22, September, 2021",Stade Rennais,Clermont Foot,6 - 0,10,1,21,4,1,1,5,7,1,4,55.5%,44.5%
+609488,FRA.1,2021,"Sun, Sep 12, September, 2021",Stade Rennais,Stade de Reims,0 - 2,1,3,10,7,1,2,4,6,1,1,63.7%,36.3%
+609190,FRA.1,2021,"Sun, May 1, May, 2022",Lorient,Stade de Reims,1 - 2,8,2,20,12,2,1,7,3,0,8,51.6%,48.4%
+609240,FRA.1,2021,"Sun, Apr 3, April, 2022",Troyes,Stade de Reims,1 - 0,5,4,19,10,1,2,6,3,4,4,57.2%,42.8%
+609269,FRA.1,2021,"Sun, Mar 6, March, 2022",Stade de Reims,Strasbourg,1 - 1,1,6,8,17,0,2,2,4,5,0,54.5%,45.5%
+609302,FRA.1,2021,"Sun, Feb 6, February, 2022",Stade de Reims,Bordeaux,5 - 0,7,0,16,6,0,1,7,4,0,2,48.9%,51.1%
+609328,FRA.1,2021,"Sun, Jan 16, January, 2022",Stade de Reims,Metz,0 - 1,2,5,14,17,4,4,11,4,4,2,57.6%,42.4%
+609338,FRA.1,2021,"Sun, Jan 9, January, 2022",Clermont Foot,Stade de Reims,0 - 0,7,2,12,7,1,3,6,2,2,7,54.5%,45.5%
+609383,FRA.1,2021,"Sun, Nov 28, November, 2021",Stade de Reims,Clermont Foot,1 - 0,3,0,12,4,2,2,4,1,0,2,41.2%,58.8%
+609400,FRA.1,2021,"Sun, Nov 21, November, 2021",Strasbourg,Stade de Reims,1 - 1,3,3,21,10,1,4,5,4,2,2,68%,32%
+609420,FRA.1,2021,"Sun, Oct 31, October, 2021",Bordeaux,Stade de Reims,3 - 2,6,8,16,12,2,2,12,2,6,3,52.2%,47.8%
+609430,FRA.1,2021,"Sun, Oct 24, October, 2021",Stade de Reims,Troyes,1 - 2,5,4,18,7,2,2,7,1,2,4,55.3%,44.7%
+609475,FRA.1,2021,"Sun, Sep 19, September, 2021",Stade de Reims,Lorient,0 - 0,2,3,10,6,2,3,5,6,3,2,42.8%,57.2%
+609509,FRA.1,2021,"Sun, Aug 22, August, 2021",Metz,Stade de Reims,1 - 1,4,3,10,13,4,2,5,8,2,3,58.1%,41.9%
+609163,FRA.1,2021,"Sat, May 14, May, 2022",Strasbourg,Clermont Foot,1 - 0,6,3,11,12,1,2,3,2,3,5,55.8%,44.2%
+609220,FRA.1,2021,"Sun, Apr 17, April, 2022",Troyes,Strasbourg,1 - 1,3,4,11,12,1,2,5,9,2,2,38.2%,61.8%
+609249,FRA.1,2021,"Sun, Mar 20, March, 2022",Lorient,Strasbourg,0 - 0,2,4,9,13,2,2,6,5,4,2,50.1%,49.9%
+609319,FRA.1,2021,"Sun, Jan 23, January, 2022",Bordeaux,Strasbourg,4 - 3,6,6,13,18,5,2,1,3,3,2,34.3%,65.7%
+609350,FRA.1,2021,"Wed, Jan 19, January, 2022",Clermont Foot,Strasbourg,0 - 2,1,5,7,15,2,0,6,4,4,1,55.5%,44.5%
+609339,FRA.1,2021,"Sun, Jan 9, January, 2022",Metz,Strasbourg,0 - 2,1,7,8,19,1,1,4,3,5,1,40.6%,59.4%
+609372,FRA.1,2021,"Wed, Dec 1, December, 2021",Strasbourg,Bordeaux,5 - 2,6,2,19,13,2,3,5,2,0,1,49.8%,50.2%
+609414,FRA.1,2021,"Sun, Oct 31, October, 2021",Strasbourg,Lorient,4 - 0,6,0,15,5,1,0,6,3,0,2,53.3%,46.7%
+609477,FRA.1,2021,"Fri, Sep 17, September, 2021",Strasbourg,Metz,3 - 0,6,5,10,15,2,4,3,7,5,2,45.7%,54.3%
+609510,FRA.1,2021,"Sun, Aug 22, August, 2021",Strasbourg,Troyes,1 - 1,4,6,13,10,3,1,6,3,5,3,60.1%,39.9%

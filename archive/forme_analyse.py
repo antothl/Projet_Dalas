@@ -79,4 +79,4 @@ plt.legend(title="Championnat", bbox_to_anchor=(1, 1))
 plt.savefig("results/taux_victoire_par_championnat.png")  # Sauvegarde
 plt.show()
 
-#Meme analyse avec le nombre de buts marqués et encaissés
+# Meme analyse avec le nombre de buts marqués et encaissés

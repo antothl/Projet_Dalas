@@ -23,43 +23,8 @@ class ESPNLeagueScraper:
         ]
         self.seasons = ['2020','2021','2022','2023']
 
-    # def get_teams(self, league_code, season):
-    #     url = f"{self.base_url}/soccer/teams/_/league/{league_code}/season/{season}"
-    #     print(f"Fetching teams for {league_code} in season {season}...")
-
-    #     response = requests.get(url, headers=self.headers)
-    #     if response.status_code != 200:
-    #         print(f"Failed to retrieve teams: Status code {response.status_code}")
-    #         return []
-
-    #     soup = BeautifulSoup(response.text, 'html.parser')
-    #     teams = []
-    #     team_sections = soup.select('section.TeamLinks')
-
-    #     for section in team_sections:
-    #         team_link = section.select_one('a.AnchorLink[href*="/soccer/team/_/id/"]')
-    #         if team_link:
-    #             href = team_link.get('href')
-    #             team_id_match = re.search(r'/id/(\d+)/', href)
-    #             team_name_match = re.search(r'/([^/]+)$', href)
-
-    #             if team_id_match and team_name_match:
-    #                 team_id = team_id_match.group(1)
-    #                 team_name = team_name_match.group(1).replace('-', ' ').title()
-    #                 team_h2 = section.select_one('h2')
-    #                 if team_h2:
-    #                     team_name = team_h2.text.strip()
-    #                 teams.append({
-    #                     'id': team_id,
-    #                     'name': team_name,
-    #                     'url': self.base_url + href
-    #                 })
-
-    #     print(f"Found {len(teams)} teams for {league_code} in season {season}")
-    #     return teams
-
     def get_teams(self, league_code, season):
-        url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{league_code}/teams?season={season}"
+        url = f"{self.base_url}/soccer/teams/_/league/{league_code}/season/{season}"
         print(f"Fetching teams for {league_code} in season {season}...")
 
         response = requests.get(url, headers=self.headers)
@@ -67,18 +32,32 @@ class ESPNLeagueScraper:
             print(f"Failed to retrieve teams: Status code {response.status_code}")
             return []
 
-        data = response.json()
+        soup = BeautifulSoup(response.text, 'html.parser')
         teams = []
-        for team in data.get('sports', [])[0].get('leagues', [])[0].get('teams', []):
-            team_info = team.get('team', {})
-            teams.append({
-                'id': team_info.get('id'),
-                'name': team_info.get('displayName'),
-                'url': team_info.get('links', [])[0].get('href') if team_info.get('links') else None
-            })
+        team_sections = soup.select('section.TeamLinks')
+
+        for section in team_sections:
+            team_link = section.select_one('a.AnchorLink[href*="/soccer/team/_/id/"]')
+            if team_link:
+                href = team_link.get('href')
+                team_id_match = re.search(r'/id/(\d+)/', href)
+                team_name_match = re.search(r'/([^/]+)$', href)
+
+                if team_id_match and team_name_match:
+                    team_id = team_id_match.group(1)
+                    team_name = team_name_match.group(1).replace('-', ' ').title()
+                    team_h2 = section.select_one('h2')
+                    if team_h2:
+                        team_name = team_h2.text.strip()
+                    teams.append({
+                        'id': team_id,
+                        'name': team_name,
+                        'url': self.base_url + href
+                    })
 
         print(f"Found {len(teams)} teams for {league_code} in season {season}")
         return teams
+
 
     def get_team_matches(self, team, league_code, season):
         team_id = team['id']

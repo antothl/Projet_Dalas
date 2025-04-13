@@ -1,5 +1,4 @@
 import os
-from utils import *
 from general_visu import *
 import pandas as pd
 from scipy.stats import f_oneway
@@ -12,15 +11,7 @@ result_folder = os.path.join(project_dir, "results_final", "1_general_stats")
 # Charger les données
 df_matchs = pd.read_csv(os.path.join(data_folder, "matches.csv"))
 df_classements = pd.read_csv(os.path.join(data_folder, "table_leagues.csv"))
-
-# ==== 1. DATA CLEAN ===== #
-
-# Create general table with general statistics of teams
-if not os.path.exists(os.path.join(data_folder, "stats_teams.csv")):
-    df_teams = create_summary_stats_teams(data_folder)
-else:
-    df_teams = pd.read_csv(os.path.join(data_folder, "stats_teams.csv"))
-    
+df_teams = pd.read_csv(os.path.join(data_folder, "stats_teams.csv"))
 
 # ====== VALUE - GOAL STATS ======
 # Assuming your DataFrame 
@@ -76,7 +67,6 @@ df_games = df_games[['game_id', 'competition_id', 'season', 'round', 'date', 'ho
 
 # Filter events for only relevant games
 df_events = df_events[df_events['game_id'].isin(df_games['game_id'].unique())].reset_index(drop=True)
-
 
 # Injury events
 df_injuries = df_events[df_events['description'].str.contains('injury', case=False, na=False)].reset_index(drop=True)

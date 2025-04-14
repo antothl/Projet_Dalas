@@ -122,7 +122,7 @@ def plot_yellows_saves_goals_conceded_heatmap(df_full, result_folder, filename):
         heatmap_data,
         annot=True,
         fmt=".2f",
-        cmap="coolwarm_r",
+        cmap="coolwarm",
         cbar_kws={'label': 'Avg Goals Conceded'},
         linewidths=0.5,
         linecolor='white'
@@ -146,7 +146,7 @@ def plot_win_rate_by_goals_scored_and_conceded(df_plot, result_folder, filename)
     sns.barplot(data=df_plot, x="goals", y="win_rate", hue="type", palette=["royalblue", "tomato"])
 
     plt.title("Win Rate by Goals Scored and Conceded (Last 3 Matches)")
-    plt.xlabel("Goals in Last 3 Matches")
+    plt.xlabel("Goals")
     plt.ylabel("Win Rate")
     plt.ylim(0, 1.1)
     plt.legend(title="")
@@ -161,13 +161,13 @@ def plot_win_rate_by_goals_scored_and_conceded(df_plot, result_folder, filename)
 def plot_win_rate_by_recent_points(df_full, result_folder, filename):
 
     # Group and compute win rate
-    grouped = df_full.groupby(["league", "points_last_3"])["win"].mean().reset_index()
+    grouped = df_full.groupby(["league", "points_last_5"])["win"].mean().reset_index()
 
     # Plot
     plt.figure(figsize=(12, 6))
     sns.lineplot(
         data=grouped,
-        x="points_last_3",
+        x="points_last_5",
         y="win",
         hue="league",
         marker="o",
@@ -175,10 +175,10 @@ def plot_win_rate_by_recent_points(df_full, result_folder, filename):
     )
 
     # Style
-    plt.title("Win Rate by Points in Last 3 Matches (per League)", fontsize=14)
-    plt.xlabel("Points Earned in Last 3 Matches")
+    plt.title("Win Rate by Points in Last 5 Matches (per League)", fontsize=14)
+    plt.xlabel("Points Earned")
     plt.ylabel("Win Rate")
-    plt.xticks(range(0, 10))  # Points can range from 0 to 9
+    plt.xticks(range(0, 16))  # Points can range from 0 to 9
     plt.ylim(0, 1)
     plt.legend(title="League")
     plt.grid(True)

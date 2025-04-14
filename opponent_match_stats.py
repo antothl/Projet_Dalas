@@ -2,7 +2,7 @@ import pandas as pd
 import os 
 from opponent_visu import *
 from scipy.stats import mannwhitneyu
-from scipy.stats import shapiro
+
 
 # Directories
 project_dir = os.getcwd()
@@ -166,77 +166,57 @@ test_results.to_csv(os.path.join(result_folder, "tests_home_away.csv"), index=Fa
 
 # ====== PREVIOUS GAMES ANALYSES ====== #
 
-# 1) Filter for seasons 2021 and 2022
+# Filter for seasons 2021 and 2022
 df_prev = df_matchs[df_matchs['season'].isin([2021, 2022])].copy()
 
-# 2) Compute points for home side
-# 1 point if equal, else 0 points
-df_prev['points_home'] = np.where(
-    df_prev['home_score'] > df_prev['away_score'], 
-    3, 
-    np.where(df_prev['home_score'] == df_prev['away_score'], 1, 0)
+# Assign points for each match (home and away)
+df_prev['points_home'] = df_prev.apply(
+    lambda row: 3 if row['home_score'] > row['away_score'] else 1 if row['home_score'] == row['away_score'] else 0,
+    axis=1
+)
+df_prev['points_away'] = df_prev.apply(
+    lambda row: 3 if row['away_score'] > row['home_score'] else 1 if row['away_score'] == row['home_score'] else 0,
+    axis=1
 )
 
-df_prev['points_away'] = np.where(
-    df_prev['away_score'] > df_prev['home_score'], 
-    3, 
-    np.where(df_prev['away_score'] == df_prev['home_score'], 1, 0)
-)
-
-# 4) Unpivot so each match -> 2 rows: (team, opponent, points)
-#    Row 1 for home_team, Row 2 for away_team
-rows_list = []
-for idx, row in df_prev.iterrows():
-    rows_list.append({
-        'team': row['home_team'],
-        'opponent': row['away_team'],
-        'points': row['points_home']
+# Create long format \
+df_long = pd.concat([
+    df_prev[['home_team', 'away_team', 'points_home']].rename(columns={
+        'home_team': 'team', 'away_team': 'opponent', 'points_home': 'points'
+    }),
+    df_prev[['away_team', 'home_team', 'points_away']].rename(columns={
+        'away_team': 'team', 'home_team': 'opponent', 'points_away': 'points'
     })
-    rows_list.append({
-        'team': row['away_team'],
-        'opponent': row['home_team'],
-        'points': row['points_away']
-    })
-df_unpivot = pd.DataFrame(rows_list)
+])
 
-# 5) Group by (team, opponent) to get total points in 2021-22 matchups
-df_history = (
-    df_unpivot
-    .groupby(['team', 'opponent'], as_index=False)['points']
-    .sum()
-    .rename(columns={'points': 'points_2021_2022'})
-)
+# Total points per team vs opponent
+df_history = df_long.groupby(['team', 'opponent'], as_index=False)['points'].sum()
 
-# 1) Filter for 2023 matches
+# Filter 2023 matches
 df_2023 = df_matchs[df_matchs['season'] == 2023].copy()
 
-# 2) Merge to find how many points the HOME team (vs. AWAY team) got in 2021-2022
+# Merge historical points: home team's past record vs. opponent
 df_2023 = df_2023.merge(
     df_history, 
-    how='left', 
+    how='left',
     left_on=['home_team', 'away_team'], 
     right_on=['team', 'opponent']
-)
-# Column 'points_2021_2022' = total points home_team earned against away_team
-df_2023.rename(columns={'points_2021_2022': 'home_prev_points'}, inplace=True)
+).rename(columns={'points': 'home_prev_points'}).drop(columns=['team', 'opponent'])
 
-# Drop the merge helper columns
-df_2023.drop(columns=['team', 'opponent'], inplace=True)
-
-# 3) Merge again for AWAY side’s perspective
+# Merge historical points
 df_2023 = df_2023.merge(
-    df_history, 
-    how='left', 
-    left_on=['away_team', 'home_team'], 
+    df_history,
+    how='left',
+    left_on=['away_team', 'home_team'],
     right_on=['team', 'opponent']
-)
-# Column 'points_2021_2022' = total points away_team earned against home_team
-df_2023.rename(columns={'points_2021_2022': 'away_prev_points'}, inplace=True)
+).rename(columns={'points': 'away_prev_points'}).drop(columns=['team', 'opponent'])
 
-df_2023.drop(columns=['team', 'opponent'], inplace=True)
-
-# If some matchups never occurred in 2021-22, fill NaN with 0
+# Replace NaN with 0 for matchups with no history
 df_2023['home_prev_points'] = df_2023['home_prev_points'].fillna(0)
 df_2023['away_prev_points'] = df_2023['away_prev_points'].fillna(0)
+
+# Create binary outcome flags
+df_2023['home_win'] = (df_2023['home_score'] > df_2023['away_score']).astype(int)
+df_2023['away_win'] = (df_2023['away_score'] > df_2023['home_score']).astype(int)
 
 prob_winning_home_away(df_2023, result_folder, "prob_win_prevgames.png")

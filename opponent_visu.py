@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
+from scipy.stats import mannwhitneyu
 import re
 
 # Apply global settings
@@ -117,6 +118,10 @@ def plot_violin_goals(df_melted, result_folder, figure_name):
     data_scored = [scored_home, scored_away]
     data_conceded = [conceded_home, conceded_away]
 
+    # Statistical tests
+    stat_scored, p_scored = mannwhitneyu(scored_home, scored_away, alternative="two-sided")
+    stat_conceded, p_conceded = mannwhitneyu(conceded_home, conceded_away, alternative="two-sided")
+
     # Create two subplots side by side
     fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(12, 6), sharey=True)
 
@@ -127,7 +132,6 @@ def plot_violin_goals(df_melted, result_folder, figure_name):
     ax1.set_xticklabels(["Home", "Away"])
     ax1.set_ylabel("Goals per Match")
 
-    # Assign consistent colors: index 0 = Home, index 1 = Away
     vp_scored['bodies'][0].set_facecolor("skyblue")    # Home
     vp_scored['bodies'][0].set_edgecolor("black")
     vp_scored['bodies'][0].set_alpha(0.7)
@@ -136,8 +140,14 @@ def plot_violin_goals(df_melted, result_folder, figure_name):
     vp_scored['bodies'][1].set_edgecolor("black")
     vp_scored['bodies'][1].set_alpha(0.7)
 
-    # Make the mean line red
     vp_scored['cmeans'].set_color("red")
+
+    # Annotate test results on left plot
+    ax1.text(
+        0.55, 0.1, f"U = {stat_scored:.1f}\np = {p_scored:.2f}*",
+        transform=ax1.transAxes, fontsize=9,ha='right', multialignment='left',
+        bbox=dict( boxstyle="round,pad=0.4", facecolor="lightgrey", edgecolor="dimgray")
+        )
 
     # -- Right subplot: Goals Conceded (Home, Away) --
     vp_conceded = ax2.violinplot(data_conceded, showmeans=True, showextrema=False)
@@ -155,7 +165,14 @@ def plot_violin_goals(df_melted, result_folder, figure_name):
 
     vp_conceded['cmeans'].set_color("red")
 
-    # -- Add a simple legend to the second subplot --
+    # Annotate test results on right plot
+    ax2.text(
+        0.58, 0.1, f"U = {stat_conceded:.1f}\np = {p_conceded:.2f}*",
+        transform=ax2.transAxes, fontsize=9,ha='right', multialignment='left',
+        bbox=dict( boxstyle="round,pad=0.4", facecolor="lightgrey", edgecolor="dimgray")
+        )
+
+    # -- Legend --
     home_patch = plt.Line2D([0], [0], marker='o', color='w', label='Home',
                             markerfacecolor='skyblue', markersize=10)
     away_patch = plt.Line2D([0], [0], marker='o', color='w', label='Away',
@@ -168,47 +185,39 @@ def plot_violin_goals(df_melted, result_folder, figure_name):
 
 
 def prob_winning_home_away(df_2023, result_folder, figure_name):
+    # 1. Prepare grouped data
+    df_home = df_2023.groupby('home_prev_points')['home_win'].mean().reset_index()
+    df_away = df_2023.groupby('away_prev_points')['away_win'].mean().reset_index()
 
-    # 1) Define binary outcomes for home/away wins
-    df_2023['home_win'] = np.where(df_2023['home_score'] > df_2023['away_score'], 1, 0)
-    df_2023['away_win'] = np.where(df_2023['away_score'] > df_2023['home_score'], 1, 0)
+    df_home['type'] = 'Home'
+    df_home.rename(columns={'home_prev_points': 'prev_points', 'home_win': 'win_rate'}, inplace=True)
 
-    # 2) Group by home_prev_points and compute mean of home_win & away_win
-    grouped_home = df_2023.groupby('home_prev_points')['home_win'].mean()
-    grouped_away = df_2023.groupby('away_prev_points')['away_win'].mean()
+    df_away['type'] = 'Away'
+    df_away.rename(columns={'away_prev_points': 'prev_points', 'away_win': 'win_rate'}, inplace=True)
 
-    # 3) Create side-by-side bar chart
-    x_vals = np.arange(len(grouped_home.index))  # numeric positions for each unique home_prev_points
-    bar_width = 0.4
+    # 2. Combine into one DataFrame for plotting
+    df_plot = pd.concat([df_home, df_away], ignore_index=True)
 
-    plt.figure(figsize=(8, 5))
-
-    # Plot home win probabilities (blue bars)
-    plt.bar(
-        x_vals - bar_width/2, 
-        grouped_home.values, 
-        width=bar_width, 
-        label="Home Win Probability",
-        color="skyblue"
+    # 3. Plot
+    plt.figure(figsize=(10, 6))
+    sns.lineplot(
+        data=df_plot,
+        x='prev_points',
+        y='win_rate',
+        hue='type',
+        marker='o',
+        palette={'Home': 'skyblue', 'Away': 'lightgreen'}
     )
 
-    # Plot away win probabilities (green bars)
-    plt.bar(
-        x_vals + bar_width/2, 
-        grouped_away.values, 
-        width=bar_width, 
-        label="Away Win Probability",
-        color="lightgreen"
-    )
-
-    # 4) Labeling
-    plt.xlabel("Points previous games vs. Team")
-    plt.ylabel("Probability of Win")
-
-    # Set x-ticks to match the home_prev_points categories
-    plt.xticks(x_vals, grouped_home.index)
-
-    plt.legend()
+    # 4. Style
+    plt.title("Win Rate by Previous Points Against Opponent", fontsize=14)
+    plt.xlabel("Points Earned in 2021–2022 vs Opponent")
+    plt.ylabel("Win Rate in 2023")
+    plt.ylim(0, 1)
+    plt.grid(True)
+    plt.legend(title="Game Type")
     plt.tight_layout()
-    plt.savefig(os.path.join(result_folder, figure_name))
+
+    # 5. Save
+    plt.savefig(os.path.join(result_folder, figure_name), dpi=300)
     plt.close()

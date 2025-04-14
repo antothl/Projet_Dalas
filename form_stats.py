@@ -51,7 +51,7 @@ def compute_rolling_stat(df, stat_col, agg_func="sum", window=3):
     return result.drop(columns=["value"])
 
 
-def merge_rolling_stats(df, rolling_stats, stat_name, new_col_prefix):
+def merge_rolling_stats(df, rolling_stats, stat_name, new_col_prefix, window=3):
     
     # Make sure home and away match orders are available
     if "home_match_order" not in df.columns:
@@ -61,7 +61,7 @@ def merge_rolling_stats(df, rolling_stats, stat_name, new_col_prefix):
 
     # Merge home stat
     df = df.merge(
-        rolling_stats.rename(columns={f"{stat_name}_last_3": f"home_{new_col_prefix}"}),
+        rolling_stats.rename(columns={f"{stat_name}_last_{window}": f"home_{new_col_prefix}"}),
         left_on=["home_team", "season", "home_match_order"],
         right_on=["team", "season", "match_order"],
         how="left"
@@ -69,7 +69,7 @@ def merge_rolling_stats(df, rolling_stats, stat_name, new_col_prefix):
 
     # Merge away stat
     df = df.merge(
-        rolling_stats.rename(columns={f"{stat_name}_last_3": f"away_{new_col_prefix}"}),
+        rolling_stats.rename(columns={f"{stat_name}_last_{window}": f"away_{new_col_prefix}"}),
         left_on=["away_team", "season", "away_match_order"],
         right_on=["team", "season", "match_order"],
         how="left"
@@ -211,7 +211,7 @@ plot_yellows_saves_goals_conceded_heatmap(combined, result_folder, "defense_form
 # ====== POINTS FORM - WIN RATE BY LEAGUE  ====
 
 rolling_stats = compute_rolling_stat(df, "points", agg_func="sum", window=5)
-df = merge_rolling_stats(df, rolling_stats, stat_name=stat, new_col_prefix=f"{stat}_last_5")
+df = merge_rolling_stats(df, rolling_stats, stat_name="points", new_col_prefix=f"points_last_5", window=5)
 
 print(df.columns)
 

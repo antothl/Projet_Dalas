@@ -18,14 +18,14 @@ LEAGUES = {
 JOURNEES_PAR_LIGUE = {
     "Ligue 1": 34,
     "Premier League": 38,
-    "LaLiga": 38,
+    "La Liga": 38,
     "Bundesliga": 34,
     "Serie A": 38
 }
 
 all_data = []
 
-SEASONS = ["2024","2023","2022"]
+SEASONS = ["2021"]
 
 for season in SEASONS:
     for league, code in LEAGUES.items():
@@ -67,18 +67,18 @@ for season in SEASONS:
                 buts_marques, buts_encaisses = buts.split(":")
 
                 all_data.append({
-                    "Saison": season,
-                    "Championnat": league,
-                    "Journee": journee,
-                    "Position": position,
-                    "Equipe": equipe,
-                    "V": victoire,
-                    "N": nul,
-                    "D": defaite,
-                    "Buts Pour": buts_marques,
-                    "Buts Contre": buts_encaisses,
-                    "Difference": difference,
-                    "Points": points
+                    "season": season,
+                    "league": league,
+                    "matchday": journee,
+                    "psoition": position,
+                    "club": equipe,
+                    "wins": victoire,
+                    "draws": nul,
+                    "losses": defaite,
+                    "goals_for": buts_marques,
+                    "goals_against": buts_encaisses,
+                    "goal_difference": difference,
+                    "points": points
                 })
 
             print(f"✅ {league} - Journée {journee} récupérée.")
@@ -88,5 +88,5 @@ df = pd.DataFrame(all_data)
 
 print(df.head())
 
-df.to_csv("datasets/classements_5_grands_championnats.csv", index=False, encoding="utf-8")
+df.to_csv("datasets/table_leagues2021.csv", index=False, encoding="utf-8")
 print("📂 Classements sauvegardés dans 'classements_5_grands_championnats.csv'")

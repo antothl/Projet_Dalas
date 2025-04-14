@@ -213,8 +213,6 @@ plot_yellows_saves_goals_conceded_heatmap(combined, result_folder, "defense_form
 rolling_stats = compute_rolling_stat(df, "points", agg_func="sum", window=5)
 df = merge_rolling_stats(df, rolling_stats, stat_name="points", new_col_prefix=f"points_last_5", window=5)
 
-print(df.columns)
-
 # Prepare home side
 home = df[["league", "home_team", "home_points_last_5", "home_win"]].copy()
 home.columns = ["league", "team", "points_last_5", "win"]

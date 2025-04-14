@@ -322,12 +322,30 @@ plt.savefig(os.path.join(result_folder, "PCA_features.png"), dpi=300)
 plt.close()
 
 
+# ====== PCA PART 2 ======
+pca = PCA()
+pca.fit(df_scaled)
+
+cumulative_variance = np.cumsum(pca.explained_variance_ratio_)
+
+plt.figure(figsize=(8, 5))
+plt.plot(range(1, len(cumulative_variance)+1), cumulative_variance, marker='o')
+plt.axhline(y=0.9, color='r', linestyle='--')
+plt.xlabel('Number of Principal Components')
+plt.ylabel('Cumulative Explained Variance')
+plt.title('How Many Components to Explain Variance')
+plt.grid(True)
+plt.tight_layout()
+plt.savefig(os.path.join(result_folder, "PCA_dim_variance.png"), dpi=300)
+plt.close()
+
+
 # ====== REGRESSION FIT ======
 
 # 1. Define features and target
 features = [
     'attack_value_ratio', 'younger_team', 'score_potential', 'clean_sheet_potential',
-    'attack_form', 'defense_form', 'general_form2',
+    'attack_form', 'defense_form', 'general_form1','general_form2',
     'match',
     'league_ger1', 'league_sp1', 'league_fr1', 'league_eng1', 'league_it1'
 ]
@@ -369,3 +387,25 @@ filename = f"logit_summary_{timestamp}.txt"
 # Save the summary with the timestamped filename
 with open(os.path.join(result_folder, filename), "w") as f:
     f.write(result.summary().as_text())
+
+
+# === PREDICTION ON TEST SET ===
+
+# Scale the test set with the same scaler
+X_test_scaled = scaler.transform(X_test)
+X_test_scaled_df = pd.DataFrame(X_test_scaled, columns=features, index=X_test.index)
+
+# Drop the same dummy column used during training
+X_test_scaled_df = X_test_scaled_df.drop(columns=['league_it1'])
+
+# Add constant
+X_test_scaled_df = sm.add_constant(X_test_scaled_df)
+
+# Predict probabilities
+y_pred_prob = result.predict(X_test_scaled_df)
+
+# Convert to binary predictions using 0.5 threshold
+y_pred = (y_pred_prob >= 0.5).astype(int)
+
+# === EVALUATION METRICS ===
+plot_classification_metrics(y_test, y_pred, result_folder, filename=f"classification_metrics.png")

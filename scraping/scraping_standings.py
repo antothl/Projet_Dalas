@@ -10,7 +10,7 @@ HEADERS = {
 LEAGUES = {
     "Ligue 1": "FR1",
     "Premier League": "GB1",
-    "LaLiga": "ES1",
+    "La Liga": "ES1",
     "Bundesliga": "L1",
     "Serie A": "IT1"
 }

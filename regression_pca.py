@@ -113,8 +113,6 @@ regression_features_df = regression_features_df.merge(df_tables[["league", "seas
 regression_features_df["home_clean_sheet_potential"] =  (regression_features_df["away_position"] - regression_features_df["home_position"]) / np.log(regression_features_df['home_defense_value'])
 regression_features_df["away_clean_sheet_potential"] =  (regression_features_df["home_position"] - regression_features_df["away_position"]) / np.log(regression_features_df['away_defense_value'])
 regression_features_df = regression_features_df.drop(columns=["home_position", "away_position", "home_defense_value", "away_defense_value"])
-
-
 # (D) ATTACK CURRENT FORM
 df_matchs = df_matchs.dropna()
 
@@ -147,10 +145,10 @@ regression_features_df = regression_features_df.merge(df_matchs[['league', 'seas
                                                                  'away_score', 'away_team'], how='left')
 
 # Compute features
-regression_features_df["home_attack_form"] = regression_features_df["home_shot_attempts_last_3"]+\
-                                                regression_features_df["home_possession_last_3"] + regression_features_df['home_score_last_3']
-regression_features_df["away_attack_form"] = regression_features_df["away_shot_attempts_last_3"]+\
-                                                regression_features_df["away_possession_last_3"] + regression_features_df['away_score_last_3']
+regression_features_df["home_attack_form"] = regression_features_df["home_shot_attempts_last_3"]*\
+                                                regression_features_df["home_possession_last_3"]* regression_features_df['home_score_last_3']
+regression_features_df["away_attack_form"] = regression_features_df["away_shot_attempts_last_3"]*\
+                                                regression_features_df["away_possession_last_3"]*regression_features_df['away_score_last_3']
 
 
 regression_features_df = regression_features_df.drop(columns=['home_shot_attempts_last_3', 'away_shot_attempts_last_3',
@@ -204,10 +202,6 @@ regression_features_df = regression_features_df.drop(columns=['home_yellow_cards
 
 
 # (F) GENERAL FORM FEATURE 1
-
-# Goals conceeded features
-df_matchs["home_goals_conceded"] = df_matchs["away_score"]
-df_matchs["away_goals_conceded"] = df_matchs["home_score"]
 
 stat_cols = [ 'score',
     'goals_conceded']

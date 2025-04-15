@@ -190,7 +190,7 @@ home = df[[
     "home_team",
     "home_yellow_cards_last_3",
     "home_saves_last_3",
-    "home_goals_conceded_last_3"
+    "home_goals_conceded"
 ]].copy()
 home.columns = ["team", "yellow_cards", "saves", "goals_conceded"]
 
@@ -199,7 +199,7 @@ away = df[[
     "away_team",
     "away_yellow_cards_last_3",
     "away_saves_last_3",
-    "away_goals_conceded_last_3"
+    "away_goals_conceded"
 ]].copy()
 away.columns = ["team", "yellow_cards", "saves", "goals_conceded"]
 
@@ -209,6 +209,7 @@ combined = pd.concat([home, away], ignore_index=True)
 plot_yellows_saves_goals_conceded_heatmap(combined, result_folder, "defense_form_goals.png")
 
 # ====== POINTS FORM - WIN RATE BY LEAGUE  ====
+
 
 rolling_stats = compute_rolling_stat(df, "points", agg_func="sum", window=5)
 df = merge_rolling_stats(df, rolling_stats, stat_name="points", new_col_prefix=f"points_last_5", window=5)

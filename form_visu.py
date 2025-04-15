@@ -44,7 +44,6 @@ def plot_goals_boxplot(df_full, result_folder, filename):
     )
 
     # Labels and style
-    plt.title("Goals Scored (Last 3 Matches) by League and Match Outcome", fontsize=14)
     plt.xlabel("League")
     plt.ylabel("Goals Scored (Last 3 Matches)")
     plt.ylim(-2, 20)
@@ -87,7 +86,6 @@ def plot_possession_shots_goals_heatmap(df, result_folder, filename):
         linecolor='white'
     )
 
-    plt.title("Average Goals Scored by Possession and Shot Attempts (Last 3 Matches)", fontsize=14)
     plt.xlabel("Shot Attempts (Last 3 Matches)")
     plt.ylabel("Possession % (Last 3 Matches)")
     plt.xticks(rotation=0)
@@ -128,7 +126,6 @@ def plot_yellows_saves_goals_conceded_heatmap(df_full, result_folder, filename):
         linecolor='white'
     )
 
-    plt.title("Avg Goals Conceded by Yellow Cards and Saves (Last 3 Matches)", fontsize=14)
     plt.xlabel("Saves (Last 3 Matches)")
     plt.ylabel("Yellow Cards (Last 3 Matches)")
     plt.xticks(rotation=0)
@@ -145,7 +142,6 @@ def plot_win_rate_by_goals_scored_and_conceded(df_plot, result_folder, filename)
     plt.figure(figsize=(12, 6))
     sns.barplot(data=df_plot, x="goals", y="win_rate", hue="type", palette=["royalblue", "tomato"])
 
-    plt.title("Win Rate by Goals Scored and Conceded (Last 3 Matches)")
     plt.xlabel("Goals")
     plt.ylabel("Win Rate")
     plt.ylim(0, 1.1)
@@ -175,7 +171,6 @@ def plot_win_rate_by_recent_points(df_full, result_folder, filename):
     )
 
     # Style
-    plt.title("Win Rate by Points in Last 5 Matches (per League)", fontsize=14)
     plt.xlabel("Points Earned")
     plt.ylabel("Win Rate")
     plt.xticks(range(0, 16))  # Points can range from 0 to 9

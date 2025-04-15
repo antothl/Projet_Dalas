@@ -210,7 +210,6 @@ def prob_winning_home_away(df_2023, result_folder, figure_name):
     )
 
     # 4. Style
-    plt.title("Win Rate by Previous Points Against Opponent", fontsize=14)
     plt.xlabel("Points Earned in 2021–2022 vs Opponent")
     plt.ylabel("Win Rate in 2023")
     plt.ylim(0, 1)

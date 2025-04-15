@@ -118,10 +118,9 @@ def plot_avg_top_bottom_by_league(df_league_avg, result_folder, filename):
         ax.set_xticks(x)
         ax.set_xticklabels(leagues, rotation=45, ha="right", fontsize=11)
         ax.set_ylabel("Average Market Value", fontsize=11)
-        ax.set_title("Top vs Bottom 5 Team Market Value by League", fontsize=13)
         ax.legend()
 
-        # ✅ Enforce tick direction manually
+        # Enforce tick direction manually
         ax.tick_params(axis='x', direction='out')
         ax.tick_params(axis='y', direction='out')
 
@@ -202,7 +201,7 @@ def league_match_stats(df_stats, column_map, df_anova, result_folder, filename):
             ax.axis('off')  # hide any remaining unused subplots
 
     plt.subplots_adjust(hspace=0.5)
-    fig.suptitle("Average Match Stats per League", fontsize=16, y=1.02)
+    # fig.suptitle("Average Match Stats per League", fontsize=16, y=1.02)
     plt.tight_layout()
     os.makedirs(result_folder, exist_ok=True)
     plt.savefig(os.path.join(result_folder, filename), dpi=300, bbox_inches='tight')

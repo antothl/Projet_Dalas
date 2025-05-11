@@ -142,6 +142,7 @@ df_melted = df_merged.melt(
 )
 
 plot_violin_goals(df_melted, result_folder, "goal_H_A_differences.png")
+plot_separate_box_goals(df_melted, result_folder)
 
 # ====== EXTRA STATISTICAL TEST: to prove distribution is indeed different ======
 # Apply Mann-Whitney U Test

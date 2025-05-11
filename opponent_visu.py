@@ -183,6 +183,43 @@ def plot_violin_goals(df_melted, result_folder, figure_name):
     plt.savefig(os.path.join(result_folder, figure_name))
     plt.close()
 
+def plot_separate_box_goals(df_melted, result_folder):
+    # Séparation des données
+    scored_home = df_melted.loc[df_melted['variable'] == 'avg_goals_scored_home', 'goals'].dropna()
+    scored_away = df_melted.loc[df_melted['variable'] == 'avg_goals_scored_away', 'goals'].dropna()
+    conceded_home = df_melted.loc[df_melted['variable'] == 'avg_goals_conceded_home', 'goals'].dropna()
+    conceded_away = df_melted.loc[df_melted['variable'] == 'avg_goals_conceded_away', 'goals'].dropna()
+
+    # Détermination de l'échelle Y commune
+    all_values = scored_home.tolist() + scored_away.tolist() + conceded_home.tolist() + conceded_away.tolist()
+    y_min = min(all_values)
+    y_max = max(all_values)
+
+    fig1, ax1 = plt.subplots(figsize=(6, 6))
+    ax1.boxplot([scored_home, scored_away], patch_artist=True,
+                boxprops=dict(facecolor='skyblue'), medianprops=dict(color='red'))
+    ax1.set_title("Average Goals Scored: Home vs Away", fontsize=14)
+    ax1.set_xticks([1, 2])
+    ax1.set_xticklabels(["Home", "Away"])
+    ax1.set_ylabel("Average Goals per Match")
+    ax1.set_ylim(y_min, y_max)
+
+    plt.tight_layout()
+    plt.savefig(os.path.join(result_folder, "goals_scored.png"))
+    plt.close(fig1)
+
+    fig2, ax2 = plt.subplots(figsize=(6, 6))
+    ax2.boxplot([conceded_home, conceded_away], patch_artist=True,
+                boxprops=dict(facecolor='lightcoral'), medianprops=dict(color='red'))
+    ax2.set_title("Average Goals Conceded: Home vs Away", fontsize=14)
+    ax2.set_xticks([1, 2])
+    ax2.set_xticklabels(["Home", "Away"])
+    ax2.set_ylabel("Average Goals per Match")
+    ax2.set_ylim(y_min, y_max)
+
+    plt.tight_layout()
+    plt.savefig(os.path.join(result_folder, "goals_conceded.png"))
+    plt.close(fig2)
 
 def prob_winning_home_away(df_2023, result_folder, figure_name):
     # 1. Prepare grouped data

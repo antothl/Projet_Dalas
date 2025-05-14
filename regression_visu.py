@@ -41,15 +41,19 @@ def plot_classification_metrics(y_test, y_pred, result_folder, filename="classif
     df_metrics = df_metrics.rename(index={"0": "Win = 0", "1": "Win = 1"})
 
     # Plot
-    plt.figure(figsize=(8, 4))
-    df_metrics.plot(kind='barh', ax=plt.gca(), colormap='Set2', edgecolor='black')
+    ax = df_metrics.plot(kind='barh', figsize=(8, 4), colormap='Set2', edgecolor='black')
     plt.xlim(0, 1)
-    plt.title(f"Classification Metrics\nAccuracy: {accuracy:.2%}", fontsize=14)
+    plt.title(f"Accuracy: {accuracy:.2%}", fontsize=14)
+    plt.xlim(0.5,1.0)
     plt.xlabel("Score")
     plt.ylabel("Class")
-    plt.legend(title="Metric", loc='lower right')
+    plt.legend(title="Metric", loc='upper right', fontsize=9, title_fontsize=10)
     plt.grid(axis='x', linestyle='--', alpha=0.7)
     plt.tight_layout()
+
+    # Add value labels to bars
+    for i in ax.containers:
+        ax.bar_label(i, fmt='%.2f', label_type='edge', padding=3)
 
     # Save
     plt.savefig(os.path.join(result_folder, filename), dpi=300)

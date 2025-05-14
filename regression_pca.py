@@ -11,6 +11,13 @@ from sklearn.linear_model import LogisticRegression
 from regression_visu import *
 import statsmodels.api as sm
 from datetime import datetime
+from sklearn.linear_model import LogisticRegressionCV
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import roc_auc_score, roc_curve, auc
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
 
 # Directories
 project_dir = os.getcwd()
@@ -31,24 +38,26 @@ regression_features_df['away_win'] = (regression_features_df['away_score'] > reg
 
 # (A) ATTACK POTENTIAL
 # Join team statistics for Home team
-regression_features_df = regression_features_df.merge(df_teams[["league", "season", "club", "attack_value_ratio", "sum_value", "avg_age",
+regression_features_df = regression_features_df.merge(df_teams[["league", "season", "club", "attack_value_ratio", "defense_value_ratio", "sum_value", "avg_age",
                                                                 "total_attack_value", "total_defense_value"]],
                                                       left_on=["league", "season", "home_team"],
                                                       right_on=["league", "season", "club"], how='left').rename(
                                                         columns={"attack_value_ratio": "home_attack_value_ratio",
                                                                  "total_attack_value": "home_attack_value",
                                                                  "total_defense_value": "home_defense_value",
+                                                                 "defense_value_ratio": "home_defense_value_ratio",
                                                                  "avg_age": "home_avg_age",
                                                                  "sum_value":"home_team_value"}
                                                         ).drop(columns=["club"])
 # Join team statistics for Away team
-regression_features_df = regression_features_df.merge(df_teams[["league", "season", "club", "attack_value_ratio", "sum_value", "avg_age",
+regression_features_df = regression_features_df.merge(df_teams[["league", "season", "club", "attack_value_ratio", "defense_value_ratio", "sum_value", "avg_age",
                                                                 "total_attack_value", "total_defense_value"]],
                                                       left_on=["league", "season", "away_team"],
                                                       right_on=["league", "season", "club"], how='left').rename(
                                                         columns={"attack_value_ratio": "away_attack_value_ratio",
                                                                  "total_attack_value": "away_attack_value",
                                                                  "total_defense_value": "away_defense_value",
+                                                                 "defense_value_ratio": "away_defense_value_ratio",
                                                                  "avg_age": "away_avg_age",
                                                                  "sum_value":"away_team_value"}
                                                         ).drop(columns=["club"])
@@ -75,9 +84,9 @@ regression_features_df = regression_features_df.merge(df_tables[['season', 'leag
 
 # ====== (B) SCORING POTENTIAL VS. TEAM ======
 regression_features_df["home_score_potential"] = (regression_features_df["home_attack_value"] / regression_features_df["away_defense_value"])*\
-                                                    (regression_features_df["home_goals_for"] + regression_features_df["away_goals_against"])
+                                                    (regression_features_df["home_goals_for"] - regression_features_df["home_goals_against"])
 regression_features_df["away_score_potential"] = (regression_features_df["away_attack_value"] / regression_features_df["home_defense_value"])*\
-                                                    (regression_features_df["away_goals_for"] + regression_features_df["home_goals_against"])
+                                                    (regression_features_df["away_goals_for"] - regression_features_df["away_goals_against"])
 
 regression_features_df = regression_features_df.drop(columns=["home_attack_value", "away_attack_value",
                                                               "home_goals_for", "away_goals_for",
@@ -85,10 +94,8 @@ regression_features_df = regression_features_df.drop(columns=["home_attack_value
 
 
 # (B.1) RELATIVE TEAM VALUES AND POTENTIAL
-regression_features_df["home_relative_value_team"] = (regression_features_df["away_avg_age"] - regression_features_df["home_avg_age"])*\
-                                                    (regression_features_df["home_team_value"] - regression_features_df["away_team_value"])
-regression_features_df["away_relative_value_team"] = (regression_features_df["home_avg_age"] - regression_features_df["away_avg_age"])*\
-                                                    (regression_features_df["away_team_value"] - regression_features_df["home_team_value"])
+regression_features_df["home_relative_value_team"] = (regression_features_df["home_team_value"] - regression_features_df["away_team_value"])
+regression_features_df["away_relative_value_team"] = (regression_features_df["away_team_value"] - regression_features_df["home_team_value"])
 
 regression_features_df = regression_features_df.drop(columns=["home_avg_age", "away_avg_age",
                                                               "home_team_value", "away_team_value"])
@@ -108,14 +115,19 @@ regression_features_df = regression_features_df.merge(df_tables[["league", "seas
                                                           columns={"position": "away_position"}
                                                       ).drop(columns="club")
 
+print(regression_features_df.columns)
 
 # Clean Sheet potential
-regression_features_df["home_clean_sheet_potential"] =  (regression_features_df["away_position"] - regression_features_df["home_position"]) / np.log(regression_features_df['home_defense_value'])
-regression_features_df["away_clean_sheet_potential"] =  (regression_features_df["home_position"] - regression_features_df["away_position"]) / np.log(regression_features_df['away_defense_value'])
-regression_features_df = regression_features_df.drop(columns=["home_position", "away_position", "home_defense_value", "away_defense_value"])
+regression_features_df["home_clean_sheet_potential"] =  (regression_features_df["away_position"] - regression_features_df["home_position"])\
+                                                         / regression_features_df['home_defense_value_ratio']
+regression_features_df["away_clean_sheet_potential"] =  (regression_features_df["home_position"] - regression_features_df["away_position"])\
+                                                         / regression_features_df['away_defense_value_ratio']
+
+regression_features_df = regression_features_df.drop(columns=["home_position", "away_position", "home_defense_value", "away_defense_value",
+                                                              "home_defense_value_ratio", "away_defense_value_ratio"])
+
 # (D) ATTACK CURRENT FORM
 df_matchs = df_matchs.dropna()
-
 
 # Attack form variables
 stat_cols = [
@@ -145,9 +157,9 @@ regression_features_df = regression_features_df.merge(df_matchs[['league', 'seas
                                                                  'away_score', 'away_team'], how='left')
 
 # Compute features
-regression_features_df["home_attack_form"] = regression_features_df["home_shot_attempts_last_3"]*\
+regression_features_df["home_attack_form"] = (regression_features_df["home_shot_attempts_last_3"])*\
                                                 regression_features_df["home_possession_last_3"]* regression_features_df['home_score_last_3']
-regression_features_df["away_attack_form"] = regression_features_df["away_shot_attempts_last_3"]*\
+regression_features_df["away_attack_form"] = (regression_features_df["away_shot_attempts_last_3"])*\
                                                 regression_features_df["away_possession_last_3"]*regression_features_df['away_score_last_3']
 
 
@@ -163,17 +175,19 @@ df_matchs = df_matchs.drop(columns=['home_score_last_3', 'away_score_last_3'])
 
 df_matchs["home_corner_against"] = df_matchs["away_corner_kicks"]
 df_matchs["away_corner_against"] = df_matchs["home_corner_kicks"]
+df_matchs["home_goals_conceded"] = df_matchs["away_score"]
+df_matchs["away_goals_conceded"] = df_matchs["home_score"]
 
 # Attack form variables
 stat_cols = [
-    'yellow_cards',
     'saves',
-    'corner_against'
+    'corner_against',
+    'goals_conceded'
 ]
 
 # Rolling match statistics
 for stat in stat_cols:
-    if stat == 'yellow_cards':
+    if stat == 'yellow_cards' or stat=='goals_conceded':
         rolling_stats = compute_rolling_stat(df_matchs, stat, agg_func="sum", window=3)
     else:
         rolling_stats = compute_rolling_stat(df_matchs, stat, agg_func="mean", window=3)
@@ -182,48 +196,45 @@ for stat in stat_cols:
 
 
 regression_features_df = regression_features_df.merge(df_matchs[['league', 'season', 'matchday', 'date', 'home_team', 'home_score',
-                                                                 'away_score', 'away_team', 'home_yellow_cards_last_3', 'away_yellow_cards_last_3',
+                                                                 'away_score', 'away_team', 'home_goals_conceded_last_3', 'away_goals_conceded_last_3',
                                                                  'home_saves_last_3', 'away_saves_last_3',
                                                                  'home_corner_against_last_3', 'away_corner_against_last_3']],
                                                       on=['league', 'season', 'matchday', 'date', 'home_team', 'home_score',
                                                                  'away_score', 'away_team'], how='left')
 
 
-regression_features_df["home_defense_form"] = -1*(regression_features_df["home_yellow_cards_last_3"]*\
-                                                 regression_features_df["home_saves_last_3"])
+regression_features_df["home_defense_form"] = -1*(regression_features_df["home_goals_conceded_last_3"]*\
+                                                 regression_features_df["home_saves_last_3"]*regression_features_df["home_corner_against_last_3"])
 
-regression_features_df["away_defense_form"] = -1*(regression_features_df["away_yellow_cards_last_3"]*\
-                                                 regression_features_df["away_saves_last_3"])
+regression_features_df["away_defense_form"] = -1*(regression_features_df["away_goals_conceded_last_3"]*\
+                                                 regression_features_df["away_saves_last_3"]*regression_features_df["away_corner_against_last_3"])
 
 # Drop columns
-regression_features_df = regression_features_df.drop(columns=['home_yellow_cards_last_3', 'away_yellow_cards_last_3',
-                                                              'home_saves_last_3', 'away_saves_last_3',
+regression_features_df = regression_features_df.drop(columns=['home_saves_last_3', 'away_saves_last_3',
                                                               'home_corner_against_last_3', 'away_corner_against_last_3'])
 
 
 # (F) GENERAL FORM FEATURE 1
 
-stat_cols = [ 'score',
-    'goals_conceded']
+# stat_cols = ['score']
 
-# Rolling match statistics
-for stat in stat_cols:
-    rolling_stats = compute_rolling_stat(df_matchs, stat, agg_func="sum", window=3)
-    df_matchs = merge_rolling_stats(df_matchs, rolling_stats, stat_name=stat, new_col_prefix=f"{stat}_last_3")
+# # Rolling match statistics
+# for stat in stat_cols:
+#     rolling_stats = compute_rolling_stat(df_matchs, stat, agg_func="sum", window=3)
+#     df_matchs = merge_rolling_stats(df_matchs, rolling_stats, stat_name=stat, new_col_prefix=f"{stat}_last_3")
 
-# Merge form stats
-regression_features_df = regression_features_df.merge(df_matchs[['league', 'season', 'matchday', 'date', 'home_team', 'home_score',
-                                                                 'away_score', 'away_team', 'home_score_last_3', 'away_score_last_3',
-                                                                 'home_goals_conceded_last_3', 'away_goals_conceded_last_3']],
-                                                      on=['league', 'season', 'matchday', 'date', 'home_team', 'home_score',
-                                                                 'away_score', 'away_team'], how='left')
+# # Merge form stats
+# regression_features_df = regression_features_df.merge(df_matchs[['league', 'season', 'matchday', 'date', 'home_team', 'home_score',
+#                                                                  'away_score', 'away_team', 'home_score_last_3', 'away_score_last_3']],
+#                                                       on=['league', 'season', 'matchday', 'date', 'home_team', 'home_score',
+#                                                                  'away_score', 'away_team'], how='left')
 
-# Create Features
-regression_features_df["home_general_form1"] = regression_features_df["home_score_last_3"] / (regression_features_df["home_goals_conceded_last_3"] + 1)
-regression_features_df["away_general_form1"] = regression_features_df["away_score_last_3"] / (regression_features_df["away_goals_conceded_last_3"] + 1)
+# # Create Features
+# regression_features_df["home_general_form1"] = regression_features_df["home_score_last_3"] / (regression_features_df["home_goals_conceded_last_3"] + 1)
+# regression_features_df["away_general_form1"] = regression_features_df["away_score_last_3"] / (regression_features_df["away_goals_conceded_last_3"] + 1)
 
-regression_features_df = regression_features_df.drop(columns=['home_score_last_3', 'away_score_last_3',
-                                                              'home_goals_conceded_last_3', 'away_goals_conceded_last_3'])
+# regression_features_df = regression_features_df.drop(columns=['home_score_last_3', 'away_score_last_3',
+#                                                               'home_goals_conceded_last_3', 'away_goals_conceded_last_3'])
 
 
 # (G) GENERAL FORM FEATURE 2
@@ -244,8 +255,8 @@ regression_features_df = regression_features_df.merge(df_matchs[['league', 'seas
                                                                  'away_score', 'away_team'], how='left')
 
 # Create Features
-regression_features_df = regression_features_df.rename(columns={"home_points_last_5":"home_general_form2",
-                                                                "away_points_last_5":"away_general_form2"})
+regression_features_df = regression_features_df.rename(columns={"home_points_last_5":"home_general_form",
+                                                                "away_points_last_5":"away_general_form"})
 
 
 
@@ -255,7 +266,7 @@ regression_features_df = regression_features_df.rename(columns={"home_points_las
 # Columns to use for the team stats (suffix stripped)
 base_cols = [
     "attack_value_ratio", "relative_value_team","score_potential", "clean_sheet_potential",
-    "attack_form", "defense_form", "general_form1", "general_form2", 
+    "attack_form", "defense_form", "general_form"
 ]
 
 # 1. Create home team rows
@@ -315,7 +326,7 @@ regression_df = regression_df.dropna()
 # 1. Define features for PCA (exclude target and identifiers)
 features = [
     'attack_value_ratio', 'relative_value_team', 'score_potential', 'clean_sheet_potential',
-    'attack_form', 'defense_form', 'general_form1', 'general_form2',
+    'attack_form', 'defense_form', 'general_form',
     'match',
     'league_ger1', 'league_sp1', 'league_fr1', 'league_eng1'] #it1 as base
 
@@ -367,7 +378,6 @@ plt.plot(range(1, len(cumulative_variance)+1), cumulative_variance, marker='o')
 plt.axhline(y=0.9, color='r', linestyle='--')
 plt.xlabel('Number of Principal Components')
 plt.ylabel('Cumulative Explained Variance')
-plt.title('How Many Components to Explain Variance')
 plt.grid(True)
 plt.tight_layout()
 plt.savefig(os.path.join(result_folder, "PCA_dim_variance.png"), dpi=300)
@@ -379,7 +389,7 @@ plt.close()
 # 1. Define features and target
 features = [
     'attack_value_ratio', 'relative_value_team', 'score_potential', 'clean_sheet_potential',
-    'attack_form', 'defense_form', 'general_form1','general_form2',
+    'attack_form', 'defense_form','general_form',
     'match',
     'league_ger1', 'league_sp1', 'league_fr1', 'league_eng1', 'league_it1'
 ]
@@ -425,36 +435,50 @@ with open(os.path.join(result_folder, filename), "w") as f:
 
 # === PREDICTION ON TEST SET ===
 
-# 1) Fit initial model on all features
-model = sm.Logit(y_train, X_train_scaled_df)
-result = model.fit()
+# Scale
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
 
-# 2) Get p-values
-pvals = result.pvalues
+# Logistic regression: AUC/ROC for class imbalance
+lr_cv = LogisticRegressionCV(
+    cv=5,
+    penalty='l2',
+    solver='lbfgs',  # use 'liblinear' if dataset is small
+    scoring='roc_auc',
+    max_iter=1000,
+    class_weight='balanced',  # helpful for imbalanced classes
+    random_state=42
+)
+lr_cv.fit(X_train_scaled, y_train)
 
-# 3) Filter to significant (p<0.1) and keep const
-significant_features = pvals[pvals < 0.1].index
-if "const" not in significant_features:
-    significant_features = ["const"] + list(significant_features)
+# Probability prediction test set
+y_pred_prob = lr_cv.predict_proba(X_test_scaled)[:, 1]
 
-print(significant_features)
+# Best threshold based on ROC curve
+fpr, tpr, thresholds = roc_curve(y_test, y_pred_prob)
+optimal_idx = np.argmax(tpr - fpr)
+optimal_threshold = thresholds[optimal_idx]
+print(f"Optimal threshold: {optimal_threshold:.3f}")
 
-# 4) Subset training data
-X_train_significant = X_train_scaled_df[significant_features]
+# Final prediction
+y_pred = (y_pred_prob >= optimal_threshold).astype(int)
 
-# 5) Refit model on just the significant features
-model_sig = sm.Logit(y_train, X_train_significant)
-result_sig = model_sig.fit()
+# Plot metrics
+plot_classification_metrics(y_test, y_pred, result_folder, "metrics_sklearn_auc_optimized.png")
 
-# 6) Subset test data to same columns, including 'const'
-X_test_scaled = scaler.fit_transform(X_test)
-X_test_scaled_df = pd.DataFrame(X_test_scaled, columns=features, index=X_test.index)
-X_test_scaled_df = sm.add_constant(X_test_scaled_df)
-X_test_significant = X_test_scaled_df[significant_features]
+# Compute ROC/AUC
+fpr, tpr, _ = roc_curve(y_test, y_pred_prob)
+roc_auc = auc(fpr, tpr)
 
-# 7) Predict
-y_pred_prob_sig = result_sig.predict(X_test_significant)
-y_pred_sig = (y_pred_prob_sig >= 0.5).astype(int)
-
-# 8) Evaluate
-plot_classification_metrics(y_test, y_pred_sig, result_folder, "metrics_sig.png")
+# Plot
+plt.figure(figsize=(8, 6))
+plt.plot(fpr, tpr, label=f"ROC curve (AUC = {roc_auc:.2f})", linewidth=2)
+plt.plot([0, 1], [0, 1], 'k--', label='Random Classifier')  # diagonal line
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.legend(loc="lower right")
+plt.grid(True)
+plt.tight_layout()
+plt.savefig(f"{result_folder}/roc_curve.png")  # save to your result folder
+plt.show()
